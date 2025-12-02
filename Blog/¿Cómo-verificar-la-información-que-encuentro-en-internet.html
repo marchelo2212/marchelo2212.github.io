@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr"><head><title>¿Cómo verificar la información que encuentro en internet?</title><meta charset="utf-8"/><link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com"/><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Schibsted Grotesk:wght@400;700&amp;family=Source Sans Pro:ital,wght@0,400;0,600;1,400;1,600&amp;family=IBM Plex Mono:wght@400;600&amp;display=swap"/><link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin="anonymous"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><meta name="og:site_name" content="marchelo2212"/><meta property="og:title" content="¿Cómo verificar la información que encuentro en internet?"/><meta property="og:type" content="website"/><meta name="twitter:card" content="summary_large_image"/><meta name="twitter:title" content="¿Cómo verificar la información que encuentro en internet?"/><meta name="twitter:description" content="En la era de la sobrecarga informativa, especialmente en el ámbito político, es crucial tener herramientas que nos permitan verificar la veracidad de lo que vemos, escuchamos y leemos."/><meta property="og:description" content="En la era de la sobrecarga informativa, especialmente en el ámbito político, es crucial tener herramientas que nos permitan verificar la veracidad de lo que vemos, escuchamos y leemos."/><meta property="og:image:alt" content="En la era de la sobrecarga informativa, especialmente en el ámbito político, es crucial tener herramientas que nos permitan verificar la veracidad de lo que vemos, escuchamos y leemos."/><meta property="twitter:domain" content="https://marchelo2212.github.io"/><meta property="og:url" content="https://https//marchelo2212.github.io/Blog/¿Cómo-verificar-la-información-que-encuentro-en-internet"/><meta property="twitter:url" content="https://https//marchelo2212.github.io/Blog/¿Cómo-verificar-la-información-que-encuentro-en-internet"/><link rel="icon" href="../static/icon.png"/><meta name="description" content="En la era de la sobrecarga informativa, especialmente en el ámbito político, es crucial tener herramientas que nos permitan verificar la veracidad de lo que vemos, escuchamos y leemos."/><meta name="generator" content="Quartz"/><link href="../index.css" rel="stylesheet" type="text/css" data-persist="true"/><style>.expand-button {
+  position: absolute;
+  display: flex;
+  float: right;
+  padding: 0.4rem;
+  margin: 0.3rem;
+  right: 0;
+  color: var(--gray);
+  border-color: var(--dark);
+  background-color: var(--light);
+  border: 1px solid;
+  border-radius: 5px;
+  opacity: 0;
+  transition: 0.2s;
+}
+.expand-button > svg {
+  fill: var(--light);
+  filter: contrast(0.3);
+}
+.expand-button:hover {
+  cursor: pointer;
+  border-color: var(--secondary);
+}
+.expand-button:focus {
+  outline: 0;
+}
+
+pre:hover > .expand-button {
+  opacity: 1;
+  transition: 0.2s;
+}
+
+#mermaid-container {
+  position: fixed;
+  contain: layout;
+  z-index: 999;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  display: none;
+  backdrop-filter: blur(4px);
+  background: rgba(0, 0, 0, 0.5);
+}
+#mermaid-container.active {
+  display: inline-block;
+}
+#mermaid-container > #mermaid-space {
+  border: 1px solid var(--lightgray);
+  background-color: var(--light);
+  border-radius: 5px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 80vh;
+  width: 80vw;
+  overflow: hidden;
+}
+#mermaid-container > #mermaid-space > .mermaid-content {
+  padding: 2rem;
+  position: relative;
+  transform-origin: 0 0;
+  transition: transform 0.1s ease;
+  overflow: visible;
+  min-height: 200px;
+  min-width: 200px;
+}
+#mermaid-container > #mermaid-space > .mermaid-content pre {
+  margin: 0;
+  border: none;
+}
+#mermaid-container > #mermaid-space > .mermaid-content svg {
+  max-width: none;
+  height: auto;
+}
+#mermaid-container > #mermaid-space > .mermaid-controls {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  display: flex;
+  gap: 8px;
+  padding: 8px;
+  background: var(--light);
+  border: 1px solid var(--lightgray);
+  border-radius: 6px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 2;
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  border: 1px solid var(--lightgray);
+  background: var(--light);
+  color: var(--dark);
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  font-family: var(--bodyFont);
+  transition: all 0.2s ease;
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button:hover {
+  background: var(--lightgray);
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button:active {
+  transform: translateY(1px);
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button:nth-child(2) {
+  width: auto;
+  padding: 0 12px;
+  font-size: 14px;
+}
+/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VSb290IjoiL1VzZXJzL21hcmNlbG9zb3RhbWluZ2EvRG9jdW1lbnRzL3Byb3llY3Rvcy1naXRodWIvbWktcXVhcnR6L3F1YXJ0ei9jb21wb25lbnRzL3N0eWxlcyIsInNvdXJjZXMiOlsibWVybWFpZC5pbmxpbmUuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNFO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBOztBQUVBO0VBQ0U7RUFDQTs7QUFHRjtFQUNFO0VBQ0E7O0FBR0Y7RUFDRTs7O0FBS0Y7RUFDRTtFQUNBOzs7QUFJSjtFQUNFO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7O0FBRUE7RUFDRTs7QUFHRjtFQUNFO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBOztBQUVBO0VBQ0U7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7O0FBRUE7RUFDRTtFQUNBOztBQUdGO0VBQ0U7RUFDQTs7QUFJSjtFQUNFO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7O0FBRUE7RUFDRTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBOztBQUVBO0VBQ0U7O0FBR0Y7RUFDRTs7QUFJRjtFQUNFO0VBQ0E7RUFDQSIsInNvdXJjZXNDb250ZW50IjpbIi5leHBhbmQtYnV0dG9uIHtcbiAgcG9zaXRpb246IGFic29sdXRlO1xuICBkaXNwbGF5OiBmbGV4O1xuICBmbG9hdDogcmlnaHQ7XG4gIHBhZGRpbmc6IDAuNHJlbTtcbiAgbWFyZ2luOiAwLjNyZW07XG4gIHJpZ2h0OiAwOyAvLyBOT1RFOiByaWdodCB3aWxsIGJlIHNldCBpbiBtZXJtYWlkLmlubGluZS50c1xuICBjb2xvcjogdmFyKC0tZ3JheSk7XG4gIGJvcmRlci1jb2xvcjogdmFyKC0tZGFyayk7XG4gIGJhY2tncm91bmQtY29sb3I6IHZhcigtLWxpZ2h0KTtcbiAgYm9yZGVyOiAxcHggc29saWQ7XG4gIGJvcmRlci1yYWRpdXM6IDVweDtcbiAgb3BhY2l0eTogMDtcbiAgdHJhbnNpdGlvbjogMC4ycztcblxuICAmID4gc3ZnIHtcbiAgICBmaWxsOiB2YXIoLS1saWdodCk7XG4gICAgZmlsdGVyOiBjb250cmFzdCgwLjMpO1xuICB9XG5cbiAgJjpob3ZlciB7XG4gICAgY3Vyc29yOiBwb2ludGVyO1xuICAgIGJvcmRlci1jb2xvcjogdmFyKC0tc2Vjb25kYXJ5KTtcbiAgfVxuXG4gICY6Zm9jdXMge1xuICAgIG91dGxpbmU6IDA7XG4gIH1cbn1cblxucHJlIHtcbiAgJjpob3ZlciA+IC5leHBhbmQtYnV0dG9uIHtcbiAgICBvcGFjaXR5OiAxO1xuICAgIHRyYW5zaXRpb246IDAuMnM7XG4gIH1cbn1cblxuI21lcm1haWQtY29udGFpbmVyIHtcbiAgcG9zaXRpb246IGZpeGVkO1xuICBjb250YWluOiBsYXlvdXQ7XG4gIHotaW5kZXg6IDk5OTtcbiAgbGVmdDogMDtcbiAgdG9wOiAwO1xuICB3aWR0aDogMTAwdnc7XG4gIGhlaWdodDogMTAwdmg7XG4gIG92ZXJmbG93OiBoaWRkZW47XG4gIGRpc3BsYXk6IG5vbmU7XG4gIGJhY2tkcm9wLWZpbHRlcjogYmx1cig0cHgpO1xuICBiYWNrZ3JvdW5kOiByZ2JhKDAsIDAsIDAsIDAuNSk7XG5cbiAgJi5hY3RpdmUge1xuICAgIGRpc3BsYXk6IGlubGluZS1ibG9jaztcbiAgfVxuXG4gICYgPiAjbWVybWFpZC1zcGFjZSB7XG4gICAgYm9yZGVyOiAxcHggc29saWQgdmFyKC0tbGlnaHRncmF5KTtcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiB2YXIoLS1saWdodCk7XG4gICAgYm9yZGVyLXJhZGl1czogNXB4O1xuICAgIHBvc2l0aW9uOiBmaXhlZDtcbiAgICB0b3A6IDUwJTtcbiAgICBsZWZ0OiA1MCU7XG4gICAgdHJhbnNmb3JtOiB0cmFuc2xhdGUoLTUwJSwgLTUwJSk7XG4gICAgaGVpZ2h0OiA4MHZoO1xuICAgIHdpZHRoOiA4MHZ3O1xuICAgIG92ZXJmbG93OiBoaWRkZW47XG5cbiAgICAmID4gLm1lcm1haWQtY29udGVudCB7XG4gICAgICBwYWRkaW5nOiAycmVtO1xuICAgICAgcG9zaXRpb246IHJlbGF0aXZlO1xuICAgICAgdHJhbnNmb3JtLW9yaWdpbjogMCAwO1xuICAgICAgdHJhbnNpdGlvbjogdHJhbnNmb3JtIDAuMXMgZWFzZTtcbiAgICAgIG92ZXJmbG93OiB2aXNpYmxlO1xuICAgICAgbWluLWhlaWdodDogMjAwcHg7XG4gICAgICBtaW4td2lkdGg6IDIwMHB4O1xuXG4gICAgICBwcmUge1xuICAgICAgICBtYXJnaW46IDA7XG4gICAgICAgIGJvcmRlcjogbm9uZTtcbiAgICAgIH1cblxuICAgICAgc3ZnIHtcbiAgICAgICAgbWF4LXdpZHRoOiBub25lO1xuICAgICAgICBoZWlnaHQ6IGF1dG87XG4gICAgICB9XG4gICAgfVxuXG4gICAgJiA+IC5tZXJtYWlkLWNvbnRyb2xzIHtcbiAgICAgIHBvc2l0aW9uOiBhYnNvbHV0ZTtcbiAgICAgIGJvdHRvbTogMjBweDtcbiAgICAgIHJpZ2h0OiAyMHB4O1xuICAgICAgZGlzcGxheTogZmxleDtcbiAgICAgIGdhcDogOHB4O1xuICAgICAgcGFkZGluZzogOHB4O1xuICAgICAgYmFja2dyb3VuZDogdmFyKC0tbGlnaHQpO1xuICAgICAgYm9yZGVyOiAxcHggc29saWQgdmFyKC0tbGlnaHRncmF5KTtcbiAgICAgIGJvcmRlci1yYWRpdXM6IDZweDtcbiAgICAgIGJveC1zaGFkb3c6IDAgMnB4IDRweCByZ2JhKDAsIDAsIDAsIDAuMSk7XG4gICAgICB6LWluZGV4OiAyO1xuXG4gICAgICAubWVybWFpZC1jb250cm9sLWJ1dHRvbiB7XG4gICAgICAgIGRpc3BsYXk6IGZsZXg7XG4gICAgICAgIGFsaWduLWl0ZW1zOiBjZW50ZXI7XG4gICAgICAgIGp1c3RpZnktY29udGVudDogY2VudGVyO1xuICAgICAgICB3aWR0aDogMzJweDtcbiAgICAgICAgaGVpZ2h0OiAzMnB4O1xuICAgICAgICBwYWRkaW5nOiAwO1xuICAgICAgICBib3JkZXI6IDFweCBzb2xpZCB2YXIoLS1saWdodGdyYXkpO1xuICAgICAgICBiYWNrZ3JvdW5kOiB2YXIoLS1saWdodCk7XG4gICAgICAgIGNvbG9yOiB2YXIoLS1kYXJrKTtcbiAgICAgICAgYm9yZGVyLXJhZGl1czogNHB4O1xuICAgICAgICBjdXJzb3I6IHBvaW50ZXI7XG4gICAgICAgIGZvbnQtc2l6ZTogMTZweDtcbiAgICAgICAgZm9udC1mYW1pbHk6IHZhcigtLWJvZHlGb250KTtcbiAgICAgICAgdHJhbnNpdGlvbjogYWxsIDAuMnMgZWFzZTtcblxuICAgICAgICAmOmhvdmVyIHtcbiAgICAgICAgICBiYWNrZ3JvdW5kOiB2YXIoLS1saWdodGdyYXkpO1xuICAgICAgICB9XG5cbiAgICAgICAgJjphY3RpdmUge1xuICAgICAgICAgIHRyYW5zZm9ybTogdHJhbnNsYXRlWSgxcHgpO1xuICAgICAgICB9XG5cbiAgICAgICAgLy8gU3R5bGUgdGhlIHJlc2V0IGJ1dHRvbiBkaWZmZXJlbnRseVxuICAgICAgICAmOm50aC1jaGlsZCgyKSB7XG4gICAgICAgICAgd2lkdGg6IGF1dG87XG4gICAgICAgICAgcGFkZGluZzogMCAxMnB4O1xuICAgICAgICAgIGZvbnQtc2l6ZTogMTRweDtcbiAgICAgICAgfVxuICAgICAgfVxuICAgIH1cbiAgfVxufVxuIl19 */</style><link href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" rel="stylesheet" type="text/css" data-persist="true"/><script src="../prescript.js" type="application/javascript" data-persist="true"></script><script type="application/javascript" data-persist="true">const fetchData = fetch("../static/contentIndex.json").then(data => data.json())</script><link rel="alternate" type="application/rss+xml" title="RSS Feed" href="https://https://marchelo2212.github.io/index.xml"/><meta property="og:image:width" content="1200"/><meta property="og:image:height" content="630"/><meta property="og:image" content="https://https://marchelo2212.github.io/Blog/¿Cómo-verificar-la-información-que-encuentro-en-internet-og-image.webp"/><meta property="og:image:url" content="https://https://marchelo2212.github.io/Blog/¿Cómo-verificar-la-información-que-encuentro-en-internet-og-image.webp"/><meta name="twitter:image" content="https://https://marchelo2212.github.io/Blog/¿Cómo-verificar-la-información-que-encuentro-en-internet-og-image.webp"/><meta property="og:image:type" content="image/.webp"/></head><body data-slug="Blog/¿Cómo-verificar-la-información-que-encuentro-en-internet"><div id="quartz-root" class="page"><div id="quartz-body"><div class="left sidebar"><h2 class="page-title"><a href="..">marchelo2212</a></h2><div class="spacer mobile-only"></div><div class="flex-component" style="flex-direction: row; flex-wrap: nowrap; gap: 1rem;"><div style="flex-grow: 1; flex-shrink: 1; flex-basis: auto; order: 0; align-self: center; justify-self: center;"><div class="search"><button class="search-button"><svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.9 19.7"><title>Search</title><g class="search-path" fill="none"><path stroke-linecap="square" d="M18.5 18.3l-5.4-5.4"></path><circle cx="8" cy="8" r="7"></circle></g></svg><p>Search</p></button><div class="search-container"><div class="search-space"><input autocomplete="off" class="search-bar" name="search" type="text" aria-label="Search for something" placeholder="Search for something"/><div class="search-layout" data-preview="true"></div></div></div></div></div><div style="flex-grow: 0; flex-shrink: 1; flex-basis: auto; order: 0; align-self: center; justify-self: center;"><button class="darkmode"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="dayIcon" x="0px" y="0px" viewBox="0 0 35 35" style="enable-background:new 0 0 35 35" xml:space="preserve" aria-label="Dark mode"><title>Dark mode</title><path d="M6,17.5C6,16.672,5.328,16,4.5,16h-3C0.672,16,0,16.672,0,17.5    S0.672,19,1.5,19h3C5.328,19,6,18.328,6,17.5z M7.5,26c-0.414,0-0.789,0.168-1.061,0.439l-2,2C4.168,28.711,4,29.086,4,29.5    C4,30.328,4.671,31,5.5,31c0.414,0,0.789-0.168,1.06-0.44l2-2C8.832,28.289,9,27.914,9,27.5C9,26.672,8.329,26,7.5,26z M17.5,6    C18.329,6,19,5.328,19,4.5v-3C19,0.672,18.329,0,17.5,0S16,0.672,16,1.5v3C16,5.328,16.671,6,17.5,6z M27.5,9    c0.414,0,0.789-0.168,1.06-0.439l2-2C30.832,6.289,31,5.914,31,5.5C31,4.672,30.329,4,29.5,4c-0.414,0-0.789,0.168-1.061,0.44    l-2,2C26.168,6.711,26,7.086,26,7.5C26,8.328,26.671,9,27.5,9z M6.439,8.561C6.711,8.832,7.086,9,7.5,9C8.328,9,9,8.328,9,7.5    c0-0.414-0.168-0.789-0.439-1.061l-2-2C6.289,4.168,5.914,4,5.5,4C4.672,4,4,4.672,4,5.5c0,0.414,0.168,0.789,0.439,1.06    L6.439,8.561z M33.5,16h-3c-0.828,0-1.5,0.672-1.5,1.5s0.672,1.5,1.5,1.5h3c0.828,0,1.5-0.672,1.5-1.5S34.328,16,33.5,16z     M28.561,26.439C28.289,26.168,27.914,26,27.5,26c-0.828,0-1.5,0.672-1.5,1.5c0,0.414,0.168,0.789,0.439,1.06l2,2    C28.711,30.832,29.086,31,29.5,31c0.828,0,1.5-0.672,1.5-1.5c0-0.414-0.168-0.789-0.439-1.061L28.561,26.439z M17.5,29    c-0.829,0-1.5,0.672-1.5,1.5v3c0,0.828,0.671,1.5,1.5,1.5s1.5-0.672,1.5-1.5v-3C19,29.672,18.329,29,17.5,29z M17.5,7    C11.71,7,7,11.71,7,17.5S11.71,28,17.5,28S28,23.29,28,17.5S23.29,7,17.5,7z M17.5,25c-4.136,0-7.5-3.364-7.5-7.5    c0-4.136,3.364-7.5,7.5-7.5c4.136,0,7.5,3.364,7.5,7.5C25,21.636,21.636,25,17.5,25z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="nightIcon" x="0px" y="0px" viewBox="0 0 100 100" style="enable-background:new 0 0 100 100" xml:space="preserve" aria-label="Light mode"><title>Light mode</title><path d="M96.76,66.458c-0.853-0.852-2.15-1.064-3.23-0.534c-6.063,2.991-12.858,4.571-19.655,4.571  C62.022,70.495,50.88,65.88,42.5,57.5C29.043,44.043,25.658,23.536,34.076,6.47c0.532-1.08,0.318-2.379-0.534-3.23  c-0.851-0.852-2.15-1.064-3.23-0.534c-4.918,2.427-9.375,5.619-13.246,9.491c-9.447,9.447-14.65,22.008-14.65,35.369  c0,13.36,5.203,25.921,14.65,35.368s22.008,14.65,35.368,14.65c13.361,0,25.921-5.203,35.369-14.65  c3.872-3.871,7.064-8.328,9.491-13.246C97.826,68.608,97.611,67.309,96.76,66.458z"></path></svg></button></div><div style="flex-grow: 0; flex-shrink: 1; flex-basis: auto; order: 0; align-self: center; justify-self: center;"><button class="readermode"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="readerIcon" fill="currentColor" stroke="currentColor" stroke-width="0.2" stroke-linecap="round" stroke-linejoin="round" width="64px" height="64px" viewBox="0 0 24 24" aria-label="Reader mode"><title>Reader mode</title><g transform="translate(-1.8, -1.8) scale(1.15, 1.2)"><path d="M8.9891247,2.5 C10.1384702,2.5 11.2209868,2.96705384 12.0049645,3.76669482 C12.7883914,2.96705384 13.8709081,2.5 15.0202536,2.5 L18.7549359,2.5 C19.1691495,2.5 19.5049359,2.83578644 19.5049359,3.25 L19.5046891,4.004 L21.2546891,4.00457396 C21.6343849,4.00457396 21.9481801,4.28672784 21.9978425,4.6528034 L22.0046891,4.75457396 L22.0046891,20.25 C22.0046891,20.6296958 21.7225353,20.943491 21.3564597,20.9931534 L21.2546891,21 L2.75468914,21 C2.37499337,21 2.06119817,20.7178461 2.01153575,20.3517706 L2.00468914,20.25 L2.00468914,4.75457396 C2.00468914,4.37487819 2.28684302,4.061083 2.65291858,4.01142057 L2.75468914,4.00457396 L4.50368914,4.004 L4.50444233,3.25 C4.50444233,2.87030423 4.78659621,2.55650904 5.15267177,2.50684662 L5.25444233,2.5 L8.9891247,2.5 Z M4.50368914,5.504 L3.50468914,5.504 L3.50468914,19.5 L10.9478955,19.4998273 C10.4513189,18.9207296 9.73864328,18.5588115 8.96709342,18.5065584 L8.77307039,18.5 L5.25444233,18.5 C4.87474657,18.5 4.56095137,18.2178461 4.51128895,17.8517706 L4.50444233,17.75 L4.50368914,5.504 Z M19.5049359,17.75 C19.5049359,18.1642136 19.1691495,18.5 18.7549359,18.5 L15.2363079,18.5 C14.3910149,18.5 13.5994408,18.8724714 13.0614828,19.4998273 L20.5046891,19.5 L20.5046891,5.504 L19.5046891,5.504 L19.5049359,17.75 Z M18.0059359,3.999 L15.0202536,4 L14.8259077,4.00692283 C13.9889509,4.06666544 13.2254227,4.50975805 12.7549359,5.212 L12.7549359,17.777 L12.7782651,17.7601316 C13.4923805,17.2719483 14.3447024,17 15.2363079,17 L18.0059359,16.999 L18.0056891,4.798 L18.0033792,4.75457396 L18.0056891,4.71 L18.0059359,3.999 Z M8.9891247,4 L6.00368914,3.999 L6.00599909,4.75457396 L6.00599909,4.75457396 L6.00368914,4.783 L6.00368914,16.999 L8.77307039,17 C9.57551536,17 10.3461406,17.2202781 11.0128313,17.6202194 L11.2536891,17.776 L11.2536891,5.211 C10.8200889,4.56369974 10.1361548,4.13636104 9.37521067,4.02745763 L9.18347055,4.00692283 L8.9891247,4 Z"></path></g></svg></button></div><div style="flex-grow: 0; flex-shrink: 1; flex-basis: auto; order: 0; align-self: center; justify-self: center;"><button class="sidebar-toggle " aria-label="Toggle Sidebar"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="sidebar-icon"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect><line x1="9" y1="3" x2="9" y2="21"></line></svg></button></div></div><div class="explorer" data-behavior="collapse" data-collapsed="collapsed" data-savestate="true" data-data-fns="{&quot;order&quot;:[&quot;filter&quot;,&quot;map&quot;,&quot;sort&quot;],&quot;sortFn&quot;:&quot;(a,b)=>!a.isFolder&amp;&amp;!b.isFolder||a.isFolder&amp;&amp;b.isFolder?a.displayName.localeCompare(b.displayName,void 0,{numeric:!0,sensitivity:\&quot;base\&quot;}):!a.isFolder&amp;&amp;b.isFolder?1:-1&quot;,&quot;filterFn&quot;:&quot;node=>node.slugSegment!==\&quot;tags\&quot;&quot;,&quot;mapFn&quot;:&quot;node=>node&quot;}"><button type="button" class="explorer-toggle mobile-explorer hide-until-loaded" data-mobile="true" aria-controls="explorer-60"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide-menu"><line x1="4" x2="20" y1="12" y2="12"></line><line x1="4" x2="20" y1="6" y2="6"></line><line x1="4" x2="20" y1="18" y2="18"></line></svg></button><button type="button" class="title-button explorer-toggle desktop-explorer" data-mobile="false" aria-expanded="true"><h2>Explorer</h2><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fold"><polyline points="6 9 12 15 18 9"></polyline></svg></button><div id="explorer-60" class="explorer-content" aria-expanded="false" role="group"><ul class="explorer-ul overflow" id="list-0"><li class="overflow-end"></li></ul></div><template id="template-file"><li><a href="#"></a></li></template><template id="template-folder"><li><div class="folder-container"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="folder-icon"><polyline points="6 9 12 15 18 9"></polyline></svg><div><button class="folder-button"><span class="folder-title"></span></button></div></div><div class="folder-outer"><ul class="content"></ul></div></li></template></div></div><div class="center"><div class="page-header"><div class="popover-hint"><nav class="breadcrumb-container" aria-label="breadcrumbs"><div class="breadcrumb-element"><a href="../">Home</a><p> ❯ </p></div><div class="breadcrumb-element"><a href="../Blog/">Blog</a><p> ❯ </p></div><div class="breadcrumb-element"><a href>¿Cómo verificar la información que encuentro en internet?</a></div></nav><h1 class="article-title">¿Cómo verificar la información que encuentro en internet?</h1><p show-comma="true" class="content-meta"><time datetime="2025-06-19T01:44:08.000Z">Jun 18, 2025</time><span>10 min read</span></p></div></div><article class="popover-hint "><p>En la era de la sobrecarga informativa, especialmente en el ámbito político, es crucial tener herramientas que nos permitan verificar la veracidad de lo que vemos, escuchamos y leemos. Las noticias falsas y la desinformación pueden alterar la percepción pública y distorsionar el proceso democrático. En este sentido, la inteligencia artificial (IA) se presenta como una herramienta clave para fomentar el pensamiento crítico y facilitar la verificación de la información.</p>
+<p>Este artículo describe cómo utilizar la IA para verificar datos en contextos políticos, con el fin de promover la reflexión informada y el análisis crítico de las fuentes. A través de un proceso estructurado, se puede utilizar IA para analizar, comparar y presentar hechos que ayuden a las personas a tomar decisiones basadas en información precisa.</p>
+<ol>
+<li><strong>Identificación de la Información a Verificar</strong>
+El primer paso es identificar qué tipo de información se necesita verificar. En este caso, nos enfocamos en contenido político, como imágenes, videos, audios o declaraciones. Tomemos como ejemplo un video de una red social donde un político realiza una afirmación que podría ser polémica o falsa.</li>
+</ol>
+<p>En este caso, la información se desglosa para que sea más fácil de procesar. Por ejemplo, si el político menciona estadísticas sobre la economía, como “la deuda pública se ha duplicado en los últimos cinco años”, es necesario verificar esa cifra y el contexto detrás de esa afirmación.</p>
+<p><img src="https://i.imgur.com/jWOODit.png" alt/></p>
+<p>Imagen 1: Captura de vídeo con argumentos del estado Ecuatoriano</p>
+<ol start="2">
+<li><strong>Procesamiento a Texto</strong>
+Para facilitar el análisis, la IA convierte el contenido no textual (como video o audio) en texto. Esto permite un procesamiento más sencillo de los datos. Utilizando herramientas de transcripción automática o software especializado en reconocimiento de voz, podemos obtener un texto que sea más accesible para la verificación.</li>
+</ol>
+<p><img src="https://i.imgur.com/o62tWG7.png" alt/></p>
+<p>Imagen 2: Captura de la transcripción del audio/video</p>
+<ol start="3">
+<li>Creación de un Prompt Claro
+Una vez que tenemos el contenido procesado a texto, generamos prompt claro y conciso para la IA. Este prompt debe reflejar de manera precisa lo que queremos verificar. En este ejemplo se proceso la transcripción para establecer temas y argumentos.
+Prompt:</li>
+</ol>
+<blockquote>
+<p>“Genera una lista con los temas que se mencionan y los argumentos empleados en cada tema de esta transcripción.”</p>
+</blockquote>
+<p><img src="https://i.imgur.com/40wRDOG.png" alt/></p>
+<p>Con este inusmo -que igualemente necesita ser revisado- se generó un prompt nuevo para emplearlo con la IA de investigación:</p>
+<blockquote>
+<p>Se te enviarán una lista de temas y argumentos sobre la situación del Ecuador, se necesita identificar fuentes de información de calidad que sostengan los argumentos de cada tema, por ello, realiza una investigación sobre los temas y ubica fuentes de información.</p>
+</blockquote>
+<p><img src="https://i.imgur.com/I2hdbX3.png" alt/></p>
+<ol start="4">
+<li>Uso de Modelos de Investigación Avanzados
+Con el prompt listo, utilizamos herramientas de IA para realizar la investigación profunda en fuentes confiables. Algunas de las IAs más eficaces para este tipo de tareas incluyen:</li>
+</ol>
+<ul>
+<li>
+<p>OpenAI (ChatGPT): Un modelo avanzado que puede ayudar en la búsqueda y contraste de información, y generar respuestas detalladas basadas en una amplia base de datos. <a href="https://openai.com/" class="external">OpenAI<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></p>
+</li>
+<li>
+<p>Gemini: Una IA especializada en análisis profundo de datos y fuentes verificables. Enlace a Gemini. <a href="https://gemini.google.com/" class="external">Gemini<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></p>
+</li>
+<li>
+<p>Deepseek: Una herramienta diseñada para profundizar en la búsqueda de información específica, extrayendo datos de fuentes confiables. <a href="https://www.deepseek.com/" class="external">DeepSeek | 深度求索<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></p>
+</li>
+<li>
+<p>Grok: Otra opción potente para el análisis de información y la verificación de datos políticos, especialmente en tiempo real. Enlace a Grok. <a href="https://x.ai/" class="external">Welcome | xAI<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></p>
+</li>
+</ul>
+<p>Estas herramientas pueden acceder a bases de datos, artículos académicos y fuentes oficiales para obtener la información más actualizada y precisa posible.</p>
+<ol start="5">
+<li>Revisión y Contraste de Resultados
+Una vez que la IA ha realizado la investigación, es crucial revisar los resultados. Esto implica verificar si las fuentes de información son confiables y si los datos obtenidos coinciden con la afirmación inicial. En este proceso, se pueden detectar sesgos en la información o confirmar si la afirmación era correcta.</li>
+</ol>
+<p><img src="https://i.imgur.com/2dLy6KT.png" alt/></p>
+<p><img src="https://i.imgur.com/DOCa4Ns.png" alt/></p>
+<p>Imagen 3: Captura del informe generado por la IA</p>
+<p>Las Imágenes mostrandomuestran los resultados obtenidos a partir de la búsqueda en Gemini.</p>
+<ol start="6">
+<li>Sistematización de la Información
+Después de revisar los resultados, se organiza la información de manera que sea fácilmente comprensible para el público. Esta información se presenta en formato claro y accesible, destacando las fuentes confiables y proporcionando un análisis objetivo. Se utiliza un enfoque que permita a los usuarios contrastar datos y tomar decisiones basadas en hechos verificables.</li>
+</ol>
+<p><img src="https://i.imgur.com/4FNmteW.png" alt/></p>
+<p>Imagen 4: Gráfico comparativo de la afirmación versus la información verificada</p>
+<p>Informe generado con la Herramienta de IA: <a href="https://docs.google.com/document/d/e/2PACX-1vRj9cGll5tdJc6JPK25j7-7DOWMP1mm7A6Q_Bprt4h5fZJ0ey-plG7F50-RXPvAraL7Umr6jA8PbURY/pub" class="external">The Multifaceted Crisis in Ecuador: An Analysis of Socio-Economic Indicators<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></p>
+<iframe src="https://docs.google.com/document/d/e/2PACX-1vRj9cGll5tdJc6JPK25j7-7DOWMP1mm7A6Q_Bprt4h5fZJ0ey-plG7F50-RXPvAraL7Umr6jA8PbURY/pub?embedded=true" width="650" height="900" frameborder="0" scrolling="no" allowfullscreen="true"></iframe>
+7. Divulgación de los Hallazgos y Fomento del Pensamiento Crítico
+El último paso es crear elementos de divulgación, como artículos de blog, infografías y resúmenes visuales, que faciliten el acceso a la información verificada. Estos recursos permiten a las personas acceder rápidamente a los hallazgos, ayudando a fomentar el pensamiento crítico. Se utiliza un enfoque pedagógico que invita a los usuarios a reflexionar sobre la información y evaluar la veracidad de las fuentes que consumen.
+<p>Para este ejemplo se ha creado una tabla d sistematización:</p>
+<p><strong>Tabla de Sistematización Actualizada: Argumentos del Audio vs. Informe Escrito (Versión Detallada)</strong></p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th style="text-align:left;">Tema</th><th style="text-align:left;">Argumento (del Audio Original)</th><th style="text-align:left;">Nivel de Veracidad (Según Informe Detallado)</th><th style="text-align:left;">Justificación (Basada en Informe Detallado)</th><th style="text-align:left;">Fuente(s) en Informe Detallado</th></tr></thead><tbody><tr><td style="text-align:left;"><strong>El Debate Político</strong></td><td style="text-align:left;">Tuvo audiencia considerable (2-3 millones).</td><td style="text-align:left;">No Mencionado en el Informe</td><td style="text-align:left;">El informe se centra en indicadores socioeconómicos y no analiza el debate político ni su audiencia.</td><td style="text-align:left;">N/A</td></tr><tr><td style="text-align:left;"></td><td style="text-align:left;">Políticos no abordaron problemas reales; se insultaron, etc.</td><td style="text-align:left;">No Mencionado en el Informe</td><td style="text-align:left;">El informe no evalúa el contenido ni el tono del debate político.</td><td style="text-align:left;">N/A</td></tr><tr><td style="text-align:left;"><strong>Situación Económica</strong></td><td style="text-align:left;">Decrecimiento económico reciente, economía más pequeña.</td><td style="text-align:left;">Totalmente Cierto</td><td style="text-align:left;">Confirma contracción citando WB (-0.7% 2024), BCE (-1.5% T3 2024, -2.2% T2 2024), FMI (-0.4% 2024).</td><td style="text-align:left;">1, 17, 19, 18</td></tr><tr><td style="text-align:left;"></td><td style="text-align:left;">Tercera vez que ocurre en el siglo XXI.</td><td style="text-align:left;">Totalmente Cierto</td><td style="text-align:left;">Menciona contracciones en 1999, 2016, 2020 y la probable de 2024, confirmando al menos 3 instancias en el s. XXI (2016, 2020, 2024).</td><td style="text-align:left;">12, 1</td></tr><tr><td style="text-align:left;"></td><td style="text-align:left;">Decrecimiento estimado en 0.3% o 0.4%.</td><td style="text-align:left;">Totalmente Cierto (Cifras Similares)</td><td style="text-align:left;">Cita proyecciones del FMI (-0.4%) y Banco Mundial (-0.7%), validando la magnitud.</td><td style="text-align:left;">18, 1</td></tr><tr><td style="text-align:left;"></td><td style="text-align:left;">Economía pasó de ~<span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord">120</span><span class="mord mathnormal" style="margin-right:0.05017em;">B</span><span class="mord mathnormal">a</span><span class="mspace nobreak"> </span></span></span></span>119.5B (pérdida ~$500M).</td><td style="text-align:left;">Totalmente Cierto (Concepto Validado, Cifras Nominales Cercanas)</td><td style="text-align:left;">Discute cifras nominales cercanas (<span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7667em;vertical-align:-0.0833em;"></span><span class="mord">121</span><span class="mord mathnormal" style="margin-right:0.05017em;">B</span><span class="mord">−</span></span></span></span>122B) y calcula contracción real (~$830M), apoyando la idea de reducción de riqueza real.</td><td style="text-align:left;">20, 24, 25, 1</td></tr><tr><td style="text-align:left;"></td><td style="text-align:left;">”Menos pastel para cada uno”.</td><td style="text-align:left;">Totalmente Cierto</td><td style="text-align:left;">Usa explícitamente la analogía y muestra disminución del PIB real per cápita (de <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">6238</span><span class="mord mathnormal">a</span></span></span></span>6141).</td><td style="text-align:left;">Tabla 1, texto Sec. 2</td></tr><tr><td style="text-align:left;"><strong>Pobreza</strong></td><td style="text-align:left;">Aumentó, afecta al 27% de la población.</td><td style="text-align:left;">Totalmente Cierto (Audio refleja cifra reciente)</td><td style="text-align:left;">Confirma aumento de pobreza por ingresos de 27.0% (Dic 2023) a 28.0% (Dic 2024).</td><td style="text-align:left;">4, 5</td></tr><tr><td style="text-align:left;"></td><td style="text-align:left;">Afecta a 4.4 millones de personas.</td><td style="text-align:left;">Totalmente Cierto (Cifra Similar)</td><td style="text-align:left;">Calcula aumento de ~4.85M (Dic 2023) a ~5.08M (Dic 2024). La cifra del audio (~4.4M) es cercana a la estimación inicial.</td><td style="text-align:left;">Cálculo basado en 4, 5, 6</td></tr><tr><td style="text-align:left;"></td><td style="text-align:left;">Viven con $87/mes (línea de pobreza).</td><td style="text-align:left;">Totalmente Cierto (Cifra Similar)</td><td style="text-align:left;">Establece la línea de pobreza en $91.55/mes (Junio 2024), muy cercana a la cifra del audio.</td><td style="text-align:left;">5</td></tr><tr><td style="text-align:left;"></td><td style="text-align:left;">1.9 millones viven en pobreza extrema.</td><td style="text-align:left;">Totalmente Cierto (Corresponde a cifra reciente)</td><td style="text-align:left;">Confirma 9.8% (~1.94M personas) en pobreza extrema en Dic 2023, coincidiendo con el audio.</td><td style="text-align:left;">4</td></tr><tr><td style="text-align:left;"><strong>Violencia/Inseguridad</strong></td><td style="text-align:left;">~6,900 homicidios en 2023.</td><td style="text-align:left;">Parcialmente Cierto (Inferior a fuentes del informe)</td><td style="text-align:left;">Reconoce la cifra del usuario pero cita estimaciones más altas para 2023 (7,800 - 8,008).</td><td style="text-align:left;">3, 9</td></tr><tr><td style="text-align:left;"></td><td style="text-align:left;">Analogía del Coliseo Rumiñahui.</td><td style="text-align:left;">Totalmente Cierto</td><td style="text-align:left;">Utiliza exactamente la misma analogía para dimensionar la cifra de homicidios.</td><td style="text-align:left;">Texto Sec. 4</td></tr><tr><td style="text-align:left;"></td><td style="text-align:left;">Homicidio es la principal causa de muerte infantil (UNICEF).</td><td style="text-align:left;">Totalmente Cierto</td><td style="text-align:left;">Confirma que UNICEF identificó el homicidio como causa principal de muerte para niños y adolescentes (5-17 años).</td><td style="text-align:left;">10</td></tr><tr><td style="text-align:left;"></td><td style="text-align:left;">245 niños asesinados en 2023.</td><td style="text-align:left;">Parcialmente Cierto (Cifra cercana, informe cita otras)</td><td style="text-align:left;">Confirma “horrific number”, citando cifras UNICEF (248 de 0-4 años, 468 de 15-19, total 770 &lt;20). La cifra del audio (245) es cercana a la de 0-4 años.</td><td style="text-align:left;">7</td></tr><tr><td style="text-align:left;"></td><td style="text-align:left;">Caso específico: bebé de 5 meses asesinado en Manabí.</td><td style="text-align:left;">Totalmente Cierto</td><td style="text-align:left;">Menciona explícitamente este caso referido por el usuario como ejemplo.</td><td style="text-align:left;">Texto Sec. 4</td></tr><tr><td style="text-align:left;"><strong>Empleo/Informalidad</strong></td><td style="text-align:left;">Informalidad laboral alrededor del 51%.</td><td style="text-align:left;">Totalmente Cierto (Corresponde a cifra reciente)</td><td style="text-align:left;">Cita 51.2% (2021) y 54.4% (Oct 2023), validando el nivel.</td><td style="text-align:left;">11, 26</td></tr><tr><td style="text-align:left;"></td><td style="text-align:left;">Afecta a 4.1 millones de trabajadores.</td><td style="text-align:left;">Totalmente Cierto (Cifra Confirmada/Estimada)</td><td style="text-align:left;">Calcula ~4.09M (basado en 2021) y estima que supera los 4.1M con tasas más recientes.</td><td style="text-align:left;">Cálculo basado en 11</td></tr><tr><td style="text-align:left;"></td><td style="text-align:left;">Pérdida de 132,000 empleos formales (Nov 23-Nov 24, oficial).</td><td style="text-align:left;">No Verificable con este Informe</td><td style="text-align:left;">Indica explícitamente que no pudo verificar esta cifra específica con los datos disponibles para su redacción.</td><td style="text-align:left;">Texto Sec. 5</td></tr><tr><td style="text-align:left;"></td><td style="text-align:left;">Pérdida de 250,000 empleos (2023, no oficial, por apagones).</td><td style="text-align:left;">Totalmente Cierto (Según fuentes no oficiales citadas)</td><td style="text-align:left;">Menciona estas cifras no oficiales y las vincula a los apagones, confirmando pérdidas económicas y afectación a negocios.</td><td style="text-align:left;">Texto Sec. 5, 14</td></tr><tr><td style="text-align:left;"><strong>Deuda/Situación Fiscal</strong></td><td style="text-align:left;">Deuda subió: 26% (2006) <span>→</span> 46% <span>→</span> 56% actual ($82B).</td><td style="text-align:left;">Totalmente Cierto (Evolución y cifra actual confirmadas)</td><td style="text-align:left;">Confirma proyección FMI de deuda pública en 56.8% del PIB para 2024/25 (alineado con 56%). Menciona contexto histórico (40% en 2007, rango 41-43% 2006-22), apoyando tendencia y nivel actual.</td><td style="text-align:left;">18, 13, 15</td></tr><tr><td style="text-align:left;"></td><td style="text-align:left;">Déficit fiscal persistente (4-5% PIB), requiere <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7667em;vertical-align:-0.0833em;"></span><span class="mord">4</span><span class="mord mathnormal" style="margin-right:0.05017em;">B</span><span class="mord">−</span></span></span></span>9B/año.</td><td style="text-align:left;">Parcialmente Cierto (Déficit confirmado, magnitud en rango)</td><td style="text-align:left;">Confirma déficits recientes (-3.6% a -1.8% FMI, -3.5% a -2.1% Lloyds). Magnitud dentro del rango 4-5%. Indica que el plazo de 18 años y $4-9B/año no puede confirmarse con los datos actuales.</td><td style="text-align:left;">18, 13</td></tr><tr><td style="text-align:left;"><strong>Gasto/Inversión Pública</strong></td><td style="text-align:left;">&lt;1% del presupuesto (<span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6944em;"></span><span class="mord">350</span><span class="mord mathnormal" style="margin-right:0.10903em;">M</span><span class="mord mathnormal">d</span><span class="mord mathnormal">e</span></span></span></span>35B) va a inversión visible.</td><td style="text-align:left;">No Verificable con este Informe</td><td style="text-align:left;">Declara explícitamente que no posee el desglose presupuestario necesario para verificar esta cifra específica.</td><td style="text-align:left;">15 (no contiene dato), Texto Sec. 7</td></tr><tr><td style="text-align:left;"></td><td style="text-align:left;">Gasto principal no es sueldos esenciales.</td><td style="text-align:left;">No Verificable con este Informe</td><td style="text-align:left;">Indica que verificar la composición del gasto requiere un análisis detallado del presupuesto, no disponible en los fragmentos usados.</td><td style="text-align:left;">Texto Sec. 7</td></tr><tr><td style="text-align:left;"><strong>Sistema de Salud</strong></td><td style="text-align:left;">Caída eficiencia: Puesto 20 <span>→</span> 82 (Bloomberg).</td><td style="text-align:left;">Parcialmente Cierto (Caída confirmada, cifra final distinta)</td><td style="text-align:left;">Confirma una caída drástica en el ranking de Bloomberg (de 20º en 2011 a 43º en 2018 y reciente). No verifica la posición 82º.</td><td style="text-align:left;">15, 16</td></tr><tr><td style="text-align:left;"></td><td style="text-align:left;">Alto gasto privado en salud (33%).</td><td style="text-align:left;">No Verificable con este Informe (Informe indica falta fuente)</td><td style="text-align:left;">Menciona la cifra del 33% pero explícitamente señala “source needed”, indicando que no fue corroborada.</td><td style="text-align:left;">Texto Sec. 8</td></tr><tr><td style="text-align:left;"><strong>Sistema Educativo</strong></td><td style="text-align:left;">No se participa en PISA desde 2018.</td><td style="text-align:left;">Totalmente Falso</td><td style="text-align:left;">Corrige explícitamente: Ecuador SÍ participó en PISA-D en 2018 y planea hacerlo en 2025.</td><td style="text-align:left;">16, 17</td></tr><tr><td style="text-align:left;"></td><td style="text-align:left;">Resultados de PISA no eran buenos.</td><td style="text-align:left;">Totalmente Cierto</td><td style="text-align:left;">Confirma que resultados de PISA-D 2018 estuvieron por debajo de promedios OCDE, a pesar de buen desempeño relativo entre países PISA-D. Menciona % significativo bajo nivel mínimo.</td><td style="text-align:left;">17, 20, 27</td></tr><tr><td style="text-align:left;"></td><td style="text-align:left;">Deserción escolar aumentó del 1% al 5%.</td><td style="text-align:left;">No Verificable con este Informe (Datos Parciales)</td><td style="text-align:left;">No confirma esta tendencia <em>nacional específica</em> (1% a 5%) para educación básica. Cita 1.4% fuera de secundaria (2017), altas tasas <em>universitarias</em> (12-39%) y <em>de bachillerato</em> en Durán (~30%).</td><td style="text-align:left;">19, 21, 23</td></tr><tr><td style="text-align:left;"></td><td style="text-align:left;">40,000 niños desertan cada año.</td><td style="text-align:left;">No Verificable con este Informe (Dato Regional)</td><td style="text-align:left;">No puede verificar la cifra nacional. Menciona 28,000 en 5 años <em>solo en Esmeraldas</em>.</td><td style="text-align:left;">24</td></tr><tr><td style="text-align:left;"></td><td style="text-align:left;">Aumento 26% suicidio infantil (340 casos 2023).</td><td style="text-align:left;">No Verificable con este Informe</td><td style="text-align:left;">Declara explícitamente que no tiene datos sobre este aumento porcentual ni sobre el número de casos para 2023.</td><td style="text-align:left;">Texto Sec. 9, 6 (contexto)</td></tr><tr><td style="text-align:left;"><strong>Emigración</strong></td><td style="text-align:left;">250,000 emigraron a EEUU en 2023.</td><td style="text-align:left;">Parcialmente Cierto (Fuertemente sugerido por datos)</td><td style="text-align:left;">No da cifra exacta para emigración a EEUU 2023, pero datos de detenciones (EEUU 72k Oct22-May23; México 5.8k Ene23) y cruces Darién (>250k total Jan-Oct23) sugieren fuertemente una emigración masiva.</td><td style="text-align:left;">10, 28</td></tr><tr><td style="text-align:left;"></td><td style="text-align:left;">52% desearía emigrar (Gallup).</td><td style="text-align:left;">Parcialmente Cierto (Cifras cercanas confirmadas)</td><td style="text-align:left;">Cita CID Gallup (47% Julio 2023) y Gallup (38% 2022), confirmando alta intención, aunque ligeramente inferior al 52%.</td><td style="text-align:left;">26, 29</td></tr></tbody></table></div>
+<p><img src="https://i.imgur.com/b5RxJ3F.png" alt/></p>
+<p>Imagen 5: Infografía de resultados y conclusiones</p>
+<p>A manera de conclusión:</p>
+<p><strong>El Poder de la IA para Mejorar el Pensamiento Crítico</strong>
+El uso de la inteligencia artificial para la verificación de la información es una herramienta poderosa para combatir la desinformación y fomentar una ciudadanía más crítica e informada. Al facilitar el acceso a información verificada, la IA permite que las personas analicen, comparen y cuestionen las afirmaciones políticas antes de aceptar algo como verdad. En un entorno donde las noticias falsas son cada vez más prevalentes, las herramientas de IA como Gemini, OpenAI, Deepseek y Grok se presentan como una solución clave para promover el pensamiento crítico y fortalecer nuestra democracia.</p>
+<p>Saludos!!
+Elaborado por: Marcelo Sotaminga
+@marchelo2212</p>
+<p>Herramientas empleadas:
+<a href="https://aistudio.google.com/" class="external">Google AI Studio<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a>
+<a href="https://openai.com/" class="external">OpenAI<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a>
+<a href="https://es.libreoffice.org/" class="external">Inicio | LibreOffice en español - suite ofimática libre, basada en OpenOffice, compatible con Microsoft<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></p></article><hr/><div class="page-footer"></div></div><div class="right sidebar"><div class="graph"><h3>Graph View</h3><div class="graph-outer"><div class="graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:1,&quot;scale&quot;:1.1,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.3,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1,&quot;showTags&quot;:true,&quot;removeTags&quot;:[],&quot;focusOnHover&quot;:false,&quot;enableRadial&quot;:false}"></div><button class="global-graph-icon" aria-label="Global Graph"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 55 55" fill="currentColor" xml:space="preserve"><path d="M49,0c-3.309,0-6,2.691-6,6c0,1.035,0.263,2.009,0.726,2.86l-9.829,9.829C32.542,17.634,30.846,17,29,17
+                s-3.542,0.634-4.898,1.688l-7.669-7.669C16.785,10.424,17,9.74,17,9c0-2.206-1.794-4-4-4S9,6.794,9,9s1.794,4,4,4
+                c0.74,0,1.424-0.215,2.019-0.567l7.669,7.669C21.634,21.458,21,23.154,21,25s0.634,3.542,1.688,4.897L10.024,42.562
+                C8.958,41.595,7.549,41,6,41c-3.309,0-6,2.691-6,6s2.691,6,6,6s6-2.691,6-6c0-1.035-0.263-2.009-0.726-2.86l12.829-12.829
+                c1.106,0.86,2.44,1.436,3.898,1.619v10.16c-2.833,0.478-5,2.942-5,5.91c0,3.309,2.691,6,6,6s6-2.691,6-6c0-2.967-2.167-5.431-5-5.91
+                v-10.16c1.458-0.183,2.792-0.759,3.898-1.619l7.669,7.669C41.215,39.576,41,40.26,41,41c0,2.206,1.794,4,4,4s4-1.794,4-4
+                s-1.794-4-4-4c-0.74,0-1.424,0.215-2.019,0.567l-7.669-7.669C36.366,28.542,37,26.846,37,25s-0.634-3.542-1.688-4.897l9.665-9.665
+                C46.042,11.405,47.451,12,49,12c3.309,0,6-2.691,6-6S52.309,0,49,0z M11,9c0-1.103,0.897-2,2-2s2,0.897,2,2s-0.897,2-2,2
+                S11,10.103,11,9z M6,51c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S8.206,51,6,51z M33,49c0,2.206-1.794,4-4,4s-4-1.794-4-4
+                s1.794-4,4-4S33,46.794,33,49z M29,31c-3.309,0-6-2.691-6-6s2.691-6,6-6s6,2.691,6,6S32.309,31,29,31z M47,41c0,1.103-0.897,2-2,2
+                s-2-0.897-2-2s0.897-2,2-2S47,39.897,47,41z M49,10c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S51.206,10,49,10z"></path></svg></button></div><div class="global-graph-outer"><div class="global-graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:-1,&quot;scale&quot;:0.9,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.2,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1,&quot;showTags&quot;:true,&quot;removeTags&quot;:[],&quot;focusOnHover&quot;:true,&quot;enableRadial&quot;:true}"></div></div></div><div class="backlinks"><h3>Backlinks</h3><ul id="list-2" class="overflow"><li><a href="../Blog/_Index_of_01-Post" class="internal">_Index_of_01-Post</a></li><li><a href="../Blog/_Index_of_Blog" class="internal">_Index_of_Blog</a></li><li><a href="../Sobre-mí/_Index_of_Sobre-mí" class="internal">_Index_of_Sobre mí</a></li><li><a href="../_Index_of_Public" class="internal">_Index_of_Public</a></li><li class="overflow-end"></li></ul></div></div><footer class><p style="display: flex; align-items: center; justify-content: center; gap: 0.5rem;"><a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener noreferrer" style="display: flex; align-items: center; color: inherit; text-decoration: none;"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><rect x="10" y="10" width="4" height="4"></rect><path d="M12 6v4"></path><path d="M12 18v-4"></path></svg><span style="margin-left: 5px; font-weight: bold;">CC BY</span></a>- @marchelo2212 powered by <a href="https://obsidian.md/">Obsidian</a> and <a href="https://quartz.jzhao.xyz/">Quartz</a></p></footer></div></div></body><script type="application/javascript" data-persist="true">function n(){let t=this.parentElement;t.classList.toggle("is-collapsed");let e=t.getElementsByClassName("callout-content")[0];if(!e)return;let l=t.classList.contains("is-collapsed");e.style.gridTemplateRows=l?"0fr":"1fr"}function c(){let t=document.getElementsByClassName("callout is-collapsible");for(let e of t){let l=e.getElementsByClassName("callout-title")[0],s=e.getElementsByClassName("callout-content")[0];if(!l||!s)continue;l.addEventListener("click",n),window.addCleanup(()=>l.removeEventListener("click",n));let o=e.classList.contains("is-collapsed");s.style.gridTemplateRows=o?"0fr":"1fr"}}document.addEventListener("nav",c);
+</script><script type="module" data-persist="true">function f(i,e){if(!i)return;function r(o){o.target===this&&(o.preventDefault(),o.stopPropagation(),e())}function t(o){o.key.startsWith("Esc")&&(o.preventDefault(),e())}i?.addEventListener("click",r),window.addCleanup(()=>i?.removeEventListener("click",r)),document.addEventListener("keydown",t),window.addCleanup(()=>document.removeEventListener("keydown",t))}function y(i){for(;i.firstChild;)i.removeChild(i.firstChild)}var h=class{constructor(e,r){this.container=e;this.content=r;this.setupEventListeners(),this.setupNavigationControls(),this.resetTransform()}isDragging=!1;startPan={x:0,y:0};currentPan={x:0,y:0};scale=1;MIN_SCALE=.5;MAX_SCALE=3;cleanups=[];setupEventListeners(){let e=this.onMouseDown.bind(this),r=this.onMouseMove.bind(this),t=this.onMouseUp.bind(this),o=this.resetTransform.bind(this);this.container.addEventListener("mousedown",e),document.addEventListener("mousemove",r),document.addEventListener("mouseup",t),window.addEventListener("resize",o),this.cleanups.push(()=>this.container.removeEventListener("mousedown",e),()=>document.removeEventListener("mousemove",r),()=>document.removeEventListener("mouseup",t),()=>window.removeEventListener("resize",o))}cleanup(){for(let e of this.cleanups)e()}setupNavigationControls(){let e=document.createElement("div");e.className="mermaid-controls";let r=this.createButton("+",()=>this.zoom(.1)),t=this.createButton("-",()=>this.zoom(-.1)),o=this.createButton("Reset",()=>this.resetTransform());e.appendChild(t),e.appendChild(o),e.appendChild(r),this.container.appendChild(e)}createButton(e,r){let t=document.createElement("button");return t.textContent=e,t.className="mermaid-control-button",t.addEventListener("click",r),window.addCleanup(()=>t.removeEventListener("click",r)),t}onMouseDown(e){e.button===0&&(this.isDragging=!0,this.startPan={x:e.clientX-this.currentPan.x,y:e.clientY-this.currentPan.y},this.container.style.cursor="grabbing")}onMouseMove(e){this.isDragging&&(e.preventDefault(),this.currentPan={x:e.clientX-this.startPan.x,y:e.clientY-this.startPan.y},this.updateTransform())}onMouseUp(){this.isDragging=!1,this.container.style.cursor="grab"}zoom(e){let r=Math.min(Math.max(this.scale+e,this.MIN_SCALE),this.MAX_SCALE),t=this.content.getBoundingClientRect(),o=t.width/2,n=t.height/2,c=r-this.scale;this.currentPan.x-=o*c,this.currentPan.y-=n*c,this.scale=r,this.updateTransform()}updateTransform(){this.content.style.transform=`translate(${this.currentPan.x}px, ${this.currentPan.y}px) scale(${this.scale})`}resetTransform(){this.scale=1;let e=this.content.querySelector("svg");this.currentPan={x:e.getBoundingClientRect().width/2,y:e.getBoundingClientRect().height/2},this.updateTransform()}},C=["--secondary","--tertiary","--gray","--light","--lightgray","--highlight","--dark","--darkgray","--codeFont"],E;document.addEventListener("nav",async()=>{let e=document.querySelector(".center").querySelectorAll("code.mermaid");if(e.length===0)return;E||=await import("https://cdnjs.cloudflare.com/ajax/libs/mermaid/11.4.0/mermaid.esm.min.mjs");let r=E.default,t=new WeakMap;for(let n of e)t.set(n,n.innerText);async function o(){for(let s of e){s.removeAttribute("data-processed");let a=t.get(s);a&&(s.innerHTML=a)}let n=C.reduce((s,a)=>(s[a]=window.getComputedStyle(document.documentElement).getPropertyValue(a),s),{}),c=document.documentElement.getAttribute("saved-theme")==="dark";r.initialize({startOnLoad:!1,securityLevel:"loose",theme:c?"dark":"base",themeVariables:{fontFamily:n["--codeFont"],primaryColor:n["--light"],primaryTextColor:n["--darkgray"],primaryBorderColor:n["--tertiary"],lineColor:n["--darkgray"],secondaryColor:n["--secondary"],tertiaryColor:n["--tertiary"],clusterBkg:n["--light"],edgeLabelBackground:n["--highlight"]}}),await r.run({nodes:e})}await o(),document.addEventListener("themechange",o),window.addCleanup(()=>document.removeEventListener("themechange",o));for(let n=0;n<e.length;n++){let v=function(){let g=l.querySelector("#mermaid-space"),m=l.querySelector(".mermaid-content");if(!m)return;y(m);let w=c.querySelector("svg").cloneNode(!0);m.appendChild(w),l.classList.add("active"),g.style.cursor="grab",u=new h(g,m)},M=function(){l.classList.remove("active"),u?.cleanup(),u=null},c=e[n],s=c.parentElement,a=s.querySelector(".clipboard-button"),d=s.querySelector(".expand-button"),p=window.getComputedStyle(a),L=a.offsetWidth+parseFloat(p.marginLeft||"0")+parseFloat(p.marginRight||"0");d.style.right=`calc(${L}px + 0.3rem)`,s.prepend(d);let l=s.querySelector("#mermaid-container");if(!l)return;let u=null;d.addEventListener("click",v),f(l,M),window.addCleanup(()=>{u?.cleanup(),d.removeEventListener("click",v)})}});
+</script><script src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/copy-tex.min.js" type="application/javascript" data-persist="true"></script><script src="../postscript.js" type="module" data-persist="true"></script></html>
