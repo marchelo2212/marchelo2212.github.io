@@ -29,6 +29,7 @@ function initApp() {
   renderPublications('all', '');
   renderProjects('projects');
   renderEducation();
+  renderCertifications();
   setupEventListeners();
 }
 
@@ -509,6 +510,87 @@ function renderEducation() {
       </span>
     </div>
   `).join('');
+}
+
+// 7b. Renderizar Distinciones y Certificaciones
+function renderCertifications() {
+  const container = document.getElementById('certificates-list');
+  if (!container || !cvData.certifications) return;
+
+  container.innerHTML = cvData.certifications.map(c => {
+    let icon = 'fa-solid fa-certificate';
+    let iconColor = 'text-amber-400 bg-amber-500/15';
+
+    const tLower = (c.title || '').toLowerCase();
+    const iLower = (c.issuer || '').toLowerCase();
+
+    if (c.cluster === 'ia_data_science' || tLower.includes('ia') || tLower.includes('inteligencia')) {
+      icon = 'fa-solid fa-brain';
+      iconColor = 'text-sky-400 bg-sky-500/15';
+    } else if (iLower.includes('google')) {
+      icon = 'fa-brands fa-google';
+      iconColor = 'text-sky-400 bg-sky-500/15';
+    } else if (iLower.includes('moodle')) {
+      icon = 'fa-solid fa-graduation-cap';
+      iconColor = 'text-emerald-400 bg-emerald-500/15';
+    } else if (iLower.includes('openlab') || iLower.includes('dvv')) {
+      icon = 'fa-solid fa-globe';
+      iconColor = 'text-emerald-400 bg-emerald-500/15';
+    } else if (tLower.includes('distinción') || tLower.includes('premio')) {
+      icon = 'fa-solid fa-medal';
+      iconColor = 'text-amber-400 bg-amber-500/15';
+    }
+
+    const driveBtn = c.driveUrl ? `
+      <a href="${c.driveUrl}" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1.5 px-2 py-0.5 rounded-lg bg-emerald-500/15 text-emerald-300 hover:bg-emerald-500/25 border border-emerald-500/30 text-[10px] font-mono transition" title="Ver documento oficial en Google Drive">
+        <i class="fa-brands fa-google-drive text-[10px]"></i>
+        <span>Ver en Drive</span>
+        <i class="fa-solid fa-arrow-up-right-from-square text-[8px] opacity-70"></i>
+      </a>
+    ` : (c.verificationUrl ? `
+      <a href="${c.verificationUrl}" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1 px-2 py-0.5 rounded bg-white/[0.05] text-slate-300 hover:text-white border border-white/[0.1] text-[10px] font-mono transition">
+        <span>Verificar</span>
+        <i class="fa-solid fa-arrow-up-right-from-square text-[8px] opacity-70"></i>
+      </a>
+    ` : '');
+
+    const regBadge = c.credentialId ? `
+      <span class="font-mono text-[9px] text-slate-500 bg-white/[0.02] px-1.5 py-0.5 rounded border border-white/[0.04]">Reg: ${c.credentialId}</span>
+    ` : '';
+
+    const hoursBadge = c.hours ? `
+      <span class="font-mono text-[9px] px-1.5 py-0.5 rounded bg-white/[0.04] text-slate-400 border border-white/[0.06]">${c.hours}h</span>
+    ` : '';
+
+    const skillsHtml = (c.skills && c.skills.length > 0) ? `
+      <div class="flex flex-wrap gap-1 mt-2">
+        ${c.skills.map(s => `<span class="px-1.5 py-0.5 rounded bg-white/[0.03] text-[9px] text-slate-400 border border-white/[0.05] font-mono">${s}</span>`).join('')}
+      </div>
+    ` : '';
+
+    return `
+      <div class="p-3.5 rounded-xl bg-surface-card border border-white/[0.08] hover:border-white/[0.15] transition flex items-start gap-3">
+        <div class="w-8 h-8 rounded-lg ${iconColor} flex items-center justify-center flex-shrink-0 text-sm">
+          <i class="${icon}"></i>
+        </div>
+        <div class="flex-1 min-w-0">
+          <div class="flex items-center justify-between gap-2 flex-wrap mb-0.5">
+            <span class="font-mono text-[10px] uppercase tracking-wider text-amber-400 font-semibold">${c.year || ''}</span>
+            <div class="flex items-center gap-1.5">
+              ${hoursBadge}
+              ${driveBtn}
+            </div>
+          </div>
+          <h4 class="font-semibold text-white text-xs leading-snug">${c.title}</h4>
+          <div class="text-xs text-slate-400 mt-1 flex items-center gap-2 flex-wrap">
+            <span>${c.issuer}</span>
+            ${regBadge}
+          </div>
+          ${skillsHtml}
+        </div>
+      </div>
+    `;
+  }).join('');
 }
 
 // 8. Event Listeners

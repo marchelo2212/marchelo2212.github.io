@@ -19,6 +19,7 @@ CV_TEX_PATH = BASE_DIR / "cv.tex"
 CV2_TEX_PATH = BASE_DIR / "Cv2.tex"
 BIB_PATH = BASE_DIR / "bibliografia.bib"
 ENRICHMENT_PATH = BASE_DIR / "data" / "enrichment.json"
+CERTIFICATES_PATH = BASE_DIR / "data" / "certificates.json"
 OUTPUT_PATH = BASE_DIR / "data" / "cv_data.json"
 
 def clean_latex(text: str) -> str:
@@ -310,6 +311,109 @@ def parse_education(section_text: str):
         })
     return items
 
+def parse_certifications(section_text: str, json_path: Path):
+    """Extrae certificaciones de cv.tex y las fusiona con data/certificates.json."""
+    items = []
+    
+    # 1. Parsear desde cv.tex si hay sección
+    if section_text:
+        blocks = re.split(r'\\multicolumn\{2\}\{c\}\{\s*\}', section_text)
+        for block in blocks:
+            block = block.strip()
+            if not block:
+                continue
+            year_match = re.search(r'\\textsc\{(\d{4})\}', block)
+            year = year_match.group(1) if year_match else ""
+            
+            # Título completo de la línea
+            title = ""
+            if '&' in block:
+                title_line = block.split('&', 1)[1]
+                title_raw = title_line.split('\\\\')[0].strip() if '\\\\' in title_line else title_line.split('\n')[0].strip()
+                title = clean_latex(title_raw)
+            
+            # Emisor
+            inst_match = re.search(r'\\textbf\{([^}]+)\}', block)
+            issuer = clean_latex(inst_match.group(1)) if inst_match else ""
+            
+            # URL
+            url_match = re.search(r'\\(?:url|href(?:\{[^}]*\})?)\{([^}]+)\}', block)
+            url = url_match.group(1) if url_match else ""
+            
+            # Registro
+            reg_match = re.search(r'Reg\.?\s*([^\n\\]+)', block)
+            reg = clean_latex(reg_match.group(1)) if reg_match else ""
+            
+            if title:
+                items.append({
+                    "id": f"cert-tex-{year}-{len(items)}",
+                    "title": title,
+                    "issuer": issuer,
+                    "year": year,
+                    "date": str(year) if year else "",
+                    "hours": None,
+                    "credentialId": reg or None,
+                    "verificationUrl": url if "drive.google.com" not in url else None,
+                    "driveUrl": url if "drive.google.com" in url else None,
+                    "cluster": "tecnopedagogia",
+                    "skills": []
+                })
+
+    # 2. Cargar y fusionar con data/certificates.json (Google Drive / Gemini)
+    if json_path.exists():
+        try:
+            drive_certs = json.loads(json_path.read_text(encoding='utf-8'))
+            for dc in drive_certs:
+                title = clean_latex(dc.get("title", ""))
+                norm_key = re.sub(r'\W+', '', title.lower())
+                
+                # Buscar si ya existe para enriquecer
+                matched = next((item for item in items if norm_key in re.sub(r'\W+', '', item["title"].lower()) or re.sub(r'\W+', '', item["title"].lower()) in norm_key), None)
+                if matched:
+                    if dc.get("driveUrl"):
+                        matched["driveUrl"] = dc["driveUrl"]
+                    if dc.get("skills"):
+                        matched["skills"] = dc["skills"]
+                    if dc.get("cluster"):
+                        matched["cluster"] = dc["cluster"]
+                    if dc.get("hours"):
+                        matched["hours"] = dc["hours"]
+                    if dc.get("credentialId"):
+                        matched["credentialId"] = dc["credentialId"]
+                    if dc.get("date"):
+                        matched["date"] = dc["date"]
+                    if dc.get("year"):
+                        matched["year"] = str(dc["year"])
+                    if dc.get("verificationUrl"):
+                        matched["verificationUrl"] = dc["verificationUrl"]
+                else:
+                    items.append({
+                        "id": dc.get("id", f"cert-{len(items)}"),
+                        "title": title,
+                        "issuer": clean_latex(dc.get("issuer", "")),
+                        "year": str(dc.get("year", "")),
+                        "date": dc.get("date", ""),
+                        "hours": dc.get("hours"),
+                        "credentialId": dc.get("credentialId"),
+                        "verificationUrl": dc.get("verificationUrl"),
+                        "driveUrl": dc.get("driveUrl"),
+                        "cluster": dc.get("cluster", "tecnopedagogia"),
+                        "skills": dc.get("skills", [])
+                    })
+        except Exception as e:
+            print(f"[!] Error leyendo {json_path}: {e}")
+            
+    # Ordenar por año descendente
+    def get_sort_key(item):
+        y = str(item.get("year") or "0")
+        try:
+            m = re.search(r'\d{4}', y)
+            return int(m.group(0)) if m else 0
+        except:
+            return 0
+    items.sort(key=get_sort_key, reverse=True)
+    return items
+
 def parse_projects(section_text: str):
     """Extrae los proyectos relevantes de la tabla."""
     items = []
@@ -338,7 +442,7 @@ def parse_projects(section_text: str):
             })
     return items
 
-def build_knowledge_graph(profile, projects, publications, digital_resources, github_repos=None, digital_garden_posts=None):
+def build_knowledge_graph(profile, projects, publications, digital_resources, github_repos=None, digital_garden_posts=None, certifications=None):
     """Construye los nodos y aristas del Espacio Latente (Knowledge Graph interactivo)."""
     clusters = [
         {
@@ -469,6 +573,14 @@ def build_knowledge_graph(profile, projects, publications, digital_resources, gi
         else:
             add_link(post['cluster'], post_id, "publicación digital", value=1)
 
+    # Conectar certificaciones clave al Knowledge Graph
+    for cert in (certifications or []):
+        c_title = cert.get("title", "")
+        c_id = f"cert_{cert.get('id', c_title[:20].lower().replace(' ', '_'))}"
+        cluster = cert.get("cluster", "tecnopedagogia")
+        add_node(c_id, c_title[:26] + "...", cluster, "certification", size=13, info=f"Certificación: {c_title} ({cert.get('issuer', '')}, {cert.get('year', '')})")
+        add_link(cluster, c_id, "credencial validada", value=2)
+
     return {
         "clusters": clusters,
         "nodes": nodes,
@@ -531,6 +643,10 @@ def main():
     edu_text = extract_section_content(tex_content, "Educación Universitaria")
     education = parse_education(edu_text)
     
+    # 4b. Certificaciones y Credenciales
+    cert_text = extract_section_content(tex_content, "Certificaciones")
+    certifications = parse_certifications(cert_text, CERTIFICATES_PATH)
+    
     # 5. Proyectos
     proj_text = extract_section_content(tex_content, "Proyectos Relevantes")
     projects_raw = parse_projects(proj_text)
@@ -575,7 +691,7 @@ def main():
                 profile[k] = v
                 
     # 8. Generar Knowledge Graph
-    knowledge_graph = build_knowledge_graph(profile, enriched_projects, publications, digital_resources, github_repositories, digital_garden_posts)
+    knowledge_graph = build_knowledge_graph(profile, enriched_projects, publications, digital_resources, github_repositories, digital_garden_posts, certifications=certifications)
     
     # 9. Métricas Cuantitativas
     metrics = [
@@ -598,12 +714,14 @@ def main():
         "digitalGardenPosts": digital_garden_posts,
         "workExperience": work_experience,
         "teachingExperience": teaching_experience,
-        "education": education
+        "education": education,
+        "certifications": certifications
     }
     
     OUTPUT_PATH.write_text(json.dumps(final_data, indent=2, ensure_ascii=False), encoding='utf-8')
     print(f"[+] Archivo generado con éxito en: {OUTPUT_PATH}")
     print(f"    - Publicaciones extraídas: {len(publications)}")
+    print(f"    - Certificaciones registradas: {len(certifications)}")
     print(f"    - Proyectos procesados: {len(enriched_projects)}")
     print(f"    - Repositorios de GitHub incorporados: {len(github_repositories)}")
     print(f"    - Experiencias laborales: {len(work_experience)}")

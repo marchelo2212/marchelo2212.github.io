@@ -424,6 +424,62 @@
         "type": "blog_post",
         "size": 13,
         "info": "[Blog 2026] Observatorio de Publicaciones y Ensayos 2026 - Repositorio continuo de reflexiones, modelos neuro-simbólicos, avances de tesis ..."
+      },
+      {
+        "id": "cert_cert-tex-2026-0",
+        "label": "Validación curricular y co...",
+        "cluster": "tecnopedagogia",
+        "type": "certification",
+        "size": 13,
+        "info": "Certificación: Validación curricular y contextualización del Currículum GlobALE para América Latina (DVV International y Fundación Openlab Ecuador, 2026)"
+      },
+      {
+        "id": "cert_cert-tex-2022-1",
+        "label": "Educador certificado por G...",
+        "cluster": "tecnopedagogia",
+        "type": "certification",
+        "size": 13,
+        "info": "Certificación: Educador certificado por GOOGLE (Google for Education - Level 1, 2022)"
+      },
+      {
+        "id": "cert_cert-tex-2020-2",
+        "label": "Master’s Degree in Managem...",
+        "cluster": "tecnopedagogia",
+        "type": "certification",
+        "size": 13,
+        "info": "Certificación: Master’s Degree in Management and Evaluation in Higher Quality Education. (INQAAHE, 2020)"
+      },
+      {
+        "id": "cert_cert-tex-2020-3",
+        "label": "Formación de Tutores de Ni...",
+        "cluster": "tecnopedagogia",
+        "type": "certification",
+        "size": 13,
+        "info": "Certificación: Formación de Tutores de Nivelación Especializados en Modalidad en Línea. (Universidad Internacional de la Rioja, 2020)"
+      },
+      {
+        "id": "cert_cert-tex-2019-4",
+        "label": "Formador de Formadores...",
+        "cluster": "tecnopedagogia",
+        "type": "certification",
+        "size": 13,
+        "info": "Certificación: Formador de Formadores (Liderazgo, Capacitación Y Consultoría CIA. LTDA, 2019)"
+      },
+      {
+        "id": "cert_cert-tex-2017-5",
+        "label": "Moodle Course Creator Cert...",
+        "cluster": "tecnopedagogia",
+        "type": "certification",
+        "size": 13,
+        "info": "Certificación: Moodle Course Creator Certificate (Edulabs - Colombia, Moodle Australia, 2017)"
+      },
+      {
+        "id": "cert_cert-tex-2014-6",
+        "label": "Experto en educación virtu...",
+        "cluster": "tecnopedagogia",
+        "type": "certification",
+        "size": 13,
+        "info": "Certificación: Experto en educación virtual (Fundación para la Actualización Tecnológica de América Latina (FATLA), 2014)"
       }
     ],
     "links": [
@@ -666,6 +722,48 @@
         "target": "blog_observatorio_de_publ",
         "relationship": "publicación digital",
         "value": 1
+      },
+      {
+        "source": "tecnopedagogia",
+        "target": "cert_cert-tex-2026-0",
+        "relationship": "credencial validada",
+        "value": 2
+      },
+      {
+        "source": "tecnopedagogia",
+        "target": "cert_cert-tex-2022-1",
+        "relationship": "credencial validada",
+        "value": 2
+      },
+      {
+        "source": "tecnopedagogia",
+        "target": "cert_cert-tex-2020-2",
+        "relationship": "credencial validada",
+        "value": 2
+      },
+      {
+        "source": "tecnopedagogia",
+        "target": "cert_cert-tex-2020-3",
+        "relationship": "credencial validada",
+        "value": 2
+      },
+      {
+        "source": "tecnopedagogia",
+        "target": "cert_cert-tex-2019-4",
+        "relationship": "credencial validada",
+        "value": 2
+      },
+      {
+        "source": "tecnopedagogia",
+        "target": "cert_cert-tex-2017-5",
+        "relationship": "credencial validada",
+        "value": 2
+      },
+      {
+        "source": "tecnopedagogia",
+        "target": "cert_cert-tex-2014-6",
+        "relationship": "credencial validada",
+        "value": 2
       }
     ]
   },
@@ -2084,6 +2182,103 @@
       "degree": "Licenciatura en en Ciencias de la Educación",
       "institution": "Universidad Central del Ecuador",
       "status": "Concluido"
+    }
+  ],
+  "certifications": [
+    {
+      "id": "cert-tex-2026-0",
+      "title": "Validación curricular y contextualización del Currículum GlobALE para América Latina",
+      "issuer": "DVV International y Fundación Openlab Ecuador",
+      "year": "2026",
+      "date": "2026-06-30",
+      "hours": null,
+      "credentialId": null,
+      "verificationUrl": null,
+      "driveUrl": "https://drive.google.com/file/d/12DzyOfBLhJo0I0CAnCjj44SS-7GUat87/view",
+      "cluster": "tecnopedagogia",
+      "skills": [
+        "Validación curricular",
+        "Contextualización educativa",
+        "Diseño instruccional"
+      ]
+    },
+    {
+      "id": "cert-tex-2022-1",
+      "title": "Educador certificado por GOOGLE",
+      "issuer": "Google for Education - Level 1",
+      "year": "2022",
+      "date": "2022",
+      "hours": null,
+      "credentialId": null,
+      "verificationUrl": "https://bit.ly/3P8nwbF",
+      "driveUrl": null,
+      "cluster": "tecnopedagogia",
+      "skills": []
+    },
+    {
+      "id": "cert-tex-2020-2",
+      "title": "Master’s Degree in Management and Evaluation in Higher Quality Education.",
+      "issuer": "INQAAHE",
+      "year": "2020",
+      "date": "2020",
+      "hours": null,
+      "credentialId": null,
+      "verificationUrl": "https://bit.ly/34H9JDW",
+      "driveUrl": null,
+      "cluster": "tecnopedagogia",
+      "skills": []
+    },
+    {
+      "id": "cert-tex-2020-3",
+      "title": "Formación de Tutores de Nivelación Especializados en Modalidad en Línea.",
+      "issuer": "Universidad Internacional de la Rioja",
+      "year": "2020",
+      "date": "2020",
+      "hours": null,
+      "credentialId": "e4e2cfaa-3617-43a9-bb21-5c69d2f34553",
+      "verificationUrl": "https://verifirma.unir.net/csv",
+      "driveUrl": null,
+      "cluster": "tecnopedagogia",
+      "skills": []
+    },
+    {
+      "id": "cert-tex-2019-4",
+      "title": "Formador de Formadores",
+      "issuer": "Liderazgo, Capacitación Y Consultoría CIA. LTDA",
+      "year": "2019",
+      "date": "2019",
+      "hours": null,
+      "credentialId": "SETEC-260-CCL-172865",
+      "verificationUrl": "https://www.senescyt.gob.ec/",
+      "driveUrl": null,
+      "cluster": "tecnopedagogia",
+      "skills": []
+    },
+    {
+      "id": "cert-tex-2017-5",
+      "title": "Moodle Course Creator Certificate",
+      "issuer": "Edulabs - Colombia, Moodle Australia",
+      "year": "2017",
+      "date": "2017",
+      "hours": null,
+      "credentialId": "Moodle: G7AN-SDZW-KA1B-NHFN",
+      "verificationUrl": "https://certificates.moodle.com/",
+      "driveUrl": null,
+      "cluster": "tecnopedagogia",
+      "skills": []
+    },
+    {
+      "id": "cert-tex-2014-6",
+      "title": "Experto en educación virtual",
+      "issuer": "Fundación para la Actualización Tecnológica de América Latina (FATLA)",
+      "year": "2014",
+      "date": "2014",
+      "hours": null,
+      "credentialId": null,
+      "verificationUrl": "https://www.fatla.org/",
+      "driveUrl": null,
+      "cluster": "tecnopedagogia",
+      "skills": []
     }
   ]
 }
