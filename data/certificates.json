@@ -1,5 +1,30 @@
 [
   {
+    "id": "cert-22-04-formdoctecno",
+    "docType": "Cert",
+    "fileName": "22-04-Cert-FormDocTecno.pdf",
+    "shortName": "FormDocTecno",
+    "title": "FORMACIÓN DOCENTE TECNO-PEDAGÓGICA PARA EDUCACIÓN EN LÍNEA",
+    "role": "Participante",
+    "issuer": "Universidad Nacional de Educación",
+    "year": 2022,
+    "yearShort": "22",
+    "month": "04",
+    "date": "2022-04-18",
+    "hours": 120,
+    "modality": "Virtual",
+    "credentialId": "040-COPE-UNAE-202269476",
+    "verificationUrl": "https://sga.unae.edu.ec/consultacertificadoformacioncontinua",
+    "cluster": "tecnopedagogia",
+    "skills": [
+      "Tecnología Educativa",
+      "Pedagogía Online",
+      "Diseño Instruccional"
+    ],
+    "driveUrl": "https://drive.google.com/file/d/1yQ0_uDVl5j1sdyDd-vJ62e5_zNQJFTig/view",
+    "addedAt": "2026-10-10T22:28:15.457Z"
+  },
+  {
     "id": "cert-22-06-rgpduocdocentes",
     "docType": "Cert",
     "fileName": "22-06-Cert-RgpdUocDocentes.pdf",
