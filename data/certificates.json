@@ -1,5 +1,30 @@
 [
   {
+    "id": "cert-25-06-diplomadodeeplearning",
+    "docType": "Cert",
+    "fileName": "25-06-Cert-DiplomadoDeepLearning.pdf",
+    "shortName": "DiplomadoDeepLearning",
+    "title": "Diplomado Inteligencia Artificial con Deep Learning",
+    "role": "Participante",
+    "issuer": "Universidad de La Sabana",
+    "year": 2025,
+    "yearShort": "25",
+    "month": "06",
+    "date": "2025-06-17",
+    "hours": 96,
+    "modality": "Virtual",
+    "credentialId": null,
+    "verificationUrl": null,
+    "cluster": "ia_data_science",
+    "skills": [
+      "Inteligencia Artificial",
+      "Deep Learning",
+      "Redes Neuronales"
+    ],
+    "driveUrl": "https://drive.google.com/file/d/1Pvyn1cXd_zHadnL0mgi2GequrHK4GXGZ/view",
+    "addedAt": "2026-10-10T22:30:25.277Z"
+  },
+  {
     "id": "cert-26-06-seguridadinfo",
     "docType": "CurEst",
     "fileName": "26-06-CurEst-SeguridadInfo.pdf",
