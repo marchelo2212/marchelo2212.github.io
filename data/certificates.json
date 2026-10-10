@@ -1,5 +1,30 @@
 [
   {
+    "id": "cert-22-07-googleeducator1",
+    "docType": "Cert",
+    "fileName": "22-07-Cert-GoogleEducator1.jpg",
+    "shortName": "GoogleEducator1",
+    "title": "Educador certificado por Google Nivel 1",
+    "role": "Participante",
+    "issuer": "Google for Education",
+    "year": 2022,
+    "yearShort": "22",
+    "month": "07",
+    "date": "2022-07-14",
+    "hours": null,
+    "modality": "Virtual",
+    "credentialId": null,
+    "verificationUrl": null,
+    "cluster": "tecnopedagogia",
+    "skills": [
+      "Google Workspace for Education",
+      "Herramientas Digitales de Aprendizaje",
+      "Pedagogía Digital"
+    ],
+    "driveUrl": "https://drive.google.com/file/d/1oMTnyNw8_36zx4at3MgpvB2IYMk8SFUK/view",
+    "addedAt": "2026-10-10T23:43:07.784Z"
+  },
+  {
     "id": "cert-20-10-qaheducationmaster",
     "docType": "Cert",
     "fileName": "20-10-Cert-QAHEducationMaster.jpg",
