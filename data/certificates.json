@@ -1,5 +1,30 @@
 [
   {
+    "id": "cert-21-11-gestionproyectos",
+    "docType": "CurEst",
+    "fileName": "21-11-CurEst-GestionProyectos.pdf",
+    "shortName": "GestionProyectos",
+    "title": "Gestión de Proyectos Públicos",
+    "role": "Participante",
+    "issuer": "EDES Business School UTPL",
+    "year": 2021,
+    "yearShort": "21",
+    "month": "11",
+    "date": "2021-11-06",
+    "hours": 8,
+    "modality": "Presencial",
+    "credentialId": "Tb35VF06eH",
+    "verificationUrl": null,
+    "cluster": "politicas_direccion",
+    "skills": [
+      "Gestión de Proyectos",
+      "Políticas Públicas",
+      "Planificación Estratégica"
+    ],
+    "driveUrl": "https://drive.google.com/file/d/1v_MVBxsio56ofTFxtcteIuPaiBgfnGR_/view",
+    "addedAt": "2026-10-10T22:27:57.979Z"
+  },
+  {
     "id": "cert-21-11-sectorpublicoequipos",
     "docType": "CurEst",
     "fileName": "21-11-CurEst-SectorPublicoEquipos.pdf",
