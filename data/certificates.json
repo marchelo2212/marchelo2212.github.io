@@ -1,5 +1,30 @@
 [
   {
+    "id": "cert-15-08-tecnoeducacion",
+    "docType": "CurEst",
+    "fileName": "15-08-CurEst-TecnoEducacion.jpg",
+    "shortName": "TecnoEducacion",
+    "title": "TE201x: Tecnologías para la educación",
+    "role": "Participante",
+    "issuer": "Universitat Politècnica de València",
+    "year": 2015,
+    "yearShort": "15",
+    "month": "08",
+    "date": "2015-08-06",
+    "hours": null,
+    "modality": "Virtual",
+    "credentialId": "5c8393ef11184771b8f48f80ba1116f0",
+    "verificationUrl": "https://verify.edx.org/cert/5c8393ef11184771b8f48f80ba1116f0",
+    "cluster": "tecnopedagogia",
+    "skills": [
+      "Tecnologías Educativas",
+      "Pedagogía Digital",
+      "Entornos Virtuales"
+    ],
+    "driveUrl": "https://drive.google.com/file/d/1vJ3CyBBWwG9s-A9X8GelvcA-chvWHpOi/view",
+    "addedAt": "2026-10-10T23:34:57.944Z"
+  },
+  {
     "id": "cert-15-10-edsoportevirtual",
     "docType": "CurEst",
     "fileName": "15-10-CurEst-EdSoporteVirtual.jpg",
