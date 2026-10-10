@@ -1,5 +1,30 @@
 [
   {
+    "id": "cert-18-11-ponenciaculturaprev",
+    "docType": "Inves",
+    "fileName": "18-11-Inves-PonenciaCulturaPrev.jpg",
+    "shortName": "PonenciaCulturaPrev",
+    "title": "II Encuentro Nacional Hacia una Cultura de Prevención de Discapacidades",
+    "role": "Ponente",
+    "issuer": "PreNatal, C.D.H. Ideas, Espiral Educativa, Sas Libre",
+    "year": 2018,
+    "yearShort": "18",
+    "month": "11",
+    "date": "2018-11-18",
+    "hours": 16,
+    "modality": "Presencial",
+    "credentialId": null,
+    "verificationUrl": null,
+    "cluster": "politicas_direccion",
+    "skills": [
+      "Divulgación Científica",
+      "Prevención de Discapacidades",
+      "Comunicación Académica"
+    ],
+    "driveUrl": "https://drive.google.com/file/d/1xSsmJVI-ARP92F1u88MrKRAUoplwHAoj/view",
+    "addedAt": "2026-10-10T23:40:35.558Z"
+  },
+  {
     "id": "cert-18-07-monitoresprevencion",
     "docType": "CursImp",
     "fileName": "18-07-CursImp-MonitoresPrevencion.jpg",
