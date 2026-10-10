@@ -1,5 +1,30 @@
 [
   {
+    "id": "cert-21-08-ideas10",
+    "docType": "Meri",
+    "fileName": "21-08-Meri-Ideas10.pdf",
+    "shortName": "Ideas10",
+    "title": "Festival de Ideas Educativas Ideas de 10",
+    "role": "Galardonado",
+    "issuer": "Fundación Telefónica Movistar Ecuador y ChildFund Ecuador",
+    "year": 2021,
+    "yearShort": "21",
+    "month": "08",
+    "date": "2021-08-17",
+    "hours": null,
+    "modality": "Virtual",
+    "credentialId": null,
+    "verificationUrl": null,
+    "cluster": "tecnopedagogia",
+    "skills": [
+      "Innovación Educativa",
+      "Pedagogía Digital",
+      "Tecnopedagogía"
+    ],
+    "driveUrl": "https://drive.google.com/file/d/1fN8oKEROezLyNTd5Xf6DOnDKS3rb4nbF/view",
+    "addedAt": "2026-10-10T22:18:41.511Z"
+  },
+  {
     "id": "cert-21-07-riesgobiologico",
     "docType": "CurEst",
     "fileName": "21-07-CurEst-RiesgoBiologico.pdf",
