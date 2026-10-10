@@ -1,5 +1,30 @@
 [
   {
+    "id": "cert-22-01-ponenteescuelas",
+    "docType": "Inves",
+    "fileName": "22-01-Inves-PonenteEscuelas.jpg",
+    "shortName": "PonenteEscuelas",
+    "title": "Certificado de participación como ponente en los Webinars: Campamentos \"ESCUELAS QUE ME INSPIRAN\" capacitación y formación en innovación tecnopedagógica para la comunidad educativa 2021",
+    "role": "Ponente",
+    "issuer": "Ministerio de Educación",
+    "year": 2022,
+    "yearShort": "22",
+    "month": "01",
+    "date": "2022-01-13",
+    "hours": null,
+    "modality": "Virtual",
+    "credentialId": null,
+    "verificationUrl": null,
+    "cluster": "tecnopedagogia",
+    "skills": [
+      "Innovación Tecnopedagógica",
+      "Capacitación Docente",
+      "Comunicación Científica"
+    ],
+    "driveUrl": "https://drive.google.com/file/d/1hrlULaAbyEygg7A_R-pDMfp5_PBRdsv_/view",
+    "addedAt": "2026-10-10T23:45:04.730Z"
+  },
+  {
     "id": "cert-17-04-jornadasinfofis",
     "docType": "Inves",
     "fileName": "17-04-Inves-JornadasInfoFis.jpg",
