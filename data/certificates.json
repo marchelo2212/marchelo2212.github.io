@@ -1,5 +1,30 @@
 [
   {
+    "id": "cert-18-05-ponenciaapienvs",
+    "docType": "Inves",
+    "fileName": "18-05-Inves-PonenciaApiEnvs.jpg",
+    "shortName": "PonenciaApiEnvs",
+    "title": "API DE ANALÍTICAS DE APRENDIZAJE EN ENTORNOS VIRTUALES",
+    "role": "Ponente",
+    "issuer": "Escuela Superior Politécnica de Chimborazo (ESPOCH) - Facultad de Informática y Electrónica",
+    "year": 2018,
+    "yearShort": "18",
+    "month": "05",
+    "date": "2018-05-03",
+    "hours": null,
+    "modality": "Presencial",
+    "credentialId": null,
+    "verificationUrl": null,
+    "cluster": "tecnopedagogia",
+    "skills": [
+      "Analíticas de Aprendizaje",
+      "Entornos Virtuales",
+      "Software Libre"
+    ],
+    "driveUrl": "https://drive.google.com/file/d/1tfKzk31G1Xx1jniL3ETNND11VmOPokKv/view",
+    "addedAt": "2026-10-10T23:44:45.939Z"
+  },
+  {
     "id": "cert-16-11-ponenciacovaite",
     "docType": "Inves",
     "fileName": "16-11-Inves-PonenciaCovaite.jpg",
