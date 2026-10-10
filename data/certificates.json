@@ -1,5 +1,30 @@
 [
   {
+    "id": "cert-21-06-seguridadlaboral",
+    "docType": "CurEst",
+    "fileName": "21-06-CurEst-SeguridadLaboral.pdf",
+    "shortName": "SeguridadLaboral",
+    "title": "FUNDAMENTOS DE SEGURIDAD Y SALUD OCUPACIONAL",
+    "role": "Participante",
+    "issuer": "SERILAN",
+    "year": 2021,
+    "yearShort": "21",
+    "month": "06",
+    "date": "2021-06-22",
+    "hours": 2,
+    "modality": "Virtual",
+    "credentialId": null,
+    "verificationUrl": null,
+    "cluster": "politicas_direccion",
+    "skills": [
+      "Seguridad y Salud Ocupacional",
+      "Prevención de Riesgos",
+      "Normativa Laboral"
+    ],
+    "driveUrl": "https://drive.google.com/file/d/1nuayD8dRuxKe-XldIz8qr85QMyrfQMNi/view",
+    "addedAt": "2026-10-10T22:19:07.297Z"
+  },
+  {
     "id": "cert-21-06-datosabiertosecuador",
     "docType": "CurEst",
     "fileName": "21-06-CurEst-DatosAbiertosEcuador.pdf",
