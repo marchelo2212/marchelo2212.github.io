@@ -1,5 +1,31 @@
 [
   {
+    "id": "cert-20-12-docenciavirtual",
+    "docType": "CursImp",
+    "fileName": "20-12-CursImp-DocenciaVirtual.pdf",
+    "shortName": "DocenciaVirtual",
+    "title": "DOCENCIA PARA ENTORNOS VIRTUALES: APORTES PARA SU DESARROLLO SINCRÓNICO Y ASINCRÓNICO",
+    "role": "Docente / Facilitador",
+    "issuer": "Universidad Nacional de Educación (UNAE)",
+    "year": 2020,
+    "yearShort": "20",
+    "month": "12",
+    "date": "2020-12-30",
+    "hours": 40,
+    "modality": "Virtual",
+    "credentialId": null,
+    "verificationUrl": null,
+    "cluster": "tecnopedagogia",
+    "skills": [
+      "Docencia Virtual",
+      "Entornos Sincrónicos",
+      "Entornos Asincrónicos",
+      "Diseño Instruccional"
+    ],
+    "driveUrl": "https://drive.google.com/file/d/1iNV7g1Yd_-GFi23Q3X719SdSsyLltB3E/view",
+    "addedAt": "2026-10-10T22:09:28.072Z"
+  },
+  {
     "id": "cert-24-11-transmediauflo",
     "docType": "CurEst",
     "fileName": "24-11-CurEst-TransmediaUflo.pdf",
