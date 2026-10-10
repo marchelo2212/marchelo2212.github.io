@@ -1,5 +1,30 @@
 [
   {
+    "id": "cert-21-11-gestionpolitica",
+    "docType": "CurEst",
+    "fileName": "21-11-CurEst-GestionPolitica.pdf",
+    "shortName": "GestionPolitica",
+    "title": "EL ROL DE LA COMUNICACIÓN EN LA GESTIÓN POLÍTICA",
+    "role": "Participante",
+    "issuer": "EDES Business School - UTPL / Corporación Líderes para Gobernar / Hacemos País",
+    "year": 2021,
+    "yearShort": "21",
+    "month": "11",
+    "date": "2021-11-06",
+    "hours": 8,
+    "modality": "Presencial",
+    "credentialId": "5TgNHY5PfM",
+    "verificationUrl": null,
+    "cluster": "politicas_direccion",
+    "skills": [
+      "Comunicación Política",
+      "Gestión Pública",
+      "Estrategia de Comunicación"
+    ],
+    "driveUrl": "https://drive.google.com/file/d/1zQV7-UpgpsTDFgYWHw2VV7wuL8CH1DUm/view",
+    "addedAt": "2026-10-10T22:28:24.035Z"
+  },
+  {
     "id": "cert-22-03-formdoctecnoped",
     "docType": "Cert",
     "fileName": "22-03-Cert-FormDocTecnoPed.pdf",
