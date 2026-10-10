@@ -1,5 +1,30 @@
 [
   {
+    "id": "cert-15-05-adminmoodle",
+    "docType": "Cert",
+    "fileName": "15-05-Cert-AdminMoodle.jpg",
+    "shortName": "AdminMoodle",
+    "title": "Administración de plataformas Moodle",
+    "role": "Participante",
+    "issuer": "Asociación Mundial de Tutores Virtuales (ASOMTV)",
+    "year": 2015,
+    "yearShort": "15",
+    "month": "05",
+    "date": "2015-05-15",
+    "hours": 124,
+    "modality": "Virtual",
+    "credentialId": "1719920041",
+    "verificationUrl": null,
+    "cluster": "tecnopedagogia",
+    "skills": [
+      "Administración Moodle",
+      "Configuración de Servidor",
+      "Gestión de Usuarios y Matrículas"
+    ],
+    "driveUrl": "https://drive.google.com/file/d/1yO1Mewu_wyuXMFLU3yG6VHgjFfZAh6hQ/view",
+    "addedAt": "2026-10-10T23:29:01.097Z"
+  },
+  {
     "id": "cert-15-05-fasepresenciafatla",
     "docType": "CurEst",
     "fileName": "15-05-CurEst-FasePresenciaFATLA.jpg",
