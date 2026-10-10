@@ -1,5 +1,30 @@
 [
   {
+    "id": "cert-16-11-ponenciacovaite",
+    "docType": "Inves",
+    "fileName": "16-11-Inves-PonenciaCovaite.jpg",
+    "shortName": "PonenciaCovaite",
+    "title": "Generando una comunidad de la Indagación en la prevención prenatal de discapacidades",
+    "role": "Ponente",
+    "issuer": "Comité Organizador del COVAITE 2016 (Argentina y Colombia)",
+    "year": 2016,
+    "yearShort": "16",
+    "month": "11",
+    "date": "2016-11-29",
+    "hours": 20,
+    "modality": "Virtual",
+    "credentialId": "Nº 2058/16",
+    "verificationUrl": null,
+    "cluster": "tecnopedagogia",
+    "skills": [
+      "Comunidad de Indagación",
+      "Prevención Prenatal",
+      "Tecnología Educativa"
+    ],
+    "driveUrl": "https://drive.google.com/file/d/15a4oq7zohCoRocSE6JLeNIV7S27XThw8/view",
+    "addedAt": "2026-10-10T23:44:37.302Z"
+  },
+  {
     "id": "cert-20-09-congresoeduzona6",
     "docType": "Inves",
     "fileName": "20-09-Inves-CongresoEduZona6.jpg",
