@@ -1,5 +1,30 @@
 [
   {
+    "id": "cert-18-09-storytellingvirtual",
+    "docType": "CurEst",
+    "fileName": "18-09-CurEst-StorytellingVirtual.jpg",
+    "shortName": "StorytellingVirtual",
+    "title": "TALLER DE STORYTELLING: NARRATIVAS DIGITALES PARA EL APRENDIZAJE VIRTUAL (B-LEARNING)",
+    "role": "Participante",
+    "issuer": "Escuela Politécnica Nacional - Centro de Educación Continua",
+    "year": 2018,
+    "yearShort": "18",
+    "month": "09",
+    "date": "2018-09-27",
+    "hours": 32,
+    "modality": "Virtual",
+    "credentialId": "36583",
+    "verificationUrl": null,
+    "cluster": "tecnopedagogia",
+    "skills": [
+      "Storytelling Educativo",
+      "Narrativas Digitales",
+      "Aprendizaje Virtual (B-Learning)"
+    ],
+    "driveUrl": "https://drive.google.com/file/d/1I2-ZWcLWD3DbLuSnHD4jENhzJpb6lza_/view",
+    "addedAt": "2026-10-10T23:40:46.209Z"
+  },
+  {
     "id": "cert-18-11-ponenciaculturaprev",
     "docType": "Inves",
     "fileName": "18-11-Inves-PonenciaCulturaPrev.jpg",
