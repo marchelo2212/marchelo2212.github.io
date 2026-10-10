@@ -1,5 +1,31 @@
 [
   {
+    "id": "cert-15-06-realidadaumentada",
+    "docType": "Cert",
+    "fileName": "15-06-Cert-RealidadAumentada.jpg",
+    "shortName": "RealidadAumentada",
+    "title": "Realidad aumentada y conectivismo",
+    "role": "Participante",
+    "issuer": "Planeta FATLA",
+    "year": 2015,
+    "yearShort": "15",
+    "month": "06",
+    "date": "2015-06-30",
+    "hours": 150,
+    "modality": "Virtual",
+    "credentialId": "1719920041",
+    "verificationUrl": "http://www.fatla.org",
+    "cluster": "tecnopedagogia",
+    "skills": [
+      "Realidad aumentada",
+      "Conectivismo",
+      "Equipos tecnopedagógicos",
+      "Educación con recursos RA"
+    ],
+    "driveUrl": "https://drive.google.com/file/d/1gOrhAAeSTP6h5GWHIjs_IHQSxTV7yoKl/view",
+    "addedAt": "2026-10-10T23:28:26.408Z"
+  },
+  {
     "id": "cert-15-06-fatlarealidadaumentada",
     "docType": "CurEst",
     "fileName": "15-06-CurEst-FatlaRealidadAumentada.jpg",
