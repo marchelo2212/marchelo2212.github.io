@@ -1,5 +1,30 @@
 [
   {
+    "id": "cert-17-02-recursosdigitales",
+    "docType": "CurEst",
+    "fileName": "17-02-CurEst-RecursosDigitales.jpg",
+    "shortName": "RecursosDigitales",
+    "title": "TALLER DE RECURSOS DIDÁCTICOS DIGITALES PARA EL AULA (B-LEARNING)",
+    "role": "Participante",
+    "issuer": "Escuela Politécnica Nacional - Centro de Educación Continua",
+    "year": 2017,
+    "yearShort": "17",
+    "month": "02",
+    "date": "2017-02-22",
+    "hours": 32,
+    "modality": "Presencial",
+    "credentialId": "31689",
+    "verificationUrl": null,
+    "cluster": "tecnopedagogia",
+    "skills": [
+      "Recursos Didácticos Digitales",
+      "B-Learning",
+      "Tecnopedagogía"
+    ],
+    "driveUrl": "https://drive.google.com/file/d/1M0Llys7zO4eA1FlMq7cIvdU9AQf2BY9H/view",
+    "addedAt": "2026-10-10T23:33:59.802Z"
+  },
+  {
     "id": "cert-16-11-analiticasapre",
     "docType": "CurEst",
     "fileName": "16-11-CurEst-AnaliticasApre.jpg",
