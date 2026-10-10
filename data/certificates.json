@@ -1,5 +1,30 @@
 [
   {
+    "id": "cert-21-08-festivalideas10",
+    "docType": "Meri",
+    "fileName": "21-08-Meri-FestivalIdeas10.jpg",
+    "shortName": "FestivalIdeas10",
+    "title": "Festival de Ideas Educativas 'Ideas de 10'",
+    "role": "Participante",
+    "issuer": "Programa ProFuturo",
+    "year": 2021,
+    "yearShort": "21",
+    "month": "08",
+    "date": "2021-08-17",
+    "hours": null,
+    "modality": "Virtual",
+    "credentialId": null,
+    "verificationUrl": null,
+    "cluster": "tecnopedagogia",
+    "skills": [
+      "Innovación Educativa",
+      "Pedagogía Contemporánea",
+      "Ideación"
+    ],
+    "driveUrl": "https://drive.google.com/file/d/1AwrI5XsWnjVU97ll6iL7qkJwMRvFoxRy/view",
+    "addedAt": "2026-10-10T23:37:09.740Z"
+  },
+  {
     "id": "cert-22-02-operadorsncp",
     "docType": "Cert",
     "fileName": "22-02-Cert-OperadorSNCP.jpg",
