@@ -1,5 +1,30 @@
 [
   {
+    "id": "cert-15-10-expertoeduvirtual",
+    "docType": "Cert",
+    "fileName": "15-10-Cert-ExpertoEduVirtual.jpg",
+    "shortName": "ExpertoEduVirtual",
+    "title": "EXPERTO EN EDUCACIÓN VIRTUAL",
+    "role": "Participante",
+    "issuer": "Planeta FATLA",
+    "year": 2015,
+    "yearShort": "15",
+    "month": "10",
+    "date": "2015-10-31",
+    "hours": 1015,
+    "modality": "Virtual",
+    "credentialId": "EPE-EC-XLI-1510-011",
+    "verificationUrl": null,
+    "cluster": "tecnopedagogia",
+    "skills": [
+      "Educación Virtual",
+      "Diseño Instruccional",
+      "Entornos Virtuales de Aprendizaje"
+    ],
+    "driveUrl": "https://drive.google.com/file/d/1Fv7wKYIwc1tn-dgljlnDAEXDmHxUKUdp/view",
+    "addedAt": "2026-10-10T23:30:46.777Z"
+  },
+  {
     "id": "cert-15-10-expertoeducacion",
     "docType": "Cert",
     "fileName": "15-10-Cert-ExpertoEducacion.jpg",
