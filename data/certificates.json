@@ -1,5 +1,30 @@
 [
   {
+    "id": "cert-21-11-liderazgopolitico",
+    "docType": "CurEst",
+    "fileName": "21-11-CurEst-LiderazgoPolitico.pdf",
+    "shortName": "LiderazgoPolitico",
+    "title": "Liderazgo Político Público",
+    "role": "Participante",
+    "issuer": "EDES Business School UTPL y Corporación Líderes para Gobernar",
+    "year": 2021,
+    "yearShort": "21",
+    "month": "11",
+    "date": "2021-11-06",
+    "hours": 8,
+    "modality": "Presencial",
+    "credentialId": "v6rkQU1NSE",
+    "verificationUrl": null,
+    "cluster": "politicas_direccion",
+    "skills": [
+      "Liderazgo Político",
+      "Gestión Pública",
+      "Gobernanza"
+    ],
+    "driveUrl": "https://drive.google.com/file/d/18B7V7dHwWEF8ZagfKxFhVki3bjoARL1I/view",
+    "addedAt": "2026-10-10T22:26:57.568Z"
+  },
+  {
     "id": "cert-21-06-bienestarsocioem",
     "docType": "CurEst",
     "fileName": "21-06-CurEst-BienestarSocioem.pdf",
