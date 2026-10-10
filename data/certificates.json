@@ -1,5 +1,30 @@
 [
   {
+    "id": "cert-20-09-congresoeduzona6",
+    "docType": "Inves",
+    "fileName": "20-09-Inves-CongresoEduZona6.jpg",
+    "shortName": "CongresoEduZona6",
+    "title": "I CONGRESO INTERNACIONAL DE EDUCACIÓN DE ZONA 6 “YO EDUCO”",
+    "role": "Ponente",
+    "issuer": "Coordinación de Educación Zonal 6 - Universidad de Cuenca",
+    "year": 2020,
+    "yearShort": "20",
+    "month": "09",
+    "date": "2020-09-08",
+    "hours": null,
+    "modality": "Virtual",
+    "credentialId": null,
+    "verificationUrl": null,
+    "cluster": "tecnopedagogia",
+    "skills": [
+      "Educación",
+      "Comunidades de Aprendizaje",
+      "Acción Docente"
+    ],
+    "driveUrl": "https://drive.google.com/file/d/1mLu3NDe1qS1nDDlSXDO0DA229WV5hTU9/view",
+    "addedAt": "2026-10-10T23:44:28.187Z"
+  },
+  {
     "id": "cert-16-11-seminarioiipe",
     "docType": "CurEst",
     "fileName": "16-11-CurEst-SeminarioIIPE.jpg",
