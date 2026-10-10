@@ -1,5 +1,30 @@
 [
   {
+    "id": "cert-23-03-infosecawareness",
+    "docType": "CurEst",
+    "fileName": "23-03-CurEst-InfoSecAwareness.jpg",
+    "shortName": "InfoSecAwareness",
+    "title": "Information Security Awareness",
+    "role": "Participante",
+    "issuer": "Fortinet Training Institute",
+    "year": 2023,
+    "yearShort": "23",
+    "month": "03",
+    "date": "2023-03-21",
+    "hours": 10,
+    "modality": "Virtual",
+    "credentialId": null,
+    "verificationUrl": null,
+    "cluster": "politicas_direccion",
+    "skills": [
+      "Information Security",
+      "Cybersecurity",
+      "Security Awareness"
+    ],
+    "driveUrl": "https://drive.google.com/file/d/1Gr_4JXHCvuZhbyVSGt9jMjiBsnaGAIB9/view",
+    "addedAt": "2026-10-10T23:43:52.372Z"
+  },
+  {
     "id": "cert-23-08-ponenciamoodle23",
     "docType": "Inves",
     "fileName": "23-08-Inves-PonenciaMoodle23.jpg",
