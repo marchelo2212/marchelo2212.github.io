@@ -434,6 +434,14 @@
         "info": "Certificación: Validación curricular y contextualización del Currículum GlobALE para América Latina (DVV International y Fundación Openlab Ecuador, 2026)"
       },
       {
+        "id": "cert_cert-26-06-moodlemootcol26",
+        "label": "Certificado de Participaci...",
+        "cluster": "tecnopedagogia",
+        "type": "certification",
+        "size": 13,
+        "info": "Certificación: Certificado de Participación - Moodle Moot Colombia 2026 (Moodle Moot Colombia, 2026)"
+      },
+      {
         "id": "cert_cert-tex-2022-1",
         "label": "Educador certificado por G...",
         "cluster": "tecnopedagogia",
@@ -726,6 +734,12 @@
       {
         "source": "tecnopedagogia",
         "target": "cert_cert-tex-2026-0",
+        "relationship": "credencial validada",
+        "value": 2
+      },
+      {
+        "source": "tecnopedagogia",
+        "target": "cert_cert-26-06-moodlemootcol26",
         "relationship": "credencial validada",
         "value": 2
       },
@@ -2205,6 +2219,33 @@
         "Validación curricular",
         "Contextualización educativa",
         "Diseño instruccional"
+      ],
+      "month": "06",
+      "yearShort": "26"
+    },
+    {
+      "id": "cert-26-06-moodlemootcol26",
+      "docType": "CurEst",
+      "fileName": "26-06-CurEst-MoodleMootCol26.pdf",
+      "shortName": "MoodleMootCol26",
+      "role": "Participante",
+      "title": "Certificado de Participación - Moodle Moot Colombia 2026",
+      "issuer": "Moodle Moot Colombia",
+      "year": "2026",
+      "yearShort": "26",
+      "month": "06",
+      "date": "2026",
+      "hours": 16,
+      "modality": "Presencial",
+      "credentialId": "DF91377FA002",
+      "verificationUrl": null,
+      "driveUrl": "https://drive.google.com/file/d/1Jcf4TV2uDNY0Z7h0T8bMPfdxFvp3RxhW/view",
+      "cluster": "tecnopedagogia",
+      "skills": [
+        "Educación Digital",
+        "Tecnologías Moodle",
+        "Aprendizaje Colaborativo",
+        "Innovación Educativa"
       ]
     },
     {

@@ -397,8 +397,10 @@ def parse_certifications(section_text: str, json_path: Path):
                         matched["credentialId"] = dc["credentialId"]
                     if dc.get("date"):
                         matched["date"] = dc["date"]
-                    if dc.get("year"):
-                        matched["year"] = str(dc["year"])
+                    if dc.get("month"):
+                        matched["month"] = str(dc["month"])
+                    if dc.get("yearShort"):
+                        matched["yearShort"] = str(dc["yearShort"])
                     if dc.get("verificationUrl"):
                         matched["verificationUrl"] = dc["verificationUrl"]
                 else:
