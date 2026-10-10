@@ -1,5 +1,30 @@
 [
   {
+    "id": "cert-15-10-edsoportevirtual",
+    "docType": "CurEst",
+    "fileName": "15-10-CurEst-EdSoporteVirtual.jpg",
+    "shortName": "EdSoporteVirtual",
+    "title": "Educación con Soporte Virtual",
+    "role": "Participante",
+    "issuer": "Planeta FATLA",
+    "year": 2015,
+    "yearShort": "15",
+    "month": "10",
+    "date": "2015-10-07",
+    "hours": 124,
+    "modality": "Virtual",
+    "credentialId": "ESV042015",
+    "verificationUrl": null,
+    "cluster": "tecnopedagogia",
+    "skills": [
+      "Educación Virtual",
+      "Soporte Tecnopedagógico",
+      "Entornos Virtuales de Aprendizaje"
+    ],
+    "driveUrl": "https://drive.google.com/file/d/1fYORqNQFRdkG9SYopYUWPHZieNUGrG4s/view",
+    "addedAt": "2026-10-10T23:34:49.816Z"
+  },
+  {
     "id": "cert-15-08-interaccionmovil",
     "docType": "CurEst",
     "fileName": "15-08-CurEst-InteraccionMovil.jpg",
