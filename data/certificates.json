@@ -1,5 +1,30 @@
 [
   {
+    "id": "cert-18-06-accesibilidadfisica",
+    "docType": "CurEst",
+    "fileName": "18-06-CurEst-AccesibilidadFisica.jpg",
+    "shortName": "AccesibilidadFisica",
+    "title": "Curso de Capacitación en Accesibilidad al Medio Físico y Normativa Técnica Ecuatoriana",
+    "role": "Participante",
+    "issuer": "INEN - CONADIS - Universidad Tecnológica Indoamérica",
+    "year": 2018,
+    "yearShort": "18",
+    "month": "06",
+    "date": "2018-06-01",
+    "hours": 40,
+    "modality": "Presencial",
+    "credentialId": "zUsnFiWX6I",
+    "verificationUrl": null,
+    "cluster": "politicas_direccion",
+    "skills": [
+      "Normativa Técnica",
+      "Accesibilidad Física",
+      "Diseño Universal"
+    ],
+    "driveUrl": "https://drive.google.com/file/d/1D2SVpfzCm1Gv_StM6fcs99CHKhgJeBBx/view",
+    "addedAt": "2026-10-10T23:41:24.381Z"
+  },
+  {
     "id": "cert-18-06-estrategiasdig",
     "docType": "CurEst",
     "fileName": "18-06-CurEst-EstrategiasDig.jpg",
