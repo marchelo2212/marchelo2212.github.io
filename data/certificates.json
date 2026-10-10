@@ -1,5 +1,30 @@
 [
   {
+    "id": "cert-21-04-childsafeguarding",
+    "docType": "CurEst",
+    "fileName": "21-04-CurEst-ChildSafeguarding.pdf",
+    "shortName": "ChildSafeguarding",
+    "title": "Child Safeguarding Presentation",
+    "role": "Participante",
+    "issuer": "ChildFund International",
+    "year": 2021,
+    "yearShort": "21",
+    "month": "04",
+    "date": "2021-04-20",
+    "hours": null,
+    "modality": "Virtual",
+    "credentialId": null,
+    "verificationUrl": null,
+    "cluster": "politicas_direccion",
+    "skills": [
+      "Protección Infantil",
+      "Salvaguarda",
+      "Ética Profesional"
+    ],
+    "driveUrl": "https://drive.google.com/file/d/1DzzdkpjkKC_ll7pGFnp5Ef9u82OQ3DXf/view",
+    "addedAt": "2026-10-10T22:08:44.043Z"
+  },
+  {
     "id": "cert-20-01-formadorformadores",
     "docType": "CurEst",
     "fileName": "20-01-CurEst-FormadorFormadores.pdf",
