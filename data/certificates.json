@@ -1,5 +1,30 @@
 [
   {
+    "id": "cert-20-11-curacioncontenidos",
+    "docType": "Inves",
+    "fileName": "20-11-Inves-CuracionContenidos.jpg",
+    "shortName": "CuracionContenidos",
+    "title": "Certificado como expositor en la Jornada de Actualización Científica y Profesional Vida Nueva 2020",
+    "role": "Ponente",
+    "issuer": "Instituto Superior Tecnológico Vida Nueva",
+    "year": 2020,
+    "yearShort": "20",
+    "month": "11",
+    "date": "2020-11-13",
+    "hours": null,
+    "modality": "Virtual",
+    "credentialId": null,
+    "verificationUrl": null,
+    "cluster": "tecnopedagogia",
+    "skills": [
+      "Curación de contenidos",
+      "Ambientes virtuales de aprendizaje",
+      "Tecnopedagogía"
+    ],
+    "driveUrl": "https://drive.google.com/file/d/1G_LlZKRPKbMpnnc-2Z7Wy2h-m8ys7VuQ/view",
+    "addedAt": "2026-10-10T23:45:51.094Z"
+  },
+  {
     "id": "cert-22-11-ponenciaried2022",
     "docType": "Inves",
     "fileName": "22-11-Inves-PonenciaRied2022.jpg",
