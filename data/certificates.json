@@ -1,5 +1,31 @@
 [
   {
+    "id": "cert-15-06-scratcharduino",
+    "docType": "CurEst",
+    "fileName": "15-06-CurEst-ScratchArduino.jpg",
+    "shortName": "ScratchArduino",
+    "title": "Robots y Videojuegos en las aulas: Scratch y Arduino para profesores (3.ª edición)",
+    "role": "Participante",
+    "issuer": "Universitat Pompeu Fabra",
+    "year": 2015,
+    "yearShort": "15",
+    "month": "06",
+    "date": "2015-06-03",
+    "hours": 25,
+    "modality": "Virtual",
+    "credentialId": "c038c6bc-678f-4a7b-8281-0bb3b04242a4",
+    "verificationUrl": null,
+    "cluster": "tecnopedagogia",
+    "skills": [
+      "Scratch",
+      "Arduino",
+      "Robótica Educativa",
+      "Gamificación"
+    ],
+    "driveUrl": "https://drive.google.com/file/d/1o2BkGV4lbyZtMVFEQSgkuVo_ymjnNsxr/view",
+    "addedAt": "2026-10-10T23:28:02.604Z"
+  },
+  {
     "id": "cert-15-05-revistadigitalonline",
     "docType": "CurEst",
     "fileName": "15-05-CurEst-RevistaDigitalOnline.jpg",
