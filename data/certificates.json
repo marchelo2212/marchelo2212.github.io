@@ -1,5 +1,30 @@
 [
   {
+    "id": "cert-20-11-expovidanueva",
+    "docType": "Inves",
+    "fileName": "20-11-Inves-ExpoVidaNueva.jpg",
+    "shortName": "ExpoVidaNueva",
+    "title": "Participación como expositor en la Jornada de Actualización Científica y Profesional Vida Nueva 2020",
+    "role": "Ponente",
+    "issuer": "Instituto Superior Tecnológico Vida Nueva",
+    "year": 2020,
+    "yearShort": "20",
+    "month": "11",
+    "date": "2020-11-13",
+    "hours": null,
+    "modality": "Presencial",
+    "credentialId": null,
+    "verificationUrl": null,
+    "cluster": "tecnopedagogia",
+    "skills": [
+      "Gamificación educativa",
+      "Recursos didácticos digitales",
+      "Tecnopedagogía"
+    ],
+    "driveUrl": "https://drive.google.com/file/d/13Gfbtz41YJ34fa1IJJ37JrK54IWjciI-/view",
+    "addedAt": "2026-10-10T23:45:13.844Z"
+  },
+  {
     "id": "cert-22-01-ponenteescuelas",
     "docType": "Inves",
     "fileName": "22-01-Inves-PonenteEscuelas.jpg",
