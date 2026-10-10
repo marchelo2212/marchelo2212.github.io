@@ -1,5 +1,30 @@
 [
   {
+    "id": "cert-22-11-comiteviiiced",
+    "docType": "Inves",
+    "fileName": "22-11-Inves-ComiteVIIICED.jpg",
+    "shortName": "ComiteVIIICED",
+    "title": "MIEMBRO DEL COMITÉ CIENTÍFICO-EVALUADOR EXTERNO EN EL VII CONGRESO INTERNACIONAL DE EDUCACIÓN CONTEMPORÁNEA CALIDAD EDUCATIVA Y BUEN VIVIR",
+    "role": "Revisor Par",
+    "issuer": "Facultad de Ciencias de la Educación, Humanas y Tecnologías",
+    "year": 2022,
+    "yearShort": "22",
+    "month": "11",
+    "date": "2022-11-25",
+    "hours": 0,
+    "modality": "Presencial",
+    "credentialId": "CGVII-TH-0000106",
+    "verificationUrl": null,
+    "cluster": "tecnopedagogia",
+    "skills": [
+      "Evaluación Científica",
+      "Revisión por Pares",
+      "Calidad Educativa"
+    ],
+    "driveUrl": "https://drive.google.com/file/d/1nZo5ls4aDMM11Mjc7B27WDe-7bl-cpUM/view",
+    "addedAt": "2026-10-10T23:36:18.697Z"
+  },
+  {
     "id": "cert-15-10-creacionblogsweb",
     "docType": "CurEst",
     "fileName": "15-10-CurEst-CreacionBlogsWeb.jpg",
