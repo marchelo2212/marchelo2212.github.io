@@ -1,5 +1,30 @@
 [
   {
+    "id": "cert-18-06-moodleday2018",
+    "docType": "CurEst",
+    "fileName": "18-06-CurEst-MoodleDay2018.jpg",
+    "shortName": "MoodleDay2018",
+    "title": "Certificado Moodle Day 2018",
+    "role": "Participante",
+    "issuer": "Escuela Politécnica Nacional / Centro de Educación Continua / Moodle Ecuador",
+    "year": 2018,
+    "yearShort": "18",
+    "month": "06",
+    "date": "2018-06-22",
+    "hours": 8,
+    "modality": "Presencial",
+    "credentialId": "36581",
+    "verificationUrl": null,
+    "cluster": "tecnopedagogia",
+    "skills": [
+      "Moodle",
+      "Educación Virtual",
+      "Plataformas LMS"
+    ],
+    "driveUrl": "https://drive.google.com/file/d/1tvhJ7pHdb6Vbgm1ho2VA4CaJUCF2tt_G/view",
+    "addedAt": "2026-10-10T23:40:56.014Z"
+  },
+  {
     "id": "cert-18-09-storytellingvirtual",
     "docType": "CurEst",
     "fileName": "18-09-CurEst-StorytellingVirtual.jpg",
