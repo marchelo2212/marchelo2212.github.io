@@ -1,5 +1,30 @@
 [
   {
+    "id": "cert-20-12-violenciamujeres",
+    "docType": "CurEst",
+    "fileName": "20-12-CurEst-ViolenciaMujeres.pdf",
+    "shortName": "ViolenciaMujeres",
+    "title": "VIOLENCIA CONTRA LAS MUJERES Y MECANISMOS DE PROTECCIÓN EN EL MARCO DEL SISTEMA DE PROTECCIÓN INTEGRAL",
+    "role": "Participante",
+    "issuer": "Consejo de Protección de Derechos del Distrito Metropolitano de Quito",
+    "year": 2020,
+    "yearShort": "20",
+    "month": "12",
+    "date": "2020-12",
+    "hours": 30,
+    "modality": "Virtual",
+    "credentialId": null,
+    "verificationUrl": null,
+    "cluster": "politicas_direccion",
+    "skills": [
+      "Protección Integral",
+      "Derechos Humanos",
+      "Equidad de Género"
+    ],
+    "driveUrl": "https://drive.google.com/file/d/1oa3MJLJd9BaB_ph7vox6cuCcTqT2TUEs/view",
+    "addedAt": "2026-10-10T22:09:44.694Z"
+  },
+  {
     "id": "cert-21-03-webextraining",
     "docType": "CurEst",
     "fileName": "21-03-CurEst-WebexTraining.pdf",
