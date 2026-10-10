@@ -1,5 +1,30 @@
 [
   {
+    "id": "cert-22-11-ponenciaried2022",
+    "docType": "Inves",
+    "fileName": "22-11-Inves-PonenciaRied2022.jpg",
+    "shortName": "PonenciaRied2022",
+    "title": "Seminario Virtual de la RIED 2022",
+    "role": "Ponente",
+    "issuer": "Red Interamericana de Educación Docente (RIED) - OEA",
+    "year": 2022,
+    "yearShort": "22",
+    "month": "11",
+    "date": "2022-11-08",
+    "hours": 10,
+    "modality": "Virtual",
+    "credentialId": null,
+    "verificationUrl": null,
+    "cluster": "tecnopedagogia",
+    "skills": [
+      "Educación Docente",
+      "Ponencia Académica",
+      "Interamerican Educational Networks"
+    ],
+    "driveUrl": "https://drive.google.com/file/d/1u_iAl5tjslVdbdlPmY4mRomJHAkemjK_/view",
+    "addedAt": "2026-10-10T23:45:42.039Z"
+  },
+  {
     "id": "cert-22-10-ponenciaprofuturo",
     "docType": "Inves",
     "fileName": "22-10-Inves-PonenciaProFuturo.jpg",
