@@ -1,5 +1,30 @@
 [
   {
+    "id": "cert-21-04-commremoteteams",
+    "docType": "CurEst",
+    "fileName": "21-04-CurEst-CommRemoteTeams.pdf",
+    "shortName": "CommRemoteTeams",
+    "title": "Effective Communication for Remote Teams",
+    "role": "Participante",
+    "issuer": "Cornerstone OnDemand Foundation",
+    "year": 2021,
+    "yearShort": "21",
+    "month": "04",
+    "date": "2021-04-20",
+    "hours": null,
+    "modality": "Virtual",
+    "credentialId": null,
+    "verificationUrl": null,
+    "cluster": "tecnopedagogia",
+    "skills": [
+      "Comunicación Asincrónica",
+      "Colaboración Digital",
+      "Gestión de Equipos Remotos"
+    ],
+    "driveUrl": "https://drive.google.com/file/d/1jsXaDeADF_PNcnGCqru9iTnpetYqxXZR/view",
+    "addedAt": "2026-10-10T22:18:49.934Z"
+  },
+  {
     "id": "cert-21-08-ideas10",
     "docType": "Meri",
     "fileName": "21-08-Meri-Ideas10.pdf",
