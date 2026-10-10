@@ -1,5 +1,30 @@
 [
   {
+    "id": "cert-17-02-recursosdigitales",
+    "docType": "CurEst",
+    "fileName": "17-02-CurEst-RecursosDigitales.jpg",
+    "shortName": "RecursosDigitales",
+    "title": "Recursos Didácticos Digitales para el Aula",
+    "role": "Participante",
+    "issuer": "Escuela Politécnica Nacional - Centro de Educación Continua",
+    "year": 2017,
+    "yearShort": "17",
+    "month": "02",
+    "date": "2017-02-01",
+    "hours": 1,
+    "modality": "Virtual",
+    "credentialId": null,
+    "verificationUrl": null,
+    "cluster": "tecnopedagogia",
+    "skills": [
+      "Recursos Digitales",
+      "Tecnopedagogía",
+      "Diseño Instruccional"
+    ],
+    "driveUrl": "https://drive.google.com/file/d/1FilZ__y5sJweRGMCGZe0PvF2zX-L1AZ8/view",
+    "addedAt": "2026-10-10T23:34:16.197Z"
+  },
+  {
     "id": "cert-16-10-openofficewriter",
     "docType": "CurEst",
     "fileName": "16-10-CurEst-OpenOfficeWriter.jpg",
@@ -24,31 +49,6 @@
     ],
     "driveUrl": "https://drive.google.com/file/d/10KSbug4uMcYBHxQOTBA2kiTDEhrMF14i/view",
     "addedAt": "2026-10-10T23:34:07.869Z"
-  },
-  {
-    "id": "cert-17-02-recursosdigitales",
-    "docType": "CurEst",
-    "fileName": "17-02-CurEst-RecursosDigitales.jpg",
-    "shortName": "RecursosDigitales",
-    "title": "TALLER DE RECURSOS DIDÁCTICOS DIGITALES PARA EL AULA (B-LEARNING)",
-    "role": "Participante",
-    "issuer": "Escuela Politécnica Nacional - Centro de Educación Continua",
-    "year": 2017,
-    "yearShort": "17",
-    "month": "02",
-    "date": "2017-02-22",
-    "hours": 32,
-    "modality": "Presencial",
-    "credentialId": "31689",
-    "verificationUrl": null,
-    "cluster": "tecnopedagogia",
-    "skills": [
-      "Recursos Didácticos Digitales",
-      "B-Learning",
-      "Tecnopedagogía"
-    ],
-    "driveUrl": "https://drive.google.com/file/d/1M0Llys7zO4eA1FlMq7cIvdU9AQf2BY9H/view",
-    "addedAt": "2026-10-10T23:33:59.802Z"
   },
   {
     "id": "cert-16-11-analiticasapre",
