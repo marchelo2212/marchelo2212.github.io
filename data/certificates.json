@@ -1,5 +1,30 @@
 [
   {
+    "id": "cert-22-10-ponenciaprofuturo",
+    "docType": "Inves",
+    "fileName": "22-10-Inves-PonenciaProFuturo.jpg",
+    "shortName": "PonenciaProFuturo",
+    "title": "Ponencia en la tertulia dialógica: \"Mejorando nuestras vidas en comunidad, con el uso de las TIC\"",
+    "role": "Ponente",
+    "issuer": "Fundación Telefónica Movistar Ecuador y ChildFund Ecuador",
+    "year": 2022,
+    "yearShort": "22",
+    "month": "10",
+    "date": "2022-10",
+    "hours": null,
+    "modality": "Virtual",
+    "credentialId": null,
+    "verificationUrl": null,
+    "cluster": "tecnopedagogia",
+    "skills": [
+      "Alfabetización Digital",
+      "Tecnologías de la Información y Comunicación (TIC)",
+      "Comunidades de Aprendizaje"
+    ],
+    "driveUrl": "https://drive.google.com/file/d/1DW020m3En9tBaYjc-Uh0KXe3Kzycqst8/view",
+    "addedAt": "2026-10-10T23:45:32.882Z"
+  },
+  {
     "id": "cert-22-08-moodlemootcol2022",
     "docType": "CurEst",
     "fileName": "22-08-CurEst-MoodleMootCol2022.jpg",
