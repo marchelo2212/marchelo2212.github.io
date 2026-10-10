@@ -1,5 +1,30 @@
 [
   {
+    "id": "cert-15-02-entornosvirtuales",
+    "docType": "Cert",
+    "fileName": "15-02-Cert-EntornosVirtuales.jpg",
+    "shortName": "EntornosVirtuales",
+    "title": "Entornos Virtuales de Aprendizaje",
+    "role": "Participante",
+    "issuer": "PLANETA FATLA",
+    "year": 2015,
+    "yearShort": "15",
+    "month": "02",
+    "date": "2015-02-25",
+    "hours": 124,
+    "modality": "Virtual",
+    "credentialId": "FATLA-EEV-EVA",
+    "verificationUrl": "www.fatla.org",
+    "cluster": "tecnopedagogia",
+    "skills": [
+      "Plataforma educativa Moodle",
+      "Entornos virtuales de aprendizaje",
+      "Modalidades educativas: Elearning"
+    ],
+    "driveUrl": "https://drive.google.com/file/d/1M4xF4M4GurppTQzQ8KuAL3L9qHE-kEhy/view",
+    "addedAt": "2026-10-10T23:29:46.142Z"
+  },
+  {
     "id": "cert-14-12-estrategiasmoodle",
     "docType": "CurEst",
     "fileName": "14-12-CurEst-EstrategiasMoodle.jpg",
