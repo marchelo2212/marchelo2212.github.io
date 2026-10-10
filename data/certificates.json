@@ -1,0 +1,20 @@
+[
+  {
+    "id": "cert-1791662198537",
+    "title": "Validaci?n curricular y contextualizaci?n del Curr?culum GlobALE para Am?rica Latina",
+    "issuer": "DVV International y Fundaci?n Openlab Ecuador",
+    "year": 2026,
+    "date": "2026-06-30",
+    "hours": null,
+    "credentialId": null,
+    "verificationUrl": null,
+    "cluster": "tecnopedagogia",
+    "skills": [
+      "Validaci?n curricular",
+      "Contextualizaci?n educativa",
+      "Dise?o instruccional"
+    ],
+    "driveUrl": "https://drive.google.com/file/d/12DzyOfBLhJo0I0CAnCjj44SS-7GUat87/view",
+    "addedAt": "2026-10-10T19:56:38.537Z"
+  }
+]
