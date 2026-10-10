@@ -1,5 +1,30 @@
 [
   {
+    "id": "cert-17-12-eddisruptiva",
+    "docType": "CurEst",
+    "fileName": "17-12-CurEst-EdDisruptiva.jpg",
+    "shortName": "EdDisruptiva",
+    "title": "II Seminario Internacional de Educación Disruptiva con TIC",
+    "role": "Participante",
+    "issuer": "Fundación Telefónica Movistar, Corporación Red Infodesarrollo y UNAE",
+    "year": 2017,
+    "yearShort": "17",
+    "month": "12",
+    "date": "2017-12-02",
+    "hours": 40,
+    "modality": "Híbrida",
+    "credentialId": null,
+    "verificationUrl": null,
+    "cluster": "tecnopedagogia",
+    "skills": [
+      "Educación Disruptiva",
+      "TIC en la Educación",
+      "Innovación Pedagógica"
+    ],
+    "driveUrl": "https://drive.google.com/file/d/1ox1k6NNQalQov-2WZrHylufk2hnkZDyk/view",
+    "addedAt": "2026-10-10T23:33:01.274Z"
+  },
+  {
     "id": "cert-17-08-prevprenataldiscap",
     "docType": "Cert",
     "fileName": "17-08-Cert-PrevPrenatalDiscap.jpg",
