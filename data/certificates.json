@@ -1,5 +1,30 @@
 [
   {
+    "id": "cert-26-08-iarealiztareas",
+    "docType": "CurEst",
+    "fileName": "26-08-CurEst-IARealizTareas.pdf",
+    "shortName": "IARealizTareas",
+    "title": "IA para automatizar tareas académicas y administrativas",
+    "role": "Participante",
+    "issuer": "Grupo editorial ECOE Ediciones S.A.S",
+    "year": 2026,
+    "yearShort": "26",
+    "month": "08",
+    "date": "2026-08-13",
+    "hours": null,
+    "modality": "Virtual",
+    "credentialId": null,
+    "verificationUrl": null,
+    "cluster": "tecnopedagogia",
+    "skills": [
+      "Inteligencia Artificial",
+      "Automatización de Tareas",
+      "Gestión Académica"
+    ],
+    "driveUrl": "https://drive.google.com/file/d/1AQmSyfNTRBn914R3grR_0xcN2r0PkgWi/view",
+    "addedAt": "2026-10-10T22:29:18.741Z"
+  },
+  {
     "id": "cert-21-11-gestionpolitica",
     "docType": "CurEst",
     "fileName": "21-11-CurEst-GestionPolitica.pdf",
