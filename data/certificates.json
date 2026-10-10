@@ -1,5 +1,31 @@
 [
   {
+    "id": "cert-18-07-monitoresprevencion",
+    "docType": "CursImp",
+    "fileName": "18-07-CursImp-MonitoresPrevencion.jpg",
+    "shortName": "MonitoresPrevencion",
+    "title": "Curso “Formación de Monitores en Didáctica de la Prevención de Discapacidades”",
+    "role": "Docente / Facilitador",
+    "issuer": "PreNatal Ecuador / Fundación de Waal / Consejo Nacional para la Igualdad de Discapacidades (CONADIS)",
+    "year": 2018,
+    "yearShort": "18",
+    "month": "07",
+    "date": "2018-07-22",
+    "hours": 50,
+    "modality": "Presencial",
+    "credentialId": null,
+    "verificationUrl": null,
+    "cluster": "politicas_direccion",
+    "skills": [
+      "Didáctica",
+      "Prevención de Discapacidades",
+      "Formación de Monitores",
+      "Educación Inclusiva"
+    ],
+    "driveUrl": "https://drive.google.com/file/d/13c7FuzS205OqHZ2mF_ZDMtt1VOtQGbIM/view",
+    "addedAt": "2026-10-10T23:40:24.977Z"
+  },
+  {
     "id": "cert-19-06-moodledayconfe19",
     "docType": "Inves",
     "fileName": "19-06-Inves-MoodleDayConfe19.jpg",
