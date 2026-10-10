@@ -372,8 +372,8 @@ def parse_certifications(section_text: str, json_path: Path):
                 title = clean_latex(dc.get("title", ""))
                 norm_key = re.sub(r'\W+', '', title.lower())
                 
-                # Buscar si ya existe para enriquecer
-                matched = next((item for item in items if norm_key in re.sub(r'\W+', '', item["title"].lower()) or re.sub(r'\W+', '', item["title"].lower()) in norm_key), None)
+                # Buscar si ya existe para enriquecer (solo si coincide título exacto o título + mismo año)
+                matched = next((item for item in items if (norm_key == re.sub(r'\W+', '', item["title"].lower())) or (norm_key in re.sub(r'\W+', '', item["title"].lower()) and str(dc.get("year", "")) == str(item.get("year", "")))), None)
                 if matched:
                     if dc.get("docType"):
                         matched["docType"] = dc["docType"]
@@ -395,6 +395,8 @@ def parse_certifications(section_text: str, json_path: Path):
                         matched["modality"] = dc["modality"]
                     if dc.get("credentialId"):
                         matched["credentialId"] = dc["credentialId"]
+                    if dc.get("year"):
+                        matched["year"] = str(dc["year"])
                     if dc.get("date"):
                         matched["date"] = dc["date"]
                     if dc.get("month"):

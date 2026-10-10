@@ -442,12 +442,92 @@
         "info": "Certificación: Certificado de Participación - Moodle Moot Colombia 2026 (Moodle Moot Colombia, 2026)"
       },
       {
+        "id": "cert_cert-24-11-transmediauflo",
+        "label": "I Jornadas Institucionales...",
+        "cluster": "tecnopedagogia",
+        "type": "certification",
+        "size": 13,
+        "info": "Certificación: I Jornadas Institucionales de Innovación Educativa en la Universidad: Transmedia, gamificación y performance (Universidad de Flores (UFLO), 2024)"
+      },
+      {
         "id": "cert_cert-tex-2022-1",
         "label": "Educador certificado por G...",
         "cluster": "tecnopedagogia",
         "type": "certification",
         "size": 13,
         "info": "Certificación: Educador certificado por GOOGLE (Google for Education - Level 1, 2022)"
+      },
+      {
+        "id": "cert_cert-21-04-programacionvideojuegos",
+        "label": "Curso de Programación de V...",
+        "cluster": "tecnopedagogia",
+        "type": "certification",
+        "size": 13,
+        "info": "Certificación: Curso de Programación de Videojuegos para docentes y estudiantes de bachillerato (Ministerio de Educación del Ecuador, Organización de Estados Iberoamericanos (OEI) y Centro Internacional de Estudios Superiores de Comunicación para América Latina (CIESPAL), 2021)"
+      },
+      {
+        "id": "cert_cert-21-04-childsafeguarding",
+        "label": "Child Safeguarding Present...",
+        "cluster": "politicas_direccion",
+        "type": "certification",
+        "size": 13,
+        "info": "Certificación: Child Safeguarding Presentation (ChildFund International, 2021)"
+      },
+      {
+        "id": "cert_cert-21-03-webextraining",
+        "label": "Comunicación sincrónica co...",
+        "cluster": "tecnopedagogia",
+        "type": "certification",
+        "size": 13,
+        "info": "Certificación: Comunicación sincrónica con webex y su licencia training (institucional) (Escuela Politécnica Nacional, Centro de Educación Continua, 2021)"
+      },
+      {
+        "id": "cert_cert-21-02-confciberseguridad",
+        "label": "Certificado de Agradecimie...",
+        "cluster": "politicas_direccion",
+        "type": "certification",
+        "size": 13,
+        "info": "Certificación: Certificado de Agradecimiento por Conferencia de Ciberseguridad (Distrito 01D03 Girón a Santa Isabel - Educación, 2021)"
+      },
+      {
+        "id": "cert_cert-20-12-violenciamujeres",
+        "label": "VIOLENCIA CONTRA LAS MUJER...",
+        "cluster": "politicas_direccion",
+        "type": "certification",
+        "size": 13,
+        "info": "Certificación: VIOLENCIA CONTRA LAS MUJERES Y MECANISMOS DE PROTECCIÓN EN EL MARCO DEL SISTEMA DE PROTECCIÓN INTEGRAL (Consejo de Protección de Derechos del Distrito Metropolitano de Quito, 2020)"
+      },
+      {
+        "id": "cert_cert-20-12-docenciavirtual",
+        "label": "DOCENCIA PARA ENTORNOS VIR...",
+        "cluster": "tecnopedagogia",
+        "type": "certification",
+        "size": 13,
+        "info": "Certificación: DOCENCIA PARA ENTORNOS VIRTUALES: APORTES PARA SU DESARROLLO SINCRÓNICO Y ASINCRÓNICO (Universidad Nacional de Educación (UNAE), 2020)"
+      },
+      {
+        "id": "cert_cert-20-07-endinsatuoc",
+        "label": "Certificat del curs de for...",
+        "cluster": "tecnopedagogia",
+        "type": "certification",
+        "size": 13,
+        "info": "Certificación: Certificat del curs de formació básica per al consultor (professorat col·laborador) - Endinsa't a la UOC (Universitat Oberta de Catalunya, 2020)"
+      },
+      {
+        "id": "cert_cert-20-01-seminariocalidad",
+        "label": "Seminario de Evaluación de...",
+        "cluster": "tecnopedagogia",
+        "type": "certification",
+        "size": 13,
+        "info": "Certificación: Seminario de Evaluación de la Calidad de la Formación en Modalidad en Línea: el caso español (Secretaría de Educación Superior, Ciencia, Tecnología e Innovación (SENESCYT), 2020)"
+      },
+      {
+        "id": "cert_cert-20-01-formadorformadores",
+        "label": "FORMADOR DE FORMADORES CEC...",
+        "cluster": "tecnopedagogia",
+        "type": "certification",
+        "size": 13,
+        "info": "Certificación: FORMADOR DE FORMADORES CEC-EPN (Escuela Politécnica Nacional - Centro de Educación Continua, 2020)"
       },
       {
         "id": "cert_cert-tex-2020-2",
@@ -745,7 +825,67 @@
       },
       {
         "source": "tecnopedagogia",
+        "target": "cert_cert-24-11-transmediauflo",
+        "relationship": "credencial validada",
+        "value": 2
+      },
+      {
+        "source": "tecnopedagogia",
         "target": "cert_cert-tex-2022-1",
+        "relationship": "credencial validada",
+        "value": 2
+      },
+      {
+        "source": "tecnopedagogia",
+        "target": "cert_cert-21-04-programacionvideojuegos",
+        "relationship": "credencial validada",
+        "value": 2
+      },
+      {
+        "source": "politicas_direccion",
+        "target": "cert_cert-21-04-childsafeguarding",
+        "relationship": "credencial validada",
+        "value": 2
+      },
+      {
+        "source": "tecnopedagogia",
+        "target": "cert_cert-21-03-webextraining",
+        "relationship": "credencial validada",
+        "value": 2
+      },
+      {
+        "source": "politicas_direccion",
+        "target": "cert_cert-21-02-confciberseguridad",
+        "relationship": "credencial validada",
+        "value": 2
+      },
+      {
+        "source": "politicas_direccion",
+        "target": "cert_cert-20-12-violenciamujeres",
+        "relationship": "credencial validada",
+        "value": 2
+      },
+      {
+        "source": "tecnopedagogia",
+        "target": "cert_cert-20-12-docenciavirtual",
+        "relationship": "credencial validada",
+        "value": 2
+      },
+      {
+        "source": "tecnopedagogia",
+        "target": "cert_cert-20-07-endinsatuoc",
+        "relationship": "credencial validada",
+        "value": 2
+      },
+      {
+        "source": "tecnopedagogia",
+        "target": "cert_cert-20-01-seminariocalidad",
+        "relationship": "credencial validada",
+        "value": 2
+      },
+      {
+        "source": "tecnopedagogia",
+        "target": "cert_cert-20-01-formadorformadores",
         "relationship": "credencial validada",
         "value": 2
       },
@@ -2249,6 +2389,31 @@
       ]
     },
     {
+      "id": "cert-24-11-transmediauflo",
+      "docType": "CurEst",
+      "fileName": "24-11-CurEst-TransmediaUflo.pdf",
+      "shortName": "TransmediaUflo",
+      "role": "Participante",
+      "title": "I Jornadas Institucionales de Innovación Educativa en la Universidad: Transmedia, gamificación y performance",
+      "issuer": "Universidad de Flores (UFLO)",
+      "year": "2024",
+      "yearShort": "24",
+      "month": "11",
+      "date": "2024",
+      "hours": 10,
+      "modality": "Virtual",
+      "credentialId": null,
+      "verificationUrl": null,
+      "driveUrl": "https://drive.google.com/file/d/1X93-l8mrMmVHVkzmTvf_R6eE1RHlUadd/view",
+      "cluster": "tecnopedagogia",
+      "skills": [
+        "Transmedia",
+        "Gamificación",
+        "Performance Educativa",
+        "Innovación Educativa"
+      ]
+    },
+    {
       "id": "cert-tex-2022-1",
       "docType": "Cert",
       "fileName": "",
@@ -2265,6 +2430,224 @@
       "driveUrl": null,
       "cluster": "tecnopedagogia",
       "skills": []
+    },
+    {
+      "id": "cert-21-04-programacionvideojuegos",
+      "docType": "CurEst",
+      "fileName": "21-04-CurEst-ProgramacionVideojuegos.pdf",
+      "shortName": "ProgramacionVideojuegos",
+      "role": "Participante",
+      "title": "Curso de Programación de Videojuegos para docentes y estudiantes de bachillerato",
+      "issuer": "Ministerio de Educación del Ecuador, Organización de Estados Iberoamericanos (OEI) y Centro Internacional de Estudios Superiores de Comunicación para América Latina (CIESPAL)",
+      "year": "2021",
+      "yearShort": "21",
+      "month": "04",
+      "date": "2021-04-03",
+      "hours": 30,
+      "modality": "Virtual",
+      "credentialId": "6312e2xji6",
+      "verificationUrl": null,
+      "driveUrl": "https://drive.google.com/file/d/1GfFzo8ennO1Hy2xxhYzwsOyBkKciCdaD/view",
+      "cluster": "tecnopedagogia",
+      "skills": [
+        "Programación",
+        "Scratch",
+        "Gamificación",
+        "Construct 3"
+      ]
+    },
+    {
+      "id": "cert-21-04-childsafeguarding",
+      "docType": "CurEst",
+      "fileName": "21-04-CurEst-ChildSafeguarding.pdf",
+      "shortName": "ChildSafeguarding",
+      "role": "Participante",
+      "title": "Child Safeguarding Presentation",
+      "issuer": "ChildFund International",
+      "year": "2021",
+      "yearShort": "21",
+      "month": "04",
+      "date": "2021-04-20",
+      "hours": null,
+      "modality": "Virtual",
+      "credentialId": null,
+      "verificationUrl": null,
+      "driveUrl": "https://drive.google.com/file/d/1DzzdkpjkKC_ll7pGFnp5Ef9u82OQ3DXf/view",
+      "cluster": "politicas_direccion",
+      "skills": [
+        "Protección Infantil",
+        "Salvaguarda",
+        "Ética Profesional"
+      ]
+    },
+    {
+      "id": "cert-21-03-webextraining",
+      "docType": "CurEst",
+      "fileName": "21-03-CurEst-WebexTraining.pdf",
+      "shortName": "WebexTraining",
+      "role": "Participante",
+      "title": "Comunicación sincrónica con webex y su licencia training (institucional)",
+      "issuer": "Escuela Politécnica Nacional, Centro de Educación Continua",
+      "year": "2021",
+      "yearShort": "21",
+      "month": "03",
+      "date": "2021-03-21",
+      "hours": 2,
+      "modality": "Virtual",
+      "credentialId": "JQmgH1ndaI",
+      "verificationUrl": null,
+      "driveUrl": "https://drive.google.com/file/d/1jRuTCYF2upI0PiudrD1rXU0bO5m3yPOk/view",
+      "cluster": "tecnopedagogia",
+      "skills": [
+        "Webex Training",
+        "Comunicación Sincrónica",
+        "Educación Virtual"
+      ]
+    },
+    {
+      "id": "cert-21-02-confciberseguridad",
+      "docType": "Meri",
+      "fileName": "21-02-Meri-ConfCiberseguridad.pdf",
+      "shortName": "ConfCiberseguridad",
+      "role": "Ponente",
+      "title": "Certificado de Agradecimiento por Conferencia de Ciberseguridad",
+      "issuer": "Distrito 01D03 Girón a Santa Isabel - Educación",
+      "year": "2021",
+      "yearShort": "21",
+      "month": "02",
+      "date": "2021-02-22",
+      "hours": 0,
+      "modality": "Presencial",
+      "credentialId": null,
+      "verificationUrl": null,
+      "driveUrl": "https://drive.google.com/file/d/1wELtLLAWgRRGVNT5dw0ILgm5a2E4m6pM/view",
+      "cluster": "politicas_direccion",
+      "skills": [
+        "Ciberseguridad",
+        "Educación Digital",
+        "Conferencias"
+      ]
+    },
+    {
+      "id": "cert-20-12-violenciamujeres",
+      "docType": "CurEst",
+      "fileName": "20-12-CurEst-ViolenciaMujeres.pdf",
+      "shortName": "ViolenciaMujeres",
+      "role": "Participante",
+      "title": "VIOLENCIA CONTRA LAS MUJERES Y MECANISMOS DE PROTECCIÓN EN EL MARCO DEL SISTEMA DE PROTECCIÓN INTEGRAL",
+      "issuer": "Consejo de Protección de Derechos del Distrito Metropolitano de Quito",
+      "year": "2020",
+      "yearShort": "20",
+      "month": "12",
+      "date": "2020-12",
+      "hours": 30,
+      "modality": "Virtual",
+      "credentialId": null,
+      "verificationUrl": null,
+      "driveUrl": "https://drive.google.com/file/d/1oa3MJLJd9BaB_ph7vox6cuCcTqT2TUEs/view",
+      "cluster": "politicas_direccion",
+      "skills": [
+        "Protección Integral",
+        "Derechos Humanos",
+        "Equidad de Género"
+      ]
+    },
+    {
+      "id": "cert-20-12-docenciavirtual",
+      "docType": "CursImp",
+      "fileName": "20-12-CursImp-DocenciaVirtual.pdf",
+      "shortName": "DocenciaVirtual",
+      "role": "Docente / Facilitador",
+      "title": "DOCENCIA PARA ENTORNOS VIRTUALES: APORTES PARA SU DESARROLLO SINCRÓNICO Y ASINCRÓNICO",
+      "issuer": "Universidad Nacional de Educación (UNAE)",
+      "year": "2020",
+      "yearShort": "20",
+      "month": "12",
+      "date": "2020-12-30",
+      "hours": 40,
+      "modality": "Virtual",
+      "credentialId": null,
+      "verificationUrl": null,
+      "driveUrl": "https://drive.google.com/file/d/1iNV7g1Yd_-GFi23Q3X719SdSsyLltB3E/view",
+      "cluster": "tecnopedagogia",
+      "skills": [
+        "Docencia Virtual",
+        "Entornos Sincrónicos",
+        "Entornos Asincrónicos",
+        "Diseño Instruccional"
+      ]
+    },
+    {
+      "id": "cert-20-07-endinsatuoc",
+      "docType": "CurEst",
+      "fileName": "20-07-CurEst-EndinsatUOC.pdf",
+      "shortName": "EndinsatUOC",
+      "role": "Participante",
+      "title": "Certificat del curs de formació básica per al consultor (professorat col·laborador) - Endinsa't a la UOC",
+      "issuer": "Universitat Oberta de Catalunya",
+      "year": "2020",
+      "yearShort": "20",
+      "month": "07",
+      "date": "2020-07",
+      "hours": 25,
+      "modality": "Virtual",
+      "credentialId": "DE70BDFF9EC241AA871D6BB863E144C2",
+      "verificationUrl": "https://seu-electronica.uoc.edu",
+      "driveUrl": "https://drive.google.com/file/d/1OH8nQyEi8vbOjo1QINlTGJnTgG76l-En/view",
+      "cluster": "tecnopedagogia",
+      "skills": [
+        "Docencia Online",
+        "Metodología UOC",
+        "Competencias Digitales Docentes"
+      ]
+    },
+    {
+      "id": "cert-20-01-seminariocalidad",
+      "docType": "CurEst",
+      "fileName": "20-01-CurEst-SeminarioCalidad.pdf",
+      "shortName": "SeminarioCalidad",
+      "role": "Participante",
+      "title": "Seminario de Evaluación de la Calidad de la Formación en Modalidad en Línea: el caso español",
+      "issuer": "Secretaría de Educación Superior, Ciencia, Tecnología e Innovación (SENESCYT)",
+      "year": "2020",
+      "yearShort": "20",
+      "month": "01",
+      "date": "2020-01-21",
+      "hours": 16,
+      "modality": "Presencial",
+      "credentialId": null,
+      "verificationUrl": null,
+      "driveUrl": "https://drive.google.com/file/d/1O7_x2QEXd9LLlQU9NJrhKGPwtl1S2wG4/view",
+      "cluster": "tecnopedagogia",
+      "skills": [
+        "Evaluación Educativa",
+        "Educación en Línea",
+        "Calidad Académica"
+      ]
+    },
+    {
+      "id": "cert-20-01-formadorformadores",
+      "docType": "CurEst",
+      "fileName": "20-01-CurEst-FormadorFormadores.pdf",
+      "shortName": "FormadorFormadores",
+      "role": "Participante",
+      "title": "FORMADOR DE FORMADORES CEC-EPN",
+      "issuer": "Escuela Politécnica Nacional - Centro de Educación Continua",
+      "year": "2020",
+      "yearShort": "20",
+      "month": "01",
+      "date": "2020-01-06",
+      "hours": 48,
+      "modality": "Presencial",
+      "credentialId": "5G4HB6VUCG",
+      "verificationUrl": "https://aps.cec-epn.edu.ec/dp/?cod=5G4HB6VUCG",
+      "driveUrl": "https://drive.google.com/file/d/15OWp8VxR4D6d0wrSYgk5oL7uygfTXkm6/view",
+      "cluster": "tecnopedagogia",
+      "skills": [
+        "Formación Docente",
+        "Diseño Instruccional",
+        "Pedagogía Universitaria"
+      ]
     },
     {
       "id": "cert-tex-2020-2",
