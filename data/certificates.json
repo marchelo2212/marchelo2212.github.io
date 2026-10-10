@@ -1,5 +1,30 @@
 [
   {
+    "id": "cert-22-03-pensamientocomp",
+    "docType": "CurEst",
+    "fileName": "22-03-CurEst-PensamientoComp.pdf",
+    "shortName": "PensamientoComp",
+    "title": "ESCUELA DE PENSAMIENTO COMPUTACIONAL",
+    "role": "Participante",
+    "issuer": "Profuturo",
+    "year": 2022,
+    "yearShort": "22",
+    "month": "03",
+    "date": "2022-03-31",
+    "hours": 20,
+    "modality": "Virtual",
+    "credentialId": null,
+    "verificationUrl": null,
+    "cluster": "tecnopedagogia",
+    "skills": [
+      "Pensamiento Computacional",
+      "Resolución de Problemas",
+      "Educación Digital"
+    ],
+    "driveUrl": "https://drive.google.com/file/d/1BzgjEdlt0J77BL2sTsGvQ2mmRjVaJq1l/view",
+    "addedAt": "2026-10-10T22:18:07.906Z"
+  },
+  {
     "id": "cert-21-02-confciberseguridad",
     "docType": "Meri",
     "fileName": "21-02-Meri-ConfCiberseguridad.pdf",
