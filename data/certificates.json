@@ -1,5 +1,31 @@
 [
   {
+    "id": "cert-22-06-rgpddocentesuoc",
+    "docType": "Cert",
+    "fileName": "22-06-Cert-RgpdDocentesUoc.pdf",
+    "shortName": "RgpdDocentesUoc",
+    "title": "PROTOCOLO DE CUMPLIMIENTO DEL RGPD PARA COLABORADORES DOCENTES DE LA UOC",
+    "role": "Participante",
+    "issuer": "Universitat Oberta de Catalunya",
+    "year": 2022,
+    "yearShort": "22",
+    "month": "06",
+    "date": "2022-06-30",
+    "hours": 10,
+    "modality": "Virtual",
+    "credentialId": "JVBILN1IQB",
+    "verificationUrl": null,
+    "cluster": "politicas_direccion",
+    "skills": [
+      "RGPD",
+      "Protección de Datos",
+      "Ética Académica",
+      "Privacidad en la Educación"
+    ],
+    "driveUrl": "https://drive.google.com/file/d/1vfM_Sl4XtDAzASzVg9QGhJnT2QqliEpY/view",
+    "addedAt": "2026-10-10T22:28:06.246Z"
+  },
+  {
     "id": "cert-21-11-gestionproyectos",
     "docType": "CurEst",
     "fileName": "21-11-CurEst-GestionProyectos.pdf",
