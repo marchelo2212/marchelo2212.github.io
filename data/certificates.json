@@ -1,5 +1,30 @@
 [
   {
+    "id": "cert-24-10-capacitacioninvest",
+    "docType": "CurEst",
+    "fileName": "24-10-CurEst-CapacitacionInvest.jpg",
+    "shortName": "CapacitacionInvest",
+    "title": "CAPACITACIÓN EN INVESTIGACIÓN CIENTÍFICA 2024",
+    "role": "Participante",
+    "issuer": "SCImago Research Group",
+    "year": 2024,
+    "yearShort": "24",
+    "month": "10",
+    "date": "2024-10-08",
+    "hours": 60,
+    "modality": "Virtual",
+    "credentialId": "fkeS9HeAQ3",
+    "verificationUrl": null,
+    "cluster": "ia_data_science",
+    "skills": [
+      "Metodología Científica",
+      "Publicación Académica",
+      "Ciimetría"
+    ],
+    "driveUrl": "https://drive.google.com/file/d/1NwMjbRZJj6a5twQR8YS5G957mknHJNXm/view",
+    "addedAt": "2026-10-10T23:31:03.425Z"
+  },
+  {
     "id": "cert-24-10-capacitacionciencias",
     "docType": "CurEst",
     "fileName": "24-10-CurEst-CapacitacionCiencias.jpg",
