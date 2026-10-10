@@ -1,5 +1,31 @@
 [
   {
+    "id": "cert-21-04-programacionvideojuegos",
+    "docType": "CurEst",
+    "fileName": "21-04-CurEst-ProgramacionVideojuegos.pdf",
+    "shortName": "ProgramacionVideojuegos",
+    "title": "Curso de Programación de Videojuegos para docentes y estudiantes de bachillerato",
+    "role": "Participante",
+    "issuer": "Ministerio de Educación del Ecuador, Organización de Estados Iberoamericanos (OEI) y Centro Internacional de Estudios Superiores de Comunicación para América Latina (CIESPAL)",
+    "year": 2021,
+    "yearShort": "21",
+    "month": "04",
+    "date": "2021-04-03",
+    "hours": 30,
+    "modality": "Virtual",
+    "credentialId": "6312e2xji6",
+    "verificationUrl": null,
+    "cluster": "tecnopedagogia",
+    "skills": [
+      "Programación",
+      "Scratch",
+      "Gamificación",
+      "Construct 3"
+    ],
+    "driveUrl": "https://drive.google.com/file/d/1GfFzo8ennO1Hy2xxhYzwsOyBkKciCdaD/view",
+    "addedAt": "2026-10-10T22:08:53.052Z"
+  },
+  {
     "id": "cert-21-04-childsafeguarding",
     "docType": "CurEst",
     "fileName": "21-04-CurEst-ChildSafeguarding.pdf",
