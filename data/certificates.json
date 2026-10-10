@@ -2,6 +2,31 @@
   {
     "id": "cert-22-07-googleeducator1",
     "docType": "Cert",
+    "fileName": "22-07-Cert-GoogleEducator1.pdf",
+    "shortName": "GoogleEducator1",
+    "title": "Certified Educator - Level 1",
+    "role": "Participante",
+    "issuer": "Google for Education",
+    "year": 2022,
+    "yearShort": "22",
+    "month": "07",
+    "date": "2022-07-14",
+    "hours": null,
+    "modality": "Virtual",
+    "credentialId": "PR000038",
+    "verificationUrl": "https://edutrainingcenter.withgoogle.com/certification_level1",
+    "cluster": "tecnopedagogia",
+    "skills": [
+      "Google Workspace for Education",
+      "Tecnopedagogía",
+      "Competencias Digitales Docentes"
+    ],
+    "driveUrl": "https://drive.google.com/file/d/1b2k20cuN53chndMhFEKhT5tCItivVedC/view",
+    "addedAt": "2026-10-10T23:43:16.707Z"
+  },
+  {
+    "id": "cert-22-07-googleeducator1",
+    "docType": "Cert",
     "fileName": "22-07-Cert-GoogleEducator1.jpg",
     "shortName": "GoogleEducator1",
     "title": "Educador certificado por Google Nivel 1",
