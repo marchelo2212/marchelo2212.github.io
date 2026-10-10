@@ -1,5 +1,30 @@
 [
   {
+    "id": "cert-21-03-webextraining",
+    "docType": "CurEst",
+    "fileName": "21-03-CurEst-WebexTraining.pdf",
+    "shortName": "WebexTraining",
+    "title": "Comunicación sincrónica con webex y su licencia training (institucional)",
+    "role": "Participante",
+    "issuer": "Escuela Politécnica Nacional, Centro de Educación Continua",
+    "year": 2021,
+    "yearShort": "21",
+    "month": "03",
+    "date": "2021-03-21",
+    "hours": 2,
+    "modality": "Virtual",
+    "credentialId": "JQmgH1ndaI",
+    "verificationUrl": null,
+    "cluster": "tecnopedagogia",
+    "skills": [
+      "Webex Training",
+      "Comunicación Sincrónica",
+      "Educación Virtual"
+    ],
+    "driveUrl": "https://drive.google.com/file/d/1jRuTCYF2upI0PiudrD1rXU0bO5m3yPOk/view",
+    "addedAt": "2026-10-10T22:09:36.437Z"
+  },
+  {
     "id": "cert-20-12-docenciavirtual",
     "docType": "CursImp",
     "fileName": "20-12-CursImp-DocenciaVirtual.pdf",
