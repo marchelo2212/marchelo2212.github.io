@@ -1,5 +1,30 @@
 [
   {
+    "id": "cert-19-12-formadorformadores",
+    "docType": "CurEst",
+    "fileName": "19-12-CurEst-FormadorFormadores.jpg",
+    "shortName": "FormadorFormadores",
+    "title": "FORMADOR DE FORMADORES CEC-EPN",
+    "role": "Participante",
+    "issuer": "Escuela Politécnica Nacional, Centro de Educación Continua",
+    "year": 2019,
+    "yearShort": "19",
+    "month": "12",
+    "date": "2019-12-20",
+    "hours": 48,
+    "modality": "Presencial",
+    "credentialId": "5G4H6VUCG",
+    "verificationUrl": "https://aps.cec-epn.edu.ec/dp/?cod=5G4H6VUCG",
+    "cluster": "tecnopedagogia",
+    "skills": [
+      "Pedagogía Activa",
+      "Diseño Instruccional",
+      "Capacitación Docente"
+    ],
+    "driveUrl": "https://drive.google.com/file/d/1PjsYpdE_ArpH37YeYm9ZS3slEbCiDQq0/view",
+    "addedAt": "2026-10-10T23:39:15.440Z"
+  },
+  {
     "id": "cert-20-01-semcalidadline",
     "docType": "CurEst",
     "fileName": "20-01-CurEst-SemCalidadLine.jpg",
