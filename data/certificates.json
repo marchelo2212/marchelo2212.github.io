@@ -4,9 +4,9 @@
     "docType": "Cert",
     "fileName": "15-02-Cert-EntornosVirtuales.jpg",
     "shortName": "EntornosVirtuales",
-    "title": "Entornos Virtuales de Aprendizaje",
+    "title": "Experto en Educación Virtual: Módulo Entornos Virtuales de Aprendizaje",
     "role": "Participante",
-    "issuer": "PLANETA FATLA",
+    "issuer": "Planeta FATLA",
     "year": 2015,
     "yearShort": "15",
     "month": "02",
@@ -14,15 +14,16 @@
     "hours": 124,
     "modality": "Virtual",
     "credentialId": "FATLA-EEV-EVA",
-    "verificationUrl": "www.fatla.org",
+    "verificationUrl": "https://www.fatla.org",
     "cluster": "tecnopedagogia",
     "skills": [
-      "Plataforma educativa Moodle",
-      "Entornos virtuales de aprendizaje",
-      "Modalidades educativas: Elearning"
+      "Entornos Virtuales de Aprendizaje",
+      "Plataforma Educativa Moodle",
+      "Elaboración de contenidos elearning",
+      "Educación y las TIC"
     ],
     "driveUrl": "https://drive.google.com/file/d/1M4xF4M4GurppTQzQ8KuAL3L9qHE-kEhy/view",
-    "addedAt": "2026-10-10T23:29:46.142Z"
+    "addedAt": "2026-10-10T23:29:47.445Z"
   },
   {
     "id": "cert-14-12-estrategiasmoodle",
