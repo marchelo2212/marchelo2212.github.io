@@ -1,5 +1,30 @@
 [
   {
+    "id": "cert-17-08-prevprenataldiscap",
+    "docType": "Cert",
+    "fileName": "17-08-Cert-PrevPrenatalDiscap.jpg",
+    "shortName": "PrevPrenatalDiscap",
+    "title": "PROGRAMA DE FORMACIÓN DE MEDIADORES EN PREVENCIÓN PRENATAL DE DISCAPACIDADES",
+    "role": "Participante",
+    "issuer": "Universidad Central del Ecuador, Fundación de Waal, Ministerio de Salud Pública",
+    "year": 2017,
+    "yearShort": "17",
+    "month": "08",
+    "date": "2017-08-19",
+    "hours": 288,
+    "modality": "Presencial",
+    "credentialId": "FCM - C41-01541",
+    "verificationUrl": null,
+    "cluster": "politicas_direccion",
+    "skills": [
+      "Prevención Prenatal",
+      "Mediación en Discapacidades",
+      "Salud Pública"
+    ],
+    "driveUrl": "https://drive.google.com/file/d/1eEO-vExj3uxqJtRayDeTAtt6IM1cj_um/view",
+    "addedAt": "2026-10-10T23:32:52.310Z"
+  },
+  {
     "id": "cert-17-09-personalizacionmoodle",
     "docType": "CursImp",
     "fileName": "17-09-CursImp-PersonalizacionMoodle.jpg",
