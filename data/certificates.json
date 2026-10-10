@@ -1,5 +1,30 @@
 [
   {
+    "id": "cert-21-11-gerenciapublica",
+    "docType": "CurEst",
+    "fileName": "21-11-CurEst-GerenciaPublica.pdf",
+    "shortName": "GerenciaPublica",
+    "title": "LAS HERRAMIENTAS BÁSICAS PARA UNA EFICIENTE GERENCIA PÚBLICA",
+    "role": "Participante",
+    "issuer": "EDES Business School - UTPL",
+    "year": 2021,
+    "yearShort": "21",
+    "month": "11",
+    "date": "2021-11-06",
+    "hours": 8,
+    "modality": "Virtual",
+    "credentialId": "m8zILHLOU9",
+    "verificationUrl": null,
+    "cluster": "politicas_direccion",
+    "skills": [
+      "Gerencia Pública",
+      "Gestión Estratégica",
+      "Herramientas de Gestión"
+    ],
+    "driveUrl": "https://drive.google.com/file/d/1L43Wwwi35VZcl6XTrmDdVHyA4eALTTbd/view",
+    "addedAt": "2026-10-10T22:27:06.129Z"
+  },
+  {
     "id": "cert-21-11-liderazgopolitico",
     "docType": "CurEst",
     "fileName": "21-11-CurEst-LiderazgoPolitico.pdf",
