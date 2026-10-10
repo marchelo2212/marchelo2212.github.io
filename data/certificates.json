@@ -1,5 +1,31 @@
 [
   {
+    "id": "cert-14-05-certscratcharduino",
+    "docType": "CurEst",
+    "fileName": "14-05-CurEst-CertScratchArduino.pdf",
+    "shortName": "CertScratchArduino",
+    "title": "Certificat de formació en S4A: Scratch/Snap 4 Arduino",
+    "role": "Participante",
+    "issuer": "Universitat Oberta de Catalunya",
+    "year": 2014,
+    "yearShort": "14",
+    "month": "05",
+    "date": "2014-05",
+    "hours": 50,
+    "modality": "Virtual",
+    "credentialId": null,
+    "verificationUrl": null,
+    "cluster": "tecnopedagogia",
+    "skills": [
+      "Scratch",
+      "Arduino",
+      "Programación Visual",
+      "Robótica Educativa"
+    ],
+    "driveUrl": "https://drive.google.com/file/d/1TRbBIgjkDgO5JOuoW__wq5JO4k4xq9T2/view",
+    "addedAt": "2026-10-10T23:32:34.803Z"
+  },
+  {
     "id": "cert-18-01-seguridadticinfancia",
     "docType": "CurEst",
     "fileName": "18-01-CurEst-SeguridadTICInfancia.jpg",
