@@ -1,5 +1,30 @@
 [
   {
+    "id": "cert-17-04-facilitacionped",
+    "docType": "CursImp",
+    "fileName": "17-04-CursImp-FacilitacionPed.jpg",
+    "shortName": "FacilitacionPed",
+    "title": "Formación de Monitores en mediación pedagógica, educación popular y estrategias de facilitación",
+    "role": "Docente / Facilitador",
+    "issuer": "Fundación de Waal y PreNatal",
+    "year": 2017,
+    "yearShort": "17",
+    "month": "04",
+    "date": "2017-04-23",
+    "hours": 50,
+    "modality": "Presencial",
+    "credentialId": null,
+    "verificationUrl": null,
+    "cluster": "tecnopedagogia",
+    "skills": [
+      "Mediación Pedagógica",
+      "Educación Popular",
+      "Estrategias de Facilitación"
+    ],
+    "driveUrl": "https://drive.google.com/file/d/1RQFkMFLlRCK3BUBwCg4iIAJ7GuMJOyjL/view",
+    "addedAt": "2026-10-10T23:34:24.274Z"
+  },
+  {
     "id": "cert-17-02-recursosdigitales",
     "docType": "CurEst",
     "fileName": "17-02-CurEst-RecursosDigitales.jpg",
