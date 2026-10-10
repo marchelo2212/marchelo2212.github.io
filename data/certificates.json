@@ -1,5 +1,30 @@
 [
   {
+    "id": "cert-16-11-seminarioiipe",
+    "docType": "CurEst",
+    "fileName": "16-11-CurEst-SeminarioIIPE.jpg",
+    "shortName": "SeminarioIIPE",
+    "title": "Seminario Internacional Políticas de formación docente inicial y continua",
+    "role": "Participante",
+    "issuer": "Instituto Internacional de Planeamiento de la Educación (IIPE-UNESCO)",
+    "year": 2016,
+    "yearShort": "16",
+    "month": "11",
+    "date": "2016-11-09",
+    "hours": 16,
+    "modality": "Presencial",
+    "credentialId": null,
+    "verificationUrl": null,
+    "cluster": "politicas_direccion",
+    "skills": [
+      "Políticas Educativas",
+      "Formación Docente",
+      "Planeamiento Educativo"
+    ],
+    "driveUrl": "https://drive.google.com/file/d/1AIaAckL-0pyfv7YopY0BAs5RkOxPEHl0/view",
+    "addedAt": "2026-10-10T23:44:19.303Z"
+  },
+  {
     "id": "cert-18-04-ponenteflisol18",
     "docType": "Inves",
     "fileName": "18-04-Inves-PonenteFlisol18.jpg",
