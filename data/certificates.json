@@ -1,5 +1,30 @@
 [
   {
+    "id": "cert-22-05-intemocionalctrl",
+    "docType": "CurEst",
+    "fileName": "22-05-CurEst-IntEmocionalCtrl.jpg",
+    "shortName": "IntEmocionalCtrl",
+    "title": "INTELIGENCIA EMOCIONAL APLICADA AL CONTROL - VIRTUAL",
+    "role": "Participante",
+    "issuer": "Contraloría General del Estado - Ecuador",
+    "year": 2022,
+    "yearShort": "22",
+    "month": "05",
+    "date": "2022-05-26",
+    "hours": 24,
+    "modality": "Virtual",
+    "credentialId": "2F22EBEFBC2D842EDA62",
+    "verificationUrl": "https://servicios.contraloria.gob.ec:4443/Capacita/",
+    "cluster": "politicas_direccion",
+    "skills": [
+      "Inteligencia Emocional",
+      "Gestión de Control",
+      "Habilidades Blandas"
+    ],
+    "driveUrl": "https://drive.google.com/file/d/1z3YcgMBSZisV-ruzkjEfUOzRC6XmodYa/view",
+    "addedAt": "2026-10-10T23:44:00.811Z"
+  },
+  {
     "id": "cert-23-03-infosecawareness",
     "docType": "CurEst",
     "fileName": "23-03-CurEst-InfoSecAwareness.jpg",
