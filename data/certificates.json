@@ -1,5 +1,31 @@
 [
   {
+    "id": "cert-17-04-jornadasinfofis",
+    "docType": "Inves",
+    "fileName": "17-04-Inves-JornadasInfoFis.jpg",
+    "shortName": "JornadasInfoFis",
+    "title": "V Jornadas Internacionales, V Congreso Nacional de Ciencias Software Libre y Nuevas Tecnologías Aplicadas a la Educación y III Encuentro de Docentes de Informática y Física",
+    "role": "Ponente",
+    "issuer": "Universidad Central del Ecuador",
+    "year": 2017,
+    "yearShort": "17",
+    "month": "04",
+    "date": "2017-04-29",
+    "hours": 40,
+    "modality": "Híbrida",
+    "credentialId": null,
+    "verificationUrl": null,
+    "cluster": "tecnopedagogia",
+    "skills": [
+      "Software Libre",
+      "Modelos Tecno-Pedagógicos",
+      "LMS Libres",
+      "Informática Educativa"
+    ],
+    "driveUrl": "https://drive.google.com/file/d/1xOISb2ckN-MaCctqJuxBCo9ma6Dxftl0/view",
+    "addedAt": "2026-10-10T23:44:55.859Z"
+  },
+  {
     "id": "cert-18-05-ponenciaapienvs",
     "docType": "Inves",
     "fileName": "18-05-Inves-PonenciaApiEnvs.jpg",
