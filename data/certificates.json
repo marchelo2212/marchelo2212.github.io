@@ -1,5 +1,30 @@
 [
   {
+    "id": "cert-15-03-recursosedvirtual",
+    "docType": "CurEst",
+    "fileName": "15-03-CurEst-RecursosEdVirtual.jpg",
+    "shortName": "RecursosEdVirtual",
+    "title": "Recursos de educación virtual",
+    "role": "Participante",
+    "issuer": "PLANETA FATLA",
+    "year": 2015,
+    "yearShort": "15",
+    "month": "03",
+    "date": "2015-03-30",
+    "hours": 84,
+    "modality": "Virtual",
+    "credentialId": "1719920041",
+    "verificationUrl": "www.fatla.org",
+    "cluster": "tecnopedagogia",
+    "skills": [
+      "Educación Virtual",
+      "Entornos Virtuales de Aprendizaje",
+      "Tecnopedagogía"
+    ],
+    "driveUrl": "https://drive.google.com/file/d/12MtY-sVwTpwu-cR_CFbz926HKOPWUZnI/view",
+    "addedAt": "2026-10-10T23:30:03.817Z"
+  },
+  {
     "id": "cert-15-03-recursoseduvirtual",
     "docType": "CurEst",
     "fileName": "15-03-CurEst-RecursosEduVirtual.jpg",
