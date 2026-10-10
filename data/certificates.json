@@ -1,5 +1,30 @@
 [
   {
+    "id": "cert-20-01-seminariocalidad",
+    "docType": "CurEst",
+    "fileName": "20-01-CurEst-SeminarioCalidad.pdf",
+    "shortName": "SeminarioCalidad",
+    "title": "Seminario de Evaluación de la Calidad de la Formación en Modalidad en Línea: el caso español",
+    "role": "Participante",
+    "issuer": "Secretaría de Educación Superior, Ciencia, Tecnología e Innovación (SENESCYT)",
+    "year": 2020,
+    "yearShort": "20",
+    "month": "01",
+    "date": "2020-01-21",
+    "hours": 16,
+    "modality": "Presencial",
+    "credentialId": null,
+    "verificationUrl": null,
+    "cluster": "tecnopedagogia",
+    "skills": [
+      "Evaluación Educativa",
+      "Educación en Línea",
+      "Calidad Académica"
+    ],
+    "driveUrl": "https://drive.google.com/file/d/1O7_x2QEXd9LLlQU9NJrhKGPwtl1S2wG4/view",
+    "addedAt": "2026-10-10T22:09:02.203Z"
+  },
+  {
     "id": "cert-21-04-programacionvideojuegos",
     "docType": "CurEst",
     "fileName": "21-04-CurEst-ProgramacionVideojuegos.pdf",
