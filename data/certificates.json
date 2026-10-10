@@ -1,5 +1,30 @@
 [
   {
+    "id": "cert-18-06-estrategiasdig",
+    "docType": "CurEst",
+    "fileName": "18-06-CurEst-EstrategiasDig.jpg",
+    "shortName": "EstrategiasDig",
+    "title": "Estrategias Didácticas Digitales - 7ta. edición",
+    "role": "Participante",
+    "issuer": "Organización de los Estados Americanos (OEA)",
+    "year": 2018,
+    "yearShort": "18",
+    "month": "06",
+    "date": "2018-06-22",
+    "hours": 180,
+    "modality": "Virtual",
+    "credentialId": "7DdqiNFqq3",
+    "verificationUrl": null,
+    "cluster": "tecnopedagogia",
+    "skills": [
+      "Educación Digital",
+      "Didáctica Virtual",
+      "Diseño Instruccional"
+    ],
+    "driveUrl": "https://drive.google.com/file/d/1U0ab3bGvQAuYw0n4jltCbKa78J4aOj9r/view",
+    "addedAt": "2026-10-10T23:41:14.796Z"
+  },
+  {
     "id": "cert-18-03-sensdiscapacidad",
     "docType": "CurEst",
     "fileName": "18-03-CurEst-SensDiscapacidad.jpg",
