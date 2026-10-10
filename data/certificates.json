@@ -1,5 +1,30 @@
 [
   {
+    "id": "cert-13-12-hourofcode",
+    "docType": "CurEst",
+    "fileName": "13-12-CurEst-HourOfCode.jpg",
+    "shortName": "HourOfCode",
+    "title": "The Hour of Code",
+    "role": "Participante",
+    "issuer": "Code.org",
+    "year": 2013,
+    "yearShort": "13",
+    "month": "12",
+    "date": "2013-12",
+    "hours": 1,
+    "modality": "Virtual",
+    "credentialId": null,
+    "verificationUrl": "www.code.org",
+    "cluster": "ia_data_science",
+    "skills": [
+      "Computer Science",
+      "Programming Logic",
+      "Computational Thinking"
+    ],
+    "driveUrl": "https://drive.google.com/file/d/1RnSVghc-1QjKRHdYPQcwtWltksbT3J0f/view",
+    "addedAt": "2026-10-10T23:38:26.148Z"
+  },
+  {
     "id": "cert-21-08-festivalideas10",
     "docType": "Meri",
     "fileName": "21-08-Meri-FestivalIdeas10.jpg",
