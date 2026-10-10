@@ -1,5 +1,30 @@
 [
   {
+    "id": "cert-20-10-qahedmaster",
+    "docType": "Cert",
+    "fileName": "20-10-Cert-QAHEdMaster.jpg",
+    "shortName": "QAHEdMaster",
+    "title": "Master's Degree in Quality Management and Evaluation in Higher Education",
+    "role": "Participante",
+    "issuer": "International Network for Quality Assurance Agencies in Higher Education (INQAAHE)",
+    "year": 2020,
+    "yearShort": "20",
+    "month": "10",
+    "date": "2020-10-29",
+    "hours": null,
+    "modality": "Virtual",
+    "credentialId": null,
+    "verificationUrl": null,
+    "cluster": "politicas_direccion",
+    "skills": [
+      "Quality Management",
+      "Higher Education",
+      "Program Evaluation"
+    ],
+    "driveUrl": "https://drive.google.com/file/d/1RvrzgN07PGUw8pMoLtTXLTFsxl0xpnVz/view",
+    "addedAt": "2026-10-10T23:30:55.168Z"
+  },
+  {
     "id": "cert-20-10-qahed",
     "docType": "Cert",
     "fileName": "20-10-Cert-QAHEd.jpg",
