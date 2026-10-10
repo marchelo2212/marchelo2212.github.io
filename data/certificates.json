@@ -1,5 +1,30 @@
 [
   {
+    "id": "cert-25-06-delaideaalpaper",
+    "docType": "CurEst",
+    "fileName": "25-06-CurEst-DeLaIdeaAlPaper.pdf",
+    "shortName": "DeLaIdeaAlPaper",
+    "title": "De la Idea al Paper: Fundamentos para la Redacción de Artículos",
+    "role": "Participante",
+    "issuer": "Pontificia Universidad Católica del Ecuador",
+    "year": 2025,
+    "yearShort": "25",
+    "month": "06",
+    "date": "2025-06-27",
+    "hours": 40,
+    "modality": "Virtual",
+    "credentialId": "68d2a515-f8d8-4556-a6ed-33f70a0808bd",
+    "verificationUrl": null,
+    "cluster": "ia_data_science",
+    "skills": [
+      "Redacción Científica",
+      "LaTeX",
+      "Overleaf"
+    ],
+    "driveUrl": "https://drive.google.com/file/d/1-kpsEJt9VwqVp3plByY8DqfQCy3IFUc6/view",
+    "addedAt": "2026-10-10T22:29:51.418Z"
+  },
+  {
     "id": "cert-25-11-tutorcollegehoriz",
     "docType": "CursImp",
     "fileName": "25-11-CursImp-TutorCollegeHoriz.pdf",
