@@ -1,5 +1,30 @@
 [
   {
+    "id": "cert-22-02-certsercop",
+    "docType": "Cert",
+    "fileName": "22-02-Cert-CertSercop.pdf",
+    "shortName": "CertSercop",
+    "title": "Operador del Sistema Nacional de Compras Públicas - Fundamentos de Contratación Pública",
+    "role": "Participante",
+    "issuer": "Servicio Nacional de Contratación Pública",
+    "year": 2022,
+    "yearShort": "22",
+    "month": "02",
+    "date": "2022-02-26",
+    "hours": null,
+    "modality": "Virtual",
+    "credentialId": "SERCOP-ZYmX8I8D4c",
+    "verificationUrl": null,
+    "cluster": "politicas_direccion",
+    "skills": [
+      "Contratación Pública",
+      "Normativa Legal",
+      "Gestión Gubernamental"
+    ],
+    "driveUrl": "https://drive.google.com/file/d/1YdpH8XIJN_osHTT5n6Ol8LKwqMBUtz8h/view",
+    "addedAt": "2026-10-10T22:27:23.295Z"
+  },
+  {
     "id": "cert-21-11-praticassaludable",
     "docType": "CurEst",
     "fileName": "21-11-CurEst-PraticasSaludable.pdf",
