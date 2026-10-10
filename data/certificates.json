@@ -1,5 +1,30 @@
 [
   {
+    "id": "cert-16-12-libreofficecec",
+    "docType": "CurEst",
+    "fileName": "16-12-CurEst-LibreOfficeCEC.jpg",
+    "shortName": "LibreOfficeCEC",
+    "title": "OFIMATICA CON SOFTWARE LIBRE: LIBREOFFICE",
+    "role": "Participante",
+    "issuer": "CEC-IAEN",
+    "year": 2016,
+    "yearShort": "16",
+    "month": "12",
+    "date": "2016-12-14",
+    "hours": 40,
+    "modality": "Virtual",
+    "credentialId": null,
+    "verificationUrl": "https://s3.amazonaws.com/mccth-lo101/cert/b2d5b6f50dc24d70970475a2a760d559",
+    "cluster": "tecnopedagogia",
+    "skills": [
+      "LibreOffice",
+      "Software Libre",
+      "Ofimática"
+    ],
+    "driveUrl": "https://drive.google.com/file/d/1Ldvn70QNFTFIItB_4OzV9o8LsOugmLJq/view",
+    "addedAt": "2026-10-10T23:34:32.479Z"
+  },
+  {
     "id": "cert-17-04-facilitacionped",
     "docType": "CursImp",
     "fileName": "17-04-CursImp-FacilitacionPed.jpg",
