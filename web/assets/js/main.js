@@ -525,6 +525,13 @@ function renderCertifications(filterType = currentCertFilter) {
     return c.docType === filterType;
   });
 
+  // Ordenar estrictamente por año y mes descendente (más reciente primero)
+  filtered.sort((a, b) => {
+    const keyA = `${(a.year || '0000')}-${String(a.month || '00').padStart(2, '0')}-${a.date || ''}`;
+    const keyB = `${(b.year || '0000')}-${String(b.month || '00').padStart(2, '0')}-${b.date || ''}`;
+    return keyB.localeCompare(keyA);
+  });
+
   const typeMeta = {
     Meri: { label: "Mérito", color: "text-amber-400 bg-amber-500/10 border-amber-500/20", icon: "fa-solid fa-medal" },
     Inves: { label: "Investigación", color: "text-purple-400 bg-purple-500/10 border-purple-500/20", icon: "fa-solid fa-microscope" },

@@ -425,14 +425,20 @@ def parse_certifications(section_text: str, json_path: Path):
         except Exception as e:
             print(f"[!] Error leyendo {json_path}: {e}")
             
-    # Ordenar por año descendente
+    # Ordenar estrictamente por año y mes descendente (más reciente primero)
     def get_sort_key(item):
-        y = str(item.get("year") or "0")
-        try:
-            m = re.search(r'\d{4}', y)
-            return int(m.group(0)) if m else 0
-        except:
-            return 0
+        date_str = str(item.get("date") or "").strip()
+        m_date = re.match(r'^(\d{4})[-/](\d{1,2})', date_str)
+        if m_date:
+            return f"{m_date.group(1)}-{m_date.group(2).zfill(2)}"
+        
+        y = str(item.get("year") or "0000").strip()
+        m_y = re.search(r'\d{4}', y)
+        year_val = m_y.group(0) if m_y else (("20" + y) if len(y) == 2 and y.isdigit() else "0000")
+        
+        month_val = str(item.get("month") or "00").strip().zfill(2)
+        return f"{year_val}-{month_val}"
+
     items.sort(key=get_sort_key, reverse=True)
     return items
 
