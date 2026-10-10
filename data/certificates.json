@@ -1,5 +1,30 @@
 [
   {
+    "id": "cert-21-08-cursogamificacion",
+    "docType": "CurEst",
+    "fileName": "21-08-CurEst-CursoGamificacion.jpg",
+    "shortName": "CursoGamificacion",
+    "title": "CURSO EN JUEGO, GAMIFICACIÓN Y TIC COMO HERRAMIENTA PARA EL APRENDIZAJE",
+    "role": "Participante",
+    "issuer": "Universidad Nebrija y Organización de Estados Iberoamericanos para la Educación, la Ciencia y la Cultura (OEI)",
+    "year": 2021,
+    "yearShort": "21",
+    "month": "08",
+    "date": "2021-08-03",
+    "hours": null,
+    "modality": "Virtual",
+    "credentialId": null,
+    "verificationUrl": null,
+    "cluster": "tecnopedagogia",
+    "skills": [
+      "Gamificación",
+      "TIC Educativas",
+      "Estrategias de Aprendizaje"
+    ],
+    "driveUrl": "https://drive.google.com/file/d/1tzqvacqwNXBvGohvBaACAI-S55y9Zk7g/view",
+    "addedAt": "2026-10-10T23:43:25.568Z"
+  },
+  {
     "id": "cert-22-07-googleeducator1",
     "docType": "Cert",
     "fileName": "22-07-Cert-GoogleEducator1.pdf",
