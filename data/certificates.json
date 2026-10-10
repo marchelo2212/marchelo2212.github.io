@@ -1,5 +1,30 @@
 [
   {
+    "id": "cert-24-10-capacitacioncienc",
+    "docType": "CurEst",
+    "fileName": "24-10-CurEst-CapacitacionCienc.pdf",
+    "shortName": "CapacitacionCienc",
+    "title": "Certificado de Aprobación: Capacitación en Investigación Científica 2024",
+    "role": "Participante",
+    "issuer": "SCImago Research Group",
+    "year": 2024,
+    "yearShort": "24",
+    "month": "10",
+    "date": "2024-10-08",
+    "hours": 60,
+    "modality": "Virtual",
+    "credentialId": "fkeS9HeAQ3",
+    "verificationUrl": null,
+    "cluster": "ia_data_science",
+    "skills": [
+      "Investigación Científica",
+      "Metodología de la Investigación",
+      "Publicación Académica"
+    ],
+    "driveUrl": "https://drive.google.com/file/d/1IkIXBqRGgTO6dIXnTwrqYAU01b94T7-J/view",
+    "addedAt": "2026-10-10T22:30:08.579Z"
+  },
+  {
     "id": "cert-22-11-mobilelearningugr",
     "docType": "CurEst",
     "fileName": "22-11-CurEst-MobileLearningUGR.pdf",
