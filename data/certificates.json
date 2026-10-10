@@ -17,12 +17,12 @@
     "verificationUrl": "http://certificates.moodle.com",
     "cluster": "tecnopedagogia",
     "skills": [
-      "Moodle",
+      "Moodle 3.1",
       "Diseño Instruccional",
-      "Gestión de Cursos Virtuales"
+      "Gestión de Entornos Virtuales"
     ],
     "driveUrl": "https://drive.google.com/file/d/1zVQQ0JeO_xbLLCI3f15Abn6qd--5mXB0/view",
-    "addedAt": "2026-10-10T23:30:32.883Z"
+    "addedAt": "2026-10-10T23:30:37.919Z"
   },
   {
     "id": "cert-23-03-fortinetnse1",
