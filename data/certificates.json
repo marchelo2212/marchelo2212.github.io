@@ -1,5 +1,30 @@
 [
   {
+    "id": "cert-21-02-confciberseguridad",
+    "docType": "Meri",
+    "fileName": "21-02-Meri-ConfCiberseguridad.pdf",
+    "shortName": "ConfCiberseguridad",
+    "title": "Certificado de Agradecimiento por Conferencia de Ciberseguridad",
+    "role": "Ponente",
+    "issuer": "Distrito 01D03 Girón a Santa Isabel - Educación",
+    "year": 2021,
+    "yearShort": "21",
+    "month": "02",
+    "date": "2021-02-22",
+    "hours": 0,
+    "modality": "Presencial",
+    "credentialId": null,
+    "verificationUrl": null,
+    "cluster": "politicas_direccion",
+    "skills": [
+      "Ciberseguridad",
+      "Educación Digital",
+      "Conferencias"
+    ],
+    "driveUrl": "https://drive.google.com/file/d/1wELtLLAWgRRGVNT5dw0ILgm5a2E4m6pM/view",
+    "addedAt": "2026-10-10T22:09:52.858Z"
+  },
+  {
     "id": "cert-20-12-violenciamujeres",
     "docType": "CurEst",
     "fileName": "20-12-CurEst-ViolenciaMujeres.pdf",
