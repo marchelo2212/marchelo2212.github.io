@@ -1,5 +1,31 @@
 [
   {
+    "id": "cert-17-12-ponenciascratch",
+    "docType": "Inves",
+    "fileName": "17-12-Inves-PonenciaScratch.jpg",
+    "shortName": "PonenciaScratch",
+    "title": "Programando un juego en 15 minutos con Scratch",
+    "role": "Ponente",
+    "issuer": "Comunidades de Tecnologías Libres de Ecuador y Venezuela",
+    "year": 2017,
+    "yearShort": "17",
+    "month": "12",
+    "date": "2017-12-16",
+    "hours": 1,
+    "modality": "Virtual",
+    "credentialId": "N° FP-028-13",
+    "verificationUrl": null,
+    "cluster": "tecnopedagogia",
+    "skills": [
+      "Scratch",
+      "Pensamiento Computacional",
+      "Desarrollo de Videojuegos",
+      "Tecnologías Libres"
+    ],
+    "driveUrl": "https://drive.google.com/file/d/1P0IhgyfqZdHc4NAYVFFyYzDucrQp3s7J/view",
+    "addedAt": "2026-10-10T23:33:09.613Z"
+  },
+  {
     "id": "cert-17-12-eddisruptiva",
     "docType": "CurEst",
     "fileName": "17-12-CurEst-EdDisruptiva.jpg",
