@@ -768,14 +768,20 @@
           <h3 class="font-serif text-2xl font-medium text-white">Méritos, Certificaciones & Arbitraje</h3>
         </div>
 
-        <!-- Filtros interactivos por tipo de documento -->
-        <div class="flex items-center gap-1 flex-wrap mb-4 font-mono text-[10px]" id="cert-filter-bar">
-          <button class="cert-filter-btn px-2.5 py-1 rounded-lg bg-amber-500/20 text-amber-300 border border-amber-500/30 transition font-medium" data-type="all">Todos</button>
-          <button class="cert-filter-btn px-2.5 py-1 rounded-lg bg-white/[0.04] text-slate-400 hover:text-white border border-white/[0.06] transition" data-type="Meri">Méritos</button>
-          <button class="cert-filter-btn px-2.5 py-1 rounded-lg bg-white/[0.04] text-slate-400 hover:text-white border border-white/[0.06] transition" data-type="Inves">Investigación</button>
-          <button class="cert-filter-btn px-2.5 py-1 rounded-lg bg-white/[0.04] text-slate-400 hover:text-white border border-white/[0.06] transition" data-type="Cert">Certificaciones</button>
-          <button class="cert-filter-btn px-2.5 py-1 rounded-lg bg-white/[0.04] text-slate-400 hover:text-white border border-white/[0.06] transition" data-type="CurEst">Cursos Estudiados</button>
-          <button class="cert-filter-btn px-2.5 py-1 rounded-lg bg-white/[0.04] text-slate-400 hover:text-white border border-white/[0.06] transition" data-type="CursImp">Cursos Impartidos</button>
+        <!-- Buscador y Filtros interactivos por tipo de documento -->
+        <div class="flex items-center justify-between gap-3 flex-wrap mb-4">
+          <div class="flex items-center gap-1 flex-wrap font-mono text-[10px]" id="cert-filter-bar">
+            <button class="cert-filter-btn px-2.5 py-1 rounded-lg bg-amber-500/20 text-amber-300 border border-amber-500/30 transition font-medium" data-type="all">Todos</button>
+            <button class="cert-filter-btn px-2.5 py-1 rounded-lg bg-white/[0.04] text-slate-400 hover:text-white border border-white/[0.06] transition" data-type="Meri">Méritos</button>
+            <button class="cert-filter-btn px-2.5 py-1 rounded-lg bg-white/[0.04] text-slate-400 hover:text-white border border-white/[0.06] transition" data-type="Inves">Investigación</button>
+            <button class="cert-filter-btn px-2.5 py-1 rounded-lg bg-white/[0.04] text-slate-400 hover:text-white border border-white/[0.06] transition" data-type="Cert">Certificaciones</button>
+            <button class="cert-filter-btn px-2.5 py-1 rounded-lg bg-white/[0.04] text-slate-400 hover:text-white border border-white/[0.06] transition" data-type="CurEst">Cursos Estudiados</button>
+            <button class="cert-filter-btn px-2.5 py-1 rounded-lg bg-white/[0.04] text-slate-400 hover:text-white border border-white/[0.06] transition" data-type="CursImp">Cursos Impartidos</button>
+          </div>
+          <div class="relative w-full sm:w-60">
+            <i class="fa-solid fa-magnifying-glass absolute left-3 top-2.5 text-[10px] text-slate-500"></i>
+            <input type="text" id="cert-search-input" placeholder="Buscar credencial o tema..." class="w-full pl-8 pr-3 py-1.5 rounded-lg bg-surface-card border border-white/[0.08] focus:border-amber-400/50 text-[11px] text-white placeholder-slate-500 outline-none transition font-sans">
+          </div>
         </div>
 
         <div id="certificates-list" class="space-y-3 font-sans text-xs">

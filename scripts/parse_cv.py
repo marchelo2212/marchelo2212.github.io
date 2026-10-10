@@ -313,7 +313,7 @@ def parse_education(section_text: str):
 
 def parse_certifications(section_text: str, json_path: Path):
     """Extrae certificaciones de cv.tex y las fusiona con data/certificates.json."""
-    items = []
+    tex_items = []
     
     # 1. Parsear desde cv.tex si hay sección
     if section_text:
@@ -345,8 +345,8 @@ def parse_certifications(section_text: str, json_path: Path):
             reg = clean_latex(reg_match.group(1)) if reg_match else ""
             
             if title:
-                items.append({
-                    "id": f"cert-tex-{year}-{len(items)}",
+                tex_items.append({
+                    "id": f"cert-tex-{year}-{len(tex_items)}",
                     "docType": "Cert",
                     "fileName": "",
                     "shortName": "",
@@ -364,70 +364,61 @@ def parse_certifications(section_text: str, json_path: Path):
                     "skills": []
                 })
 
+    final_items = []
+    seen_drive_urls = set()
+
     # 2. Cargar y fusionar con data/certificates.json (Google Drive / Gemini)
     if json_path.exists():
         try:
             drive_certs = json.loads(json_path.read_text(encoding='utf-8'))
             for dc in drive_certs:
+                d_url = dc.get("driveUrl")
+                if d_url and d_url in seen_drive_urls:
+                    continue
+                if d_url:
+                    seen_drive_urls.add(d_url)
+
                 title = clean_latex(dc.get("title", ""))
                 norm_key = re.sub(r'\W+', '', title.lower())
                 
-                # Buscar si ya existe para enriquecer (solo si coincide título exacto o título + mismo año)
-                matched = next((item for item in items if (norm_key == re.sub(r'\W+', '', item["title"].lower())) or (norm_key in re.sub(r'\W+', '', item["title"].lower()) and str(dc.get("year", "")) == str(item.get("year", "")))), None)
-                if matched:
-                    if dc.get("docType"):
-                        matched["docType"] = dc["docType"]
-                    if dc.get("fileName"):
-                        matched["fileName"] = dc["fileName"]
-                    if dc.get("shortName"):
-                        matched["shortName"] = dc["shortName"]
-                    if dc.get("role"):
-                        matched["role"] = dc["role"]
-                    if dc.get("driveUrl"):
-                        matched["driveUrl"] = dc["driveUrl"]
-                    if dc.get("skills"):
-                        matched["skills"] = dc["skills"]
-                    if dc.get("cluster"):
-                        matched["cluster"] = dc["cluster"]
-                    if dc.get("hours"):
-                        matched["hours"] = dc["hours"]
-                    if dc.get("modality"):
-                        matched["modality"] = dc["modality"]
-                    if dc.get("credentialId"):
-                        matched["credentialId"] = dc["credentialId"]
-                    if dc.get("year"):
-                        matched["year"] = str(dc["year"])
-                    if dc.get("date"):
-                        matched["date"] = dc["date"]
-                    if dc.get("month"):
-                        matched["month"] = str(dc["month"])
-                    if dc.get("yearShort"):
-                        matched["yearShort"] = str(dc["yearShort"])
-                    if dc.get("verificationUrl"):
-                        matched["verificationUrl"] = dc["verificationUrl"]
-                else:
-                    items.append({
-                        "id": dc.get("id", f"cert-{len(items)}"),
-                        "docType": dc.get("docType", "Cert"),
-                        "fileName": dc.get("fileName", ""),
-                        "shortName": dc.get("shortName", ""),
-                        "role": dc.get("role", ""),
-                        "title": title,
-                        "issuer": clean_latex(dc.get("issuer", "")),
-                        "year": str(dc.get("year", "")),
-                        "yearShort": str(dc.get("yearShort", "")),
-                        "month": str(dc.get("month", "")),
-                        "date": dc.get("date", ""),
-                        "hours": dc.get("hours"),
-                        "modality": dc.get("modality", ""),
-                        "credentialId": dc.get("credentialId"),
-                        "verificationUrl": dc.get("verificationUrl"),
-                        "driveUrl": dc.get("driveUrl"),
-                        "cluster": dc.get("cluster", "tecnopedagogia"),
-                        "skills": dc.get("skills", [])
-                    })
+                # Buscar si corresponde a un item de tex_items para enriquecer
+                matched_tex = next((ti for ti in tex_items if ti.get("_matched") is not True and (norm_key == re.sub(r'\W+', '', ti["title"].lower()) or (len(norm_key) > 8 and norm_key in re.sub(r'\W+', '', ti["title"].lower()) and str(dc.get("year", "")) == str(ti.get("year", ""))))), None)
+                if matched_tex:
+                    matched_tex["_matched"] = True
+                    if not dc.get("credentialId") and matched_tex.get("credentialId"):
+                        dc["credentialId"] = matched_tex["credentialId"]
+                    if not dc.get("verificationUrl") and matched_tex.get("verificationUrl"):
+                        dc["verificationUrl"] = matched_tex["verificationUrl"]
+
+                final_items.append({
+                    "id": dc.get("id", f"cert-{len(final_items)}"),
+                    "docType": dc.get("docType", "Cert"),
+                    "fileName": dc.get("fileName", ""),
+                    "shortName": dc.get("shortName", ""),
+                    "role": dc.get("role", ""),
+                    "title": title,
+                    "issuer": clean_latex(dc.get("issuer", "")),
+                    "year": str(dc.get("year", "")),
+                    "yearShort": str(dc.get("yearShort", "")),
+                    "month": str(dc.get("month", "")),
+                    "date": dc.get("date", ""),
+                    "hours": dc.get("hours"),
+                    "modality": dc.get("modality", ""),
+                    "credentialId": dc.get("credentialId"),
+                    "verificationUrl": dc.get("verificationUrl"),
+                    "driveUrl": dc.get("driveUrl"),
+                    "cluster": dc.get("cluster", "tecnopedagogia"),
+                    "skills": dc.get("skills", [])
+                })
         except Exception as e:
             print(f"[!] Error leyendo {json_path}: {e}")
+
+    # Agregar cualquier item de tex_items no cubierto en Drive
+    for ti in tex_items:
+        if not ti.get("_matched"):
+            final_items.append(ti)
+        else:
+            ti.pop("_matched", None)
             
     # Ordenar estrictamente por año y mes descendente (más reciente primero)
     def get_sort_key(item):
@@ -443,8 +434,8 @@ def parse_certifications(section_text: str, json_path: Path):
         month_val = str(item.get("month") or "00").strip().zfill(2)
         return f"{year_val}-{month_val}"
 
-    items.sort(key=get_sort_key, reverse=True)
-    return items
+    final_items.sort(key=get_sort_key, reverse=True)
+    return final_items
 
 def parse_projects(section_text: str):
     """Extrae los proyectos relevantes de la tabla."""

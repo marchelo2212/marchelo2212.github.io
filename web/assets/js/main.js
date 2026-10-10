@@ -514,15 +514,53 @@ function renderEducation() {
 
 /// 7b. Renderizar Distinciones, Certificaciones y Méritos
 let currentCertFilter = 'all';
+let currentCertSearchQuery = '';
 
-function renderCertifications(filterType = currentCertFilter) {
+function renderCertifications(filterType = currentCertFilter, searchQuery = currentCertSearchQuery) {
   currentCertFilter = filterType;
+  currentCertSearchQuery = (searchQuery !== undefined ? searchQuery : currentCertSearchQuery).trim().toLowerCase();
   const container = document.getElementById('certificates-list');
   if (!container || !cvData.certifications) return;
 
-  const filtered = cvData.certifications.filter(c => {
-    if (filterType === 'all') return true;
-    return c.docType === filterType;
+  // Actualizar conteos dinámicos en los botones de filtro
+  const allCerts = cvData.certifications;
+  const certCounts = {
+    all: allCerts.length,
+    Meri: allCerts.filter(c => c.docType === 'Meri').length,
+    Inves: allCerts.filter(c => c.docType === 'Inves').length,
+    Cert: allCerts.filter(c => c.docType === 'Cert').length,
+    CurEst: allCerts.filter(c => c.docType === 'CurEst').length,
+    CursImp: allCerts.filter(c => c.docType === 'CursImp').length
+  };
+  const certLabels = {
+    all: "Todos",
+    Meri: "Méritos",
+    Inves: "Investigación",
+    Cert: "Certificaciones",
+    CurEst: "Cursos Estudiados",
+    CursImp: "Cursos Impartidos"
+  };
+  document.querySelectorAll('.cert-filter-btn').forEach(btn => {
+    const type = btn.getAttribute('data-type');
+    if (type && certCounts[type] !== undefined) {
+      btn.textContent = `${certLabels[type]} (${certCounts[type]})`;
+    }
+  });
+
+  const filtered = allCerts.filter(c => {
+    if (currentCertFilter !== 'all' && c.docType !== currentCertFilter) return false;
+    if (currentCertSearchQuery) {
+      const hay = [
+        c.title || '',
+        c.issuer || '',
+        c.role || '',
+        c.docType || '',
+        c.year || '',
+        ...(c.skills || [])
+      ].join(' ').toLowerCase();
+      if (!hay.includes(currentCertSearchQuery)) return false;
+    }
+    return true;
   });
 
   // Ordenar estrictamente por año y mes descendente (más reciente primero)
@@ -543,7 +581,7 @@ function renderCertifications(filterType = currentCertFilter) {
   if (filtered.length === 0) {
     container.innerHTML = `
       <div class="p-6 rounded-xl bg-surface-card border border-white/[0.06] text-center text-slate-400 font-mono text-xs">
-        No hay registros en la categoría seleccionada aún.
+        No se encontraron registros que coincidan con la búsqueda o filtro.
       </div>
     `;
     return;
@@ -732,6 +770,14 @@ function setupEventListeners() {
       renderCertifications(type);
     });
   });
+
+  // Buscador reactivo de Certificaciones
+  const certSearchInput = document.getElementById('cert-search-input');
+  if (certSearchInput) {
+    certSearchInput.addEventListener('input', (e) => {
+      renderCertifications(currentCertFilter, e.target.value);
+    });
+  }
 }
 
 // 9. Inicializar Barra Lateral y Navegación ScrollSpy

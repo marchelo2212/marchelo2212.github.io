@@ -426,12 +426,20 @@
         "info": "[Blog 2026] Observatorio de Publicaciones y Ensayos 2026 - Repositorio continuo de reflexiones, modelos neuro-simbólicos, avances de tesis ..."
       },
       {
-        "id": "cert_cert-tex-2026-0",
-        "label": "Validación curricular y co...",
+        "id": "cert_cert-26-08-iarealiztareas",
+        "label": "IA para automatizar tareas...",
         "cluster": "tecnopedagogia",
         "type": "certification",
         "size": 13,
-        "info": "Certificación: Validación curricular y contextualización del Currículum GlobALE para América Latina (DVV International y Fundación Openlab Ecuador, 2026)"
+        "info": "Certificación: IA para automatizar tareas académicas y administrativas (Grupo editorial ECOE Ediciones S.A.S, 2026)"
+      },
+      {
+        "id": "cert_cert-26-06-seguridadinfo",
+        "label": "Certificado de reconocimie...",
+        "cluster": "tecnopedagogia",
+        "type": "certification",
+        "size": 13,
+        "info": "Certificación: Certificado de reconocimiento por participar en las capacitaciones sobre Concientización en seguridad Informática (ESCANOR CORP, 2026)"
       },
       {
         "id": "cert_cert-26-06-moodlemootcol26",
@@ -442,6 +450,46 @@
         "info": "Certificación: Certificado de Participación - Moodle Moot Colombia 2026 (Moodle Moot Colombia, 2026)"
       },
       {
+        "id": "cert_cert-26-06-dvvglobale",
+        "label": "Validación curricular y co...",
+        "cluster": "tecnopedagogia",
+        "type": "certification",
+        "size": 13,
+        "info": "Certificación: Validación curricular y contextualización del Currículum GlobALE para América Latina (DVV International y Fundación Openlab Ecuador, 2026)"
+      },
+      {
+        "id": "cert_cert-25-11-tutorcollegehoriz",
+        "label": "Tutor in COLLEGE HORIZONS ...",
+        "cluster": "politicas_direccion",
+        "type": "certification",
+        "size": 13,
+        "info": "Certificación: Tutor in COLLEGE HORIZONS PROGRAM (Centro de Educación Continua de la Escuela Politécnica Nacional and the United States Embassy, 2025)"
+      },
+      {
+        "id": "cert_cert-25-11-bestpapericetei",
+        "label": "Best Paper in Track 3: Dig...",
+        "cluster": "tecnopedagogia",
+        "type": "certification",
+        "size": 13,
+        "info": "Certificación: Best Paper in Track 3: Digital Education and Learning Analytics (ICETEI 2025 & RED EDUTEM, 2025)"
+      },
+      {
+        "id": "cert_cert-25-06-diplomadodeeplearning",
+        "label": "Diplomado Inteligencia Art...",
+        "cluster": "ia_data_science",
+        "type": "certification",
+        "size": 13,
+        "info": "Certificación: Diplomado Inteligencia Artificial con Deep Learning (Universidad de La Sabana, 2025)"
+      },
+      {
+        "id": "cert_cert-25-06-delaideaalpaper",
+        "label": "De la Idea al Paper: Funda...",
+        "cluster": "ia_data_science",
+        "type": "certification",
+        "size": 13,
+        "info": "Certificación: De la Idea al Paper: Fundamentos para la Redacción de Artículos (Pontificia Universidad Católica del Ecuador, 2025)"
+      },
+      {
         "id": "cert_cert-24-11-transmediauflo",
         "label": "I Jornadas Institucionales...",
         "cluster": "tecnopedagogia",
@@ -450,12 +498,332 @@
         "info": "Certificación: I Jornadas Institucionales de Innovación Educativa en la Universidad: Transmedia, gamificación y performance (Universidad de Flores (UFLO), 2024)"
       },
       {
-        "id": "cert_cert-tex-2022-1",
-        "label": "Educador certificado por G...",
+        "id": "cert_cert-24-10-capacitacioninvest",
+        "label": "CAPACITACIÓN EN INVESTIGAC...",
+        "cluster": "ia_data_science",
+        "type": "certification",
+        "size": 13,
+        "info": "Certificación: CAPACITACIÓN EN INVESTIGACIÓN CIENTÍFICA 2024 (SCImago Research Group, 2024)"
+      },
+      {
+        "id": "cert_cert-24-10-capacitacioncienc",
+        "label": "Certificado de Aprobación:...",
+        "cluster": "ia_data_science",
+        "type": "certification",
+        "size": 13,
+        "info": "Certificación: Certificado de Aprobación: Capacitación en Investigación Científica 2024 (SCImago Research Group, 2024)"
+      },
+      {
+        "id": "cert_cert-23-08-ponenciamoodle23",
+        "label": "Uso de las actividades de ...",
         "cluster": "tecnopedagogia",
         "type": "certification",
         "size": 13,
-        "info": "Certificación: Educador certificado por GOOGLE (Google for Education - Level 1, 2022)"
+        "info": "Certificación: Uso de las actividades de aprendizaje en Moodle para la evaluación en la educación continua y formal (Edu Labs y Escuela Politécnica Nacional, 2023)"
+      },
+      {
+        "id": "cert_cert-23-08-ponenteusorecedu",
+        "label": "Ponente Experto en el Webi...",
+        "cluster": "tecnopedagogia",
+        "type": "certification",
+        "size": 13,
+        "info": "Certificación: Ponente Experto en el Webinar Uso de Recursos Educativos en el Aula (Ministerio de Educación del Ecuador, 2023)"
+      },
+      {
+        "id": "cert_cert-23-03-infosecawareness",
+        "label": "Information Security Aware...",
+        "cluster": "politicas_direccion",
+        "type": "certification",
+        "size": 13,
+        "info": "Certificación: Information Security Awareness (Fortinet Training Institute, 2023)"
+      },
+      {
+        "id": "cert_cert-23-03-fortinetnse1",
+        "label": "NSE 1 Network Security Ass...",
+        "cluster": "tecnopedagogia",
+        "type": "certification",
+        "size": 13,
+        "info": "Certificación: NSE 1 Network Security Associate (Fortinet, 2023)"
+      },
+      {
+        "id": "cert_cert-22-11-ponenciaried2022",
+        "label": "Seminario Virtual de la RI...",
+        "cluster": "tecnopedagogia",
+        "type": "certification",
+        "size": 13,
+        "info": "Certificación: Seminario Virtual de la RIED 2022 (Red Interamericana de Educación Docente (RIED) - OEA, 2022)"
+      },
+      {
+        "id": "cert_cert-22-11-comitecientificovii",
+        "label": "MIEMBRO DEL COMITÉ CIENTÍF...",
+        "cluster": "tecnopedagogia",
+        "type": "certification",
+        "size": 13,
+        "info": "Certificación: MIEMBRO DEL COMITÉ CIENTÍFICO-EVALUADOR EXTERNO EN EL VII CONGRESO INTERNACIONAL DE EDUCACIÓN CONTEMPORÁNEA CALIDAD EDUCATIVA Y BUEN VIVIR (Universidad Nacional de Chimborazo, 2022)"
+      },
+      {
+        "id": "cert_cert-22-11-comiteviiiced",
+        "label": "MIEMBRO DEL COMITÉ CIENTÍF...",
+        "cluster": "tecnopedagogia",
+        "type": "certification",
+        "size": 13,
+        "info": "Certificación: MIEMBRO DEL COMITÉ CIENTÍFICO-EVALUADOR EXTERNO EN EL VII CONGRESO INTERNACIONAL DE EDUCACIÓN CONTEMPORÁNEA CALIDAD EDUCATIVA Y BUEN VIVIR (Facultad de Ciencias de la Educación, Humanas y Tecnologías, 2022)"
+      },
+      {
+        "id": "cert_cert-22-11-mobilelearningugr",
+        "label": "Mobile learning: claves pa...",
+        "cluster": "tecnopedagogia",
+        "type": "certification",
+        "size": 13,
+        "info": "Certificación: Mobile learning: claves para la aplicación de los dispositivos móviles en el aula. 1ª Edición (Universidad de Granada, 2022)"
+      },
+      {
+        "id": "cert_cert-22-10-ponenciaprofuturo",
+        "label": "Ponencia en la tertulia di...",
+        "cluster": "tecnopedagogia",
+        "type": "certification",
+        "size": 13,
+        "info": "Certificación: Ponencia en la tertulia dialógica: \"Mejorando nuestras vidas en comunidad, con el uso de las TIC\" (Fundación Telefónica Movistar Ecuador y ChildFund Ecuador, 2022)"
+      },
+      {
+        "id": "cert_cert-22-10-pensamientocomp",
+        "label": "SEMINARIO DE INTRODUCCIÓN ...",
+        "cluster": "tecnopedagogia",
+        "type": "certification",
+        "size": 13,
+        "info": "Certificación: SEMINARIO DE INTRODUCCIÓN AL PENSAMIENTO COMPUTACIONAL DEL SIMPOSIO STEM MIAMI 2022 (Broward International University, 2022)"
+      },
+      {
+        "id": "cert_cert-22-08-moodlemootcol2022",
+        "label": "MoodleMoot Colombia Online...",
+        "cluster": "tecnopedagogia",
+        "type": "certification",
+        "size": 13,
+        "info": "Certificación: MoodleMoot Colombia Online 2022 (Edu Labs, 2022)"
+      },
+      {
+        "id": "cert_cert-22-07-googleeducator1",
+        "label": "Certified Educator - Level...",
+        "cluster": "tecnopedagogia",
+        "type": "certification",
+        "size": 13,
+        "info": "Certificación: Certified Educator - Level 1 (Google for Education, 2022)"
+      },
+      {
+        "id": "cert_cert-22-07-ciberseguridadtele",
+        "label": "Protegemos tu Negocio: Cib...",
+        "cluster": "tecnopedagogia",
+        "type": "certification",
+        "size": 13,
+        "info": "Certificación: Protegemos tu Negocio: Ciberseguridad en el Teletrabajo (Google Actívate e INCIBE, 2022)"
+      },
+      {
+        "id": "cert_cert-22-06-rgpduocdocentes",
+        "label": "PROTOCOLO DE CUMPLIMIENTO ...",
+        "cluster": "politicas_direccion",
+        "type": "certification",
+        "size": 13,
+        "info": "Certificación: PROTOCOLO DE CUMPLIMIENTO DEL RGPD PARA COLABORADORES DOCENTES DE LA UOC (Universitat Oberta de Catalunya, 2022)"
+      },
+      {
+        "id": "cert_cert-22-05-intemocionalctrl",
+        "label": "INTELIGENCIA EMOCIONAL APL...",
+        "cluster": "politicas_direccion",
+        "type": "certification",
+        "size": 13,
+        "info": "Certificación: INTELIGENCIA EMOCIONAL APLICADA AL CONTROL - VIRTUAL (Contraloría General del Estado - Ecuador, 2022)"
+      },
+      {
+        "id": "cert_cert-22-03-formdoctecnoped",
+        "label": "FORMACIÓN DOCENTE TECNO-PE...",
+        "cluster": "tecnopedagogia",
+        "type": "certification",
+        "size": 13,
+        "info": "Certificación: FORMACIÓN DOCENTE TECNO-PEDAGÓGICA PARA EDUCACIÓN EN LÍNEA (Universidad Nacional de Educación (UNAE), 2022)"
+      },
+      {
+        "id": "cert_cert-22-03-pensamientocomp",
+        "label": "ESCUELA DE PENSAMIENTO COM...",
+        "cluster": "tecnopedagogia",
+        "type": "certification",
+        "size": 13,
+        "info": "Certificación: ESCUELA DE PENSAMIENTO COMPUTACIONAL (Profuturo, 2022)"
+      },
+      {
+        "id": "cert_cert-22-02-operadorsncp",
+        "label": "Operador del Sistema Nacio...",
+        "cluster": "politicas_direccion",
+        "type": "certification",
+        "size": 13,
+        "info": "Certificación: Operador del Sistema Nacional de Compras Públicas - Fundamentos de Contratación Pública (Servicio Nacional de Contratación Pública (SERCOP), 2022)"
+      },
+      {
+        "id": "cert_cert-22-02-certsercop",
+        "label": "Operador del Sistema Nacio...",
+        "cluster": "politicas_direccion",
+        "type": "certification",
+        "size": 13,
+        "info": "Certificación: Operador del Sistema Nacional de Compras Públicas - Fundamentos de Contratación Pública (Servicio Nacional de Contratación Pública, 2022)"
+      },
+      {
+        "id": "cert_cert-22-01-ponenteescuelas",
+        "label": "Certificado de participaci...",
+        "cluster": "tecnopedagogia",
+        "type": "certification",
+        "size": 13,
+        "info": "Certificación: Certificado de participación como ponente en los Webinars: Campamentos \"ESCUELAS QUE ME INSPIRAN\" capacitación y formación en innovación tecnopedagógica para la comunidad educativa 2021 (Ministerio de Educación, 2022)"
+      },
+      {
+        "id": "cert_cert-21-12-gamificaciontic",
+        "label": "JUEGOS, GAMIFICACIÓN Y TIC...",
+        "cluster": "tecnopedagogia",
+        "type": "certification",
+        "size": 13,
+        "info": "Certificación: JUEGOS, GAMIFICACIÓN Y TIC (Universidad Antonio de Nebrija, 2021)"
+      },
+      {
+        "id": "cert_cert-21-11-gestionpolitica",
+        "label": "El Rol de la Comunicación ...",
+        "cluster": "politicas_direccion",
+        "type": "certification",
+        "size": 13,
+        "info": "Certificación: El Rol de la Comunicación en la Gestión Política (EDES Business School - UTPL, 2021)"
+      },
+      {
+        "id": "cert_cert-21-11-gestionproyectos",
+        "label": "Gestión de Proyectos Públi...",
+        "cluster": "politicas_direccion",
+        "type": "certification",
+        "size": 13,
+        "info": "Certificación: Gestión de Proyectos Públicos (EDES Business School UTPL, 2021)"
+      },
+      {
+        "id": "cert_cert-21-11-sectorpublicoequipos",
+        "label": "REQUISITOS DEL SECTOR PÚBL...",
+        "cluster": "politicas_direccion",
+        "type": "certification",
+        "size": 13,
+        "info": "Certificación: REQUISITOS DEL SECTOR PÚBLICO PARA GESTIONAR EQUIPOS DE TRABAJO (EDES Business School UTPL y Corporación Líderes para Gobernar, 2021)"
+      },
+      {
+        "id": "cert_cert-21-11-contratacionpublica",
+        "label": "CONTRATACIÓN PÚBLICA...",
+        "cluster": "politicas_direccion",
+        "type": "certification",
+        "size": 13,
+        "info": "Certificación: CONTRATACIÓN PÚBLICA (EDES Business School - UTPL, 2021)"
+      },
+      {
+        "id": "cert_cert-21-11-praticassaludable",
+        "label": "Prácticas de Vida Saludabl...",
+        "cluster": "politicas_direccion",
+        "type": "certification",
+        "size": 13,
+        "info": "Certificación: Prácticas de Vida Saludable (Ministerio de Salud Pública, 2021)"
+      },
+      {
+        "id": "cert_cert-21-11-gerenciapublica",
+        "label": "LAS HERRAMIENTAS BÁSICAS P...",
+        "cluster": "politicas_direccion",
+        "type": "certification",
+        "size": 13,
+        "info": "Certificación: LAS HERRAMIENTAS BÁSICAS PARA UNA EFICIENTE GERENCIA PÚBLICA (EDES Business School - UTPL, 2021)"
+      },
+      {
+        "id": "cert_cert-21-11-liderazgopolitico",
+        "label": "Liderazgo Político Público...",
+        "cluster": "politicas_direccion",
+        "type": "certification",
+        "size": 13,
+        "info": "Certificación: Liderazgo Político Público (EDES Business School UTPL y Corporación Líderes para Gobernar, 2021)"
+      },
+      {
+        "id": "cert_cert-21-08-cursogamificacion",
+        "label": "CURSO EN JUEGO, GAMIFICACI...",
+        "cluster": "tecnopedagogia",
+        "type": "certification",
+        "size": 13,
+        "info": "Certificación: CURSO EN JUEGO, GAMIFICACIÓN Y TIC COMO HERRAMIENTA PARA EL APRENDIZAJE (Universidad Nebrija y Organización de Estados Iberoamericanos para la Educación, la Ciencia y la Cultura (OEI), 2021)"
+      },
+      {
+        "id": "cert_cert-21-08-festivalideas10",
+        "label": "Festival de Ideas Educativ...",
+        "cluster": "tecnopedagogia",
+        "type": "certification",
+        "size": 13,
+        "info": "Certificación: Festival de Ideas Educativas 'Ideas de 10' (Programa ProFuturo, 2021)"
+      },
+      {
+        "id": "cert_cert-21-08-riesgoergonomico",
+        "label": "RIESGO ERGONÓMICO CHILDFUN...",
+        "cluster": "politicas_direccion",
+        "type": "certification",
+        "size": 13,
+        "info": "Certificación: RIESGO ERGONÓMICO CHILDFUND INTERNATIONAL, USA (SERILAN, 2021)"
+      },
+      {
+        "id": "cert_cert-21-08-ideas10",
+        "label": "Festival de Ideas Educativ...",
+        "cluster": "tecnopedagogia",
+        "type": "certification",
+        "size": 13,
+        "info": "Certificación: Festival de Ideas Educativas Ideas de 10 (Fundación Telefónica Movistar Ecuador y ChildFund Ecuador, 2021)"
+      },
+      {
+        "id": "cert_cert-21-07-riesgobiologico",
+        "label": "FACTOR DE RIESGO BIOLÓGICO...",
+        "cluster": "politicas_direccion",
+        "type": "certification",
+        "size": 13,
+        "info": "Certificación: FACTOR DE RIESGO BIOLÓGICO CHILDFUND INTERNATIONAL (SERILAN / ChildFund International, 2021)"
+      },
+      {
+        "id": "cert_cert-21-06-bienestarsocioem",
+        "label": "El bienestar socio-emocion...",
+        "cluster": "tecnopedagogia",
+        "type": "certification",
+        "size": 13,
+        "info": "Certificación: El bienestar socio-emocional en el proceso de aprendizaje que forma parte del ciclo de webinars: El estudiante: una combinación única de capacidades (Fundación Telefónica / ChildFund Ecuador, 2021)"
+      },
+      {
+        "id": "cert_cert-21-06-seguridadlaboral",
+        "label": "FUNDAMENTOS DE SEGURIDAD Y...",
+        "cluster": "politicas_direccion",
+        "type": "certification",
+        "size": 13,
+        "info": "Certificación: FUNDAMENTOS DE SEGURIDAD Y SALUD OCUPACIONAL (SERILAN, 2021)"
+      },
+      {
+        "id": "cert_cert-21-06-datosabiertosecuador",
+        "label": "INTRODUCCIÓN A LOS DATOS A...",
+        "cluster": "politicas_direccion",
+        "type": "certification",
+        "size": 13,
+        "info": "Certificación: INTRODUCCIÓN A LOS DATOS ABIERTOS EN ECUADOR (Datalat, Red Ecuatoriana de Datos Abiertos y Metadatos (REDAM) e Innovación para el Cambio Hub Latinoamérica, 2021)"
+      },
+      {
+        "id": "cert_cert-21-05-emocionaprender",
+        "label": "¿Cómo despertar la emoción...",
+        "cluster": "tecnopedagogia",
+        "type": "certification",
+        "size": 13,
+        "info": "Certificación: ¿Cómo despertar la emoción por aprender? (Fundación Telefónica y ChildFund Ecuador, 2021)"
+      },
+      {
+        "id": "cert_cert-21-05-excel365beginner",
+        "label": "Excel 365 - Beginner...",
+        "cluster": "ia_data_science",
+        "type": "certification",
+        "size": 13,
+        "info": "Certificación: Excel 365 - Beginner (Intellezy / DisasterReady.org, 2021)"
+      },
+      {
+        "id": "cert_cert-21-04-commremoteteams",
+        "label": "Effective Communication fo...",
+        "cluster": "tecnopedagogia",
+        "type": "certification",
+        "size": 13,
+        "info": "Certificación: Effective Communication for Remote Teams (Cornerstone OnDemand Foundation, 2021)"
       },
       {
         "id": "cert_cert-21-04-programacionvideojuegos",
@@ -490,6 +858,14 @@
         "info": "Certificación: Certificado de Agradecimiento por Conferencia de Ciberseguridad (Distrito 01D03 Girón a Santa Isabel - Educación, 2021)"
       },
       {
+        "id": "cert_cert-20-12-facilitacionunae",
+        "label": "DOCENCIA PARA ENTORNOS VIR...",
+        "cluster": "tecnopedagogia",
+        "type": "certification",
+        "size": 13,
+        "info": "Certificación: DOCENCIA PARA ENTORNOS VIRTUALES: APORTES PARA SU DESARROLLO SINCRÓNICO Y ASINCRÓNICO (Universidad Nacional de Educación (UNAE), 2020)"
+      },
+      {
         "id": "cert_cert-20-12-violenciamujeres",
         "label": "VIOLENCIA CONTRA LAS MUJER...",
         "cluster": "politicas_direccion",
@@ -506,12 +882,76 @@
         "info": "Certificación: DOCENCIA PARA ENTORNOS VIRTUALES: APORTES PARA SU DESARROLLO SINCRÓNICO Y ASINCRÓNICO (Universidad Nacional de Educación (UNAE), 2020)"
       },
       {
+        "id": "cert_cert-20-11-curacioncontenidos",
+        "label": "Certificado como expositor...",
+        "cluster": "tecnopedagogia",
+        "type": "certification",
+        "size": 13,
+        "info": "Certificación: Certificado como expositor en la Jornada de Actualización Científica y Profesional Vida Nueva 2020 (Instituto Superior Tecnológico Vida Nueva, 2020)"
+      },
+      {
+        "id": "cert_cert-20-11-expovidanueva",
+        "label": "Participación como exposit...",
+        "cluster": "tecnopedagogia",
+        "type": "certification",
+        "size": 13,
+        "info": "Certificación: Participación como expositor en la Jornada de Actualización Científica y Profesional Vida Nueva 2020 (Instituto Superior Tecnológico Vida Nueva, 2020)"
+      },
+      {
+        "id": "cert_cert-20-10-qaheducationmaster",
+        "label": "Master’s Degree in Quality...",
+        "cluster": "politicas_direccion",
+        "type": "certification",
+        "size": 13,
+        "info": "Certificación: Master’s Degree in Quality Management and Evaluation in Higher Education (Universitat Oberta de Catalunya (UOC) & INQAAHE, 2020)"
+      },
+      {
+        "id": "cert_cert-20-07-formacionconsultoruoc",
+        "label": "Certificat del curs de for...",
+        "cluster": "tecnopedagogia",
+        "type": "certification",
+        "size": 13,
+        "info": "Certificación: Certificat del curs de formació bàsica per al consultor (professorat col·laborador) - Endinsa't a la UOC (Universitat Oberta de Catalunya, 2020)"
+      },
+      {
+        "id": "cert_cert-20-10-qahedmaster",
+        "label": "Master's Degree in Quality...",
+        "cluster": "politicas_direccion",
+        "type": "certification",
+        "size": 13,
+        "info": "Certificación: Master's Degree in Quality Management and Evaluation in Higher Education (International Network for Quality Assurance Agencies in Higher Education (INQAAHE), 2020)"
+      },
+      {
+        "id": "cert_cert-20-09-congresoeduzona6",
+        "label": "I CONGRESO INTERNACIONAL D...",
+        "cluster": "tecnopedagogia",
+        "type": "certification",
+        "size": 13,
+        "info": "Certificación: I CONGRESO INTERNACIONAL DE EDUCACIÓN DE ZONA 6 “YO EDUCO” (Coordinación de Educación Zonal 6 - Universidad de Cuenca, 2020)"
+      },
+      {
+        "id": "cert_cert-20-07-tutoresenlinea",
+        "label": "Formación de Tutores de Ni...",
+        "cluster": "tecnopedagogia",
+        "type": "certification",
+        "size": 13,
+        "info": "Certificación: Formación de Tutores de Nivelación Especializados en Modalidad en Línea (Universidad Internacional de La Rioja, 2020)"
+      },
+      {
         "id": "cert_cert-20-07-endinsatuoc",
         "label": "Certificat del curs de for...",
         "cluster": "tecnopedagogia",
         "type": "certification",
         "size": 13,
         "info": "Certificación: Certificat del curs de formació básica per al consultor (professorat col·laborador) - Endinsa't a la UOC (Universitat Oberta de Catalunya, 2020)"
+      },
+      {
+        "id": "cert_cert-20-01-semcalidadline",
+        "label": "Seminario de Evaluación de...",
+        "cluster": "tecnopedagogia",
+        "type": "certification",
+        "size": 13,
+        "info": "Certificación: Seminario de Evaluación de la Calidad de la Formación en Modalidad en Línea: el caso español (Secretaría de Educación Superior, Ciencia, Tecnología e Innovación (SENESCYT), 2020)"
       },
       {
         "id": "cert_cert-20-01-seminariocalidad",
@@ -530,44 +970,420 @@
         "info": "Certificación: FORMADOR DE FORMADORES CEC-EPN (Escuela Politécnica Nacional - Centro de Educación Continua, 2020)"
       },
       {
-        "id": "cert_cert-tex-2020-2",
-        "label": "Master’s Degree in Managem...",
+        "id": "cert_cert-19-12-formadorformadores",
+        "label": "FORMADOR DE FORMADORES CEC...",
         "cluster": "tecnopedagogia",
         "type": "certification",
         "size": 13,
-        "info": "Certificación: Master’s Degree in Management and Evaluation in Higher Quality Education. (INQAAHE, 2020)"
+        "info": "Certificación: FORMADOR DE FORMADORES CEC-EPN (Escuela Politécnica Nacional, Centro de Educación Continua, 2019)"
       },
       {
-        "id": "cert_cert-tex-2020-3",
-        "label": "Formación de Tutores de Ni...",
+        "id": "cert_cert-19-06-moodledayconfe19",
+        "label": "Certificado de Conferencia...",
         "cluster": "tecnopedagogia",
         "type": "certification",
         "size": 13,
-        "info": "Certificación: Formación de Tutores de Nivelación Especializados en Modalidad en Línea. (Universidad Internacional de la Rioja, 2020)"
+        "info": "Certificación: Certificado de Conferencia: Mediación pedagógica, TIC y Moodle (Escuela Politécnica Nacional (CEC-EPN) y Comunidad Moodle Ecuador, 2019)"
       },
       {
-        "id": "cert_cert-tex-2019-4",
-        "label": "Formador de Formadores...",
+        "id": "cert_cert-19-06-moodleday2019",
+        "label": "CERTIFICADO - Moodle Day 2...",
         "cluster": "tecnopedagogia",
         "type": "certification",
         "size": 13,
-        "info": "Certificación: Formador de Formadores (Liderazgo, Capacitación Y Consultoría CIA. LTDA, 2019)"
+        "info": "Certificación: CERTIFICADO - Moodle Day 2019 (Escuela Politécnica Nacional / CEC-EPN, 2019)"
       },
       {
-        "id": "cert_cert-tex-2017-5",
+        "id": "cert_cert-18-11-ponenciaculturaprev",
+        "label": "II Encuentro Nacional Haci...",
+        "cluster": "politicas_direccion",
+        "type": "certification",
+        "size": 13,
+        "info": "Certificación: II Encuentro Nacional Hacia una Cultura de Prevención de Discapacidades (PreNatal, C.D.H. Ideas, Espiral Educativa, Sas Libre, 2018)"
+      },
+      {
+        "id": "cert_cert-18-09-storytellingvirtual",
+        "label": "TALLER DE STORYTELLING: NA...",
+        "cluster": "tecnopedagogia",
+        "type": "certification",
+        "size": 13,
+        "info": "Certificación: TALLER DE STORYTELLING: NARRATIVAS DIGITALES PARA EL APRENDIZAJE VIRTUAL (B-LEARNING) (Escuela Politécnica Nacional - Centro de Educación Continua, 2018)"
+      },
+      {
+        "id": "cert_cert-18-07-monitoresprevencion",
+        "label": "Curso “Formación de Monito...",
+        "cluster": "politicas_direccion",
+        "type": "certification",
+        "size": 13,
+        "info": "Certificación: Curso “Formación de Monitores en Didáctica de la Prevención de Discapacidades” (PreNatal Ecuador / Fundación de Waal / Consejo Nacional para la Igualdad de Discapacidades (CONADIS), 2018)"
+      },
+      {
+        "id": "cert_cert-18-06-accesibilidadfisica",
+        "label": "Curso de Capacitación en A...",
+        "cluster": "politicas_direccion",
+        "type": "certification",
+        "size": 13,
+        "info": "Certificación: Curso de Capacitación en Accesibilidad al Medio Físico y Normativa Técnica Ecuatoriana (INEN - CONADIS - Universidad Tecnológica Indoamérica, 2018)"
+      },
+      {
+        "id": "cert_cert-18-06-estrategiasdig",
+        "label": "Estrategias Didácticas Dig...",
+        "cluster": "tecnopedagogia",
+        "type": "certification",
+        "size": 13,
+        "info": "Certificación: Estrategias Didácticas Digitales - 7ta. edición (Organización de los Estados Americanos (OEA), 2018)"
+      },
+      {
+        "id": "cert_cert-18-06-moodleday2018",
+        "label": "Certificado Moodle Day 201...",
+        "cluster": "tecnopedagogia",
+        "type": "certification",
+        "size": 13,
+        "info": "Certificación: Certificado Moodle Day 2018 (Escuela Politécnica Nacional / Centro de Educación Continua / Moodle Ecuador, 2018)"
+      },
+      {
+        "id": "cert_cert-18-05-ponenciaapienvs",
+        "label": "API DE ANALÍTICAS DE APREN...",
+        "cluster": "tecnopedagogia",
+        "type": "certification",
+        "size": 13,
+        "info": "Certificación: API DE ANALÍTICAS DE APRENDIZAJE EN ENTORNOS VIRTUALES (Escuela Superior Politécnica de Chimborazo (ESPOCH) - Facultad de Informática y Electrónica, 2018)"
+      },
+      {
+        "id": "cert_cert-18-04-ponenteflisol18",
+        "label": "Certificado de Ponente en ...",
+        "cluster": "ia_data_science",
+        "type": "certification",
+        "size": 13,
+        "info": "Certificación: Certificado de Ponente en el 14vo Festival Latinoamericano de Instalación de Software Libre (FLISoL) (Red de Investigación, Conocimiento, Hardware y Software Libre / MediaLabUIO CIESPAL, 2018)"
+      },
+      {
+        "id": "cert_cert-18-03-sensdiscapacidad",
+        "label": "Certificado de Sensibiliza...",
+        "cluster": "politicas_direccion",
+        "type": "certification",
+        "size": 13,
+        "info": "Certificación: Certificado de Sensibilización en Discapacidades (Ministerio del Trabajo y Consejo Nacional para la Igualdad de Discapacidades (CONADIS), 2018)"
+      },
+      {
+        "id": "cert_cert-18-01-generacionnegocio",
+        "label": "Generación y maduración de...",
+        "cluster": "politicas_direccion",
+        "type": "certification",
+        "size": 13,
+        "info": "Certificación: Generación y maduración de ideas de negocio (Universitat Oberta de Catalunya (UOC), 2018)"
+      },
+      {
+        "id": "cert_cert-18-01-seguridadticinfancia",
+        "label": "Certificat de formació en ...",
+        "cluster": "tecnopedagogia",
+        "type": "certification",
+        "size": 13,
+        "info": "Certificación: Certificat de formació en Seguretat a la Xarxa: La Seguretat TIC en la Infància (Universitat Oberta de Catalunya, 2018)"
+      },
+      {
+        "id": "cert_cert-17-12-ponenciascratch",
+        "label": "Programando un juego en 15...",
+        "cluster": "tecnopedagogia",
+        "type": "certification",
+        "size": 13,
+        "info": "Certificación: Programando un juego en 15 minutos con Scratch (Comunidades de Tecnologías Libres de Ecuador y Venezuela, 2017)"
+      },
+      {
+        "id": "cert_cert-17-12-eddisruptiva",
+        "label": "II Seminario Internacional...",
+        "cluster": "tecnopedagogia",
+        "type": "certification",
+        "size": 13,
+        "info": "Certificación: II Seminario Internacional de Educación Disruptiva con TIC (Fundación Telefónica Movistar, Corporación Red Infodesarrollo y UNAE, 2017)"
+      },
+      {
+        "id": "cert_cert-17-12-moodlecert",
         "label": "Moodle Course Creator Cert...",
         "cluster": "tecnopedagogia",
         "type": "certification",
         "size": 13,
-        "info": "Certificación: Moodle Course Creator Certificate (Edulabs - Colombia, Moodle Australia, 2017)"
+        "info": "Certificación: Moodle Course Creator Certification (Edu Labs SAS, 2017)"
       },
       {
-        "id": "cert_cert-tex-2014-6",
-        "label": "Experto en educación virtu...",
+        "id": "cert_cert-17-10-profesorsigloxxi",
+        "label": "El profesor del siglo XXI...",
         "cluster": "tecnopedagogia",
         "type": "certification",
         "size": 13,
-        "info": "Certificación: Experto en educación virtual (Fundación para la Actualización Tecnológica de América Latina (FATLA), 2014)"
+        "info": "Certificación: El profesor del siglo XXI (Pontificia Universidad Católica de Valparaíso, 2017)"
+      },
+      {
+        "id": "cert_cert-17-09-personalizacionmoodle",
+        "label": "Personalización gráfica de...",
+        "cluster": "tecnopedagogia",
+        "type": "certification",
+        "size": 13,
+        "info": "Certificación: Personalización gráfica de Moodle 3.3 con Theme ADAPTABLE (Comunidades de Tecnologías Libres de Ecuador y Venezuela, 2017)"
+      },
+      {
+        "id": "cert_cert-17-08-prevprenataldiscap",
+        "label": "PROGRAMA DE FORMACIÓN DE M...",
+        "cluster": "politicas_direccion",
+        "type": "certification",
+        "size": 13,
+        "info": "Certificación: PROGRAMA DE FORMACIÓN DE MEDIADORES EN PREVENCIÓN PRENATAL DE DISCAPACIDADES (Universidad Central del Ecuador, Fundación de Waal, Ministerio de Salud Pública, 2017)"
+      },
+      {
+        "id": "cert_cert-17-04-jornadasinfofis",
+        "label": "V Jornadas Internacionales...",
+        "cluster": "tecnopedagogia",
+        "type": "certification",
+        "size": 13,
+        "info": "Certificación: V Jornadas Internacionales, V Congreso Nacional de Ciencias Software Libre y Nuevas Tecnologías Aplicadas a la Educación y III Encuentro de Docentes de Informática y Física (Universidad Central del Ecuador, 2017)"
+      },
+      {
+        "id": "cert_cert-17-04-facilitacionped",
+        "label": "Formación de Monitores en ...",
+        "cluster": "tecnopedagogia",
+        "type": "certification",
+        "size": 13,
+        "info": "Certificación: Formación de Monitores en mediación pedagógica, educación popular y estrategias de facilitación (Fundación de Waal y PreNatal, 2017)"
+      },
+      {
+        "id": "cert_cert-17-04-tallersistemasop",
+        "label": "V JORNADAS INTERNACIONALES...",
+        "cluster": "tecnopedagogia",
+        "type": "certification",
+        "size": 13,
+        "info": "Certificación: V JORNADAS INTERNACIONALES, V CONGRESO NACIONAL DE CIENCIAS SOFTWARE LIBRE Y NUEVAS TECNOLOGÍAS APLICADAS A LA EDUCACIÓN Y III ENCUENTRO DE DOCENTES DE INFORMÁTICA Y FÍSICA (Universidad Central del Ecuador, 2017)"
+      },
+      {
+        "id": "cert_cert-17-04-aulavirtualflisol",
+        "label": "\"V JORNADAS INTERNACIONALE...",
+        "cluster": "tecnopedagogia",
+        "type": "certification",
+        "size": 13,
+        "info": "Certificación: \"V JORNADAS INTERNACIONALES, V CONGRESO NACIONAL DE CIENCIAS SOFTWARE LIBRE Y NUEVAS TECNOLOGÍAS APLICADAS A LA EDUCACIÓN Y III ENCUENTRO DE DOCENTES DE INFORMÁTICA Y FÍSICA\" (Universidad Central del Ecuador - Asociación de Software Libre del Ecuador - FLISOL, 2017)"
+      },
+      {
+        "id": "cert_cert-17-02-recursosdigitales",
+        "label": "Recursos Didácticos Digita...",
+        "cluster": "tecnopedagogia",
+        "type": "certification",
+        "size": 13,
+        "info": "Certificación: Recursos Didácticos Digitales para el Aula (Escuela Politécnica Nacional - Centro de Educación Continua, 2017)"
+      },
+      {
+        "id": "cert_cert-16-12-libreofficecec",
+        "label": "OFIMATICA CON SOFTWARE LIB...",
+        "cluster": "tecnopedagogia",
+        "type": "certification",
+        "size": 13,
+        "info": "Certificación: OFIMATICA CON SOFTWARE LIBRE: LIBREOFFICE (CEC-IAEN, 2016)"
+      },
+      {
+        "id": "cert_cert-16-11-ponenciacovaite",
+        "label": "Generando una comunidad de...",
+        "cluster": "tecnopedagogia",
+        "type": "certification",
+        "size": 13,
+        "info": "Certificación: Generando una comunidad de la Indagación en la prevención prenatal de discapacidades (Comité Organizador del COVAITE 2016 (Argentina y Colombia), 2016)"
+      },
+      {
+        "id": "cert_cert-16-11-seminarioiipe",
+        "label": "Seminario Internacional Po...",
+        "cluster": "politicas_direccion",
+        "type": "certification",
+        "size": 13,
+        "info": "Certificación: Seminario Internacional Políticas de formación docente inicial y continua (Instituto Internacional de Planeamiento de la Educación (IIPE-UNESCO), 2016)"
+      },
+      {
+        "id": "cert_cert-16-11-analiticasapre",
+        "label": "Analíticas de Aprendizaje ...",
+        "cluster": "tecnopedagogia",
+        "type": "certification",
+        "size": 13,
+        "info": "Certificación: Analíticas de Aprendizaje en los Cursos Virtuales (Escuela Politécnica Nacional - Centro de Educación Continua, 2016)"
+      },
+      {
+        "id": "cert_cert-16-10-openofficewriter",
+        "label": "Software libre: Ofimática ...",
+        "cluster": "tecnopedagogia",
+        "type": "certification",
+        "size": 13,
+        "info": "Certificación: Software libre: Ofimática con OpenOffice (Universidad de Zaragoza, 2016)"
+      },
+      {
+        "id": "cert_cert-15-10-creacionblogsweb",
+        "label": "Creación de blogs y sitios...",
+        "cluster": "tecnopedagogia",
+        "type": "certification",
+        "size": 13,
+        "info": "Certificación: Creación de blogs y sitios web (PLANETA FATLA, 2015)"
+      },
+      {
+        "id": "cert_cert-15-10-edsoportevirtual",
+        "label": "Educación con Soporte Virt...",
+        "cluster": "tecnopedagogia",
+        "type": "certification",
+        "size": 13,
+        "info": "Certificación: Educación con Soporte Virtual (Planeta FATLA, 2015)"
+      },
+      {
+        "id": "cert_cert-15-10-expertoeduvirtual",
+        "label": "EXPERTO EN EDUCACIÓN VIRTU...",
+        "cluster": "tecnopedagogia",
+        "type": "certification",
+        "size": 13,
+        "info": "Certificación: EXPERTO EN EDUCACIÓN VIRTUAL (Planeta FATLA, 2015)"
+      },
+      {
+        "id": "cert_cert-15-08-tecnoeducacion",
+        "label": "TE201x: Tecnologías para l...",
+        "cluster": "tecnopedagogia",
+        "type": "certification",
+        "size": 13,
+        "info": "Certificación: TE201x: Tecnologías para la educación (Universitat Politècnica de València, 2015)"
+      },
+      {
+        "id": "cert_cert-15-08-interaccionmovil",
+        "label": "Interacción digital y rede...",
+        "cluster": "tecnopedagogia",
+        "type": "certification",
+        "size": 13,
+        "info": "Certificación: Interacción digital y redes móviles (Planeta FATLA, 2015)"
+      },
+      {
+        "id": "cert_cert-15-06-realidadaumentada",
+        "label": "Realidad aumentada y conec...",
+        "cluster": "tecnopedagogia",
+        "type": "certification",
+        "size": 13,
+        "info": "Certificación: Realidad aumentada y conectivismo (Planeta FATLA, 2015)"
+      },
+      {
+        "id": "cert_cert-15-06-entornosvirtuales",
+        "label": "Entornos virtuales de apre...",
+        "cluster": "tecnopedagogia",
+        "type": "certification",
+        "size": 13,
+        "info": "Certificación: Entornos virtuales de aprendizaje: entre la presencialidad y la virtualidad (Universidad Nacional del Nordeste, 2015)"
+      },
+      {
+        "id": "cert_cert-15-06-scratcharduino",
+        "label": "Robots y Videojuegos en la...",
+        "cluster": "tecnopedagogia",
+        "type": "certification",
+        "size": 13,
+        "info": "Certificación: Robots y Videojuegos en las aulas: Scratch y Arduino para profesores (3.ª edición) (Universitat Pompeu Fabra, 2015)"
+      },
+      {
+        "id": "cert_cert-15-05-alcanceacademico",
+        "label": "Alcance Académico y Estánd...",
+        "cluster": "tecnopedagogia",
+        "type": "certification",
+        "size": 13,
+        "info": "Certificación: Alcance Académico y Estándares Internacionales (Planeta Fatla, 2015)"
+      },
+      {
+        "id": "cert_cert-15-05-sitiowebcomercial",
+        "label": "CREACION DE UN SITIO WEB C...",
+        "cluster": "tecnopedagogia",
+        "type": "certification",
+        "size": 13,
+        "info": "Certificación: CREACION DE UN SITIO WEB COMERCIAL (Planeta FATLA, 2015)"
+      },
+      {
+        "id": "cert_cert-15-05-adminmoodle",
+        "label": "Administración de platafor...",
+        "cluster": "tecnopedagogia",
+        "type": "certification",
+        "size": 13,
+        "info": "Certificación: Administración de plataformas Moodle (Asociación Mundial de Tutores Virtuales (ASOMTV), 2015)"
+      },
+      {
+        "id": "cert_cert-15-05-fasepresenciafatla",
+        "label": "Certificado Fase Presencia...",
+        "cluster": "tecnopedagogia",
+        "type": "certification",
+        "size": 13,
+        "info": "Certificación: Certificado Fase Presencia - Modelo de Educación Virtual PACIE (Planeta FATLA, 2015)"
+      },
+      {
+        "id": "cert_cert-15-05-estrategiasmoodle",
+        "label": "Estrategias Metodológicas ...",
+        "cluster": "tecnopedagogia",
+        "type": "certification",
+        "size": 13,
+        "info": "Certificación: Estrategias Metodológicas para el Docente E-learning (4.ª edición) (Universidad de San Martín de Porres, 2015)"
+      },
+      {
+        "id": "cert_cert-15-05-revistadigitalonline",
+        "label": "Revista digital online...",
+        "cluster": "tecnopedagogia",
+        "type": "certification",
+        "size": 13,
+        "info": "Certificación: Revista digital online (PLANETA FATLA, 2015)"
+      },
+      {
+        "id": "cert_cert-15-04-planestrategicoeco",
+        "label": "PLAN ESTRATEGICO DE UN ECO...",
+        "cluster": "politicas_direccion",
+        "type": "certification",
+        "size": 13,
+        "info": "Certificación: PLAN ESTRATEGICO DE UN ECOMMERCE (Planeta FATLA, 2015)"
+      },
+      {
+        "id": "cert_cert-15-03-recursosedvirtual",
+        "label": "Recursos de educación virt...",
+        "cluster": "tecnopedagogia",
+        "type": "certification",
+        "size": 13,
+        "info": "Certificación: Recursos de educación virtual (PLANETA FATLA, 2015)"
+      },
+      {
+        "id": "cert_cert-15-02-marketingonline",
+        "label": "Estrategias de Marketing O...",
+        "cluster": "tecnopedagogia",
+        "type": "certification",
+        "size": 13,
+        "info": "Certificación: Estrategias de Marketing Online. Community Manager (2.ª edición) (Universidad CEU Cardenal Herrera, 2015)"
+      },
+      {
+        "id": "cert_cert-15-02-entornosvirtuales",
+        "label": "Experto en Educación Virtu...",
+        "cluster": "tecnopedagogia",
+        "type": "certification",
+        "size": 13,
+        "info": "Certificación: Experto en Educación Virtual: Módulo Entornos Virtuales de Aprendizaje (Planeta FATLA, 2015)"
+      },
+      {
+        "id": "cert_cert-15-02-communitymanager",
+        "label": "Estrategias de Marketing O...",
+        "cluster": "tecnopedagogia",
+        "type": "certification",
+        "size": 13,
+        "info": "Certificación: Estrategias de Marketing Online. Community Manager (2.ª edición) (Universidad CEU Cardenal Herrera / Miríada X, 2015)"
+      },
+      {
+        "id": "cert_cert-14-12-estrategiasmoodle",
+        "label": "Estrategias Metodológicas ...",
+        "cluster": "tecnopedagogia",
+        "type": "certification",
+        "size": 13,
+        "info": "Certificación: Estrategias Metodológicas para el Docente E-learning (3.ª edición) (Universidad de San Martín de Porres, 2014)"
+      },
+      {
+        "id": "cert_cert-14-05-certscratcharduino",
+        "label": "Certificat de formació en ...",
+        "cluster": "tecnopedagogia",
+        "type": "certification",
+        "size": 13,
+        "info": "Certificación: Certificat de formació en S4A: Scratch/Snap 4 Arduino (Universitat Oberta de Catalunya, 2014)"
+      },
+      {
+        "id": "cert_cert-13-12-hourofcode",
+        "label": "The Hour of Code...",
+        "cluster": "ia_data_science",
+        "type": "certification",
+        "size": 13,
+        "info": "Certificación: The Hour of Code (Code.org, 2013)"
       }
     ],
     "links": [
@@ -813,7 +1629,13 @@
       },
       {
         "source": "tecnopedagogia",
-        "target": "cert_cert-tex-2026-0",
+        "target": "cert_cert-26-08-iarealiztareas",
+        "relationship": "credencial validada",
+        "value": 2
+      },
+      {
+        "source": "tecnopedagogia",
+        "target": "cert_cert-26-06-seguridadinfo",
         "relationship": "credencial validada",
         "value": 2
       },
@@ -825,13 +1647,289 @@
       },
       {
         "source": "tecnopedagogia",
-        "target": "cert_cert-24-11-transmediauflo",
+        "target": "cert_cert-26-06-dvvglobale",
+        "relationship": "credencial validada",
+        "value": 2
+      },
+      {
+        "source": "politicas_direccion",
+        "target": "cert_cert-25-11-tutorcollegehoriz",
         "relationship": "credencial validada",
         "value": 2
       },
       {
         "source": "tecnopedagogia",
-        "target": "cert_cert-tex-2022-1",
+        "target": "cert_cert-25-11-bestpapericetei",
+        "relationship": "credencial validada",
+        "value": 2
+      },
+      {
+        "source": "ia_data_science",
+        "target": "cert_cert-25-06-diplomadodeeplearning",
+        "relationship": "credencial validada",
+        "value": 2
+      },
+      {
+        "source": "ia_data_science",
+        "target": "cert_cert-25-06-delaideaalpaper",
+        "relationship": "credencial validada",
+        "value": 2
+      },
+      {
+        "source": "tecnopedagogia",
+        "target": "cert_cert-24-11-transmediauflo",
+        "relationship": "credencial validada",
+        "value": 2
+      },
+      {
+        "source": "ia_data_science",
+        "target": "cert_cert-24-10-capacitacioninvest",
+        "relationship": "credencial validada",
+        "value": 2
+      },
+      {
+        "source": "ia_data_science",
+        "target": "cert_cert-24-10-capacitacioncienc",
+        "relationship": "credencial validada",
+        "value": 2
+      },
+      {
+        "source": "tecnopedagogia",
+        "target": "cert_cert-23-08-ponenciamoodle23",
+        "relationship": "credencial validada",
+        "value": 2
+      },
+      {
+        "source": "tecnopedagogia",
+        "target": "cert_cert-23-08-ponenteusorecedu",
+        "relationship": "credencial validada",
+        "value": 2
+      },
+      {
+        "source": "politicas_direccion",
+        "target": "cert_cert-23-03-infosecawareness",
+        "relationship": "credencial validada",
+        "value": 2
+      },
+      {
+        "source": "tecnopedagogia",
+        "target": "cert_cert-23-03-fortinetnse1",
+        "relationship": "credencial validada",
+        "value": 2
+      },
+      {
+        "source": "tecnopedagogia",
+        "target": "cert_cert-22-11-ponenciaried2022",
+        "relationship": "credencial validada",
+        "value": 2
+      },
+      {
+        "source": "tecnopedagogia",
+        "target": "cert_cert-22-11-comitecientificovii",
+        "relationship": "credencial validada",
+        "value": 2
+      },
+      {
+        "source": "tecnopedagogia",
+        "target": "cert_cert-22-11-comiteviiiced",
+        "relationship": "credencial validada",
+        "value": 2
+      },
+      {
+        "source": "tecnopedagogia",
+        "target": "cert_cert-22-11-mobilelearningugr",
+        "relationship": "credencial validada",
+        "value": 2
+      },
+      {
+        "source": "tecnopedagogia",
+        "target": "cert_cert-22-10-ponenciaprofuturo",
+        "relationship": "credencial validada",
+        "value": 2
+      },
+      {
+        "source": "tecnopedagogia",
+        "target": "cert_cert-22-10-pensamientocomp",
+        "relationship": "credencial validada",
+        "value": 2
+      },
+      {
+        "source": "tecnopedagogia",
+        "target": "cert_cert-22-08-moodlemootcol2022",
+        "relationship": "credencial validada",
+        "value": 2
+      },
+      {
+        "source": "tecnopedagogia",
+        "target": "cert_cert-22-07-googleeducator1",
+        "relationship": "credencial validada",
+        "value": 2
+      },
+      {
+        "source": "tecnopedagogia",
+        "target": "cert_cert-22-07-googleeducator1",
+        "relationship": "credencial validada",
+        "value": 2
+      },
+      {
+        "source": "tecnopedagogia",
+        "target": "cert_cert-22-07-ciberseguridadtele",
+        "relationship": "credencial validada",
+        "value": 2
+      },
+      {
+        "source": "politicas_direccion",
+        "target": "cert_cert-22-06-rgpduocdocentes",
+        "relationship": "credencial validada",
+        "value": 2
+      },
+      {
+        "source": "politicas_direccion",
+        "target": "cert_cert-22-05-intemocionalctrl",
+        "relationship": "credencial validada",
+        "value": 2
+      },
+      {
+        "source": "tecnopedagogia",
+        "target": "cert_cert-22-03-formdoctecnoped",
+        "relationship": "credencial validada",
+        "value": 2
+      },
+      {
+        "source": "tecnopedagogia",
+        "target": "cert_cert-22-03-pensamientocomp",
+        "relationship": "credencial validada",
+        "value": 2
+      },
+      {
+        "source": "politicas_direccion",
+        "target": "cert_cert-22-02-operadorsncp",
+        "relationship": "credencial validada",
+        "value": 2
+      },
+      {
+        "source": "politicas_direccion",
+        "target": "cert_cert-22-02-certsercop",
+        "relationship": "credencial validada",
+        "value": 2
+      },
+      {
+        "source": "tecnopedagogia",
+        "target": "cert_cert-22-01-ponenteescuelas",
+        "relationship": "credencial validada",
+        "value": 2
+      },
+      {
+        "source": "tecnopedagogia",
+        "target": "cert_cert-21-12-gamificaciontic",
+        "relationship": "credencial validada",
+        "value": 2
+      },
+      {
+        "source": "politicas_direccion",
+        "target": "cert_cert-21-11-gestionpolitica",
+        "relationship": "credencial validada",
+        "value": 2
+      },
+      {
+        "source": "politicas_direccion",
+        "target": "cert_cert-21-11-gestionproyectos",
+        "relationship": "credencial validada",
+        "value": 2
+      },
+      {
+        "source": "politicas_direccion",
+        "target": "cert_cert-21-11-sectorpublicoequipos",
+        "relationship": "credencial validada",
+        "value": 2
+      },
+      {
+        "source": "politicas_direccion",
+        "target": "cert_cert-21-11-contratacionpublica",
+        "relationship": "credencial validada",
+        "value": 2
+      },
+      {
+        "source": "politicas_direccion",
+        "target": "cert_cert-21-11-praticassaludable",
+        "relationship": "credencial validada",
+        "value": 2
+      },
+      {
+        "source": "politicas_direccion",
+        "target": "cert_cert-21-11-gerenciapublica",
+        "relationship": "credencial validada",
+        "value": 2
+      },
+      {
+        "source": "politicas_direccion",
+        "target": "cert_cert-21-11-liderazgopolitico",
+        "relationship": "credencial validada",
+        "value": 2
+      },
+      {
+        "source": "tecnopedagogia",
+        "target": "cert_cert-21-08-cursogamificacion",
+        "relationship": "credencial validada",
+        "value": 2
+      },
+      {
+        "source": "tecnopedagogia",
+        "target": "cert_cert-21-08-festivalideas10",
+        "relationship": "credencial validada",
+        "value": 2
+      },
+      {
+        "source": "politicas_direccion",
+        "target": "cert_cert-21-08-riesgoergonomico",
+        "relationship": "credencial validada",
+        "value": 2
+      },
+      {
+        "source": "tecnopedagogia",
+        "target": "cert_cert-21-08-ideas10",
+        "relationship": "credencial validada",
+        "value": 2
+      },
+      {
+        "source": "politicas_direccion",
+        "target": "cert_cert-21-07-riesgobiologico",
+        "relationship": "credencial validada",
+        "value": 2
+      },
+      {
+        "source": "tecnopedagogia",
+        "target": "cert_cert-21-06-bienestarsocioem",
+        "relationship": "credencial validada",
+        "value": 2
+      },
+      {
+        "source": "politicas_direccion",
+        "target": "cert_cert-21-06-seguridadlaboral",
+        "relationship": "credencial validada",
+        "value": 2
+      },
+      {
+        "source": "politicas_direccion",
+        "target": "cert_cert-21-06-datosabiertosecuador",
+        "relationship": "credencial validada",
+        "value": 2
+      },
+      {
+        "source": "tecnopedagogia",
+        "target": "cert_cert-21-05-emocionaprender",
+        "relationship": "credencial validada",
+        "value": 2
+      },
+      {
+        "source": "ia_data_science",
+        "target": "cert_cert-21-05-excel365beginner",
+        "relationship": "credencial validada",
+        "value": 2
+      },
+      {
+        "source": "tecnopedagogia",
+        "target": "cert_cert-21-04-commremoteteams",
         "relationship": "credencial validada",
         "value": 2
       },
@@ -860,6 +1958,12 @@
         "value": 2
       },
       {
+        "source": "tecnopedagogia",
+        "target": "cert_cert-20-12-facilitacionunae",
+        "relationship": "credencial validada",
+        "value": 2
+      },
+      {
         "source": "politicas_direccion",
         "target": "cert_cert-20-12-violenciamujeres",
         "relationship": "credencial validada",
@@ -873,7 +1977,55 @@
       },
       {
         "source": "tecnopedagogia",
+        "target": "cert_cert-20-11-curacioncontenidos",
+        "relationship": "credencial validada",
+        "value": 2
+      },
+      {
+        "source": "tecnopedagogia",
+        "target": "cert_cert-20-11-expovidanueva",
+        "relationship": "credencial validada",
+        "value": 2
+      },
+      {
+        "source": "politicas_direccion",
+        "target": "cert_cert-20-10-qaheducationmaster",
+        "relationship": "credencial validada",
+        "value": 2
+      },
+      {
+        "source": "tecnopedagogia",
+        "target": "cert_cert-20-07-formacionconsultoruoc",
+        "relationship": "credencial validada",
+        "value": 2
+      },
+      {
+        "source": "politicas_direccion",
+        "target": "cert_cert-20-10-qahedmaster",
+        "relationship": "credencial validada",
+        "value": 2
+      },
+      {
+        "source": "tecnopedagogia",
+        "target": "cert_cert-20-09-congresoeduzona6",
+        "relationship": "credencial validada",
+        "value": 2
+      },
+      {
+        "source": "tecnopedagogia",
+        "target": "cert_cert-20-07-tutoresenlinea",
+        "relationship": "credencial validada",
+        "value": 2
+      },
+      {
+        "source": "tecnopedagogia",
         "target": "cert_cert-20-07-endinsatuoc",
+        "relationship": "credencial validada",
+        "value": 2
+      },
+      {
+        "source": "tecnopedagogia",
+        "target": "cert_cert-20-01-semcalidadline",
         "relationship": "credencial validada",
         "value": 2
       },
@@ -891,31 +2043,313 @@
       },
       {
         "source": "tecnopedagogia",
-        "target": "cert_cert-tex-2020-2",
+        "target": "cert_cert-19-12-formadorformadores",
         "relationship": "credencial validada",
         "value": 2
       },
       {
         "source": "tecnopedagogia",
-        "target": "cert_cert-tex-2020-3",
+        "target": "cert_cert-19-06-moodledayconfe19",
         "relationship": "credencial validada",
         "value": 2
       },
       {
         "source": "tecnopedagogia",
-        "target": "cert_cert-tex-2019-4",
+        "target": "cert_cert-19-06-moodleday2019",
+        "relationship": "credencial validada",
+        "value": 2
+      },
+      {
+        "source": "politicas_direccion",
+        "target": "cert_cert-18-11-ponenciaculturaprev",
         "relationship": "credencial validada",
         "value": 2
       },
       {
         "source": "tecnopedagogia",
-        "target": "cert_cert-tex-2017-5",
+        "target": "cert_cert-18-09-storytellingvirtual",
+        "relationship": "credencial validada",
+        "value": 2
+      },
+      {
+        "source": "politicas_direccion",
+        "target": "cert_cert-18-07-monitoresprevencion",
+        "relationship": "credencial validada",
+        "value": 2
+      },
+      {
+        "source": "politicas_direccion",
+        "target": "cert_cert-18-06-accesibilidadfisica",
         "relationship": "credencial validada",
         "value": 2
       },
       {
         "source": "tecnopedagogia",
-        "target": "cert_cert-tex-2014-6",
+        "target": "cert_cert-18-06-estrategiasdig",
+        "relationship": "credencial validada",
+        "value": 2
+      },
+      {
+        "source": "tecnopedagogia",
+        "target": "cert_cert-18-06-moodleday2018",
+        "relationship": "credencial validada",
+        "value": 2
+      },
+      {
+        "source": "tecnopedagogia",
+        "target": "cert_cert-18-05-ponenciaapienvs",
+        "relationship": "credencial validada",
+        "value": 2
+      },
+      {
+        "source": "ia_data_science",
+        "target": "cert_cert-18-04-ponenteflisol18",
+        "relationship": "credencial validada",
+        "value": 2
+      },
+      {
+        "source": "politicas_direccion",
+        "target": "cert_cert-18-03-sensdiscapacidad",
+        "relationship": "credencial validada",
+        "value": 2
+      },
+      {
+        "source": "politicas_direccion",
+        "target": "cert_cert-18-01-generacionnegocio",
+        "relationship": "credencial validada",
+        "value": 2
+      },
+      {
+        "source": "tecnopedagogia",
+        "target": "cert_cert-18-01-seguridadticinfancia",
+        "relationship": "credencial validada",
+        "value": 2
+      },
+      {
+        "source": "tecnopedagogia",
+        "target": "cert_cert-17-12-ponenciascratch",
+        "relationship": "credencial validada",
+        "value": 2
+      },
+      {
+        "source": "tecnopedagogia",
+        "target": "cert_cert-17-12-eddisruptiva",
+        "relationship": "credencial validada",
+        "value": 2
+      },
+      {
+        "source": "tecnopedagogia",
+        "target": "cert_cert-17-12-moodlecert",
+        "relationship": "credencial validada",
+        "value": 2
+      },
+      {
+        "source": "tecnopedagogia",
+        "target": "cert_cert-17-10-profesorsigloxxi",
+        "relationship": "credencial validada",
+        "value": 2
+      },
+      {
+        "source": "tecnopedagogia",
+        "target": "cert_cert-17-09-personalizacionmoodle",
+        "relationship": "credencial validada",
+        "value": 2
+      },
+      {
+        "source": "politicas_direccion",
+        "target": "cert_cert-17-08-prevprenataldiscap",
+        "relationship": "credencial validada",
+        "value": 2
+      },
+      {
+        "source": "tecnopedagogia",
+        "target": "cert_cert-17-04-jornadasinfofis",
+        "relationship": "credencial validada",
+        "value": 2
+      },
+      {
+        "source": "tecnopedagogia",
+        "target": "cert_cert-17-04-facilitacionped",
+        "relationship": "credencial validada",
+        "value": 2
+      },
+      {
+        "source": "tecnopedagogia",
+        "target": "cert_cert-17-04-tallersistemasop",
+        "relationship": "credencial validada",
+        "value": 2
+      },
+      {
+        "source": "tecnopedagogia",
+        "target": "cert_cert-17-04-aulavirtualflisol",
+        "relationship": "credencial validada",
+        "value": 2
+      },
+      {
+        "source": "tecnopedagogia",
+        "target": "cert_cert-17-02-recursosdigitales",
+        "relationship": "credencial validada",
+        "value": 2
+      },
+      {
+        "source": "tecnopedagogia",
+        "target": "cert_cert-16-12-libreofficecec",
+        "relationship": "credencial validada",
+        "value": 2
+      },
+      {
+        "source": "tecnopedagogia",
+        "target": "cert_cert-16-11-ponenciacovaite",
+        "relationship": "credencial validada",
+        "value": 2
+      },
+      {
+        "source": "politicas_direccion",
+        "target": "cert_cert-16-11-seminarioiipe",
+        "relationship": "credencial validada",
+        "value": 2
+      },
+      {
+        "source": "tecnopedagogia",
+        "target": "cert_cert-16-11-analiticasapre",
+        "relationship": "credencial validada",
+        "value": 2
+      },
+      {
+        "source": "tecnopedagogia",
+        "target": "cert_cert-16-10-openofficewriter",
+        "relationship": "credencial validada",
+        "value": 2
+      },
+      {
+        "source": "tecnopedagogia",
+        "target": "cert_cert-15-10-creacionblogsweb",
+        "relationship": "credencial validada",
+        "value": 2
+      },
+      {
+        "source": "tecnopedagogia",
+        "target": "cert_cert-15-10-edsoportevirtual",
+        "relationship": "credencial validada",
+        "value": 2
+      },
+      {
+        "source": "tecnopedagogia",
+        "target": "cert_cert-15-10-expertoeduvirtual",
+        "relationship": "credencial validada",
+        "value": 2
+      },
+      {
+        "source": "tecnopedagogia",
+        "target": "cert_cert-15-08-tecnoeducacion",
+        "relationship": "credencial validada",
+        "value": 2
+      },
+      {
+        "source": "tecnopedagogia",
+        "target": "cert_cert-15-08-interaccionmovil",
+        "relationship": "credencial validada",
+        "value": 2
+      },
+      {
+        "source": "tecnopedagogia",
+        "target": "cert_cert-15-06-realidadaumentada",
+        "relationship": "credencial validada",
+        "value": 2
+      },
+      {
+        "source": "tecnopedagogia",
+        "target": "cert_cert-15-06-entornosvirtuales",
+        "relationship": "credencial validada",
+        "value": 2
+      },
+      {
+        "source": "tecnopedagogia",
+        "target": "cert_cert-15-06-scratcharduino",
+        "relationship": "credencial validada",
+        "value": 2
+      },
+      {
+        "source": "tecnopedagogia",
+        "target": "cert_cert-15-05-alcanceacademico",
+        "relationship": "credencial validada",
+        "value": 2
+      },
+      {
+        "source": "tecnopedagogia",
+        "target": "cert_cert-15-05-sitiowebcomercial",
+        "relationship": "credencial validada",
+        "value": 2
+      },
+      {
+        "source": "tecnopedagogia",
+        "target": "cert_cert-15-05-adminmoodle",
+        "relationship": "credencial validada",
+        "value": 2
+      },
+      {
+        "source": "tecnopedagogia",
+        "target": "cert_cert-15-05-fasepresenciafatla",
+        "relationship": "credencial validada",
+        "value": 2
+      },
+      {
+        "source": "tecnopedagogia",
+        "target": "cert_cert-15-05-estrategiasmoodle",
+        "relationship": "credencial validada",
+        "value": 2
+      },
+      {
+        "source": "tecnopedagogia",
+        "target": "cert_cert-15-05-revistadigitalonline",
+        "relationship": "credencial validada",
+        "value": 2
+      },
+      {
+        "source": "politicas_direccion",
+        "target": "cert_cert-15-04-planestrategicoeco",
+        "relationship": "credencial validada",
+        "value": 2
+      },
+      {
+        "source": "tecnopedagogia",
+        "target": "cert_cert-15-03-recursosedvirtual",
+        "relationship": "credencial validada",
+        "value": 2
+      },
+      {
+        "source": "tecnopedagogia",
+        "target": "cert_cert-15-02-marketingonline",
+        "relationship": "credencial validada",
+        "value": 2
+      },
+      {
+        "source": "tecnopedagogia",
+        "target": "cert_cert-15-02-entornosvirtuales",
+        "relationship": "credencial validada",
+        "value": 2
+      },
+      {
+        "source": "tecnopedagogia",
+        "target": "cert_cert-15-02-communitymanager",
+        "relationship": "credencial validada",
+        "value": 2
+      },
+      {
+        "source": "tecnopedagogia",
+        "target": "cert_cert-14-12-estrategiasmoodle",
+        "relationship": "credencial validada",
+        "value": 2
+      },
+      {
+        "source": "tecnopedagogia",
+        "target": "cert_cert-14-05-certscratcharduino",
+        "relationship": "credencial validada",
+        "value": 2
+      },
+      {
+        "source": "ia_data_science",
+        "target": "cert_cert-13-12-hourofcode",
         "relationship": "credencial validada",
         "value": 2
       }
@@ -2340,28 +3774,52 @@
   ],
   "certifications": [
     {
-      "id": "cert-tex-2026-0",
-      "docType": "Inves",
-      "fileName": "26-06-Inves-DVVGlobALE.pdf",
-      "shortName": "DVVGlobALE",
-      "role": "Validador de Instrumento / Especialista",
-      "title": "Validación curricular y contextualización del Currículum GlobALE para América Latina",
-      "issuer": "DVV International y Fundación Openlab Ecuador",
+      "id": "cert-26-08-iarealiztareas",
+      "docType": "CurEst",
+      "fileName": "26-08-CurEst-IARealizTareas.pdf",
+      "shortName": "IARealizTareas",
+      "role": "Participante",
+      "title": "IA para automatizar tareas académicas y administrativas",
+      "issuer": "Grupo editorial ECOE Ediciones S.A.S",
       "year": "2026",
-      "date": "2026-06-30",
+      "yearShort": "26",
+      "month": "08",
+      "date": "2026-08-13",
       "hours": null,
       "modality": "Virtual",
       "credentialId": null,
       "verificationUrl": null,
-      "driveUrl": "https://drive.google.com/file/d/12DzyOfBLhJo0I0CAnCjj44SS-7GUat87/view",
+      "driveUrl": "https://drive.google.com/file/d/1AQmSyfNTRBn914R3grR_0xcN2r0PkgWi/view",
       "cluster": "tecnopedagogia",
       "skills": [
-        "Validación curricular",
-        "Contextualización educativa",
-        "Diseño instruccional"
-      ],
+        "Inteligencia Artificial",
+        "Automatización de Tareas",
+        "Gestión Académica"
+      ]
+    },
+    {
+      "id": "cert-26-06-seguridadinfo",
+      "docType": "CurEst",
+      "fileName": "26-06-CurEst-SeguridadInfo.pdf",
+      "shortName": "SeguridadInfo",
+      "role": "Participante",
+      "title": "Certificado de reconocimiento por participar en las capacitaciones sobre Concientización en seguridad Informática",
+      "issuer": "ESCANOR CORP",
+      "year": "2026",
+      "yearShort": "26",
       "month": "06",
-      "yearShort": "26"
+      "date": "2026",
+      "hours": null,
+      "modality": "Virtual",
+      "credentialId": null,
+      "verificationUrl": null,
+      "driveUrl": "https://drive.google.com/file/d/1KR63fHpe-SwnfXI4Dm1grjSeykxl4DST/view",
+      "cluster": "tecnopedagogia",
+      "skills": [
+        "Seguridad Informática",
+        "Concientización Tecnológica",
+        "Ciberseguridad Básica"
+      ]
     },
     {
       "id": "cert-26-06-moodlemootcol26",
@@ -2386,6 +3844,126 @@
         "Tecnologías Moodle",
         "Aprendizaje Colaborativo",
         "Innovación Educativa"
+      ]
+    },
+    {
+      "id": "cert-26-06-dvvglobale",
+      "docType": "Inves",
+      "fileName": "26-06-Inves-DVVGlobALE.pdf",
+      "shortName": "DVVGlobALE",
+      "role": "Validador de Instrumento / Especialista",
+      "title": "Validación curricular y contextualización del Currículum GlobALE para América Latina",
+      "issuer": "DVV International y Fundación Openlab Ecuador",
+      "year": "2026",
+      "yearShort": "26",
+      "month": "06",
+      "date": "2026-06-30",
+      "hours": null,
+      "modality": "Virtual",
+      "credentialId": null,
+      "verificationUrl": null,
+      "driveUrl": "https://drive.google.com/file/d/12DzyOfBLhJo0I0CAnCjj44SS-7GUat87/view",
+      "cluster": "tecnopedagogia",
+      "skills": [
+        "Validación curricular",
+        "Contextualización educativa",
+        "Diseño instruccional"
+      ]
+    },
+    {
+      "id": "cert-25-11-tutorcollegehoriz",
+      "docType": "CursImp",
+      "fileName": "25-11-CursImp-TutorCollegeHoriz.pdf",
+      "shortName": "TutorCollegeHoriz",
+      "role": "Docente / Facilitador",
+      "title": "Tutor in COLLEGE HORIZONS PROGRAM",
+      "issuer": "Centro de Educación Continua de la Escuela Politécnica Nacional and the United States Embassy",
+      "year": "2025",
+      "yearShort": "25",
+      "month": "11",
+      "date": "2025-11-22",
+      "hours": null,
+      "modality": "Presencial",
+      "credentialId": null,
+      "verificationUrl": null,
+      "driveUrl": "https://drive.google.com/file/d/10Uf9F64cO1Ngz4uJcIfl83tZk3EQ3b-i/view",
+      "cluster": "politicas_direccion",
+      "skills": [
+        "Tutoría Académica",
+        "Acompañamiento Estudiantil",
+        "Gestión Educativa"
+      ]
+    },
+    {
+      "id": "cert-25-11-bestpapericetei",
+      "docType": "Meri",
+      "fileName": "25-11-Meri-BestPaperIcetei.pdf",
+      "shortName": "BestPaperIcetei",
+      "role": "Galardonado",
+      "title": "Best Paper in Track 3: Digital Education and Learning Analytics",
+      "issuer": "ICETEI 2025 & RED EDUTEM",
+      "year": "2025",
+      "yearShort": "25",
+      "month": "11",
+      "date": "2025-11-14",
+      "hours": null,
+      "modality": "Virtual",
+      "credentialId": null,
+      "verificationUrl": null,
+      "driveUrl": "https://drive.google.com/file/d/1vfl3Db5II5tQ5pFcOh31Ad7SZGbfrZrO/view",
+      "cluster": "tecnopedagogia",
+      "skills": [
+        "Learning Analytics",
+        "AI-Based Assistants",
+        "Formative Feedback"
+      ]
+    },
+    {
+      "id": "cert-25-06-diplomadodeeplearning",
+      "docType": "Cert",
+      "fileName": "25-06-Cert-DiplomadoDeepLearning.pdf",
+      "shortName": "DiplomadoDeepLearning",
+      "role": "Participante",
+      "title": "Diplomado Inteligencia Artificial con Deep Learning",
+      "issuer": "Universidad de La Sabana",
+      "year": "2025",
+      "yearShort": "25",
+      "month": "06",
+      "date": "2025-06-17",
+      "hours": 96,
+      "modality": "Virtual",
+      "credentialId": null,
+      "verificationUrl": null,
+      "driveUrl": "https://drive.google.com/file/d/1Pvyn1cXd_zHadnL0mgi2GequrHK4GXGZ/view",
+      "cluster": "ia_data_science",
+      "skills": [
+        "Inteligencia Artificial",
+        "Deep Learning",
+        "Redes Neuronales"
+      ]
+    },
+    {
+      "id": "cert-25-06-delaideaalpaper",
+      "docType": "CurEst",
+      "fileName": "25-06-CurEst-DeLaIdeaAlPaper.pdf",
+      "shortName": "DeLaIdeaAlPaper",
+      "role": "Participante",
+      "title": "De la Idea al Paper: Fundamentos para la Redacción de Artículos",
+      "issuer": "Pontificia Universidad Católica del Ecuador",
+      "year": "2025",
+      "yearShort": "25",
+      "month": "06",
+      "date": "2025-06-27",
+      "hours": 40,
+      "modality": "Virtual",
+      "credentialId": "68d2a515-f8d8-4556-a6ed-33f70a0808bd",
+      "verificationUrl": null,
+      "driveUrl": "https://drive.google.com/file/d/1-kpsEJt9VwqVp3plByY8DqfQCy3IFUc6/view",
+      "cluster": "ia_data_science",
+      "skills": [
+        "Redacción Científica",
+        "LaTeX",
+        "Overleaf"
       ]
     },
     {
@@ -2414,22 +3992,1014 @@
       ]
     },
     {
-      "id": "cert-tex-2022-1",
-      "docType": "Cert",
-      "fileName": "",
-      "shortName": "",
+      "id": "cert-24-10-capacitacioninvest",
+      "docType": "CurEst",
+      "fileName": "24-10-CurEst-CapacitacionInvest.jpg",
+      "shortName": "CapacitacionInvest",
       "role": "Participante",
-      "title": "Educador certificado por GOOGLE",
-      "issuer": "Google for Education - Level 1",
-      "year": "2022",
-      "date": "2022",
+      "title": "CAPACITACIÓN EN INVESTIGACIÓN CIENTÍFICA 2024",
+      "issuer": "SCImago Research Group",
+      "year": "2024",
+      "yearShort": "24",
+      "month": "10",
+      "date": "2024-10-08",
+      "hours": 60,
+      "modality": "Virtual",
+      "credentialId": "fkeS9HeAQ3",
+      "verificationUrl": null,
+      "driveUrl": "https://drive.google.com/file/d/1NwMjbRZJj6a5twQR8YS5G957mknHJNXm/view",
+      "cluster": "ia_data_science",
+      "skills": [
+        "Metodología Científica",
+        "Publicación Académica",
+        "Ciimetría"
+      ]
+    },
+    {
+      "id": "cert-24-10-capacitacioncienc",
+      "docType": "CurEst",
+      "fileName": "24-10-CurEst-CapacitacionCienc.pdf",
+      "shortName": "CapacitacionCienc",
+      "role": "Participante",
+      "title": "Certificado de Aprobación: Capacitación en Investigación Científica 2024",
+      "issuer": "SCImago Research Group",
+      "year": "2024",
+      "yearShort": "24",
+      "month": "10",
+      "date": "2024-10-08",
+      "hours": 60,
+      "modality": "Virtual",
+      "credentialId": "fkeS9HeAQ3",
+      "verificationUrl": null,
+      "driveUrl": "https://drive.google.com/file/d/1IkIXBqRGgTO6dIXnTwrqYAU01b94T7-J/view",
+      "cluster": "ia_data_science",
+      "skills": [
+        "Investigación Científica",
+        "Metodología de la Investigación",
+        "Publicación Académica"
+      ]
+    },
+    {
+      "id": "cert-23-08-ponenciamoodle23",
+      "docType": "Inves",
+      "fileName": "23-08-Inves-PonenciaMoodle23.jpg",
+      "shortName": "PonenciaMoodle23",
+      "role": "Ponente",
+      "title": "Uso de las actividades de aprendizaje en Moodle para la evaluación en la educación continua y formal",
+      "issuer": "Edu Labs y Escuela Politécnica Nacional",
+      "year": "2023",
+      "yearShort": "23",
+      "month": "08",
+      "date": "2023-08-02",
       "hours": null,
-      "modality": "",
+      "modality": "Presencial",
       "credentialId": null,
-      "verificationUrl": "https://bit.ly/3P8nwbF",
-      "driveUrl": null,
+      "verificationUrl": null,
+      "driveUrl": "https://drive.google.com/file/d/1z9RVjEkmRR_Dmp4KkF_e-GHY-2KXLug4/view",
       "cluster": "tecnopedagogia",
-      "skills": []
+      "skills": [
+        "Evaluación Educativa",
+        "Moodle",
+        "Educación Continua",
+        "Tecnopedagogía"
+      ]
+    },
+    {
+      "id": "cert-23-08-ponenteusorecedu",
+      "docType": "Inves",
+      "fileName": "23-08-Inves-PonenteUsoRecEdu.jpg",
+      "shortName": "PonenteUsoRecEdu",
+      "role": "Ponente",
+      "title": "Ponente Experto en el Webinar Uso de Recursos Educativos en el Aula",
+      "issuer": "Ministerio de Educación del Ecuador",
+      "year": "2023",
+      "yearShort": "23",
+      "month": "08",
+      "date": "2023-08-29",
+      "hours": null,
+      "modality": "Virtual",
+      "credentialId": null,
+      "verificationUrl": null,
+      "driveUrl": "https://drive.google.com/file/d/12555hYM_qgzC2S6fxhfgwVpQs_AlXJsR/view",
+      "cluster": "tecnopedagogia",
+      "skills": [
+        "Recursos Educativos",
+        "Tecnologías Educativas",
+        "Ponencias Magistrales"
+      ]
+    },
+    {
+      "id": "cert-23-03-infosecawareness",
+      "docType": "CurEst",
+      "fileName": "23-03-CurEst-InfoSecAwareness.jpg",
+      "shortName": "InfoSecAwareness",
+      "role": "Participante",
+      "title": "Information Security Awareness",
+      "issuer": "Fortinet Training Institute",
+      "year": "2023",
+      "yearShort": "23",
+      "month": "03",
+      "date": "2023-03-21",
+      "hours": 10,
+      "modality": "Virtual",
+      "credentialId": null,
+      "verificationUrl": null,
+      "driveUrl": "https://drive.google.com/file/d/1Gr_4JXHCvuZhbyVSGt9jMjiBsnaGAIB9/view",
+      "cluster": "politicas_direccion",
+      "skills": [
+        "Information Security",
+        "Cybersecurity",
+        "Security Awareness"
+      ]
+    },
+    {
+      "id": "cert-23-03-fortinetnse1",
+      "docType": "Cert",
+      "fileName": "23-03-Cert-FortinetNSE1.jpg",
+      "shortName": "FortinetNSE1",
+      "role": "Participante",
+      "title": "NSE 1 Network Security Associate",
+      "issuer": "Fortinet",
+      "year": "2023",
+      "yearShort": "23",
+      "month": "03",
+      "date": "2023-03-21",
+      "hours": null,
+      "modality": "Virtual",
+      "credentialId": "VoBwMv1GEZ",
+      "verificationUrl": "https://training.fortinet.com/mod/customcert/verify_certificate.php",
+      "driveUrl": "https://drive.google.com/file/d/1EBU5JRIH6fbdaCElQimf9rolG2--bH6g/view",
+      "cluster": "tecnopedagogia",
+      "skills": [
+        "Network Security",
+        "Cybersecurity Fundamentals",
+        "Fortinet Security Fabric"
+      ]
+    },
+    {
+      "id": "cert-22-11-ponenciaried2022",
+      "docType": "Inves",
+      "fileName": "22-11-Inves-PonenciaRied2022.jpg",
+      "shortName": "PonenciaRied2022",
+      "role": "Ponente",
+      "title": "Seminario Virtual de la RIED 2022",
+      "issuer": "Red Interamericana de Educación Docente (RIED) - OEA",
+      "year": "2022",
+      "yearShort": "22",
+      "month": "11",
+      "date": "2022-11-08",
+      "hours": 10,
+      "modality": "Virtual",
+      "credentialId": null,
+      "verificationUrl": null,
+      "driveUrl": "https://drive.google.com/file/d/1u_iAl5tjslVdbdlPmY4mRomJHAkemjK_/view",
+      "cluster": "tecnopedagogia",
+      "skills": [
+        "Educación Docente",
+        "Ponencia Académica",
+        "Interamerican Educational Networks"
+      ]
+    },
+    {
+      "id": "cert-22-11-comitecientificovii",
+      "docType": "Inves",
+      "fileName": "22-11-Inves-ComiteCientificoVII.jpg",
+      "shortName": "ComiteCientificoVII",
+      "role": "Revisor Par",
+      "title": "MIEMBRO DEL COMITÉ CIENTÍFICO-EVALUADOR EXTERNO EN EL VII CONGRESO INTERNACIONAL DE EDUCACIÓN CONTEMPORÁNEA CALIDAD EDUCATIVA Y BUEN VIVIR",
+      "issuer": "Universidad Nacional de Chimborazo",
+      "year": "2022",
+      "yearShort": "22",
+      "month": "11",
+      "date": "2022-11-25",
+      "hours": null,
+      "modality": "Presencial",
+      "credentialId": "CGVII-TH-0000106",
+      "verificationUrl": null,
+      "driveUrl": "https://drive.google.com/file/d/1z1I_ZYwcgPVJMLkgU5Sqrs4lF6zqJZH-/view",
+      "cluster": "tecnopedagogia",
+      "skills": [
+        "Evaluación por Pares",
+        "Investigación Educativa",
+        "Arbitraje Científico"
+      ]
+    },
+    {
+      "id": "cert-22-11-comiteviiiced",
+      "docType": "Inves",
+      "fileName": "22-11-Inves-ComiteVIIICED.jpg",
+      "shortName": "ComiteVIIICED",
+      "role": "Revisor Par",
+      "title": "MIEMBRO DEL COMITÉ CIENTÍFICO-EVALUADOR EXTERNO EN EL VII CONGRESO INTERNACIONAL DE EDUCACIÓN CONTEMPORÁNEA CALIDAD EDUCATIVA Y BUEN VIVIR",
+      "issuer": "Facultad de Ciencias de la Educación, Humanas y Tecnologías",
+      "year": "2022",
+      "yearShort": "22",
+      "month": "11",
+      "date": "2022-11-25",
+      "hours": 0,
+      "modality": "Presencial",
+      "credentialId": "CGVII-TH-0000106",
+      "verificationUrl": null,
+      "driveUrl": "https://drive.google.com/file/d/1nZo5ls4aDMM11Mjc7B27WDe-7bl-cpUM/view",
+      "cluster": "tecnopedagogia",
+      "skills": [
+        "Evaluación Científica",
+        "Revisión por Pares",
+        "Calidad Educativa"
+      ]
+    },
+    {
+      "id": "cert-22-11-mobilelearningugr",
+      "docType": "CurEst",
+      "fileName": "22-11-CurEst-MobileLearningUGR.pdf",
+      "shortName": "MobileLearningUGR",
+      "role": "Participante",
+      "title": "Mobile learning: claves para la aplicación de los dispositivos móviles en el aula. 1ª Edición",
+      "issuer": "Universidad de Granada",
+      "year": "2022",
+      "yearShort": "22",
+      "month": "11",
+      "date": "2022-11-07",
+      "hours": 75,
+      "modality": "Virtual",
+      "credentialId": "9A5BC43AD26B22C7B6D939F76CCC6FD3",
+      "verificationUrl": "https://sede.ugr.es/verifirma/",
+      "driveUrl": "https://drive.google.com/file/d/16C9EPOovghCqMa7ts5AH2-VW64z1vzsO/view",
+      "cluster": "tecnopedagogia",
+      "skills": [
+        "Mobile Learning",
+        "Gamificación educativa",
+        "Realidad aumentada"
+      ]
+    },
+    {
+      "id": "cert-22-10-ponenciaprofuturo",
+      "docType": "Inves",
+      "fileName": "22-10-Inves-PonenciaProFuturo.jpg",
+      "shortName": "PonenciaProFuturo",
+      "role": "Ponente",
+      "title": "Ponencia en la tertulia dialógica: \"Mejorando nuestras vidas en comunidad, con el uso de las TIC\"",
+      "issuer": "Fundación Telefónica Movistar Ecuador y ChildFund Ecuador",
+      "year": "2022",
+      "yearShort": "22",
+      "month": "10",
+      "date": "2022-10",
+      "hours": null,
+      "modality": "Virtual",
+      "credentialId": null,
+      "verificationUrl": null,
+      "driveUrl": "https://drive.google.com/file/d/1DW020m3En9tBaYjc-Uh0KXe3Kzycqst8/view",
+      "cluster": "tecnopedagogia",
+      "skills": [
+        "Alfabetización Digital",
+        "Tecnologías de la Información y Comunicación (TIC)",
+        "Comunidades de Aprendizaje"
+      ]
+    },
+    {
+      "id": "cert-22-10-pensamientocomp",
+      "docType": "CurEst",
+      "fileName": "22-10-CurEst-PensamientoComp.jpg",
+      "shortName": "PensamientoComp",
+      "role": "Participante",
+      "title": "SEMINARIO DE INTRODUCCIÓN AL PENSAMIENTO COMPUTACIONAL DEL SIMPOSIO STEM MIAMI 2022",
+      "issuer": "Broward International University",
+      "year": "2022",
+      "yearShort": "22",
+      "month": "10",
+      "date": "2022-10-01",
+      "hours": 20,
+      "modality": "Presencial",
+      "credentialId": null,
+      "verificationUrl": null,
+      "driveUrl": "https://drive.google.com/file/d/1tTIcv-AtnPWpN9sOtzAb-V2QkLgq57ah/view",
+      "cluster": "tecnopedagogia",
+      "skills": [
+        "Pensamiento Computacional",
+        "STEM",
+        "Educación Digital"
+      ]
+    },
+    {
+      "id": "cert-22-08-moodlemootcol2022",
+      "docType": "CurEst",
+      "fileName": "22-08-CurEst-MoodleMootCol2022.jpg",
+      "shortName": "MoodleMootCol2022",
+      "role": "Participante",
+      "title": "MoodleMoot Colombia Online 2022",
+      "issuer": "Edu Labs",
+      "year": "2022",
+      "yearShort": "22",
+      "month": "08",
+      "date": "2022-08-25",
+      "hours": null,
+      "modality": "Virtual",
+      "credentialId": null,
+      "verificationUrl": null,
+      "driveUrl": "https://drive.google.com/file/d/15WeXxc1Q5Yx7mF5AKxiq9O6c4sdWXEcl/view",
+      "cluster": "tecnopedagogia",
+      "skills": [
+        "Moodle",
+        "Tecnopedagogía",
+        "Educación Virtual"
+      ]
+    },
+    {
+      "id": "cert-22-07-googleeducator1",
+      "docType": "Cert",
+      "fileName": "22-07-Cert-GoogleEducator1.pdf",
+      "shortName": "GoogleEducator1",
+      "role": "Participante",
+      "title": "Certified Educator - Level 1",
+      "issuer": "Google for Education",
+      "year": "2022",
+      "yearShort": "22",
+      "month": "07",
+      "date": "2022-07-14",
+      "hours": null,
+      "modality": "Virtual",
+      "credentialId": "PR000038",
+      "verificationUrl": "https://edutrainingcenter.withgoogle.com/certification_level1",
+      "driveUrl": "https://drive.google.com/file/d/1b2k20cuN53chndMhFEKhT5tCItivVedC/view",
+      "cluster": "tecnopedagogia",
+      "skills": [
+        "Google Workspace for Education",
+        "Tecnopedagogía",
+        "Competencias Digitales Docentes"
+      ]
+    },
+    {
+      "id": "cert-22-07-googleeducator1",
+      "docType": "Cert",
+      "fileName": "22-07-Cert-GoogleEducator1.jpg",
+      "shortName": "GoogleEducator1",
+      "role": "Participante",
+      "title": "Educador certificado por Google Nivel 1",
+      "issuer": "Google for Education",
+      "year": "2022",
+      "yearShort": "22",
+      "month": "07",
+      "date": "2022-07-14",
+      "hours": null,
+      "modality": "Virtual",
+      "credentialId": null,
+      "verificationUrl": null,
+      "driveUrl": "https://drive.google.com/file/d/1oMTnyNw8_36zx4at3MgpvB2IYMk8SFUK/view",
+      "cluster": "tecnopedagogia",
+      "skills": [
+        "Google Workspace for Education",
+        "Herramientas Digitales de Aprendizaje",
+        "Pedagogía Digital"
+      ]
+    },
+    {
+      "id": "cert-22-07-ciberseguridadtele",
+      "docType": "Cert",
+      "fileName": "22-07-Cert-CiberseguridadTele.pdf",
+      "shortName": "CiberseguridadTele",
+      "role": "Participante",
+      "title": "Protegemos tu Negocio: Ciberseguridad en el Teletrabajo",
+      "issuer": "Google Actívate e INCIBE",
+      "year": "2022",
+      "yearShort": "22",
+      "month": "07",
+      "date": "2022-07-14",
+      "hours": 2,
+      "modality": "Virtual",
+      "credentialId": "A7T JXS REQ",
+      "verificationUrl": "https://learndigital.withgoogle.com/link/1nur091p2ww",
+      "driveUrl": "https://drive.google.com/file/d/1xLZ_LpRtJMNG007ojFoOUhw_T5R3nXLM/view",
+      "cluster": "tecnopedagogia",
+      "skills": [
+        "Ciberseguridad",
+        "Teletrabajo Seguro",
+        "Gestión de Incidentes"
+      ]
+    },
+    {
+      "id": "cert-22-06-rgpduocdocentes",
+      "docType": "Cert",
+      "fileName": "22-06-Cert-RgpdUocDocentes.pdf",
+      "shortName": "RgpdUocDocentes",
+      "role": "Participante",
+      "title": "PROTOCOLO DE CUMPLIMIENTO DEL RGPD PARA COLABORADORES DOCENTES DE LA UOC",
+      "issuer": "Universitat Oberta de Catalunya",
+      "year": "2022",
+      "yearShort": "22",
+      "month": "06",
+      "date": "2022-06-30",
+      "hours": 10,
+      "modality": "Virtual",
+      "credentialId": "JVBILN1IQB",
+      "verificationUrl": null,
+      "driveUrl": "https://drive.google.com/file/d/1vfM_Sl4XtDAzASzVg9QGhJnT2QqliEpY/view",
+      "cluster": "politicas_direccion",
+      "skills": [
+        "Protección de Datos",
+        "RGPD",
+        "Ética Digital"
+      ]
+    },
+    {
+      "id": "cert-22-05-intemocionalctrl",
+      "docType": "CurEst",
+      "fileName": "22-05-CurEst-IntEmocionalCtrl.jpg",
+      "shortName": "IntEmocionalCtrl",
+      "role": "Participante",
+      "title": "INTELIGENCIA EMOCIONAL APLICADA AL CONTROL - VIRTUAL",
+      "issuer": "Contraloría General del Estado - Ecuador",
+      "year": "2022",
+      "yearShort": "22",
+      "month": "05",
+      "date": "2022-05-26",
+      "hours": 24,
+      "modality": "Virtual",
+      "credentialId": "2F22EBEFBC2D842EDA62",
+      "verificationUrl": "https://servicios.contraloria.gob.ec:4443/Capacita/",
+      "driveUrl": "https://drive.google.com/file/d/1z3YcgMBSZisV-ruzkjEfUOzRC6XmodYa/view",
+      "cluster": "politicas_direccion",
+      "skills": [
+        "Inteligencia Emocional",
+        "Gestión de Control",
+        "Habilidades Blandas"
+      ]
+    },
+    {
+      "id": "cert-22-03-formdoctecnoped",
+      "docType": "Cert",
+      "fileName": "22-03-Cert-FormDocTecnoPed.pdf",
+      "shortName": "FormDocTecnoPed",
+      "role": "Participante",
+      "title": "FORMACIÓN DOCENTE TECNO-PEDAGÓGICA PARA EDUCACIÓN EN LÍNEA",
+      "issuer": "Universidad Nacional de Educación (UNAE)",
+      "year": "2022",
+      "yearShort": "22",
+      "month": "03",
+      "date": "2022-03-13",
+      "hours": 120,
+      "modality": "Virtual",
+      "credentialId": "040-COPE-UNAE-202269476",
+      "verificationUrl": "https://sga.unae.edu.ec/consultacertificadoformacioncontinua",
+      "driveUrl": "https://drive.google.com/file/d/1yQ0_uDVl5j1sdyDd-vJ62e5_zNQJFTig/view",
+      "cluster": "tecnopedagogia",
+      "skills": [
+        "Tecnología Educativa",
+        "Pedagogía en Línea",
+        "Diseño Instruccional"
+      ]
+    },
+    {
+      "id": "cert-22-03-pensamientocomp",
+      "docType": "CurEst",
+      "fileName": "22-03-CurEst-PensamientoComp.pdf",
+      "shortName": "PensamientoComp",
+      "role": "Participante",
+      "title": "ESCUELA DE PENSAMIENTO COMPUTACIONAL",
+      "issuer": "Profuturo",
+      "year": "2022",
+      "yearShort": "22",
+      "month": "03",
+      "date": "2022-03-31",
+      "hours": 20,
+      "modality": "Virtual",
+      "credentialId": null,
+      "verificationUrl": null,
+      "driveUrl": "https://drive.google.com/file/d/1BzgjEdlt0J77BL2sTsGvQ2mmRjVaJq1l/view",
+      "cluster": "tecnopedagogia",
+      "skills": [
+        "Pensamiento Computacional",
+        "Resolución de Problemas",
+        "Educación Digital"
+      ]
+    },
+    {
+      "id": "cert-22-02-operadorsncp",
+      "docType": "Cert",
+      "fileName": "22-02-Cert-OperadorSNCP.jpg",
+      "shortName": "OperadorSNCP",
+      "role": "Participante",
+      "title": "Operador del Sistema Nacional de Compras Públicas - Fundamentos de Contratación Pública",
+      "issuer": "Servicio Nacional de Contratación Pública (SERCOP)",
+      "year": "2022",
+      "yearShort": "22",
+      "month": "02",
+      "date": "2022-02-26",
+      "hours": 40,
+      "modality": "Virtual",
+      "credentialId": "ZYmX8I8D4c",
+      "verificationUrl": null,
+      "driveUrl": "https://drive.google.com/file/d/1cc2nWiCNGAGGZ72iawe9eneWwvHtZ7cZ/view",
+      "cluster": "politicas_direccion",
+      "skills": [
+        "Contratación Pública",
+        "Normativa Legal Vigente",
+        "Gestión de Compras Públicas"
+      ]
+    },
+    {
+      "id": "cert-22-02-certsercop",
+      "docType": "Cert",
+      "fileName": "22-02-Cert-CertSercop.pdf",
+      "shortName": "CertSercop",
+      "role": "Participante",
+      "title": "Operador del Sistema Nacional de Compras Públicas - Fundamentos de Contratación Pública",
+      "issuer": "Servicio Nacional de Contratación Pública",
+      "year": "2022",
+      "yearShort": "22",
+      "month": "02",
+      "date": "2022-02-26",
+      "hours": null,
+      "modality": "Virtual",
+      "credentialId": "SERCOP-ZYmX8I8D4c",
+      "verificationUrl": null,
+      "driveUrl": "https://drive.google.com/file/d/1YdpH8XIJN_osHTT5n6Ol8LKwqMBUtz8h/view",
+      "cluster": "politicas_direccion",
+      "skills": [
+        "Contratación Pública",
+        "Normativa Legal",
+        "Gestión Gubernamental"
+      ]
+    },
+    {
+      "id": "cert-22-01-ponenteescuelas",
+      "docType": "Inves",
+      "fileName": "22-01-Inves-PonenteEscuelas.jpg",
+      "shortName": "PonenteEscuelas",
+      "role": "Ponente",
+      "title": "Certificado de participación como ponente en los Webinars: Campamentos \"ESCUELAS QUE ME INSPIRAN\" capacitación y formación en innovación tecnopedagógica para la comunidad educativa 2021",
+      "issuer": "Ministerio de Educación",
+      "year": "2022",
+      "yearShort": "22",
+      "month": "01",
+      "date": "2022-01-13",
+      "hours": null,
+      "modality": "Virtual",
+      "credentialId": null,
+      "verificationUrl": null,
+      "driveUrl": "https://drive.google.com/file/d/1hrlULaAbyEygg7A_R-pDMfp5_PBRdsv_/view",
+      "cluster": "tecnopedagogia",
+      "skills": [
+        "Innovación Tecnopedagógica",
+        "Capacitación Docente",
+        "Comunicación Científica"
+      ]
+    },
+    {
+      "id": "cert-21-12-gamificaciontic",
+      "docType": "CurEst",
+      "fileName": "21-12-CurEst-GamificacionTIC.pdf",
+      "shortName": "GamificacionTIC",
+      "role": "Participante",
+      "title": "JUEGOS, GAMIFICACIÓN Y TIC",
+      "issuer": "Universidad Antonio de Nebrija",
+      "year": "2021",
+      "yearShort": "21",
+      "month": "12",
+      "date": "2021-12-09",
+      "hours": 100,
+      "modality": "Virtual",
+      "credentialId": "I 01719920041",
+      "verificationUrl": null,
+      "driveUrl": "https://drive.google.com/file/d/1_P8DHh2HPl9yvCicGIIM4zd3VIJytI8e/view",
+      "cluster": "tecnopedagogia",
+      "skills": [
+        "Gamificación",
+        "Game Based Learning",
+        "Diseño Instruccional",
+        "TIC Educativas"
+      ]
+    },
+    {
+      "id": "cert-21-11-gestionpolitica",
+      "docType": "CurEst",
+      "fileName": "21-11-CurEst-GestionPolitica.pdf",
+      "shortName": "GestionPolitica",
+      "role": "Participante",
+      "title": "El Rol de la Comunicación en la Gestión Política",
+      "issuer": "EDES Business School - UTPL",
+      "year": "2021",
+      "yearShort": "21",
+      "month": "11",
+      "date": "2021-11-06",
+      "hours": 8,
+      "modality": "Presencial",
+      "credentialId": "5TgNHY5PfM",
+      "verificationUrl": null,
+      "driveUrl": "https://drive.google.com/file/d/1zQV7-UpgpsTDFgYWHw2VV7wuL8CH1DUm/view",
+      "cluster": "politicas_direccion",
+      "skills": [
+        "Comunicación Política",
+        "Gestión Pública",
+        "Estrategia de Comunicación"
+      ]
+    },
+    {
+      "id": "cert-21-11-gestionproyectos",
+      "docType": "CurEst",
+      "fileName": "21-11-CurEst-GestionProyectos.pdf",
+      "shortName": "GestionProyectos",
+      "role": "Participante",
+      "title": "Gestión de Proyectos Públicos",
+      "issuer": "EDES Business School UTPL",
+      "year": "2021",
+      "yearShort": "21",
+      "month": "11",
+      "date": "2021-11-06",
+      "hours": 8,
+      "modality": "Presencial",
+      "credentialId": "Tb35VF06eH",
+      "verificationUrl": null,
+      "driveUrl": "https://drive.google.com/file/d/1v_MVBxsio56ofTFxtcteIuPaiBgfnGR_/view",
+      "cluster": "politicas_direccion",
+      "skills": [
+        "Gestión de Proyectos",
+        "Políticas Públicas",
+        "Planificación Estratégica"
+      ]
+    },
+    {
+      "id": "cert-21-11-sectorpublicoequipos",
+      "docType": "CurEst",
+      "fileName": "21-11-CurEst-SectorPublicoEquipos.pdf",
+      "shortName": "SectorPublicoEquipos",
+      "role": "Participante",
+      "title": "REQUISITOS DEL SECTOR PÚBLICO PARA GESTIONAR EQUIPOS DE TRABAJO",
+      "issuer": "EDES Business School UTPL y Corporación Líderes para Gobernar",
+      "year": "2021",
+      "yearShort": "21",
+      "month": "11",
+      "date": "2021-11-06",
+      "hours": 8,
+      "modality": "Presencial",
+      "credentialId": "xFJYTS3IM5",
+      "verificationUrl": null,
+      "driveUrl": "https://drive.google.com/file/d/1jrwaD1kRf3DWdfuTMjLztNgmZ8vwHYiW/view",
+      "cluster": "politicas_direccion",
+      "skills": [
+        "Gestión de Equipos",
+        "Sector Público",
+        "Liderazgo Gubernamental"
+      ]
+    },
+    {
+      "id": "cert-21-11-contratacionpublica",
+      "docType": "CurEst",
+      "fileName": "21-11-CurEst-ContratacionPublica.pdf",
+      "shortName": "ContratacionPublica",
+      "role": "Participante",
+      "title": "CONTRATACIÓN PÚBLICA",
+      "issuer": "EDES Business School - UTPL",
+      "year": "2021",
+      "yearShort": "21",
+      "month": "11",
+      "date": "2021-11-06",
+      "hours": 8,
+      "modality": "Presencial",
+      "credentialId": "DkLymmUvM0",
+      "verificationUrl": null,
+      "driveUrl": "https://drive.google.com/file/d/1aQbZeirXp7LlAU9F2uBluTvKWtg_VLwX/view",
+      "cluster": "politicas_direccion",
+      "skills": [
+        "Contratación Pública",
+        "Gestión Gubernamental",
+        "Normativa Legal"
+      ]
+    },
+    {
+      "id": "cert-21-11-praticassaludable",
+      "docType": "CurEst",
+      "fileName": "21-11-CurEst-PraticasSaludable.pdf",
+      "shortName": "PraticasSaludable",
+      "role": "Participante",
+      "title": "Prácticas de Vida Saludable",
+      "issuer": "Ministerio de Salud Pública",
+      "year": "2021",
+      "yearShort": "21",
+      "month": "11",
+      "date": "2021-11-30",
+      "hours": 14,
+      "modality": "Virtual",
+      "credentialId": null,
+      "verificationUrl": null,
+      "driveUrl": "https://drive.google.com/file/d/1R8tBBIvmlOAKZg6gALNLhM-BFGWdOSS9/view",
+      "cluster": "politicas_direccion",
+      "skills": [
+        "Hábitos Saludables",
+        "Bienestar",
+        "Prevención"
+      ]
+    },
+    {
+      "id": "cert-21-11-gerenciapublica",
+      "docType": "CurEst",
+      "fileName": "21-11-CurEst-GerenciaPublica.pdf",
+      "shortName": "GerenciaPublica",
+      "role": "Participante",
+      "title": "LAS HERRAMIENTAS BÁSICAS PARA UNA EFICIENTE GERENCIA PÚBLICA",
+      "issuer": "EDES Business School - UTPL",
+      "year": "2021",
+      "yearShort": "21",
+      "month": "11",
+      "date": "2021-11-06",
+      "hours": 8,
+      "modality": "Virtual",
+      "credentialId": "m8zILHLOU9",
+      "verificationUrl": null,
+      "driveUrl": "https://drive.google.com/file/d/1L43Wwwi35VZcl6XTrmDdVHyA4eALTTbd/view",
+      "cluster": "politicas_direccion",
+      "skills": [
+        "Gerencia Pública",
+        "Gestión Estratégica",
+        "Herramientas de Gestión"
+      ]
+    },
+    {
+      "id": "cert-21-11-liderazgopolitico",
+      "docType": "CurEst",
+      "fileName": "21-11-CurEst-LiderazgoPolitico.pdf",
+      "shortName": "LiderazgoPolitico",
+      "role": "Participante",
+      "title": "Liderazgo Político Público",
+      "issuer": "EDES Business School UTPL y Corporación Líderes para Gobernar",
+      "year": "2021",
+      "yearShort": "21",
+      "month": "11",
+      "date": "2021-11-06",
+      "hours": 8,
+      "modality": "Presencial",
+      "credentialId": "v6rkQU1NSE",
+      "verificationUrl": null,
+      "driveUrl": "https://drive.google.com/file/d/18B7V7dHwWEF8ZagfKxFhVki3bjoARL1I/view",
+      "cluster": "politicas_direccion",
+      "skills": [
+        "Liderazgo Político",
+        "Gestión Pública",
+        "Gobernanza"
+      ]
+    },
+    {
+      "id": "cert-21-08-cursogamificacion",
+      "docType": "CurEst",
+      "fileName": "21-08-CurEst-CursoGamificacion.jpg",
+      "shortName": "CursoGamificacion",
+      "role": "Participante",
+      "title": "CURSO EN JUEGO, GAMIFICACIÓN Y TIC COMO HERRAMIENTA PARA EL APRENDIZAJE",
+      "issuer": "Universidad Nebrija y Organización de Estados Iberoamericanos para la Educación, la Ciencia y la Cultura (OEI)",
+      "year": "2021",
+      "yearShort": "21",
+      "month": "08",
+      "date": "2021-08-03",
+      "hours": null,
+      "modality": "Virtual",
+      "credentialId": null,
+      "verificationUrl": null,
+      "driveUrl": "https://drive.google.com/file/d/1tzqvacqwNXBvGohvBaACAI-S55y9Zk7g/view",
+      "cluster": "tecnopedagogia",
+      "skills": [
+        "Gamificación",
+        "TIC Educativas",
+        "Estrategias de Aprendizaje"
+      ]
+    },
+    {
+      "id": "cert-21-08-festivalideas10",
+      "docType": "Meri",
+      "fileName": "21-08-Meri-FestivalIdeas10.jpg",
+      "shortName": "FestivalIdeas10",
+      "role": "Participante",
+      "title": "Festival de Ideas Educativas 'Ideas de 10'",
+      "issuer": "Programa ProFuturo",
+      "year": "2021",
+      "yearShort": "21",
+      "month": "08",
+      "date": "2021-08-17",
+      "hours": null,
+      "modality": "Virtual",
+      "credentialId": null,
+      "verificationUrl": null,
+      "driveUrl": "https://drive.google.com/file/d/1AwrI5XsWnjVU97ll6iL7qkJwMRvFoxRy/view",
+      "cluster": "tecnopedagogia",
+      "skills": [
+        "Innovación Educativa",
+        "Pedagogía Contemporánea",
+        "Ideación"
+      ]
+    },
+    {
+      "id": "cert-21-08-riesgoergonomico",
+      "docType": "CurEst",
+      "fileName": "21-08-CurEst-RiesgoErgonomico.pdf",
+      "shortName": "RiesgoErgonomico",
+      "role": "Participante",
+      "title": "RIESGO ERGONÓMICO CHILDFUND INTERNATIONAL, USA",
+      "issuer": "SERILAN",
+      "year": "2021",
+      "yearShort": "21",
+      "month": "08",
+      "date": "2021-08-17",
+      "hours": 2,
+      "modality": "Virtual",
+      "credentialId": null,
+      "verificationUrl": null,
+      "driveUrl": "https://drive.google.com/file/d/1vwdPuAOWRzYNgFmQ246-vXo0RCgPA5Av/view",
+      "cluster": "politicas_direccion",
+      "skills": [
+        "Ergonomía",
+        "Seguridad y Salud Ocupacional",
+        "Prevención de Riesgos"
+      ]
+    },
+    {
+      "id": "cert-21-08-ideas10",
+      "docType": "Meri",
+      "fileName": "21-08-Meri-Ideas10.pdf",
+      "shortName": "Ideas10",
+      "role": "Galardonado",
+      "title": "Festival de Ideas Educativas Ideas de 10",
+      "issuer": "Fundación Telefónica Movistar Ecuador y ChildFund Ecuador",
+      "year": "2021",
+      "yearShort": "21",
+      "month": "08",
+      "date": "2021-08-17",
+      "hours": null,
+      "modality": "Virtual",
+      "credentialId": null,
+      "verificationUrl": null,
+      "driveUrl": "https://drive.google.com/file/d/1fN8oKEROezLyNTd5Xf6DOnDKS3rb4nbF/view",
+      "cluster": "tecnopedagogia",
+      "skills": [
+        "Innovación Educativa",
+        "Pedagogía Digital",
+        "Tecnopedagogía"
+      ]
+    },
+    {
+      "id": "cert-21-07-riesgobiologico",
+      "docType": "CurEst",
+      "fileName": "21-07-CurEst-RiesgoBiologico.pdf",
+      "shortName": "RiesgoBiologico",
+      "role": "Participante",
+      "title": "FACTOR DE RIESGO BIOLÓGICO CHILDFUND INTERNATIONAL",
+      "issuer": "SERILAN / ChildFund International",
+      "year": "2021",
+      "yearShort": "21",
+      "month": "07",
+      "date": "2021-07-19",
+      "hours": 2,
+      "modality": "Virtual",
+      "credentialId": null,
+      "verificationUrl": null,
+      "driveUrl": "https://drive.google.com/file/d/1bwwEkN6YL_5reVFE8N90gBPzOPHTionU/view",
+      "cluster": "politicas_direccion",
+      "skills": [
+        "Seguridad y Salud Ocupacional",
+        "Factor de Riesgo Biológico",
+        "Normativa Preventiva"
+      ]
+    },
+    {
+      "id": "cert-21-06-bienestarsocioem",
+      "docType": "CurEst",
+      "fileName": "21-06-CurEst-BienestarSocioem.pdf",
+      "shortName": "BienestarSocioem",
+      "role": "Participante",
+      "title": "El bienestar socio-emocional en el proceso de aprendizaje que forma parte del ciclo de webinars: El estudiante: una combinación única de capacidades",
+      "issuer": "Fundación Telefónica / ChildFund Ecuador",
+      "year": "2021",
+      "yearShort": "21",
+      "month": "06",
+      "date": "2021-06-10",
+      "hours": null,
+      "modality": "Virtual",
+      "credentialId": null,
+      "verificationUrl": null,
+      "driveUrl": "https://drive.google.com/file/d/1zczayzPU4Ko8OLeMidqF_ZfIFajr6GyI/view",
+      "cluster": "tecnopedagogia",
+      "skills": [
+        "Bienestar Socioemocional",
+        "Pedagogía",
+        "Desarrollo Estudiantil"
+      ]
+    },
+    {
+      "id": "cert-21-06-seguridadlaboral",
+      "docType": "CurEst",
+      "fileName": "21-06-CurEst-SeguridadLaboral.pdf",
+      "shortName": "SeguridadLaboral",
+      "role": "Participante",
+      "title": "FUNDAMENTOS DE SEGURIDAD Y SALUD OCUPACIONAL",
+      "issuer": "SERILAN",
+      "year": "2021",
+      "yearShort": "21",
+      "month": "06",
+      "date": "2021-06-22",
+      "hours": 2,
+      "modality": "Virtual",
+      "credentialId": null,
+      "verificationUrl": null,
+      "driveUrl": "https://drive.google.com/file/d/1nuayD8dRuxKe-XldIz8qr85QMyrfQMNi/view",
+      "cluster": "politicas_direccion",
+      "skills": [
+        "Seguridad y Salud Ocupacional",
+        "Prevención de Riesgos",
+        "Normativa Laboral"
+      ]
+    },
+    {
+      "id": "cert-21-06-datosabiertosecuador",
+      "docType": "CurEst",
+      "fileName": "21-06-CurEst-DatosAbiertosEcuador.pdf",
+      "shortName": "DatosAbiertosEcuador",
+      "role": "Participante",
+      "title": "INTRODUCCIÓN A LOS DATOS ABIERTOS EN ECUADOR",
+      "issuer": "Datalat, Red Ecuatoriana de Datos Abiertos y Metadatos (REDAM) e Innovación para el Cambio Hub Latinoamérica",
+      "year": "2021",
+      "yearShort": "21",
+      "month": "06",
+      "date": "2021-06-25",
+      "hours": 25,
+      "modality": "Virtual",
+      "credentialId": null,
+      "verificationUrl": null,
+      "driveUrl": "https://drive.google.com/file/d/1lRm4vQX0PRh5YFKGv8Xp25NnAAwjbVOw/view",
+      "cluster": "politicas_direccion",
+      "skills": [
+        "Datos Abiertos",
+        "Transparencia",
+        "Metadatos"
+      ]
+    },
+    {
+      "id": "cert-21-05-emocionaprender",
+      "docType": "CurEst",
+      "fileName": "21-05-CurEst-EmocionAprender.pdf",
+      "shortName": "EmocionAprender",
+      "role": "Participante",
+      "title": "¿Cómo despertar la emoción por aprender?",
+      "issuer": "Fundación Telefónica y ChildFund Ecuador",
+      "year": "2021",
+      "yearShort": "21",
+      "month": "05",
+      "date": "2021-05-27",
+      "hours": null,
+      "modality": "Virtual",
+      "credentialId": null,
+      "verificationUrl": null,
+      "driveUrl": "https://drive.google.com/file/d/1ShusFs0vlg2VxthVG9KCzus7t1EkHwUm/view",
+      "cluster": "tecnopedagogia",
+      "skills": [
+        "Neuroeducación",
+        "Emoción y Aprendizaje",
+        "Tecnopedagogía"
+      ]
+    },
+    {
+      "id": "cert-21-05-excel365beginner",
+      "docType": "CurEst",
+      "fileName": "21-05-CurEst-Excel365Beginner.pdf",
+      "shortName": "Excel365Beginner",
+      "role": "Participante",
+      "title": "Excel 365 - Beginner",
+      "issuer": "Intellezy / DisasterReady.org",
+      "year": "2021",
+      "yearShort": "21",
+      "month": "05",
+      "date": "2021-05-27",
+      "hours": null,
+      "modality": "Virtual",
+      "credentialId": null,
+      "verificationUrl": null,
+      "driveUrl": "https://drive.google.com/file/d/1JgZSTssDVUwbuhvGW_cRfdHd--fbQ76p/view",
+      "cluster": "ia_data_science",
+      "skills": [
+        "Excel 365",
+        "Análisis de Datos",
+        "Hojas de Cálculo"
+      ]
+    },
+    {
+      "id": "cert-21-04-commremoteteams",
+      "docType": "CurEst",
+      "fileName": "21-04-CurEst-CommRemoteTeams.pdf",
+      "shortName": "CommRemoteTeams",
+      "role": "Participante",
+      "title": "Effective Communication for Remote Teams",
+      "issuer": "Cornerstone OnDemand Foundation",
+      "year": "2021",
+      "yearShort": "21",
+      "month": "04",
+      "date": "2021-04-20",
+      "hours": null,
+      "modality": "Virtual",
+      "credentialId": null,
+      "verificationUrl": null,
+      "driveUrl": "https://drive.google.com/file/d/1jsXaDeADF_PNcnGCqru9iTnpetYqxXZR/view",
+      "cluster": "tecnopedagogia",
+      "skills": [
+        "Comunicación Asincrónica",
+        "Colaboración Digital",
+        "Gestión de Equipos Remotos"
+      ]
     },
     {
       "id": "cert-21-04-programacionvideojuegos",
@@ -2529,6 +5099,31 @@
       ]
     },
     {
+      "id": "cert-20-12-facilitacionunae",
+      "docType": "CursImp",
+      "fileName": "20-12-CursImp-FacilitacionUNAE.jpg",
+      "shortName": "FacilitacionUNAE",
+      "role": "Docente / Facilitador",
+      "title": "DOCENCIA PARA ENTORNOS VIRTUALES: APORTES PARA SU DESARROLLO SINCRÓNICO Y ASINCRÓNICO",
+      "issuer": "Universidad Nacional de Educación (UNAE)",
+      "year": "2020",
+      "yearShort": "20",
+      "month": "12",
+      "date": "2020-12-30",
+      "hours": 40,
+      "modality": "Virtual",
+      "credentialId": null,
+      "verificationUrl": null,
+      "driveUrl": "https://drive.google.com/file/d/1UtJfxr1iCyaBofR5-F8IpdjNw3EILPhI/view",
+      "cluster": "tecnopedagogia",
+      "skills": [
+        "Tecnopedagogía",
+        "Educación Virtual",
+        "Entornos Sincrónicos y Asincrónicos",
+        "Docencia Universitaria"
+      ]
+    },
+    {
       "id": "cert-20-12-violenciamujeres",
       "docType": "CurEst",
       "fileName": "20-12-CurEst-ViolenciaMujeres.pdf",
@@ -2578,6 +5173,175 @@
       ]
     },
     {
+      "id": "cert-20-11-curacioncontenidos",
+      "docType": "Inves",
+      "fileName": "20-11-Inves-CuracionContenidos.jpg",
+      "shortName": "CuracionContenidos",
+      "role": "Ponente",
+      "title": "Certificado como expositor en la Jornada de Actualización Científica y Profesional Vida Nueva 2020",
+      "issuer": "Instituto Superior Tecnológico Vida Nueva",
+      "year": "2020",
+      "yearShort": "20",
+      "month": "11",
+      "date": "2020-11-13",
+      "hours": null,
+      "modality": "Virtual",
+      "credentialId": null,
+      "verificationUrl": null,
+      "driveUrl": "https://drive.google.com/file/d/1G_LlZKRPKbMpnnc-2Z7Wy2h-m8ys7VuQ/view",
+      "cluster": "tecnopedagogia",
+      "skills": [
+        "Curación de contenidos",
+        "Ambientes virtuales de aprendizaje",
+        "Tecnopedagogía"
+      ]
+    },
+    {
+      "id": "cert-20-11-expovidanueva",
+      "docType": "Inves",
+      "fileName": "20-11-Inves-ExpoVidaNueva.jpg",
+      "shortName": "ExpoVidaNueva",
+      "role": "Ponente",
+      "title": "Participación como expositor en la Jornada de Actualización Científica y Profesional Vida Nueva 2020",
+      "issuer": "Instituto Superior Tecnológico Vida Nueva",
+      "year": "2020",
+      "yearShort": "20",
+      "month": "11",
+      "date": "2020-11-13",
+      "hours": null,
+      "modality": "Presencial",
+      "credentialId": null,
+      "verificationUrl": null,
+      "driveUrl": "https://drive.google.com/file/d/13Gfbtz41YJ34fa1IJJ37JrK54IWjciI-/view",
+      "cluster": "tecnopedagogia",
+      "skills": [
+        "Gamificación educativa",
+        "Recursos didácticos digitales",
+        "Tecnopedagogía"
+      ]
+    },
+    {
+      "id": "cert-20-10-qaheducationmaster",
+      "docType": "Cert",
+      "fileName": "20-10-Cert-QAHEducationMaster.jpg",
+      "shortName": "QAHEducationMaster",
+      "role": "Participante",
+      "title": "Master’s Degree in Quality Management and Evaluation in Higher Education",
+      "issuer": "Universitat Oberta de Catalunya (UOC) & INQAAHE",
+      "year": "2020",
+      "yearShort": "20",
+      "month": "10",
+      "date": "2020-10-29",
+      "hours": null,
+      "modality": "Virtual",
+      "credentialId": null,
+      "verificationUrl": null,
+      "driveUrl": "https://drive.google.com/file/d/1qOj3cDq6SMxMUnSonnhFuYSqe_rcIKa7/view",
+      "cluster": "politicas_direccion",
+      "skills": [
+        "Quality Management",
+        "Higher Education Evaluation",
+        "QA Graduate Program"
+      ]
+    },
+    {
+      "id": "cert-20-07-formacionconsultoruoc",
+      "docType": "CurEst",
+      "fileName": "20-07-CurEst-FormacionConsultorUOC.jpg",
+      "shortName": "FormacionConsultorUOC",
+      "role": "Participante",
+      "title": "Certificat del curs de formació bàsica per al consultor (professorat col·laborador) - Endinsa't a la UOC",
+      "issuer": "Universitat Oberta de Catalunya",
+      "year": "2020",
+      "yearShort": "20",
+      "month": "07",
+      "date": "2020-10-14",
+      "hours": 25,
+      "modality": "Virtual",
+      "credentialId": null,
+      "verificationUrl": null,
+      "driveUrl": "https://drive.google.com/file/d/1AYsMm4yr07JVjLXQT-fBEKX490zljCSv/view",
+      "cluster": "tecnopedagogia",
+      "skills": [
+        "Diseño instruccional",
+        "Docencia virtual",
+        "Acompañamiento académico"
+      ]
+    },
+    {
+      "id": "cert-20-10-qahedmaster",
+      "docType": "Cert",
+      "fileName": "20-10-Cert-QAHEdMaster.jpg",
+      "shortName": "QAHEdMaster",
+      "role": "Participante",
+      "title": "Master's Degree in Quality Management and Evaluation in Higher Education",
+      "issuer": "International Network for Quality Assurance Agencies in Higher Education (INQAAHE)",
+      "year": "2020",
+      "yearShort": "20",
+      "month": "10",
+      "date": "2020-10-29",
+      "hours": null,
+      "modality": "Virtual",
+      "credentialId": null,
+      "verificationUrl": null,
+      "driveUrl": "https://drive.google.com/file/d/1RvrzgN07PGUw8pMoLtTXLTFsxl0xpnVz/view",
+      "cluster": "politicas_direccion",
+      "skills": [
+        "Quality Management",
+        "Higher Education",
+        "Program Evaluation"
+      ]
+    },
+    {
+      "id": "cert-20-09-congresoeduzona6",
+      "docType": "Inves",
+      "fileName": "20-09-Inves-CongresoEduZona6.jpg",
+      "shortName": "CongresoEduZona6",
+      "role": "Ponente",
+      "title": "I CONGRESO INTERNACIONAL DE EDUCACIÓN DE ZONA 6 “YO EDUCO”",
+      "issuer": "Coordinación de Educación Zonal 6 - Universidad de Cuenca",
+      "year": "2020",
+      "yearShort": "20",
+      "month": "09",
+      "date": "2020-09-08",
+      "hours": null,
+      "modality": "Virtual",
+      "credentialId": null,
+      "verificationUrl": null,
+      "driveUrl": "https://drive.google.com/file/d/1mLu3NDe1qS1nDDlSXDO0DA229WV5hTU9/view",
+      "cluster": "tecnopedagogia",
+      "skills": [
+        "Educación",
+        "Comunidades de Aprendizaje",
+        "Acción Docente"
+      ]
+    },
+    {
+      "id": "cert-20-07-tutoresenlinea",
+      "docType": "CurEst",
+      "fileName": "20-07-CurEst-TutoresEnLinea.pdf",
+      "shortName": "TutoresEnLinea",
+      "role": "Participante",
+      "title": "Formación de Tutores de Nivelación Especializados en Modalidad en Línea",
+      "issuer": "Universidad Internacional de La Rioja",
+      "year": "2020",
+      "yearShort": "20",
+      "month": "07",
+      "date": "2020-07-05",
+      "hours": 60,
+      "modality": "Virtual",
+      "credentialId": "770920203451-1719920041",
+      "verificationUrl": "https://verifirma.unir.net/CSV/e4e2cfaa-3617-43a9-bb21-5c69d2f34553",
+      "driveUrl": "https://drive.google.com/file/d/1QyqilQpAHwRO2eW_grC2SZxYhrx10XZ4/view",
+      "cluster": "tecnopedagogia",
+      "skills": [
+        "Formación Online",
+        "Comunicación Eficaz",
+        "Campus Virtual",
+        "Evaluación del Aprendizaje"
+      ]
+    },
+    {
       "id": "cert-20-07-endinsatuoc",
       "docType": "CurEst",
       "fileName": "20-07-CurEst-EndinsatUOC.pdf",
@@ -2599,6 +5363,30 @@
         "Docencia Online",
         "Metodología UOC",
         "Competencias Digitales Docentes"
+      ]
+    },
+    {
+      "id": "cert-20-01-semcalidadline",
+      "docType": "CurEst",
+      "fileName": "20-01-CurEst-SemCalidadLine.jpg",
+      "shortName": "SemCalidadLine",
+      "role": "Participante",
+      "title": "Seminario de Evaluación de la Calidad de la Formación en Modalidad en Línea: el caso español",
+      "issuer": "Secretaría de Educación Superior, Ciencia, Tecnología e Innovación (SENESCYT)",
+      "year": "2020",
+      "yearShort": "20",
+      "month": "01",
+      "date": "2020-01-21",
+      "hours": 16,
+      "modality": "Presencial",
+      "credentialId": null,
+      "verificationUrl": null,
+      "driveUrl": "https://drive.google.com/file/d/1OKysORQQfeZGgVp-r2Q0m6cD_h-VMM8d/view",
+      "cluster": "tecnopedagogia",
+      "skills": [
+        "Evaluación Educativa",
+        "Educación en Línea",
+        "Calidad Académica"
       ]
     },
     {
@@ -2650,94 +5438,1267 @@
       ]
     },
     {
-      "id": "cert-tex-2020-2",
-      "docType": "Cert",
-      "fileName": "",
-      "shortName": "",
+      "id": "cert-19-12-formadorformadores",
+      "docType": "CurEst",
+      "fileName": "19-12-CurEst-FormadorFormadores.jpg",
+      "shortName": "FormadorFormadores",
       "role": "Participante",
-      "title": "Master’s Degree in Management and Evaluation in Higher Quality Education.",
-      "issuer": "INQAAHE",
-      "year": "2020",
-      "date": "2020",
-      "hours": null,
-      "modality": "",
-      "credentialId": null,
-      "verificationUrl": "https://bit.ly/34H9JDW",
-      "driveUrl": null,
-      "cluster": "tecnopedagogia",
-      "skills": []
-    },
-    {
-      "id": "cert-tex-2020-3",
-      "docType": "Cert",
-      "fileName": "",
-      "shortName": "",
-      "role": "Participante",
-      "title": "Formación de Tutores de Nivelación Especializados en Modalidad en Línea.",
-      "issuer": "Universidad Internacional de la Rioja",
-      "year": "2020",
-      "date": "2020",
-      "hours": null,
-      "modality": "",
-      "credentialId": "e4e2cfaa-3617-43a9-bb21-5c69d2f34553",
-      "verificationUrl": "https://verifirma.unir.net/csv",
-      "driveUrl": null,
-      "cluster": "tecnopedagogia",
-      "skills": []
-    },
-    {
-      "id": "cert-tex-2019-4",
-      "docType": "Cert",
-      "fileName": "",
-      "shortName": "",
-      "role": "Participante",
-      "title": "Formador de Formadores",
-      "issuer": "Liderazgo, Capacitación Y Consultoría CIA. LTDA",
+      "title": "FORMADOR DE FORMADORES CEC-EPN",
+      "issuer": "Escuela Politécnica Nacional, Centro de Educación Continua",
       "year": "2019",
-      "date": "2019",
-      "hours": null,
-      "modality": "",
-      "credentialId": "SETEC-260-CCL-172865",
-      "verificationUrl": "https://www.senescyt.gob.ec/",
-      "driveUrl": null,
+      "yearShort": "19",
+      "month": "12",
+      "date": "2019-12-20",
+      "hours": 48,
+      "modality": "Presencial",
+      "credentialId": "5G4H6VUCG",
+      "verificationUrl": "https://aps.cec-epn.edu.ec/dp/?cod=5G4H6VUCG",
+      "driveUrl": "https://drive.google.com/file/d/1PjsYpdE_ArpH37YeYm9ZS3slEbCiDQq0/view",
       "cluster": "tecnopedagogia",
-      "skills": []
+      "skills": [
+        "Pedagogía Activa",
+        "Diseño Instruccional",
+        "Capacitación Docente"
+      ]
     },
     {
-      "id": "cert-tex-2017-5",
-      "docType": "Cert",
-      "fileName": "",
-      "shortName": "",
-      "role": "Participante",
-      "title": "Moodle Course Creator Certificate",
-      "issuer": "Edulabs - Colombia, Moodle Australia",
-      "year": "2017",
-      "date": "2017",
+      "id": "cert-19-06-moodledayconfe19",
+      "docType": "Inves",
+      "fileName": "19-06-Inves-MoodleDayConfe19.jpg",
+      "shortName": "MoodleDayConfe19",
+      "role": "Ponente",
+      "title": "Certificado de Conferencia: Mediación pedagógica, TIC y Moodle",
+      "issuer": "Escuela Politécnica Nacional (CEC-EPN) y Comunidad Moodle Ecuador",
+      "year": "2019",
+      "yearShort": "19",
+      "month": "06",
+      "date": "2019-06-21",
       "hours": null,
-      "modality": "",
-      "credentialId": "Moodle: G7AN-SDZW-KA1B-NHFN",
-      "verificationUrl": "https://certificates.moodle.com/",
-      "driveUrl": null,
-      "cluster": "tecnopedagogia",
-      "skills": []
-    },
-    {
-      "id": "cert-tex-2014-6",
-      "docType": "Cert",
-      "fileName": "",
-      "shortName": "",
-      "role": "Participante",
-      "title": "Experto en educación virtual",
-      "issuer": "Fundación para la Actualización Tecnológica de América Latina (FATLA)",
-      "year": "2014",
-      "date": "2014",
-      "hours": null,
-      "modality": "",
+      "modality": "Presencial",
       "credentialId": null,
-      "verificationUrl": "https://www.fatla.org/",
-      "driveUrl": null,
+      "verificationUrl": null,
+      "driveUrl": "https://drive.google.com/file/d/1O6Nfag8pVOnyahiB76KDsbkzAEgOzPjG/view",
       "cluster": "tecnopedagogia",
-      "skills": []
+      "skills": [
+        "Mediación Pedagógica",
+        "TIC en Educación",
+        "Moodle",
+        "Estrategias Regionales"
+      ]
+    },
+    {
+      "id": "cert-19-06-moodleday2019",
+      "docType": "CurEst",
+      "fileName": "19-06-CurEst-MoodleDay2019.jpg",
+      "shortName": "MoodleDay2019",
+      "role": "Participante",
+      "title": "CERTIFICADO - Moodle Day 2019",
+      "issuer": "Escuela Politécnica Nacional / CEC-EPN",
+      "year": "2019",
+      "yearShort": "19",
+      "month": "06",
+      "date": "2019-06-21",
+      "hours": 8,
+      "modality": "Presencial",
+      "credentialId": "40134",
+      "verificationUrl": null,
+      "driveUrl": "https://drive.google.com/file/d/1fzpEeHKKIMfQH6_kPtF0s1YgbXXgIiZO/view",
+      "cluster": "tecnopedagogia",
+      "skills": [
+        "Moodle",
+        "Plataformas de Aprendizaje",
+        "Tecnopedagogía"
+      ]
+    },
+    {
+      "id": "cert-18-11-ponenciaculturaprev",
+      "docType": "Inves",
+      "fileName": "18-11-Inves-PonenciaCulturaPrev.jpg",
+      "shortName": "PonenciaCulturaPrev",
+      "role": "Ponente",
+      "title": "II Encuentro Nacional Hacia una Cultura de Prevención de Discapacidades",
+      "issuer": "PreNatal, C.D.H. Ideas, Espiral Educativa, Sas Libre",
+      "year": "2018",
+      "yearShort": "18",
+      "month": "11",
+      "date": "2018-11-18",
+      "hours": 16,
+      "modality": "Presencial",
+      "credentialId": null,
+      "verificationUrl": null,
+      "driveUrl": "https://drive.google.com/file/d/1xSsmJVI-ARP92F1u88MrKRAUoplwHAoj/view",
+      "cluster": "politicas_direccion",
+      "skills": [
+        "Divulgación Científica",
+        "Prevención de Discapacidades",
+        "Comunicación Académica"
+      ]
+    },
+    {
+      "id": "cert-18-09-storytellingvirtual",
+      "docType": "CurEst",
+      "fileName": "18-09-CurEst-StorytellingVirtual.jpg",
+      "shortName": "StorytellingVirtual",
+      "role": "Participante",
+      "title": "TALLER DE STORYTELLING: NARRATIVAS DIGITALES PARA EL APRENDIZAJE VIRTUAL (B-LEARNING)",
+      "issuer": "Escuela Politécnica Nacional - Centro de Educación Continua",
+      "year": "2018",
+      "yearShort": "18",
+      "month": "09",
+      "date": "2018-09-27",
+      "hours": 32,
+      "modality": "Virtual",
+      "credentialId": "36583",
+      "verificationUrl": null,
+      "driveUrl": "https://drive.google.com/file/d/1I2-ZWcLWD3DbLuSnHD4jENhzJpb6lza_/view",
+      "cluster": "tecnopedagogia",
+      "skills": [
+        "Storytelling Educativo",
+        "Narrativas Digitales",
+        "Aprendizaje Virtual (B-Learning)"
+      ]
+    },
+    {
+      "id": "cert-18-07-monitoresprevencion",
+      "docType": "CursImp",
+      "fileName": "18-07-CursImp-MonitoresPrevencion.jpg",
+      "shortName": "MonitoresPrevencion",
+      "role": "Docente / Facilitador",
+      "title": "Curso “Formación de Monitores en Didáctica de la Prevención de Discapacidades”",
+      "issuer": "PreNatal Ecuador / Fundación de Waal / Consejo Nacional para la Igualdad de Discapacidades (CONADIS)",
+      "year": "2018",
+      "yearShort": "18",
+      "month": "07",
+      "date": "2018-07-22",
+      "hours": 50,
+      "modality": "Presencial",
+      "credentialId": null,
+      "verificationUrl": null,
+      "driveUrl": "https://drive.google.com/file/d/13c7FuzS205OqHZ2mF_ZDMtt1VOtQGbIM/view",
+      "cluster": "politicas_direccion",
+      "skills": [
+        "Didáctica",
+        "Prevención de Discapacidades",
+        "Formación de Monitores",
+        "Educación Inclusiva"
+      ]
+    },
+    {
+      "id": "cert-18-06-accesibilidadfisica",
+      "docType": "CurEst",
+      "fileName": "18-06-CurEst-AccesibilidadFisica.jpg",
+      "shortName": "AccesibilidadFisica",
+      "role": "Participante",
+      "title": "Curso de Capacitación en Accesibilidad al Medio Físico y Normativa Técnica Ecuatoriana",
+      "issuer": "INEN - CONADIS - Universidad Tecnológica Indoamérica",
+      "year": "2018",
+      "yearShort": "18",
+      "month": "06",
+      "date": "2018-06-01",
+      "hours": 40,
+      "modality": "Presencial",
+      "credentialId": "zUsnFiWX6I",
+      "verificationUrl": null,
+      "driveUrl": "https://drive.google.com/file/d/1D2SVpfzCm1Gv_StM6fcs99CHKhgJeBBx/view",
+      "cluster": "politicas_direccion",
+      "skills": [
+        "Normativa Técnica",
+        "Accesibilidad Física",
+        "Diseño Universal"
+      ]
+    },
+    {
+      "id": "cert-18-06-estrategiasdig",
+      "docType": "CurEst",
+      "fileName": "18-06-CurEst-EstrategiasDig.jpg",
+      "shortName": "EstrategiasDig",
+      "role": "Participante",
+      "title": "Estrategias Didácticas Digitales - 7ta. edición",
+      "issuer": "Organización de los Estados Americanos (OEA)",
+      "year": "2018",
+      "yearShort": "18",
+      "month": "06",
+      "date": "2018-06-22",
+      "hours": 180,
+      "modality": "Virtual",
+      "credentialId": "7DdqiNFqq3",
+      "verificationUrl": null,
+      "driveUrl": "https://drive.google.com/file/d/1U0ab3bGvQAuYw0n4jltCbKa78J4aOj9r/view",
+      "cluster": "tecnopedagogia",
+      "skills": [
+        "Educación Digital",
+        "Didáctica Virtual",
+        "Diseño Instruccional"
+      ]
+    },
+    {
+      "id": "cert-18-06-moodleday2018",
+      "docType": "CurEst",
+      "fileName": "18-06-CurEst-MoodleDay2018.jpg",
+      "shortName": "MoodleDay2018",
+      "role": "Participante",
+      "title": "Certificado Moodle Day 2018",
+      "issuer": "Escuela Politécnica Nacional / Centro de Educación Continua / Moodle Ecuador",
+      "year": "2018",
+      "yearShort": "18",
+      "month": "06",
+      "date": "2018-06-22",
+      "hours": 8,
+      "modality": "Presencial",
+      "credentialId": "36581",
+      "verificationUrl": null,
+      "driveUrl": "https://drive.google.com/file/d/1tvhJ7pHdb6Vbgm1ho2VA4CaJUCF2tt_G/view",
+      "cluster": "tecnopedagogia",
+      "skills": [
+        "Moodle",
+        "Educación Virtual",
+        "Plataformas LMS"
+      ]
+    },
+    {
+      "id": "cert-18-05-ponenciaapienvs",
+      "docType": "Inves",
+      "fileName": "18-05-Inves-PonenciaApiEnvs.jpg",
+      "shortName": "PonenciaApiEnvs",
+      "role": "Ponente",
+      "title": "API DE ANALÍTICAS DE APRENDIZAJE EN ENTORNOS VIRTUALES",
+      "issuer": "Escuela Superior Politécnica de Chimborazo (ESPOCH) - Facultad de Informática y Electrónica",
+      "year": "2018",
+      "yearShort": "18",
+      "month": "05",
+      "date": "2018-05-03",
+      "hours": null,
+      "modality": "Presencial",
+      "credentialId": null,
+      "verificationUrl": null,
+      "driveUrl": "https://drive.google.com/file/d/1tfKzk31G1Xx1jniL3ETNND11VmOPokKv/view",
+      "cluster": "tecnopedagogia",
+      "skills": [
+        "Analíticas de Aprendizaje",
+        "Entornos Virtuales",
+        "Software Libre"
+      ]
+    },
+    {
+      "id": "cert-18-04-ponenteflisol18",
+      "docType": "Inves",
+      "fileName": "18-04-Inves-PonenteFlisol18.jpg",
+      "shortName": "PonenteFlisol18",
+      "role": "Ponente",
+      "title": "Certificado de Ponente en el 14vo Festival Latinoamericano de Instalación de Software Libre (FLISoL)",
+      "issuer": "Red de Investigación, Conocimiento, Hardware y Software Libre / MediaLabUIO CIESPAL",
+      "year": "2018",
+      "yearShort": "18",
+      "month": "04",
+      "date": "2018-04-14",
+      "hours": null,
+      "modality": "Presencial",
+      "credentialId": null,
+      "verificationUrl": null,
+      "driveUrl": "https://drive.google.com/file/d/1QzR-WUDae0rjEqAqcfeN7Wer2gTcDXHx/view",
+      "cluster": "ia_data_science",
+      "skills": [
+        "Software Libre",
+        "Difusión Tecnológica",
+        "Hardware Libre",
+        "Comunidad Open Source"
+      ]
+    },
+    {
+      "id": "cert-18-03-sensdiscapacidad",
+      "docType": "CurEst",
+      "fileName": "18-03-CurEst-SensDiscapacidad.jpg",
+      "shortName": "SensDiscapacidad",
+      "role": "Participante",
+      "title": "Certificado de Sensibilización en Discapacidades",
+      "issuer": "Ministerio del Trabajo y Consejo Nacional para la Igualdad de Discapacidades (CONADIS)",
+      "year": "2018",
+      "yearShort": "18",
+      "month": "03",
+      "date": "2018-03-29",
+      "hours": 30,
+      "modality": "Virtual",
+      "credentialId": "x95jD5AAEH",
+      "verificationUrl": null,
+      "driveUrl": "https://drive.google.com/file/d/1dPzy2E_s6GhfBuR4mC_IYDbeQSf15JmS/view",
+      "cluster": "politicas_direccion",
+      "skills": [
+        "Inclusión Social",
+        "Derechos de Personas con Discapacidad",
+        "Sensibilización Ciudadana"
+      ]
+    },
+    {
+      "id": "cert-18-01-generacionnegocio",
+      "docType": "CurEst",
+      "fileName": "18-01-CurEst-GeneracionNegocio.jpg",
+      "shortName": "GeneracionNegocio",
+      "role": "Participante",
+      "title": "Generación y maduración de ideas de negocio",
+      "issuer": "Universitat Oberta de Catalunya (UOC)",
+      "year": "2018",
+      "yearShort": "18",
+      "month": "01",
+      "date": "2018-01",
+      "hours": 45,
+      "modality": "Virtual",
+      "credentialId": null,
+      "verificationUrl": null,
+      "driveUrl": "https://drive.google.com/file/d/1e5shnM2Pswns_Ylc8s20XMDbsuCRFZry/view",
+      "cluster": "politicas_direccion",
+      "skills": [
+        "Start-up",
+        "Evaluación de mercado",
+        "Validación comercial"
+      ]
+    },
+    {
+      "id": "cert-18-01-seguridadticinfancia",
+      "docType": "CurEst",
+      "fileName": "18-01-CurEst-SeguridadTICInfancia.jpg",
+      "shortName": "SeguridadTICInfancia",
+      "role": "Participante",
+      "title": "Certificat de formació en Seguretat a la Xarxa: La Seguretat TIC en la Infància",
+      "issuer": "Universitat Oberta de Catalunya",
+      "year": "2018",
+      "yearShort": "18",
+      "month": "01",
+      "date": "2018-01-22",
+      "hours": 25,
+      "modality": "Virtual",
+      "credentialId": null,
+      "verificationUrl": null,
+      "driveUrl": "https://drive.google.com/file/d/1okEps1LqT8WAZjFhnPKvGLWeGq25xx_7/view",
+      "cluster": "tecnopedagogia",
+      "skills": [
+        "Seguridad TIC",
+        "Protección Infantil en Redes",
+        "Ciberseguridad Educativa"
+      ]
+    },
+    {
+      "id": "cert-17-12-ponenciascratch",
+      "docType": "Inves",
+      "fileName": "17-12-Inves-PonenciaScratch.jpg",
+      "shortName": "PonenciaScratch",
+      "role": "Ponente",
+      "title": "Programando un juego en 15 minutos con Scratch",
+      "issuer": "Comunidades de Tecnologías Libres de Ecuador y Venezuela",
+      "year": "2017",
+      "yearShort": "17",
+      "month": "12",
+      "date": "2017-12-16",
+      "hours": 1,
+      "modality": "Virtual",
+      "credentialId": "N° FP-028-13",
+      "verificationUrl": null,
+      "driveUrl": "https://drive.google.com/file/d/1P0IhgyfqZdHc4NAYVFFyYzDucrQp3s7J/view",
+      "cluster": "tecnopedagogia",
+      "skills": [
+        "Scratch",
+        "Pensamiento Computacional",
+        "Desarrollo de Videojuegos",
+        "Tecnologías Libres"
+      ]
+    },
+    {
+      "id": "cert-17-12-eddisruptiva",
+      "docType": "CurEst",
+      "fileName": "17-12-CurEst-EdDisruptiva.jpg",
+      "shortName": "EdDisruptiva",
+      "role": "Participante",
+      "title": "II Seminario Internacional de Educación Disruptiva con TIC",
+      "issuer": "Fundación Telefónica Movistar, Corporación Red Infodesarrollo y UNAE",
+      "year": "2017",
+      "yearShort": "17",
+      "month": "12",
+      "date": "2017-12-02",
+      "hours": 40,
+      "modality": "Híbrida",
+      "credentialId": null,
+      "verificationUrl": null,
+      "driveUrl": "https://drive.google.com/file/d/1ox1k6NNQalQov-2WZrHylufk2hnkZDyk/view",
+      "cluster": "tecnopedagogia",
+      "skills": [
+        "Educación Disruptiva",
+        "TIC en la Educación",
+        "Innovación Pedagógica"
+      ]
+    },
+    {
+      "id": "cert-17-12-moodlecert",
+      "docType": "Cert",
+      "fileName": "17-12-Cert-MoodleCert.jpg",
+      "shortName": "MoodleCert",
+      "role": "Participante",
+      "title": "Moodle Course Creator Certification",
+      "issuer": "Edu Labs SAS",
+      "year": "2017",
+      "yearShort": "17",
+      "month": "12",
+      "date": "2017-12-07",
+      "hours": null,
+      "modality": "Virtual",
+      "credentialId": "G7AN-SDZW-KA1B-NHFN",
+      "verificationUrl": "http://certificates.moodle.com",
+      "driveUrl": "https://drive.google.com/file/d/1zVQQ0JeO_xbLLCI3f15Abn6qd--5mXB0/view",
+      "cluster": "tecnopedagogia",
+      "skills": [
+        "Moodle 3.1",
+        "Diseño Instruccional",
+        "Gestión de Entornos Virtuales"
+      ]
+    },
+    {
+      "id": "cert-17-10-profesorsigloxxi",
+      "docType": "CurEst",
+      "fileName": "17-10-CurEst-ProfesorSigloXXI.jpg",
+      "shortName": "ProfesorSigloXXI",
+      "role": "Participante",
+      "title": "El profesor del siglo XXI",
+      "issuer": "Pontificia Universidad Católica de Valparaíso",
+      "year": "2017",
+      "yearShort": "17",
+      "month": "10",
+      "date": "2017-10-11",
+      "hours": 18,
+      "modality": "Virtual",
+      "credentialId": "5e7e4184-d51e-42a3-abb9-0b104eb42f6b",
+      "verificationUrl": null,
+      "driveUrl": "https://drive.google.com/file/d/1zi4Rbalw5Nt2KkR6VxrBEobCcnIeTXIV/view",
+      "cluster": "tecnopedagogia",
+      "skills": [
+        "Docencia del Siglo XXI",
+        "Competencias Docentes",
+        "Procesos de Enseñanza y Aprendizaje"
+      ]
+    },
+    {
+      "id": "cert-17-09-personalizacionmoodle",
+      "docType": "CursImp",
+      "fileName": "17-09-CursImp-PersonalizacionMoodle.jpg",
+      "shortName": "PersonalizacionMoodle",
+      "role": "Docente / Facilitador",
+      "title": "Personalización gráfica de Moodle 3.3 con Theme ADAPTABLE",
+      "issuer": "Comunidades de Tecnologías Libres de Ecuador y Venezuela",
+      "year": "2017",
+      "yearShort": "17",
+      "month": "09",
+      "date": "2017-09-09",
+      "hours": 1,
+      "modality": "Virtual",
+      "credentialId": "N° AT-021",
+      "verificationUrl": null,
+      "driveUrl": "https://drive.google.com/file/d/1BXRw-dvLTyEFJyIOdSybD24iE70t5x2k/view",
+      "cluster": "tecnopedagogia",
+      "skills": [
+        "Moodle 3.3",
+        "Theme ADAPTABLE",
+        "Diseño Gráfico Web"
+      ]
+    },
+    {
+      "id": "cert-17-08-prevprenataldiscap",
+      "docType": "Cert",
+      "fileName": "17-08-Cert-PrevPrenatalDiscap.jpg",
+      "shortName": "PrevPrenatalDiscap",
+      "role": "Participante",
+      "title": "PROGRAMA DE FORMACIÓN DE MEDIADORES EN PREVENCIÓN PRENATAL DE DISCAPACIDADES",
+      "issuer": "Universidad Central del Ecuador, Fundación de Waal, Ministerio de Salud Pública",
+      "year": "2017",
+      "yearShort": "17",
+      "month": "08",
+      "date": "2017-08-19",
+      "hours": 288,
+      "modality": "Presencial",
+      "credentialId": "FCM - C41-01541",
+      "verificationUrl": null,
+      "driveUrl": "https://drive.google.com/file/d/1eEO-vExj3uxqJtRayDeTAtt6IM1cj_um/view",
+      "cluster": "politicas_direccion",
+      "skills": [
+        "Prevención Prenatal",
+        "Mediación en Discapacidades",
+        "Salud Pública"
+      ]
+    },
+    {
+      "id": "cert-17-04-jornadasinfofis",
+      "docType": "Inves",
+      "fileName": "17-04-Inves-JornadasInfoFis.jpg",
+      "shortName": "JornadasInfoFis",
+      "role": "Ponente",
+      "title": "V Jornadas Internacionales, V Congreso Nacional de Ciencias Software Libre y Nuevas Tecnologías Aplicadas a la Educación y III Encuentro de Docentes de Informática y Física",
+      "issuer": "Universidad Central del Ecuador",
+      "year": "2017",
+      "yearShort": "17",
+      "month": "04",
+      "date": "2017-04-29",
+      "hours": 40,
+      "modality": "Híbrida",
+      "credentialId": null,
+      "verificationUrl": null,
+      "driveUrl": "https://drive.google.com/file/d/1xOISb2ckN-MaCctqJuxBCo9ma6Dxftl0/view",
+      "cluster": "tecnopedagogia",
+      "skills": [
+        "Software Libre",
+        "Modelos Tecno-Pedagógicos",
+        "LMS Libres",
+        "Informática Educativa"
+      ]
+    },
+    {
+      "id": "cert-17-04-facilitacionped",
+      "docType": "CursImp",
+      "fileName": "17-04-CursImp-FacilitacionPed.jpg",
+      "shortName": "FacilitacionPed",
+      "role": "Docente / Facilitador",
+      "title": "Formación de Monitores en mediación pedagógica, educación popular y estrategias de facilitación",
+      "issuer": "Fundación de Waal y PreNatal",
+      "year": "2017",
+      "yearShort": "17",
+      "month": "04",
+      "date": "2017-04-23",
+      "hours": 50,
+      "modality": "Presencial",
+      "credentialId": null,
+      "verificationUrl": null,
+      "driveUrl": "https://drive.google.com/file/d/1RQFkMFLlRCK3BUBwCg4iIAJ7GuMJOyjL/view",
+      "cluster": "tecnopedagogia",
+      "skills": [
+        "Mediación Pedagógica",
+        "Educación Popular",
+        "Estrategias de Facilitación"
+      ]
+    },
+    {
+      "id": "cert-17-04-tallersistemasop",
+      "docType": "CursImp",
+      "fileName": "17-04-CursImp-TallerSistemasOp.jpg",
+      "shortName": "TallerSistemasOp",
+      "role": "Docente / Facilitador",
+      "title": "V JORNADAS INTERNACIONALES, V CONGRESO NACIONAL DE CIENCIAS SOFTWARE LIBRE Y NUEVAS TECNOLOGÍAS APLICADAS A LA EDUCACIÓN Y III ENCUENTRO DE DOCENTES DE INFORMÁTICA Y FÍSICA",
+      "issuer": "Universidad Central del Ecuador",
+      "year": "2017",
+      "yearShort": "17",
+      "month": "04",
+      "date": "2017-04-29",
+      "hours": 40,
+      "modality": "Híbrida",
+      "credentialId": null,
+      "verificationUrl": null,
+      "driveUrl": "https://drive.google.com/file/d/1zlJ_-qw9ExyUZd9H9rQuhi0IkPlWXcJ1/view",
+      "cluster": "tecnopedagogia",
+      "skills": [
+        "Sistemas Operativos",
+        "Software Libre",
+        "GRUB",
+        "Formación Docente"
+      ]
+    },
+    {
+      "id": "cert-17-04-aulavirtualflisol",
+      "docType": "CurEst",
+      "fileName": "17-04-CurEst-AulaVirtualFlisol.jpg",
+      "shortName": "AulaVirtualFlisol",
+      "role": "Participante",
+      "title": "\"V JORNADAS INTERNACIONALES, V CONGRESO NACIONAL DE CIENCIAS SOFTWARE LIBRE Y NUEVAS TECNOLOGÍAS APLICADAS A LA EDUCACIÓN Y III ENCUENTRO DE DOCENTES DE INFORMÁTICA Y FÍSICA\"",
+      "issuer": "Universidad Central del Ecuador - Asociación de Software Libre del Ecuador - FLISOL",
+      "year": "2017",
+      "yearShort": "17",
+      "month": "04",
+      "date": "2017-04-29",
+      "hours": 40,
+      "modality": "Híbrida",
+      "credentialId": null,
+      "verificationUrl": null,
+      "driveUrl": "https://drive.google.com/file/d/15fWRfyVfDlHKUpB6IijLRmTWuEdYJt7M/view",
+      "cluster": "tecnopedagogia",
+      "skills": [
+        "Software Libre",
+        "Tecnologías Aplicadas a la Educación",
+        "Aula Virtual"
+      ]
+    },
+    {
+      "id": "cert-17-02-recursosdigitales",
+      "docType": "CurEst",
+      "fileName": "17-02-CurEst-RecursosDigitales.jpg",
+      "shortName": "RecursosDigitales",
+      "role": "Participante",
+      "title": "Recursos Didácticos Digitales para el Aula",
+      "issuer": "Escuela Politécnica Nacional - Centro de Educación Continua",
+      "year": "2017",
+      "yearShort": "17",
+      "month": "02",
+      "date": "2017-02-01",
+      "hours": 1,
+      "modality": "Virtual",
+      "credentialId": null,
+      "verificationUrl": null,
+      "driveUrl": "https://drive.google.com/file/d/1FilZ__y5sJweRGMCGZe0PvF2zX-L1AZ8/view",
+      "cluster": "tecnopedagogia",
+      "skills": [
+        "Recursos Digitales",
+        "Tecnopedagogía",
+        "Diseño Instruccional"
+      ]
+    },
+    {
+      "id": "cert-16-12-libreofficecec",
+      "docType": "CurEst",
+      "fileName": "16-12-CurEst-LibreOfficeCEC.jpg",
+      "shortName": "LibreOfficeCEC",
+      "role": "Participante",
+      "title": "OFIMATICA CON SOFTWARE LIBRE: LIBREOFFICE",
+      "issuer": "CEC-IAEN",
+      "year": "2016",
+      "yearShort": "16",
+      "month": "12",
+      "date": "2016-12-14",
+      "hours": 40,
+      "modality": "Virtual",
+      "credentialId": null,
+      "verificationUrl": "https://s3.amazonaws.com/mccth-lo101/cert/b2d5b6f50dc24d70970475a2a760d559",
+      "driveUrl": "https://drive.google.com/file/d/1Ldvn70QNFTFIItB_4OzV9o8LsOugmLJq/view",
+      "cluster": "tecnopedagogia",
+      "skills": [
+        "LibreOffice",
+        "Software Libre",
+        "Ofimática"
+      ]
+    },
+    {
+      "id": "cert-16-11-ponenciacovaite",
+      "docType": "Inves",
+      "fileName": "16-11-Inves-PonenciaCovaite.jpg",
+      "shortName": "PonenciaCovaite",
+      "role": "Ponente",
+      "title": "Generando una comunidad de la Indagación en la prevención prenatal de discapacidades",
+      "issuer": "Comité Organizador del COVAITE 2016 (Argentina y Colombia)",
+      "year": "2016",
+      "yearShort": "16",
+      "month": "11",
+      "date": "2016-11-29",
+      "hours": 20,
+      "modality": "Virtual",
+      "credentialId": "Nº 2058/16",
+      "verificationUrl": null,
+      "driveUrl": "https://drive.google.com/file/d/15a4oq7zohCoRocSE6JLeNIV7S27XThw8/view",
+      "cluster": "tecnopedagogia",
+      "skills": [
+        "Comunidad de Indagación",
+        "Prevención Prenatal",
+        "Tecnología Educativa"
+      ]
+    },
+    {
+      "id": "cert-16-11-seminarioiipe",
+      "docType": "CurEst",
+      "fileName": "16-11-CurEst-SeminarioIIPE.jpg",
+      "shortName": "SeminarioIIPE",
+      "role": "Participante",
+      "title": "Seminario Internacional Políticas de formación docente inicial y continua",
+      "issuer": "Instituto Internacional de Planeamiento de la Educación (IIPE-UNESCO)",
+      "year": "2016",
+      "yearShort": "16",
+      "month": "11",
+      "date": "2016-11-09",
+      "hours": 16,
+      "modality": "Presencial",
+      "credentialId": null,
+      "verificationUrl": null,
+      "driveUrl": "https://drive.google.com/file/d/1AIaAckL-0pyfv7YopY0BAs5RkOxPEHl0/view",
+      "cluster": "politicas_direccion",
+      "skills": [
+        "Políticas Educativas",
+        "Formación Docente",
+        "Planeamiento Educativo"
+      ]
+    },
+    {
+      "id": "cert-16-11-analiticasapre",
+      "docType": "CurEst",
+      "fileName": "16-11-CurEst-AnaliticasApre.jpg",
+      "shortName": "AnaliticasApre",
+      "role": "Participante",
+      "title": "Analíticas de Aprendizaje en los Cursos Virtuales",
+      "issuer": "Escuela Politécnica Nacional - Centro de Educación Continua",
+      "year": "2016",
+      "yearShort": "16",
+      "month": "11",
+      "date": "2016-11-16",
+      "hours": 1,
+      "modality": "Virtual",
+      "credentialId": null,
+      "verificationUrl": null,
+      "driveUrl": "https://drive.google.com/file/d/12px2lMkoFaNlFFvozRlG_xQSIfomS0iC/view",
+      "cluster": "tecnopedagogia",
+      "skills": [
+        "Learning Analytics",
+        "Educación Virtual",
+        "Análisis de Datos Educativos"
+      ]
+    },
+    {
+      "id": "cert-16-10-openofficewriter",
+      "docType": "CurEst",
+      "fileName": "16-10-CurEst-OpenOfficeWriter.jpg",
+      "shortName": "OpenOfficeWriter",
+      "role": "Participante",
+      "title": "Software libre: Ofimática con OpenOffice",
+      "issuer": "Universidad de Zaragoza",
+      "year": "2016",
+      "yearShort": "16",
+      "month": "10",
+      "date": "2016-10-13",
+      "hours": 50,
+      "modality": "Virtual",
+      "credentialId": "26d3221a-35c8-41ad-9c71-43d3cac35a4f",
+      "verificationUrl": null,
+      "driveUrl": "https://drive.google.com/file/d/10KSbug4uMcYBHxQOTBA2kiTDEhrMF14i/view",
+      "cluster": "tecnopedagogia",
+      "skills": [
+        "OpenOffice",
+        "Writer",
+        "Calc",
+        "Software Libre"
+      ]
+    },
+    {
+      "id": "cert-15-10-creacionblogsweb",
+      "docType": "CurEst",
+      "fileName": "15-10-CurEst-CreacionBlogsWeb.jpg",
+      "shortName": "CreacionBlogsWeb",
+      "role": "Participante",
+      "title": "Creación de blogs y sitios web",
+      "issuer": "PLANETA FATLA",
+      "year": "2015",
+      "yearShort": "15",
+      "month": "10",
+      "date": "2015-10-01",
+      "hours": 150,
+      "modality": "Virtual",
+      "credentialId": "FATLA-EMD-RDO",
+      "verificationUrl": "www.fatla.org",
+      "driveUrl": "https://drive.google.com/file/d/1Xk3bVuSn76XHKScggGixEovi2gDeKuIO/view",
+      "cluster": "tecnopedagogia",
+      "skills": [
+        "Estructura y administración web",
+        "Hosting y dominios",
+        "Creación de sitios web"
+      ]
+    },
+    {
+      "id": "cert-15-10-edsoportevirtual",
+      "docType": "CurEst",
+      "fileName": "15-10-CurEst-EdSoporteVirtual.jpg",
+      "shortName": "EdSoporteVirtual",
+      "role": "Participante",
+      "title": "Educación con Soporte Virtual",
+      "issuer": "Planeta FATLA",
+      "year": "2015",
+      "yearShort": "15",
+      "month": "10",
+      "date": "2015-10-07",
+      "hours": 124,
+      "modality": "Virtual",
+      "credentialId": "ESV042015",
+      "verificationUrl": null,
+      "driveUrl": "https://drive.google.com/file/d/1fYORqNQFRdkG9SYopYUWPHZieNUGrG4s/view",
+      "cluster": "tecnopedagogia",
+      "skills": [
+        "Educación Virtual",
+        "Soporte Tecnopedagógico",
+        "Entornos Virtuales de Aprendizaje"
+      ]
+    },
+    {
+      "id": "cert-15-10-expertoeduvirtual",
+      "docType": "Cert",
+      "fileName": "15-10-Cert-ExpertoEduVirtual.jpg",
+      "shortName": "ExpertoEduVirtual",
+      "role": "Participante",
+      "title": "EXPERTO EN EDUCACIÓN VIRTUAL",
+      "issuer": "Planeta FATLA",
+      "year": "2015",
+      "yearShort": "15",
+      "month": "10",
+      "date": "2015-10-31",
+      "hours": 1015,
+      "modality": "Virtual",
+      "credentialId": "EPE-EC-XLI-1510-011",
+      "verificationUrl": null,
+      "driveUrl": "https://drive.google.com/file/d/1Fv7wKYIwc1tn-dgljlnDAEXDmHxUKUdp/view",
+      "cluster": "tecnopedagogia",
+      "skills": [
+        "Educación Virtual",
+        "Diseño Instruccional",
+        "Entornos Virtuales de Aprendizaje"
+      ]
+    },
+    {
+      "id": "cert-15-08-tecnoeducacion",
+      "docType": "CurEst",
+      "fileName": "15-08-CurEst-TecnoEducacion.jpg",
+      "shortName": "TecnoEducacion",
+      "role": "Participante",
+      "title": "TE201x: Tecnologías para la educación",
+      "issuer": "Universitat Politècnica de València",
+      "year": "2015",
+      "yearShort": "15",
+      "month": "08",
+      "date": "2015-08-06",
+      "hours": null,
+      "modality": "Virtual",
+      "credentialId": "5c8393ef11184771b8f48f80ba1116f0",
+      "verificationUrl": "https://verify.edx.org/cert/5c8393ef11184771b8f48f80ba1116f0",
+      "driveUrl": "https://drive.google.com/file/d/1vJ3CyBBWwG9s-A9X8GelvcA-chvWHpOi/view",
+      "cluster": "tecnopedagogia",
+      "skills": [
+        "Tecnologías Educativas",
+        "Pedagogía Digital",
+        "Entornos Virtuales"
+      ]
+    },
+    {
+      "id": "cert-15-08-interaccionmovil",
+      "docType": "CurEst",
+      "fileName": "15-08-CurEst-InteraccionMovil.jpg",
+      "shortName": "InteraccionMovil",
+      "role": "Participante",
+      "title": "Interacción digital y redes móviles",
+      "issuer": "Planeta FATLA",
+      "year": "2015",
+      "yearShort": "15",
+      "month": "08",
+      "date": "2015-08-03",
+      "hours": 124,
+      "modality": "Virtual",
+      "credentialId": null,
+      "verificationUrl": null,
+      "driveUrl": "https://drive.google.com/file/d/1plbtThR8W_ZX9msi8T4XF7usPxeyozs6/view",
+      "cluster": "tecnopedagogia",
+      "skills": [
+        "Marcadores sociales en la web",
+        "Telepresencia",
+        "Mlearning y tecnología móvil"
+      ]
+    },
+    {
+      "id": "cert-15-06-realidadaumentada",
+      "docType": "Cert",
+      "fileName": "15-06-Cert-RealidadAumentada.jpg",
+      "shortName": "RealidadAumentada",
+      "role": "Participante",
+      "title": "Realidad aumentada y conectivismo",
+      "issuer": "Planeta FATLA",
+      "year": "2015",
+      "yearShort": "15",
+      "month": "06",
+      "date": "2015-06-30",
+      "hours": 150,
+      "modality": "Virtual",
+      "credentialId": "1719920041",
+      "verificationUrl": "http://www.fatla.org",
+      "driveUrl": "https://drive.google.com/file/d/1gOrhAAeSTP6h5GWHIjs_IHQSxTV7yoKl/view",
+      "cluster": "tecnopedagogia",
+      "skills": [
+        "Realidad aumentada",
+        "Conectivismo",
+        "Equipos tecnopedagógicos",
+        "Educación con recursos RA"
+      ]
+    },
+    {
+      "id": "cert-15-06-entornosvirtuales",
+      "docType": "CurEst",
+      "fileName": "15-06-CurEst-EntornosVirtuales.jpg",
+      "shortName": "EntornosVirtuales",
+      "role": "Participante",
+      "title": "Entornos virtuales de aprendizaje: entre la presencialidad y la virtualidad",
+      "issuer": "Universidad Nacional del Nordeste",
+      "year": "2015",
+      "yearShort": "15",
+      "month": "06",
+      "date": "2015-06-30",
+      "hours": 20,
+      "modality": "Virtual",
+      "credentialId": "efcbfe17-c8e8-8e3a-f0cd3e4a3b62",
+      "verificationUrl": null,
+      "driveUrl": "https://drive.google.com/file/d/10xBXX78kHt3I257d1NGcjhD0mn7Kp1BN/view",
+      "cluster": "tecnopedagogia",
+      "skills": [
+        "Entornos Virtuales de Aprendizaje",
+        "Diseño Instruccional",
+        "Estrategias Didácticas"
+      ]
+    },
+    {
+      "id": "cert-15-06-scratcharduino",
+      "docType": "CurEst",
+      "fileName": "15-06-CurEst-ScratchArduino.jpg",
+      "shortName": "ScratchArduino",
+      "role": "Participante",
+      "title": "Robots y Videojuegos en las aulas: Scratch y Arduino para profesores (3.ª edición)",
+      "issuer": "Universitat Pompeu Fabra",
+      "year": "2015",
+      "yearShort": "15",
+      "month": "06",
+      "date": "2015-06-03",
+      "hours": 25,
+      "modality": "Virtual",
+      "credentialId": "c038c6bc-678f-4a7b-8281-0bb3b04242a4",
+      "verificationUrl": null,
+      "driveUrl": "https://drive.google.com/file/d/1o2BkGV4lbyZtMVFEQSgkuVo_ymjnNsxr/view",
+      "cluster": "tecnopedagogia",
+      "skills": [
+        "Scratch",
+        "Arduino",
+        "Robótica Educativa",
+        "Gamificación"
+      ]
+    },
+    {
+      "id": "cert-15-05-alcanceacademico",
+      "docType": "Cert",
+      "fileName": "15-05-Cert-AlcanceAcademico.jpg",
+      "shortName": "AlcanceAcademico",
+      "role": "Participante",
+      "title": "Alcance Académico y Estándares Internacionales",
+      "issuer": "Planeta Fatla",
+      "year": "2015",
+      "yearShort": "15",
+      "month": "05",
+      "date": "2015-05-31",
+      "hours": 124,
+      "modality": "Virtual",
+      "credentialId": "FATLA-EEV-MPA",
+      "verificationUrl": "www.fatla.org",
+      "driveUrl": "https://drive.google.com/file/d/1PwM4moNSwPiOdQTwlhD-wy0SCnaVdEEC/view",
+      "cluster": "tecnopedagogia",
+      "skills": [
+        "Estándares Internacionales",
+        "Metodología PACIE",
+        "Educación Virtual",
+        "Alcance Académico"
+      ]
+    },
+    {
+      "id": "cert-15-05-sitiowebcomercial",
+      "docType": "CurEst",
+      "fileName": "15-05-CurEst-SitioWebComercial.jpg",
+      "shortName": "SitioWebComercial",
+      "role": "Participante",
+      "title": "CREACION DE UN SITIO WEB COMERCIAL",
+      "issuer": "Planeta FATLA",
+      "year": "2015",
+      "yearShort": "15",
+      "month": "05",
+      "date": "2015-05-31",
+      "hours": 150,
+      "modality": "Virtual",
+      "credentialId": "FATLA-PECE-CSW",
+      "verificationUrl": "https://www.fatla.org",
+      "driveUrl": "https://drive.google.com/file/d/1YIPZXGf-8ExslBKwP5YpNkxh4A1u4xhP/view",
+      "cluster": "tecnopedagogia",
+      "skills": [
+        "Estructura web",
+        "Estrategia comercial",
+        "Multimedia",
+        "Diseño web"
+      ]
+    },
+    {
+      "id": "cert-15-05-adminmoodle",
+      "docType": "Cert",
+      "fileName": "15-05-Cert-AdminMoodle.jpg",
+      "shortName": "AdminMoodle",
+      "role": "Participante",
+      "title": "Administración de plataformas Moodle",
+      "issuer": "Asociación Mundial de Tutores Virtuales (ASOMTV)",
+      "year": "2015",
+      "yearShort": "15",
+      "month": "05",
+      "date": "2015-05-15",
+      "hours": 124,
+      "modality": "Virtual",
+      "credentialId": "1719920041",
+      "verificationUrl": null,
+      "driveUrl": "https://drive.google.com/file/d/1yO1Mewu_wyuXMFLU3yG6VHgjFfZAh6hQ/view",
+      "cluster": "tecnopedagogia",
+      "skills": [
+        "Administración Moodle",
+        "Configuración de Servidores",
+        "Diseño Instruccional"
+      ]
+    },
+    {
+      "id": "cert-15-05-fasepresenciafatla",
+      "docType": "CurEst",
+      "fileName": "15-05-CurEst-FasePresenciaFATLA.jpg",
+      "shortName": "FasePresenciaFATLA",
+      "role": "Participante",
+      "title": "Certificado Fase Presencia - Modelo de Educación Virtual PACIE",
+      "issuer": "Planeta FATLA",
+      "year": "2015",
+      "yearShort": "15",
+      "month": "05",
+      "date": "2015-05-03",
+      "hours": 84,
+      "modality": "Virtual",
+      "credentialId": "MPP012015",
+      "verificationUrl": "https://www.fatla.org",
+      "driveUrl": "https://drive.google.com/file/d/1mur610b6HvOBIkwfIm3QkO-Jfed-mt8I/view",
+      "cluster": "tecnopedagogia",
+      "skills": [
+        "Metodología PACIE",
+        "Educación Virtual",
+        "Diseño Instruccional"
+      ]
+    },
+    {
+      "id": "cert-15-05-estrategiasmoodle",
+      "docType": "CurEst",
+      "fileName": "15-05-CurEst-EstrategiasMoodle.jpg",
+      "shortName": "EstrategiasMoodle",
+      "role": "Participante",
+      "title": "Estrategias Metodológicas para el Docente E-learning (4.ª edición)",
+      "issuer": "Universidad de San Martín de Porres",
+      "year": "2015",
+      "yearShort": "15",
+      "month": "05",
+      "date": "2015-05-14",
+      "hours": 12,
+      "modality": "Virtual",
+      "credentialId": "f1d3b293-5b48-4e73-8553-35491c2f39c3",
+      "verificationUrl": null,
+      "driveUrl": "https://drive.google.com/file/d/1tJpkrPZNdAMyGSB6rm8mrGOGzDl4EwCa/view",
+      "cluster": "tecnopedagogia",
+      "skills": [
+        "Moodle",
+        "E-learning",
+        "Estrategias Metodológicas",
+        "Educación Virtual"
+      ]
+    },
+    {
+      "id": "cert-15-05-revistadigitalonline",
+      "docType": "CurEst",
+      "fileName": "15-05-CurEst-RevistaDigitalOnline.jpg",
+      "shortName": "RevistaDigitalOnline",
+      "role": "Participante",
+      "title": "Revista digital online",
+      "issuer": "PLANETA FATLA",
+      "year": "2015",
+      "yearShort": "15",
+      "month": "05",
+      "date": "2015-05-24",
+      "hours": 150,
+      "modality": "Virtual",
+      "credentialId": "FATLA-EMD-RDO",
+      "verificationUrl": "www.fatla.org",
+      "driveUrl": "https://drive.google.com/file/d/1ar80_PmjfTawdpo-j47gL0e30UWqf7iO/view",
+      "cluster": "tecnopedagogia",
+      "skills": [
+        "Periodismo digital",
+        "Edición de revistas online",
+        "Maquetación digital"
+      ]
+    },
+    {
+      "id": "cert-15-04-planestrategicoeco",
+      "docType": "CurEst",
+      "fileName": "15-04-CurEst-PlanEstrategicoEco.jpg",
+      "shortName": "PlanEstrategicoEco",
+      "role": "Participante",
+      "title": "PLAN ESTRATEGICO DE UN ECOMMERCE",
+      "issuer": "Planeta FATLA",
+      "year": "2015",
+      "yearShort": "15",
+      "month": "04",
+      "date": "2015-04",
+      "hours": 150,
+      "modality": "Virtual",
+      "credentialId": "FATLA-ECE-PEE",
+      "verificationUrl": null,
+      "driveUrl": "https://drive.google.com/file/d/1pV5dm5754oHD17Ze9X2K-Uc5pDJbYmX2/view",
+      "cluster": "politicas_direccion",
+      "skills": [
+        "Mercado físico y digital",
+        "Posicionamiento de la marca",
+        "Política de precios",
+        "Plan estratégico"
+      ]
+    },
+    {
+      "id": "cert-15-03-recursosedvirtual",
+      "docType": "CurEst",
+      "fileName": "15-03-CurEst-RecursosEdVirtual.jpg",
+      "shortName": "RecursosEdVirtual",
+      "role": "Participante",
+      "title": "Recursos de educación virtual",
+      "issuer": "PLANETA FATLA",
+      "year": "2015",
+      "yearShort": "15",
+      "month": "03",
+      "date": "2015-03-30",
+      "hours": 84,
+      "modality": "Virtual",
+      "credentialId": "1719920041",
+      "verificationUrl": "www.fatla.org",
+      "driveUrl": "https://drive.google.com/file/d/12MtY-sVwTpwu-cR_CFbz926HKOPWUZnI/view",
+      "cluster": "tecnopedagogia",
+      "skills": [
+        "Educación Virtual",
+        "Entornos Virtuales de Aprendizaje",
+        "Tecnopedagogía"
+      ]
+    },
+    {
+      "id": "cert-15-02-marketingonline",
+      "docType": "CurEst",
+      "fileName": "15-02-CurEst-MarketingOnline.jpg",
+      "shortName": "MarketingOnline",
+      "role": "Participante",
+      "title": "Estrategias de Marketing Online. Community Manager (2.ª edición)",
+      "issuer": "Universidad CEU Cardenal Herrera",
+      "year": "2015",
+      "yearShort": "15",
+      "month": "02",
+      "date": "2015-02-03",
+      "hours": 24,
+      "modality": "Virtual",
+      "credentialId": "4c82a342-ec87-42e8-a5b2-f192b0f3547e",
+      "verificationUrl": null,
+      "driveUrl": "https://drive.google.com/file/d/1pU15uXwAuC28IDIr2gl8rd8MnSJBxRb6/view",
+      "cluster": "tecnopedagogia",
+      "skills": [
+        "Marketing Online",
+        "Community Management",
+        "Herramientas Digitales"
+      ]
+    },
+    {
+      "id": "cert-15-02-entornosvirtuales",
+      "docType": "Cert",
+      "fileName": "15-02-Cert-EntornosVirtuales.jpg",
+      "shortName": "EntornosVirtuales",
+      "role": "Participante",
+      "title": "Experto en Educación Virtual: Módulo Entornos Virtuales de Aprendizaje",
+      "issuer": "Planeta FATLA",
+      "year": "2015",
+      "yearShort": "15",
+      "month": "02",
+      "date": "2015-02-25",
+      "hours": 124,
+      "modality": "Virtual",
+      "credentialId": "FATLA-EEV-EVA",
+      "verificationUrl": "https://www.fatla.org",
+      "driveUrl": "https://drive.google.com/file/d/1M4xF4M4GurppTQzQ8KuAL3L9qHE-kEhy/view",
+      "cluster": "tecnopedagogia",
+      "skills": [
+        "Entornos Virtuales de Aprendizaje",
+        "Plataforma Educativa Moodle",
+        "Elaboración de contenidos elearning",
+        "Educación y las TIC"
+      ]
+    },
+    {
+      "id": "cert-15-02-communitymanager",
+      "docType": "CurEst",
+      "fileName": "15-02-CurEst-CommunityManager.jpg",
+      "shortName": "CommunityManager",
+      "role": "Participante",
+      "title": "Estrategias de Marketing Online. Community Manager (2.ª edición)",
+      "issuer": "Universidad CEU Cardenal Herrera / Miríada X",
+      "year": "2015",
+      "yearShort": "15",
+      "month": "02",
+      "date": "2015-02-03",
+      "hours": 24,
+      "modality": "Virtual",
+      "credentialId": "4c82a342-ec87-42e8-a5b2-f192b0f3547e",
+      "verificationUrl": null,
+      "driveUrl": "https://drive.google.com/file/d/19-Ni_Ma6b4agmnkOALbkOy5NQ77MuVXZ/view",
+      "cluster": "tecnopedagogia",
+      "skills": [
+        "Marketing Online",
+        "Community Management",
+        "Herramientas Digitales"
+      ]
+    },
+    {
+      "id": "cert-14-12-estrategiasmoodle",
+      "docType": "CurEst",
+      "fileName": "14-12-CurEst-EstrategiasMoodle.jpg",
+      "shortName": "EstrategiasMoodle",
+      "role": "Participante",
+      "title": "Estrategias Metodológicas para el Docente E-learning (3.ª edición)",
+      "issuer": "Universidad de San Martín de Porres",
+      "year": "2014",
+      "yearShort": "14",
+      "month": "12",
+      "date": "2014-12-17",
+      "hours": 12,
+      "modality": "Virtual",
+      "credentialId": "6fdea00a-ee07-4c1e-9bba-a774d744e6c3",
+      "verificationUrl": null,
+      "driveUrl": "https://drive.google.com/file/d/1_pMO9YDUSRiYU6iXX1AK-NhtcnkRPuL4/view",
+      "cluster": "tecnopedagogia",
+      "skills": [
+        "E-learning",
+        "Plataforma Moodle",
+        "Diseño Instruccional"
+      ]
+    },
+    {
+      "id": "cert-14-05-certscratcharduino",
+      "docType": "CurEst",
+      "fileName": "14-05-CurEst-CertScratchArduino.pdf",
+      "shortName": "CertScratchArduino",
+      "role": "Participante",
+      "title": "Certificat de formació en S4A: Scratch/Snap 4 Arduino",
+      "issuer": "Universitat Oberta de Catalunya",
+      "year": "2014",
+      "yearShort": "14",
+      "month": "05",
+      "date": "2014-05",
+      "hours": 50,
+      "modality": "Virtual",
+      "credentialId": null,
+      "verificationUrl": null,
+      "driveUrl": "https://drive.google.com/file/d/1TRbBIgjkDgO5JOuoW__wq5JO4k4xq9T2/view",
+      "cluster": "tecnopedagogia",
+      "skills": [
+        "Scratch",
+        "Arduino",
+        "Programación Visual",
+        "Robótica Educativa"
+      ]
+    },
+    {
+      "id": "cert-13-12-hourofcode",
+      "docType": "CurEst",
+      "fileName": "13-12-CurEst-HourOfCode.jpg",
+      "shortName": "HourOfCode",
+      "role": "Participante",
+      "title": "The Hour of Code",
+      "issuer": "Code.org",
+      "year": "2013",
+      "yearShort": "13",
+      "month": "12",
+      "date": "2013-12",
+      "hours": 1,
+      "modality": "Virtual",
+      "credentialId": null,
+      "verificationUrl": "www.code.org",
+      "driveUrl": "https://drive.google.com/file/d/1RnSVghc-1QjKRHdYPQcwtWltksbT3J0f/view",
+      "cluster": "ia_data_science",
+      "skills": [
+        "Computer Science",
+        "Programming Logic",
+        "Computational Thinking"
+      ]
     }
   ]
 }
