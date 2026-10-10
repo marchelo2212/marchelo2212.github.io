@@ -1,5 +1,30 @@
 [
   {
+    "id": "cert-15-05-fasepresenciafatla",
+    "docType": "CurEst",
+    "fileName": "15-05-CurEst-FasePresenciaFATLA.jpg",
+    "shortName": "FasePresenciaFATLA",
+    "title": "Certificado Fase Presencia - Modelo de Educación Virtual PACIE",
+    "role": "Participante",
+    "issuer": "Planeta FATLA",
+    "year": 2015,
+    "yearShort": "15",
+    "month": "05",
+    "date": "2015-05-03",
+    "hours": 84,
+    "modality": "Virtual",
+    "credentialId": "MPP012015",
+    "verificationUrl": "https://www.fatla.org",
+    "cluster": "tecnopedagogia",
+    "skills": [
+      "Metodología PACIE",
+      "Educación Virtual",
+      "Diseño Instruccional"
+    ],
+    "driveUrl": "https://drive.google.com/file/d/1mur610b6HvOBIkwfIm3QkO-Jfed-mt8I/view",
+    "addedAt": "2026-10-10T23:28:51.311Z"
+  },
+  {
     "id": "cert-15-05-estrategiasmoodle",
     "docType": "CurEst",
     "fileName": "15-05-CurEst-EstrategiasMoodle.jpg",
