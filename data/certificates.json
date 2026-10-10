@@ -1,5 +1,31 @@
 [
   {
+    "id": "cert-24-11-transmediauflo",
+    "docType": "CurEst",
+    "fileName": "24-11-CurEst-TransmediaUflo.pdf",
+    "shortName": "TransmediaUflo",
+    "title": "I Jornadas Institucionales de Innovación Educativa en la Universidad: Transmedia, gamificación y performance",
+    "role": "Participante",
+    "issuer": "Universidad de Flores (UFLO)",
+    "year": 2024,
+    "yearShort": "24",
+    "month": "11",
+    "date": "2024",
+    "hours": 10,
+    "modality": "Virtual",
+    "credentialId": null,
+    "verificationUrl": null,
+    "cluster": "tecnopedagogia",
+    "skills": [
+      "Transmedia",
+      "Gamificación",
+      "Performance Educativa",
+      "Innovación Educativa"
+    ],
+    "driveUrl": "https://drive.google.com/file/d/1X93-l8mrMmVHVkzmTvf_R6eE1RHlUadd/view",
+    "addedAt": "2026-10-10T22:09:19.585Z"
+  },
+  {
     "id": "cert-20-07-endinsatuoc",
     "docType": "CurEst",
     "fileName": "20-07-CurEst-EndinsatUOC.pdf",
