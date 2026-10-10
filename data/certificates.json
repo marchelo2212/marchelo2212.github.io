@@ -1,5 +1,30 @@
 [
   {
+    "id": "cert-25-11-bestpapericetei",
+    "docType": "Meri",
+    "fileName": "25-11-Meri-BestPaperIcetei.pdf",
+    "shortName": "BestPaperIcetei",
+    "title": "Best Paper in Track 3: Digital Education and Learning Analytics",
+    "role": "Galardonado",
+    "issuer": "ICETEI 2025 & RED EDUTEM",
+    "year": 2025,
+    "yearShort": "25",
+    "month": "11",
+    "date": "2025-11-14",
+    "hours": null,
+    "modality": "Virtual",
+    "credentialId": null,
+    "verificationUrl": null,
+    "cluster": "tecnopedagogia",
+    "skills": [
+      "Learning Analytics",
+      "AI-Based Assistants",
+      "Formative Feedback"
+    ],
+    "driveUrl": "https://drive.google.com/file/d/1vfl3Db5II5tQ5pFcOh31Ad7SZGbfrZrO/view",
+    "addedAt": "2026-10-10T22:29:27.500Z"
+  },
+  {
     "id": "cert-26-08-iarealiztareas",
     "docType": "CurEst",
     "fileName": "26-08-CurEst-IARealizTareas.pdf",
