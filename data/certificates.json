@@ -1,5 +1,30 @@
 [
   {
+    "id": "cert-15-06-entornosvirtuales",
+    "docType": "CurEst",
+    "fileName": "15-06-CurEst-EntornosVirtuales.jpg",
+    "shortName": "EntornosVirtuales",
+    "title": "Entornos virtuales de aprendizaje: entre la presencialidad y la virtualidad",
+    "role": "Participante",
+    "issuer": "Universidad Nacional del Nordeste",
+    "year": 2015,
+    "yearShort": "15",
+    "month": "06",
+    "date": "2015-06-30",
+    "hours": 20,
+    "modality": "Virtual",
+    "credentialId": "efcbfe17-c8e8-8e3a-f0cd3e4a3b62",
+    "verificationUrl": null,
+    "cluster": "tecnopedagogia",
+    "skills": [
+      "Entornos Virtuales de Aprendizaje",
+      "Diseño Instruccional",
+      "Estrategias Didácticas Digitales"
+    ],
+    "driveUrl": "https://drive.google.com/file/d/10xBXX78kHt3I257d1NGcjhD0mn7Kp1BN/view",
+    "addedAt": "2026-10-10T23:28:13.471Z"
+  },
+  {
     "id": "cert-15-06-scratcharduino",
     "docType": "CurEst",
     "fileName": "15-06-CurEst-ScratchArduino.jpg",
