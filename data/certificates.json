@@ -6,7 +6,7 @@
     "shortName": "TutoresEnLinea",
     "title": "Formación de Tutores de Nivelación Especializados en Modalidad en Línea",
     "role": "Participante",
-    "issuer": "Universidad Internacional de La Rioja (UNIR)",
+    "issuer": "Universidad Internacional de La Rioja",
     "year": 2020,
     "yearShort": "20",
     "month": "07",
@@ -17,12 +17,13 @@
     "verificationUrl": "https://verifirma.unir.net/CSV/e4e2cfaa-3617-43a9-bb21-5c69d2f34553",
     "cluster": "tecnopedagogia",
     "skills": [
-      "Tutoría Virtual",
-      "Entornos Online",
-      "Evaluación Educativa"
+      "Formación Online",
+      "Comunicación Eficaz",
+      "Campus Virtual",
+      "Evaluación del Aprendizaje"
     ],
     "driveUrl": "https://drive.google.com/file/d/1QyqilQpAHwRO2eW_grC2SZxYhrx10XZ4/view",
-    "addedAt": "2026-10-10T23:30:16.071Z"
+    "addedAt": "2026-10-10T23:30:21.150Z"
   },
   {
     "id": "cert-15-02-marketingonline",
