@@ -1,5 +1,30 @@
 [
   {
+    "id": "cert-21-11-contratacionpublica",
+    "docType": "CurEst",
+    "fileName": "21-11-CurEst-ContratacionPublica.pdf",
+    "shortName": "ContratacionPublica",
+    "title": "CONTRATACIÓN PÚBLICA",
+    "role": "Participante",
+    "issuer": "EDES Business School - UTPL",
+    "year": 2021,
+    "yearShort": "21",
+    "month": "11",
+    "date": "2021-11-06",
+    "hours": 8,
+    "modality": "Presencial",
+    "credentialId": "DkLymmUvM0",
+    "verificationUrl": null,
+    "cluster": "politicas_direccion",
+    "skills": [
+      "Contratación Pública",
+      "Gestión Gubernamental",
+      "Normativa Legal"
+    ],
+    "driveUrl": "https://drive.google.com/file/d/1aQbZeirXp7LlAU9F2uBluTvKWtg_VLwX/view",
+    "addedAt": "2026-10-10T22:27:40.977Z"
+  },
+  {
     "id": "cert-21-12-gamificaciontic",
     "docType": "CurEst",
     "fileName": "21-12-CurEst-GamificacionTIC.pdf",
