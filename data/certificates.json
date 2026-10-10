@@ -1,5 +1,30 @@
 [
   {
+    "id": "cert-21-08-riesgoergonomico",
+    "docType": "CurEst",
+    "fileName": "21-08-CurEst-RiesgoErgonomico.pdf",
+    "shortName": "RiesgoErgonomico",
+    "title": "RIESGO ERGONÓMICO CHILDFUND INTERNATIONAL, USA",
+    "role": "Participante",
+    "issuer": "SERILAN",
+    "year": 2021,
+    "yearShort": "21",
+    "month": "08",
+    "date": "2021-08-17",
+    "hours": 2,
+    "modality": "Virtual",
+    "credentialId": null,
+    "verificationUrl": null,
+    "cluster": "politicas_direccion",
+    "skills": [
+      "Ergonomía",
+      "Seguridad y Salud Ocupacional",
+      "Prevención de Riesgos"
+    ],
+    "driveUrl": "https://drive.google.com/file/d/1vwdPuAOWRzYNgFmQ246-vXo0RCgPA5Av/view",
+    "addedAt": "2026-10-10T22:19:15.987Z"
+  },
+  {
     "id": "cert-21-06-seguridadlaboral",
     "docType": "CurEst",
     "fileName": "21-06-CurEst-SeguridadLaboral.pdf",
