@@ -1,5 +1,30 @@
 [
   {
+    "id": "cert-17-04-aulavirtualflisol",
+    "docType": "CurEst",
+    "fileName": "17-04-CurEst-AulaVirtualFlisol.jpg",
+    "shortName": "AulaVirtualFlisol",
+    "title": "\"V JORNADAS INTERNACIONALES, V CONGRESO NACIONAL DE CIENCIAS SOFTWARE LIBRE Y NUEVAS TECNOLOGÍAS APLICADAS A LA EDUCACIÓN Y III ENCUENTRO DE DOCENTES DE INFORMÁTICA Y FÍSICA\"",
+    "role": "Participante",
+    "issuer": "Universidad Central del Ecuador - Asociación de Software Libre del Ecuador - FLISOL",
+    "year": 2017,
+    "yearShort": "17",
+    "month": "04",
+    "date": "2017-04-29",
+    "hours": 40,
+    "modality": "Híbrida",
+    "credentialId": null,
+    "verificationUrl": null,
+    "cluster": "tecnopedagogia",
+    "skills": [
+      "Software Libre",
+      "Tecnologías Aplicadas a la Educación",
+      "Aula Virtual"
+    ],
+    "driveUrl": "https://drive.google.com/file/d/15fWRfyVfDlHKUpB6IijLRmTWuEdYJt7M/view",
+    "addedAt": "2026-10-10T23:33:35.564Z"
+  },
+  {
     "id": "cert-17-10-profesorsigloxxi",
     "docType": "CurEst",
     "fileName": "17-10-CurEst-ProfesorSigloXXI.jpg",
