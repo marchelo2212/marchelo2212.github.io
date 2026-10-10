@@ -1,5 +1,31 @@
 [
   {
+    "id": "cert-16-10-openofficewriter",
+    "docType": "CurEst",
+    "fileName": "16-10-CurEst-OpenOfficeWriter.jpg",
+    "shortName": "OpenOfficeWriter",
+    "title": "Software libre: Ofimática con OpenOffice",
+    "role": "Participante",
+    "issuer": "Universidad de Zaragoza",
+    "year": 2016,
+    "yearShort": "16",
+    "month": "10",
+    "date": "2016-10-13",
+    "hours": 50,
+    "modality": "Virtual",
+    "credentialId": "26d3221a-35c8-41ad-9c71-43d3cac35a4f",
+    "verificationUrl": null,
+    "cluster": "tecnopedagogia",
+    "skills": [
+      "OpenOffice",
+      "Writer",
+      "Calc",
+      "Software Libre"
+    ],
+    "driveUrl": "https://drive.google.com/file/d/10KSbug4uMcYBHxQOTBA2kiTDEhrMF14i/view",
+    "addedAt": "2026-10-10T23:34:07.869Z"
+  },
+  {
     "id": "cert-17-02-recursosdigitales",
     "docType": "CurEst",
     "fileName": "17-02-CurEst-RecursosDigitales.jpg",
