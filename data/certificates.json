@@ -1,5 +1,30 @@
 [
   {
+    "id": "cert-22-11-comitecientificovii",
+    "docType": "Inves",
+    "fileName": "22-11-Inves-ComiteCientificoVII.jpg",
+    "shortName": "ComiteCientificoVII",
+    "title": "MIEMBRO DEL COMITÉ CIENTÍFICO-EVALUADOR EXTERNO EN EL VII CONGRESO INTERNACIONAL DE EDUCACIÓN CONTEMPORÁNEA CALIDAD EDUCATIVA Y BUEN VIVIR",
+    "role": "Revisor Par",
+    "issuer": "Universidad Nacional de Chimborazo",
+    "year": 2022,
+    "yearShort": "22",
+    "month": "11",
+    "date": "2022-11-25",
+    "hours": null,
+    "modality": "Presencial",
+    "credentialId": "CGVII-TH-0000106",
+    "verificationUrl": null,
+    "cluster": "tecnopedagogia",
+    "skills": [
+      "Evaluación por Pares",
+      "Investigación Educativa",
+      "Arbitraje Científico"
+    ],
+    "driveUrl": "https://drive.google.com/file/d/1z1I_ZYwcgPVJMLkgU5Sqrs4lF6zqJZH-/view",
+    "addedAt": "2026-10-10T23:43:34.972Z"
+  },
+  {
     "id": "cert-21-08-cursogamificacion",
     "docType": "CurEst",
     "fileName": "21-08-CurEst-CursoGamificacion.jpg",
