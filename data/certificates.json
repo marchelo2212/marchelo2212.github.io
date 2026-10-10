@@ -1,5 +1,30 @@
 [
   {
+    "id": "cert-21-11-sectorpublicoequipos",
+    "docType": "CurEst",
+    "fileName": "21-11-CurEst-SectorPublicoEquipos.pdf",
+    "shortName": "SectorPublicoEquipos",
+    "title": "REQUISITOS DEL SECTOR PÚBLICO PARA GESTIONAR EQUIPOS DE TRABAJO",
+    "role": "Participante",
+    "issuer": "EDES Business School UTPL y Corporación Líderes para Gobernar",
+    "year": 2021,
+    "yearShort": "21",
+    "month": "11",
+    "date": "2021-11-06",
+    "hours": 8,
+    "modality": "Presencial",
+    "credentialId": "xFJYTS3IM5",
+    "verificationUrl": null,
+    "cluster": "politicas_direccion",
+    "skills": [
+      "Gestión de Equipos",
+      "Sector Público",
+      "Liderazgo Gubernamental"
+    ],
+    "driveUrl": "https://drive.google.com/file/d/1jrwaD1kRf3DWdfuTMjLztNgmZ8vwHYiW/view",
+    "addedAt": "2026-10-10T22:27:49.278Z"
+  },
+  {
     "id": "cert-21-11-contratacionpublica",
     "docType": "CurEst",
     "fileName": "21-11-CurEst-ContratacionPublica.pdf",
