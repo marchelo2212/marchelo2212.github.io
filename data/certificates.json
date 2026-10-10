@@ -1,5 +1,30 @@
 [
   {
+    "id": "cert-22-02-operadorsncp",
+    "docType": "Cert",
+    "fileName": "22-02-Cert-OperadorSNCP.jpg",
+    "shortName": "OperadorSNCP",
+    "title": "Operador del Sistema Nacional de Compras Públicas - Fundamentos de Contratación Pública",
+    "role": "Participante",
+    "issuer": "Servicio Nacional de Contratación Pública (SERCOP)",
+    "year": 2022,
+    "yearShort": "22",
+    "month": "02",
+    "date": "2022-02-26",
+    "hours": 40,
+    "modality": "Virtual",
+    "credentialId": "ZYmX8I8D4c",
+    "verificationUrl": null,
+    "cluster": "politicas_direccion",
+    "skills": [
+      "Contratación Pública",
+      "Normativa Legal Vigente",
+      "Gestión de Compras Públicas"
+    ],
+    "driveUrl": "https://drive.google.com/file/d/1cc2nWiCNGAGGZ72iawe9eneWwvHtZ7cZ/view",
+    "addedAt": "2026-10-10T23:36:59.707Z"
+  },
+  {
     "id": "cert-23-08-ponenciamoodle23",
     "docType": "Inves",
     "fileName": "23-08-Inves-PonenciaMoodle23.jpg",
