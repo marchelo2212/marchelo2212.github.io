@@ -1,5 +1,30 @@
 [
   {
+    "id": "cert-17-09-personalizacionmoodle",
+    "docType": "CursImp",
+    "fileName": "17-09-CursImp-PersonalizacionMoodle.jpg",
+    "shortName": "PersonalizacionMoodle",
+    "title": "Personalización gráfica de Moodle 3.3 con Theme ADAPTABLE",
+    "role": "Docente / Facilitador",
+    "issuer": "Comunidades de Tecnologías Libres de Ecuador y Venezuela",
+    "year": 2017,
+    "yearShort": "17",
+    "month": "09",
+    "date": "2017-09-09",
+    "hours": 1,
+    "modality": "Virtual",
+    "credentialId": "N° AT-021",
+    "verificationUrl": null,
+    "cluster": "tecnopedagogia",
+    "skills": [
+      "Moodle 3.3",
+      "Theme ADAPTABLE",
+      "Diseño Gráfico Web"
+    ],
+    "driveUrl": "https://drive.google.com/file/d/1BXRw-dvLTyEFJyIOdSybD24iE70t5x2k/view",
+    "addedAt": "2026-10-10T23:32:43.513Z"
+  },
+  {
     "id": "cert-14-05-certscratcharduino",
     "docType": "CurEst",
     "fileName": "14-05-CurEst-CertScratchArduino.pdf",
