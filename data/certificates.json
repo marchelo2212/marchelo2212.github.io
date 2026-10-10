@@ -17,12 +17,13 @@
     "verificationUrl": "https://www.fatla.org",
     "cluster": "tecnopedagogia",
     "skills": [
-      "Estructura web en internet",
-      "Estrategia comercial de un sitio",
-      "Elementos de un sitio web"
+      "Estructura web",
+      "Estrategia comercial",
+      "Multimedia",
+      "Diseño web"
     ],
     "driveUrl": "https://drive.google.com/file/d/1YIPZXGf-8ExslBKwP5YpNkxh4A1u4xhP/view",
-    "addedAt": "2026-10-10T23:29:10.251Z"
+    "addedAt": "2026-10-10T23:29:11.622Z"
   },
   {
     "id": "cert-15-05-adminmoodle",
