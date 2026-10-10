@@ -1,5 +1,31 @@
 [
   {
+    "id": "cert-15-04-planestrategicoeco",
+    "docType": "CurEst",
+    "fileName": "15-04-CurEst-PlanEstrategicoEco.jpg",
+    "shortName": "PlanEstrategicoEco",
+    "title": "PLAN ESTRATEGICO DE UN ECOMMERCE",
+    "role": "Participante",
+    "issuer": "Planeta FATLA",
+    "year": 2015,
+    "yearShort": "15",
+    "month": "04",
+    "date": "2015-04",
+    "hours": 150,
+    "modality": "Virtual",
+    "credentialId": "FATLA-ECE-PEE",
+    "verificationUrl": null,
+    "cluster": "politicas_direccion",
+    "skills": [
+      "Mercado físico y digital",
+      "Posicionamiento de la marca",
+      "Política de precios",
+      "Plan estratégico"
+    ],
+    "driveUrl": "https://drive.google.com/file/d/1pV5dm5754oHD17Ze9X2K-Uc5pDJbYmX2/view",
+    "addedAt": "2026-10-10T23:29:20.394Z"
+  },
+  {
     "id": "cert-15-04-planestrategicoecommerce",
     "docType": "CurEst",
     "fileName": "15-04-CurEst-PlanEstrategicoEcommerce.jpg",
