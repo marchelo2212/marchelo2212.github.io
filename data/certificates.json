@@ -1,5 +1,30 @@
 [
   {
+    "id": "cert-26-06-seguridadinfo",
+    "docType": "CurEst",
+    "fileName": "26-06-CurEst-SeguridadInfo.pdf",
+    "shortName": "SeguridadInfo",
+    "title": "Certificado de reconocimiento por participar en las capacitaciones sobre Concientización en seguridad Informática",
+    "role": "Participante",
+    "issuer": "ESCANOR CORP",
+    "year": 2026,
+    "yearShort": "26",
+    "month": "06",
+    "date": "2026",
+    "hours": null,
+    "modality": "Virtual",
+    "credentialId": null,
+    "verificationUrl": null,
+    "cluster": "tecnopedagogia",
+    "skills": [
+      "Seguridad Informática",
+      "Concientización Tecnológica",
+      "Ciberseguridad Básica"
+    ],
+    "driveUrl": "https://drive.google.com/file/d/1KR63fHpe-SwnfXI4Dm1grjSeykxl4DST/view",
+    "addedAt": "2026-10-10T22:30:16.921Z"
+  },
+  {
     "id": "cert-24-10-capacitacioncienc",
     "docType": "CurEst",
     "fileName": "24-10-CurEst-CapacitacionCienc.pdf",
