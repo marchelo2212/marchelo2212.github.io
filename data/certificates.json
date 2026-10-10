@@ -1,5 +1,31 @@
 [
   {
+    "id": "cert-15-05-estrategiasmoodle",
+    "docType": "CurEst",
+    "fileName": "15-05-CurEst-EstrategiasMoodle.jpg",
+    "shortName": "EstrategiasMoodle",
+    "title": "Estrategias Metodológicas para el Docente E-learning (4.ª edición)",
+    "role": "Participante",
+    "issuer": "Universidad de San Martín de Porres",
+    "year": 2015,
+    "yearShort": "15",
+    "month": "05",
+    "date": "2015-05-14",
+    "hours": 12,
+    "modality": "Virtual",
+    "credentialId": "f1d3b293-5b48-4e73-8553-35491c2f39c3",
+    "verificationUrl": null,
+    "cluster": "tecnopedagogia",
+    "skills": [
+      "Moodle",
+      "E-learning",
+      "Estrategias Metodológicas",
+      "Educación Virtual"
+    ],
+    "driveUrl": "https://drive.google.com/file/d/1tJpkrPZNdAMyGSB6rm8mrGOGzDl4EwCa/view",
+    "addedAt": "2026-10-10T23:28:38.130Z"
+  },
+  {
     "id": "cert-15-06-realidadaumentada",
     "docType": "Cert",
     "fileName": "15-06-Cert-RealidadAumentada.jpg",
