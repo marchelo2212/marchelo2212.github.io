@@ -1,5 +1,30 @@
 [
   {
+    "id": "cert-20-07-endinsatuoc",
+    "docType": "CurEst",
+    "fileName": "20-07-CurEst-EndinsatUOC.pdf",
+    "shortName": "EndinsatUOC",
+    "title": "Certificat del curs de formació básica per al consultor (professorat col·laborador) - Endinsa't a la UOC",
+    "role": "Participante",
+    "issuer": "Universitat Oberta de Catalunya",
+    "year": 2020,
+    "yearShort": "20",
+    "month": "07",
+    "date": "2020-07",
+    "hours": 25,
+    "modality": "Virtual",
+    "credentialId": "DE70BDFF9EC241AA871D6BB863E144C2",
+    "verificationUrl": "https://seu-electronica.uoc.edu",
+    "cluster": "tecnopedagogia",
+    "skills": [
+      "Docencia Online",
+      "Metodología UOC",
+      "Competencias Digitales Docentes"
+    ],
+    "driveUrl": "https://drive.google.com/file/d/1OH8nQyEi8vbOjo1QINlTGJnTgG76l-En/view",
+    "addedAt": "2026-10-10T22:09:10.791Z"
+  },
+  {
     "id": "cert-20-01-seminariocalidad",
     "docType": "CurEst",
     "fileName": "20-01-CurEst-SeminarioCalidad.pdf",
