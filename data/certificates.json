@@ -1,5 +1,30 @@
 [
   {
+    "id": "cert-20-07-tutoresenlinea",
+    "docType": "CurEst",
+    "fileName": "20-07-CurEst-TutoresEnLinea.pdf",
+    "shortName": "TutoresEnLinea",
+    "title": "Formación de Tutores de Nivelación Especializados en Modalidad en Línea",
+    "role": "Participante",
+    "issuer": "Universidad Internacional de La Rioja (UNIR)",
+    "year": 2020,
+    "yearShort": "20",
+    "month": "07",
+    "date": "2020-07-05",
+    "hours": 60,
+    "modality": "Virtual",
+    "credentialId": "770920203451-1719920041",
+    "verificationUrl": "https://verifirma.unir.net/CSV/e4e2cfaa-3617-43a9-bb21-5c69d2f34553",
+    "cluster": "tecnopedagogia",
+    "skills": [
+      "Tutoría Virtual",
+      "Entornos Online",
+      "Evaluación Educativa"
+    ],
+    "driveUrl": "https://drive.google.com/file/d/1QyqilQpAHwRO2eW_grC2SZxYhrx10XZ4/view",
+    "addedAt": "2026-10-10T23:30:16.071Z"
+  },
+  {
     "id": "cert-15-02-marketingonline",
     "docType": "CurEst",
     "fileName": "15-02-CurEst-MarketingOnline.jpg",
