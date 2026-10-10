@@ -1,5 +1,30 @@
 [
   {
+    "id": "cert-16-11-analiticasapre",
+    "docType": "CurEst",
+    "fileName": "16-11-CurEst-AnaliticasApre.jpg",
+    "shortName": "AnaliticasApre",
+    "title": "Analíticas de Aprendizaje en los Cursos Virtuales",
+    "role": "Participante",
+    "issuer": "Escuela Politécnica Nacional - Centro de Educación Continua",
+    "year": 2016,
+    "yearShort": "16",
+    "month": "11",
+    "date": "2016-11-16",
+    "hours": 1,
+    "modality": "Virtual",
+    "credentialId": null,
+    "verificationUrl": null,
+    "cluster": "tecnopedagogia",
+    "skills": [
+      "Learning Analytics",
+      "Educación Virtual",
+      "Análisis de Datos Educativos"
+    ],
+    "driveUrl": "https://drive.google.com/file/d/12px2lMkoFaNlFFvozRlG_xQSIfomS0iC/view",
+    "addedAt": "2026-10-10T23:33:51.494Z"
+  },
+  {
     "id": "cert-17-04-tallersistemasop",
     "docType": "CursImp",
     "fileName": "17-04-CursImp-TallerSistemasOp.jpg",
