@@ -1,5 +1,31 @@
 [
   {
+    "id": "cert-18-04-ponenteflisol18",
+    "docType": "Inves",
+    "fileName": "18-04-Inves-PonenteFlisol18.jpg",
+    "shortName": "PonenteFlisol18",
+    "title": "Certificado de Ponente en el 14vo Festival Latinoamericano de Instalación de Software Libre (FLISoL)",
+    "role": "Ponente",
+    "issuer": "Red de Investigación, Conocimiento, Hardware y Software Libre / MediaLabUIO CIESPAL",
+    "year": 2018,
+    "yearShort": "18",
+    "month": "04",
+    "date": "2018-04-14",
+    "hours": null,
+    "modality": "Presencial",
+    "credentialId": null,
+    "verificationUrl": null,
+    "cluster": "ia_data_science",
+    "skills": [
+      "Software Libre",
+      "Difusión Tecnológica",
+      "Hardware Libre",
+      "Comunidad Open Source"
+    ],
+    "driveUrl": "https://drive.google.com/file/d/1QzR-WUDae0rjEqAqcfeN7Wer2gTcDXHx/view",
+    "addedAt": "2026-10-10T23:44:10.284Z"
+  },
+  {
     "id": "cert-22-05-intemocionalctrl",
     "docType": "CurEst",
     "fileName": "22-05-CurEst-IntEmocionalCtrl.jpg",
