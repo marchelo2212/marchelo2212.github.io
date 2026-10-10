@@ -1,5 +1,31 @@
 [
   {
+    "id": "cert-17-04-tallersistemasop",
+    "docType": "CursImp",
+    "fileName": "17-04-CursImp-TallerSistemasOp.jpg",
+    "shortName": "TallerSistemasOp",
+    "title": "V JORNADAS INTERNACIONALES, V CONGRESO NACIONAL DE CIENCIAS SOFTWARE LIBRE Y NUEVAS TECNOLOGÍAS APLICADAS A LA EDUCACIÓN Y III ENCUENTRO DE DOCENTES DE INFORMÁTICA Y FÍSICA",
+    "role": "Docente / Facilitador",
+    "issuer": "Universidad Central del Ecuador",
+    "year": 2017,
+    "yearShort": "17",
+    "month": "04",
+    "date": "2017-04-29",
+    "hours": 40,
+    "modality": "Híbrida",
+    "credentialId": null,
+    "verificationUrl": null,
+    "cluster": "tecnopedagogia",
+    "skills": [
+      "Sistemas Operativos",
+      "Software Libre",
+      "GRUB",
+      "Formación Docente"
+    ],
+    "driveUrl": "https://drive.google.com/file/d/1zlJ_-qw9ExyUZd9H9rQuhi0IkPlWXcJ1/view",
+    "addedAt": "2026-10-10T23:33:43.622Z"
+  },
+  {
     "id": "cert-17-04-aulavirtualflisol",
     "docType": "CurEst",
     "fileName": "17-04-CurEst-AulaVirtualFlisol.jpg",
