@@ -1,5 +1,30 @@
 [
   {
+    "id": "cert-21-05-excel365beginner",
+    "docType": "CurEst",
+    "fileName": "21-05-CurEst-Excel365Beginner.pdf",
+    "shortName": "Excel365Beginner",
+    "title": "Excel 365 - Beginner",
+    "role": "Participante",
+    "issuer": "Intellezy / DisasterReady.org",
+    "year": 2021,
+    "yearShort": "21",
+    "month": "05",
+    "date": "2021-05-27",
+    "hours": null,
+    "modality": "Virtual",
+    "credentialId": null,
+    "verificationUrl": null,
+    "cluster": "ia_data_science",
+    "skills": [
+      "Excel 365",
+      "Análisis de Datos",
+      "Hojas de Cálculo"
+    ],
+    "driveUrl": "https://drive.google.com/file/d/1JgZSTssDVUwbuhvGW_cRfdHd--fbQ76p/view",
+    "addedAt": "2026-10-10T22:18:15.792Z"
+  },
+  {
     "id": "cert-22-03-pensamientocomp",
     "docType": "CurEst",
     "fileName": "22-03-CurEst-PensamientoComp.pdf",
