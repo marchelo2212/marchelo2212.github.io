@@ -1,5 +1,30 @@
 [
   {
+    "id": "cert-15-05-revistadigitalonline",
+    "docType": "CurEst",
+    "fileName": "15-05-CurEst-RevistaDigitalOnline.jpg",
+    "shortName": "RevistaDigitalOnline",
+    "title": "Revista digital online",
+    "role": "Participante",
+    "issuer": "PLANETA FATLA",
+    "year": 2015,
+    "yearShort": "15",
+    "month": "05",
+    "date": "2015-05-24",
+    "hours": 150,
+    "modality": "Virtual",
+    "credentialId": "FATLA-EMD-RDO",
+    "verificationUrl": "www.fatla.org",
+    "cluster": "tecnopedagogia",
+    "skills": [
+      "Periodismo digital",
+      "Edición de revistas online",
+      "Maquetación digital"
+    ],
+    "driveUrl": "https://drive.google.com/file/d/1ar80_PmjfTawdpo-j47gL0e30UWqf7iO/view",
+    "addedAt": "2026-10-10T23:27:48.078Z"
+  },
+  {
     "id": "cert-22-07-ciberseguridadtele",
     "docType": "Cert",
     "fileName": "22-07-Cert-CiberseguridadTele.pdf",
