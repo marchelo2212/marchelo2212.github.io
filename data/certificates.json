@@ -1,5 +1,30 @@
 [
   {
+    "id": "cert-25-11-tutorcollegehoriz",
+    "docType": "CursImp",
+    "fileName": "25-11-CursImp-TutorCollegeHoriz.pdf",
+    "shortName": "TutorCollegeHoriz",
+    "title": "Tutor in COLLEGE HORIZONS PROGRAM",
+    "role": "Docente / Facilitador",
+    "issuer": "Centro de Educación Continua de la Escuela Politécnica Nacional and the United States Embassy",
+    "year": 2025,
+    "yearShort": "25",
+    "month": "11",
+    "date": "2025-11-22",
+    "hours": null,
+    "modality": "Presencial",
+    "credentialId": null,
+    "verificationUrl": null,
+    "cluster": "politicas_direccion",
+    "skills": [
+      "Tutoría Académica",
+      "Acompañamiento Estudiantil",
+      "Gestión Educativa"
+    ],
+    "driveUrl": "https://drive.google.com/file/d/10Uf9F64cO1Ngz4uJcIfl83tZk3EQ3b-i/view",
+    "addedAt": "2026-10-10T22:29:35.808Z"
+  },
+  {
     "id": "cert-25-11-bestpapericetei",
     "docType": "Meri",
     "fileName": "25-11-Meri-BestPaperIcetei.pdf",
