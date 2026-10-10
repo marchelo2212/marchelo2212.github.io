@@ -1,5 +1,30 @@
 [
   {
+    "id": "cert-14-12-estrategiasmoodle",
+    "docType": "CurEst",
+    "fileName": "14-12-CurEst-EstrategiasMoodle.jpg",
+    "shortName": "EstrategiasMoodle",
+    "title": "Estrategias Metodológicas para el Docente E-learning (3.ª edición)",
+    "role": "Participante",
+    "issuer": "Universidad de San Martín de Porres",
+    "year": 2014,
+    "yearShort": "14",
+    "month": "12",
+    "date": "2014-12-17",
+    "hours": 12,
+    "modality": "Virtual",
+    "credentialId": "6fdea00a-ee07-4c1e-9bba-a774d744e6c3",
+    "verificationUrl": null,
+    "cluster": "tecnopedagogia",
+    "skills": [
+      "E-learning",
+      "Plataforma Moodle",
+      "Diseño Instruccional"
+    ],
+    "driveUrl": "https://drive.google.com/file/d/1_pMO9YDUSRiYU6iXX1AK-NhtcnkRPuL4/view",
+    "addedAt": "2026-10-10T23:29:36.972Z"
+  },
+  {
     "id": "cert-15-02-communitymanager",
     "docType": "CurEst",
     "fileName": "15-02-CurEst-CommunityManager.jpg",
