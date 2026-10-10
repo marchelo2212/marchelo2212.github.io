@@ -1,5 +1,31 @@
 [
   {
+    "id": "cert-26-06-moodlemootcol26",
+    "docType": "CurEst",
+    "fileName": "26-06-CurEst-MoodleMootCol26.pdf",
+    "shortName": "MoodleMootCol26",
+    "title": "Certificado de Participación - Moodle Moot Colombia 2026",
+    "role": "Participante",
+    "issuer": "Moodle Moot Colombia",
+    "year": 2026,
+    "yearShort": "26",
+    "month": "06",
+    "date": "2026",
+    "hours": 16,
+    "modality": "Presencial",
+    "credentialId": "DF91377FA002",
+    "verificationUrl": null,
+    "cluster": "tecnopedagogia",
+    "skills": [
+      "Educación Digital",
+      "Tecnologías Moodle",
+      "Aprendizaje Colaborativo",
+      "Innovación Educativa"
+    ],
+    "driveUrl": "https://drive.google.com/file/d/1Jcf4TV2uDNY0Z7h0T8bMPfdxFvp3RxhW/view",
+    "addedAt": "2026-10-10T21:39:43.934Z"
+  },
+  {
     "id": "cert-26-06-dvvglobale",
     "docType": "Inves",
     "fileName": "26-06-Inves-DVVGlobALE.pdf",
