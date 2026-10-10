@@ -1,5 +1,30 @@
 [
   {
+    "id": "cert-21-11-praticassaludable",
+    "docType": "CurEst",
+    "fileName": "21-11-CurEst-PraticasSaludable.pdf",
+    "shortName": "PraticasSaludable",
+    "title": "Prácticas de Vida Saludable",
+    "role": "Participante",
+    "issuer": "Ministerio de Salud Pública",
+    "year": 2021,
+    "yearShort": "21",
+    "month": "11",
+    "date": "2021-11-30",
+    "hours": 14,
+    "modality": "Virtual",
+    "credentialId": null,
+    "verificationUrl": null,
+    "cluster": "politicas_direccion",
+    "skills": [
+      "Hábitos Saludables",
+      "Bienestar",
+      "Prevención"
+    ],
+    "driveUrl": "https://drive.google.com/file/d/1R8tBBIvmlOAKZg6gALNLhM-BFGWdOSS9/view",
+    "addedAt": "2026-10-10T22:27:14.438Z"
+  },
+  {
     "id": "cert-21-11-gerenciapublica",
     "docType": "CurEst",
     "fileName": "21-11-CurEst-GerenciaPublica.pdf",
