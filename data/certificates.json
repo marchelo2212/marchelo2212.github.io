@@ -1,5 +1,30 @@
 [
   {
+    "id": "cert-15-10-creacionblogsweb",
+    "docType": "CurEst",
+    "fileName": "15-10-CurEst-CreacionBlogsWeb.jpg",
+    "shortName": "CreacionBlogsWeb",
+    "title": "Creación de blogs y sitios web",
+    "role": "Participante",
+    "issuer": "PLANETA FATLA",
+    "year": 2015,
+    "yearShort": "15",
+    "month": "10",
+    "date": "2015-10-01",
+    "hours": 150,
+    "modality": "Virtual",
+    "credentialId": "FATLA-EMD-RDO",
+    "verificationUrl": "www.fatla.org",
+    "cluster": "tecnopedagogia",
+    "skills": [
+      "Estructura y administración web",
+      "Hosting y dominios",
+      "Creación de sitios web"
+    ],
+    "driveUrl": "https://drive.google.com/file/d/1Xk3bVuSn76XHKScggGixEovi2gDeKuIO/view",
+    "addedAt": "2026-10-10T23:35:07.085Z"
+  },
+  {
     "id": "cert-15-08-tecnoeducacion",
     "docType": "CurEst",
     "fileName": "15-08-CurEst-TecnoEducacion.jpg",
