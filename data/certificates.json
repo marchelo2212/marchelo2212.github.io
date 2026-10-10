@@ -1,5 +1,31 @@
 [
   {
+    "id": "cert-15-05-alcanceacademico",
+    "docType": "Cert",
+    "fileName": "15-05-Cert-AlcanceAcademico.jpg",
+    "shortName": "AlcanceAcademico",
+    "title": "Alcance Académico y Estándares Internacionales",
+    "role": "Participante",
+    "issuer": "Planeta Fatla",
+    "year": 2015,
+    "yearShort": "15",
+    "month": "05",
+    "date": "2015-05-31",
+    "hours": 124,
+    "modality": "Virtual",
+    "credentialId": "FATLA-EEV-MPA",
+    "verificationUrl": "www.fatla.org",
+    "cluster": "tecnopedagogia",
+    "skills": [
+      "Estándares Internacionales",
+      "Metodología PACIE",
+      "Educación Virtual",
+      "Alcance Académico"
+    ],
+    "driveUrl": "https://drive.google.com/file/d/1PwM4moNSwPiOdQTwlhD-wy0SCnaVdEEC/view",
+    "addedAt": "2026-10-10T23:29:54.997Z"
+  },
+  {
     "id": "cert-15-02-entornosvirtuales",
     "docType": "Cert",
     "fileName": "15-02-Cert-EntornosVirtuales.jpg",
