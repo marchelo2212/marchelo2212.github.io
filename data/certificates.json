@@ -1,5 +1,30 @@
 [
   {
+    "id": "cert-17-12-moodlecert",
+    "docType": "Cert",
+    "fileName": "17-12-Cert-MoodleCert.jpg",
+    "shortName": "MoodleCert",
+    "title": "Moodle Course Creator Certification",
+    "role": "Participante",
+    "issuer": "Edu Labs SAS",
+    "year": 2017,
+    "yearShort": "17",
+    "month": "12",
+    "date": "2017-12-07",
+    "hours": null,
+    "modality": "Virtual",
+    "credentialId": "G7AN-SDZW-KA1B-NHFN",
+    "verificationUrl": "http://certificates.moodle.com",
+    "cluster": "tecnopedagogia",
+    "skills": [
+      "Moodle",
+      "Diseño Instruccional",
+      "Gestión de Cursos Virtuales"
+    ],
+    "driveUrl": "https://drive.google.com/file/d/1zVQQ0JeO_xbLLCI3f15Abn6qd--5mXB0/view",
+    "addedAt": "2026-10-10T23:30:32.883Z"
+  },
+  {
     "id": "cert-23-03-fortinetnse1",
     "docType": "Cert",
     "fileName": "23-03-Cert-FortinetNSE1.jpg",
