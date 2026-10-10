@@ -1,5 +1,30 @@
 [
   {
+    "id": "cert-21-05-emocionaprender",
+    "docType": "CurEst",
+    "fileName": "21-05-CurEst-EmocionAprender.pdf",
+    "shortName": "EmocionAprender",
+    "title": "¿Cómo despertar la emoción por aprender?",
+    "role": "Participante",
+    "issuer": "Fundación Telefónica y ChildFund Ecuador",
+    "year": 2021,
+    "yearShort": "21",
+    "month": "05",
+    "date": "2021-05-27",
+    "hours": null,
+    "modality": "Virtual",
+    "credentialId": null,
+    "verificationUrl": null,
+    "cluster": "tecnopedagogia",
+    "skills": [
+      "Neuroeducación",
+      "Emoción y Aprendizaje",
+      "Tecnopedagogía"
+    ],
+    "driveUrl": "https://drive.google.com/file/d/1ShusFs0vlg2VxthVG9KCzus7t1EkHwUm/view",
+    "addedAt": "2026-10-10T22:18:24.202Z"
+  },
+  {
     "id": "cert-21-05-excel365beginner",
     "docType": "CurEst",
     "fileName": "21-05-CurEst-Excel365Beginner.pdf",
