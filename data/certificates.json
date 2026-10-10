@@ -1,5 +1,30 @@
 [
   {
+    "id": "cert-18-01-generacionnegocio",
+    "docType": "CurEst",
+    "fileName": "18-01-CurEst-GeneracionNegocio.jpg",
+    "shortName": "GeneracionNegocio",
+    "title": "Generación y maduración de ideas de negocio",
+    "role": "Participante",
+    "issuer": "Universitat Oberta de Catalunya (UOC)",
+    "year": 2018,
+    "yearShort": "18",
+    "month": "01",
+    "date": "2018-01",
+    "hours": 45,
+    "modality": "Virtual",
+    "credentialId": null,
+    "verificationUrl": null,
+    "cluster": "politicas_direccion",
+    "skills": [
+      "Start-up",
+      "Evaluación de mercado",
+      "Validación comercial"
+    ],
+    "driveUrl": "https://drive.google.com/file/d/1e5shnM2Pswns_Ylc8s20XMDbsuCRFZry/view",
+    "addedAt": "2026-10-10T23:33:17.792Z"
+  },
+  {
     "id": "cert-17-12-ponenciascratch",
     "docType": "Inves",
     "fileName": "17-12-Inves-PonenciaScratch.jpg",
