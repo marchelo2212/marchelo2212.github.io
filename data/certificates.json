@@ -1,5 +1,30 @@
 [
   {
+    "id": "cert-21-07-riesgobiologico",
+    "docType": "CurEst",
+    "fileName": "21-07-CurEst-RiesgoBiologico.pdf",
+    "shortName": "RiesgoBiologico",
+    "title": "FACTOR DE RIESGO BIOLÓGICO CHILDFUND INTERNATIONAL",
+    "role": "Participante",
+    "issuer": "SERILAN / ChildFund International",
+    "year": 2021,
+    "yearShort": "21",
+    "month": "07",
+    "date": "2021-07-19",
+    "hours": 2,
+    "modality": "Virtual",
+    "credentialId": null,
+    "verificationUrl": null,
+    "cluster": "politicas_direccion",
+    "skills": [
+      "Seguridad y Salud Ocupacional",
+      "Factor de Riesgo Biológico",
+      "Normativa Preventiva"
+    ],
+    "driveUrl": "https://drive.google.com/file/d/1bwwEkN6YL_5reVFE8N90gBPzOPHTionU/view",
+    "addedAt": "2026-10-10T22:18:33.086Z"
+  },
+  {
     "id": "cert-21-05-emocionaprender",
     "docType": "CurEst",
     "fileName": "21-05-CurEst-EmocionAprender.pdf",
