@@ -1,5 +1,30 @@
 [
   {
+    "id": "cert-18-01-seguridadticinfancia",
+    "docType": "CurEst",
+    "fileName": "18-01-CurEst-SeguridadTICInfancia.jpg",
+    "shortName": "SeguridadTICInfancia",
+    "title": "Certificat de formació en Seguretat a la Xarxa: La Seguretat TIC en la Infància",
+    "role": "Participante",
+    "issuer": "Universitat Oberta de Catalunya",
+    "year": 2018,
+    "yearShort": "18",
+    "month": "01",
+    "date": "2018-01-22",
+    "hours": 25,
+    "modality": "Virtual",
+    "credentialId": null,
+    "verificationUrl": null,
+    "cluster": "tecnopedagogia",
+    "skills": [
+      "Seguridad TIC",
+      "Protección Infantil en Redes",
+      "Ciberseguridad Educativa"
+    ],
+    "driveUrl": "https://drive.google.com/file/d/1okEps1LqT8WAZjFhnPKvGLWeGq25xx_7/view",
+    "addedAt": "2026-10-10T23:32:26.741Z"
+  },
+  {
     "id": "cert-24-10-capacitacioninvest",
     "docType": "CurEst",
     "fileName": "24-10-CurEst-CapacitacionInvest.jpg",
