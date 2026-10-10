@@ -1,5 +1,31 @@
 [
   {
+    "id": "cert-20-12-facilitacionunae",
+    "docType": "CursImp",
+    "fileName": "20-12-CursImp-FacilitacionUNAE.jpg",
+    "shortName": "FacilitacionUNAE",
+    "title": "DOCENCIA PARA ENTORNOS VIRTUALES: APORTES PARA SU DESARROLLO SINCRÓNICO Y ASINCRÓNICO",
+    "role": "Docente / Facilitador",
+    "issuer": "Universidad Nacional de Educación (UNAE)",
+    "year": 2020,
+    "yearShort": "20",
+    "month": "12",
+    "date": "2020-12-30",
+    "hours": 40,
+    "modality": "Virtual",
+    "credentialId": null,
+    "verificationUrl": null,
+    "cluster": "tecnopedagogia",
+    "skills": [
+      "Tecnopedagogía",
+      "Educación Virtual",
+      "Entornos Sincrónicos y Asincrónicos",
+      "Docencia Universitaria"
+    ],
+    "driveUrl": "https://drive.google.com/file/d/1UtJfxr1iCyaBofR5-F8IpdjNw3EILPhI/view",
+    "addedAt": "2026-10-10T23:38:36.384Z"
+  },
+  {
     "id": "cert-13-12-hourofcode",
     "docType": "CurEst",
     "fileName": "13-12-CurEst-HourOfCode.jpg",
