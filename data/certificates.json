@@ -1,5 +1,30 @@
 [
   {
+    "id": "cert-20-07-formacionconsultoruoc",
+    "docType": "CurEst",
+    "fileName": "20-07-CurEst-FormacionConsultorUOC.jpg",
+    "shortName": "FormacionConsultorUOC",
+    "title": "Certificat del curs de formació bàsica per al consultor (professorat col·laborador) - Endinsa't a la UOC",
+    "role": "Participante",
+    "issuer": "Universitat Oberta de Catalunya",
+    "year": 2020,
+    "yearShort": "20",
+    "month": "07",
+    "date": "2020-10-14",
+    "hours": 25,
+    "modality": "Virtual",
+    "credentialId": null,
+    "verificationUrl": null,
+    "cluster": "tecnopedagogia",
+    "skills": [
+      "Diseño instruccional",
+      "Docencia virtual",
+      "Acompañamiento académico"
+    ],
+    "driveUrl": "https://drive.google.com/file/d/1AYsMm4yr07JVjLXQT-fBEKX490zljCSv/view",
+    "addedAt": "2026-10-10T23:38:46.622Z"
+  },
+  {
     "id": "cert-20-12-facilitacionunae",
     "docType": "CursImp",
     "fileName": "20-12-CursImp-FacilitacionUNAE.jpg",
