@@ -758,13 +758,26 @@
         </div>
       </div>
 
-      <!-- Distinciones y Certificaciones -->
+      <!-- Distinciones, Certificaciones y Méritos -->
       <div>
         <div class="font-mono text-xs text-amber-400 uppercase tracking-widest flex items-center gap-2 mb-2">
           <span>§ 07</span>
-          <span>DISTINCTIONS & CERTIFICATES</span>
+          <span>CREDENTIALS & MERITS</span>
         </div>
-        <h3 class="font-serif text-2xl font-medium text-white mb-4">Distinciones y Certificaciones</h3>
+        <div class="flex items-center justify-between gap-2 flex-wrap mb-3">
+          <h3 class="font-serif text-2xl font-medium text-white">Méritos, Certificaciones & Arbitraje</h3>
+        </div>
+
+        <!-- Filtros interactivos por tipo de documento -->
+        <div class="flex items-center gap-1 flex-wrap mb-4 font-mono text-[10px]" id="cert-filter-bar">
+          <button class="cert-filter-btn px-2.5 py-1 rounded-lg bg-amber-500/20 text-amber-300 border border-amber-500/30 transition font-medium" data-type="all">Todos</button>
+          <button class="cert-filter-btn px-2.5 py-1 rounded-lg bg-white/[0.04] text-slate-400 hover:text-white border border-white/[0.06] transition" data-type="Meri">Méritos</button>
+          <button class="cert-filter-btn px-2.5 py-1 rounded-lg bg-white/[0.04] text-slate-400 hover:text-white border border-white/[0.06] transition" data-type="Inves">Investigación</button>
+          <button class="cert-filter-btn px-2.5 py-1 rounded-lg bg-white/[0.04] text-slate-400 hover:text-white border border-white/[0.06] transition" data-type="Cert">Certificaciones</button>
+          <button class="cert-filter-btn px-2.5 py-1 rounded-lg bg-white/[0.04] text-slate-400 hover:text-white border border-white/[0.06] transition" data-type="CurEst">Cursos Estudiados</button>
+          <button class="cert-filter-btn px-2.5 py-1 rounded-lg bg-white/[0.04] text-slate-400 hover:text-white border border-white/[0.06] transition" data-type="CursImp">Cursos Impartidos</button>
+        </div>
+
         <div id="certificates-list" class="space-y-3 font-sans text-xs">
           <!-- Inyectado dinámicamente desde data.json -->
         </div>

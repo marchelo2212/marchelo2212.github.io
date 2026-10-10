@@ -347,11 +347,16 @@ def parse_certifications(section_text: str, json_path: Path):
             if title:
                 items.append({
                     "id": f"cert-tex-{year}-{len(items)}",
+                    "docType": "Cert",
+                    "fileName": "",
+                    "shortName": "",
+                    "role": "Participante",
                     "title": title,
                     "issuer": issuer,
-                    "year": year,
+                    "year": str(year),
                     "date": str(year) if year else "",
                     "hours": None,
+                    "modality": "",
                     "credentialId": reg or None,
                     "verificationUrl": url if "drive.google.com" not in url else None,
                     "driveUrl": url if "drive.google.com" in url else None,
@@ -370,6 +375,14 @@ def parse_certifications(section_text: str, json_path: Path):
                 # Buscar si ya existe para enriquecer
                 matched = next((item for item in items if norm_key in re.sub(r'\W+', '', item["title"].lower()) or re.sub(r'\W+', '', item["title"].lower()) in norm_key), None)
                 if matched:
+                    if dc.get("docType"):
+                        matched["docType"] = dc["docType"]
+                    if dc.get("fileName"):
+                        matched["fileName"] = dc["fileName"]
+                    if dc.get("shortName"):
+                        matched["shortName"] = dc["shortName"]
+                    if dc.get("role"):
+                        matched["role"] = dc["role"]
                     if dc.get("driveUrl"):
                         matched["driveUrl"] = dc["driveUrl"]
                     if dc.get("skills"):
@@ -378,6 +391,8 @@ def parse_certifications(section_text: str, json_path: Path):
                         matched["cluster"] = dc["cluster"]
                     if dc.get("hours"):
                         matched["hours"] = dc["hours"]
+                    if dc.get("modality"):
+                        matched["modality"] = dc["modality"]
                     if dc.get("credentialId"):
                         matched["credentialId"] = dc["credentialId"]
                     if dc.get("date"):
@@ -389,11 +404,18 @@ def parse_certifications(section_text: str, json_path: Path):
                 else:
                     items.append({
                         "id": dc.get("id", f"cert-{len(items)}"),
+                        "docType": dc.get("docType", "Cert"),
+                        "fileName": dc.get("fileName", ""),
+                        "shortName": dc.get("shortName", ""),
+                        "role": dc.get("role", ""),
                         "title": title,
                         "issuer": clean_latex(dc.get("issuer", "")),
                         "year": str(dc.get("year", "")),
+                        "yearShort": str(dc.get("yearShort", "")),
+                        "month": str(dc.get("month", "")),
                         "date": dc.get("date", ""),
                         "hours": dc.get("hours"),
+                        "modality": dc.get("modality", ""),
                         "credentialId": dc.get("credentialId"),
                         "verificationUrl": dc.get("verificationUrl"),
                         "driveUrl": dc.get("driveUrl"),
