@@ -1,5 +1,30 @@
 [
   {
+    "id": "cert-21-06-datosabiertosecuador",
+    "docType": "CurEst",
+    "fileName": "21-06-CurEst-DatosAbiertosEcuador.pdf",
+    "shortName": "DatosAbiertosEcuador",
+    "title": "INTRODUCCIÓN A LOS DATOS ABIERTOS EN ECUADOR",
+    "role": "Participante",
+    "issuer": "Datalat, Red Ecuatoriana de Datos Abiertos y Metadatos (REDAM) e Innovación para el Cambio Hub Latinoamérica",
+    "year": 2021,
+    "yearShort": "21",
+    "month": "06",
+    "date": "2021-06-25",
+    "hours": 25,
+    "modality": "Virtual",
+    "credentialId": null,
+    "verificationUrl": null,
+    "cluster": "politicas_direccion",
+    "skills": [
+      "Datos Abiertos",
+      "Transparencia",
+      "Metadatos"
+    ],
+    "driveUrl": "https://drive.google.com/file/d/1lRm4vQX0PRh5YFKGv8Xp25NnAAwjbVOw/view",
+    "addedAt": "2026-10-10T22:18:58.908Z"
+  },
+  {
     "id": "cert-21-04-commremoteteams",
     "docType": "CurEst",
     "fileName": "21-04-CurEst-CommRemoteTeams.pdf",
