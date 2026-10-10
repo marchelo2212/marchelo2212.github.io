@@ -1,5 +1,30 @@
 [
   {
+    "id": "cert-21-06-bienestarsocioem",
+    "docType": "CurEst",
+    "fileName": "21-06-CurEst-BienestarSocioem.pdf",
+    "shortName": "BienestarSocioem",
+    "title": "El bienestar socio-emocional en el proceso de aprendizaje que forma parte del ciclo de webinars: El estudiante: una combinación única de capacidades",
+    "role": "Participante",
+    "issuer": "Fundación Telefónica / ChildFund Ecuador",
+    "year": 2021,
+    "yearShort": "21",
+    "month": "06",
+    "date": "2021-06-10",
+    "hours": null,
+    "modality": "Virtual",
+    "credentialId": null,
+    "verificationUrl": null,
+    "cluster": "tecnopedagogia",
+    "skills": [
+      "Bienestar Socioemocional",
+      "Pedagogía",
+      "Desarrollo Estudiantil"
+    ],
+    "driveUrl": "https://drive.google.com/file/d/1zczayzPU4Ko8OLeMidqF_ZfIFajr6GyI/view",
+    "addedAt": "2026-10-10T22:19:24.724Z"
+  },
+  {
     "id": "cert-21-08-riesgoergonomico",
     "docType": "CurEst",
     "fileName": "21-08-CurEst-RiesgoErgonomico.pdf",
