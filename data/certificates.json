@@ -1,5 +1,31 @@
 [
   {
+    "id": "cert-21-12-gamificaciontic",
+    "docType": "CurEst",
+    "fileName": "21-12-CurEst-GamificacionTIC.pdf",
+    "shortName": "GamificacionTIC",
+    "title": "JUEGOS, GAMIFICACIÓN Y TIC",
+    "role": "Participante",
+    "issuer": "Universidad Antonio de Nebrija",
+    "year": 2021,
+    "yearShort": "21",
+    "month": "12",
+    "date": "2021-12-09",
+    "hours": 100,
+    "modality": "Virtual",
+    "credentialId": "I 01719920041",
+    "verificationUrl": null,
+    "cluster": "tecnopedagogia",
+    "skills": [
+      "Gamificación",
+      "Game Based Learning",
+      "Diseño Instruccional",
+      "TIC Educativas"
+    ],
+    "driveUrl": "https://drive.google.com/file/d/1_P8DHh2HPl9yvCicGIIM4zd3VIJytI8e/view",
+    "addedAt": "2026-10-10T22:27:32.685Z"
+  },
+  {
     "id": "cert-22-02-certsercop",
     "docType": "Cert",
     "fileName": "22-02-Cert-CertSercop.pdf",
