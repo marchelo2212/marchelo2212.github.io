@@ -1,5 +1,30 @@
 [
   {
+    "id": "cert-15-08-interaccionmovil",
+    "docType": "CurEst",
+    "fileName": "15-08-CurEst-InteraccionMovil.jpg",
+    "shortName": "InteraccionMovil",
+    "title": "Interacción digital y redes móviles",
+    "role": "Participante",
+    "issuer": "Planeta FATLA",
+    "year": 2015,
+    "yearShort": "15",
+    "month": "08",
+    "date": "2015-08-03",
+    "hours": 124,
+    "modality": "Virtual",
+    "credentialId": null,
+    "verificationUrl": null,
+    "cluster": "tecnopedagogia",
+    "skills": [
+      "Marcadores sociales en la web",
+      "Telepresencia",
+      "Mlearning y tecnología móvil"
+    ],
+    "driveUrl": "https://drive.google.com/file/d/1plbtThR8W_ZX9msi8T4XF7usPxeyozs6/view",
+    "addedAt": "2026-10-10T23:34:40.682Z"
+  },
+  {
     "id": "cert-16-12-libreofficecec",
     "docType": "CurEst",
     "fileName": "16-12-CurEst-LibreOfficeCEC.jpg",
