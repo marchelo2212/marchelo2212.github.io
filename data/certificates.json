@@ -1,5 +1,30 @@
 [
   {
+    "id": "cert-20-10-qaheducationmaster",
+    "docType": "Cert",
+    "fileName": "20-10-Cert-QAHEducationMaster.jpg",
+    "shortName": "QAHEducationMaster",
+    "title": "Master’s Degree in Quality Management and Evaluation in Higher Education",
+    "role": "Participante",
+    "issuer": "Universitat Oberta de Catalunya (UOC) & INQAAHE",
+    "year": 2020,
+    "yearShort": "20",
+    "month": "10",
+    "date": "2020-10-29",
+    "hours": null,
+    "modality": "Virtual",
+    "credentialId": null,
+    "verificationUrl": null,
+    "cluster": "politicas_direccion",
+    "skills": [
+      "Quality Management",
+      "Higher Education Evaluation",
+      "QA Graduate Program"
+    ],
+    "driveUrl": "https://drive.google.com/file/d/1qOj3cDq6SMxMUnSonnhFuYSqe_rcIKa7/view",
+    "addedAt": "2026-10-10T23:42:59.025Z"
+  },
+  {
     "id": "cert-18-06-accesibilidadfisica",
     "docType": "CurEst",
     "fileName": "18-06-CurEst-AccesibilidadFisica.jpg",
