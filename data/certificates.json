@@ -1,5 +1,30 @@
 [
   {
+    "id": "cert-22-11-mobilelearningugr",
+    "docType": "CurEst",
+    "fileName": "22-11-CurEst-MobileLearningUGR.pdf",
+    "shortName": "MobileLearningUGR",
+    "title": "Mobile learning: claves para la aplicación de los dispositivos móviles en el aula. 1ª Edición",
+    "role": "Participante",
+    "issuer": "Universidad de Granada",
+    "year": 2022,
+    "yearShort": "22",
+    "month": "11",
+    "date": "2022-11-07",
+    "hours": 75,
+    "modality": "Virtual",
+    "credentialId": "9A5BC43AD26B22C7B6D939F76CCC6FD3",
+    "verificationUrl": "https://sede.ugr.es/verifirma/",
+    "cluster": "tecnopedagogia",
+    "skills": [
+      "Mobile Learning",
+      "Gamificación educativa",
+      "Realidad aumentada"
+    ],
+    "driveUrl": "https://drive.google.com/file/d/16C9EPOovghCqMa7ts5AH2-VW64z1vzsO/view",
+    "addedAt": "2026-10-10T22:29:59.846Z"
+  },
+  {
     "id": "cert-25-06-delaideaalpaper",
     "docType": "CurEst",
     "fileName": "25-06-CurEst-DeLaIdeaAlPaper.pdf",
