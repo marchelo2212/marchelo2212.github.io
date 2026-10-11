@@ -1,5 +1,30 @@
 [
   {
+    "id": "cert-23-08-h5precursosdid",
+    "docType": "CurEst",
+    "fileName": "23-08-CurEst-H5PRecursosDid.pdf",
+    "shortName": "H5PRecursosDid",
+    "title": "Recursos didácticos usando contenido enriquecido en H5P",
+    "role": "Participante",
+    "issuer": "UNESCO IESALC",
+    "year": 2023,
+    "yearShort": "23",
+    "month": "08",
+    "date": "2023-08-27",
+    "hours": 2,
+    "modality": "Virtual",
+    "credentialId": "qtMkw9PK9l",
+    "verificationUrl": "https://campus.iesalc.unesco.org/inicio/mod/customcert/verify_certificate.php",
+    "cluster": "tecnopedagogia",
+    "skills": [
+      "H5P",
+      "Contenido Enriquecido",
+      "Recursos Didácticos"
+    ],
+    "driveUrl": "https://drive.google.com/file/d/1qPErSiQji3UJIC9XRGuY7XLsReQh5jM5/view",
+    "addedAt": "2026-10-11T04:21:10.106Z"
+  },
+  {
     "id": "cert-26-07-charlamagistralia",
     "docType": "Inves",
     "fileName": "26-07-Inves-CharlaMagistralIA.pdf",
