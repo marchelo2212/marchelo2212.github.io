@@ -1,5 +1,30 @@
 [
   {
+    "id": "cert-25-05-ponenciascratchday25",
+    "docType": "Inves",
+    "fileName": "25-05-Inves-PonenciaScratchDay25.pdf",
+    "shortName": "PonenciaScratchDay25",
+    "title": "Certificado de participación como ponente en el evento: Scratch Day Quito 2025",
+    "role": "Ponente",
+    "issuer": "Universidad Politécnica Salesiana de Quito, Ecuador, Openlab Ecuador, Fundación Telefónica Movistar, Universidad Indoamérica",
+    "year": 2025,
+    "yearShort": "25",
+    "month": "05",
+    "date": "2025-05-31",
+    "hours": null,
+    "modality": "Presencial",
+    "credentialId": null,
+    "verificationUrl": null,
+    "cluster": "tecnopedagogia",
+    "skills": [
+      "Programación Creativa",
+      "Pensamiento Computacional",
+      "Tecnopedagogía"
+    ],
+    "driveUrl": "https://drive.google.com/file/d/1qdDiBkH0ZsDpUSpKI2_eV7MQl2maBVhD/view",
+    "addedAt": "2026-10-11T04:22:35.745Z"
+  },
+  {
     "id": "cert-25-06-scratchday2025",
     "docType": "Inves",
     "fileName": "25-06-Inves-ScratchDay2025.pdf",
