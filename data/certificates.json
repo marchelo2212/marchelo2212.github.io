@@ -1,5 +1,30 @@
 [
   {
+    "id": "cert-21-08-becanebrijajuego",
+    "docType": "Meri",
+    "fileName": "21-08-Meri-BecaNebrijaJuego.pdf",
+    "shortName": "BecaNebrijaJuego",
+    "title": "Beca de 100% para el Curso en Juego, Gamificación y TIC como Herramienta para el Aprendizaje",
+    "role": "Galardonado",
+    "issuer": "Universidad Nebrija y Organización de Estados Iberoamericanos (OEI)",
+    "year": 2021,
+    "yearShort": "21",
+    "month": "08",
+    "date": "2021-08-03",
+    "hours": null,
+    "modality": "Virtual",
+    "credentialId": null,
+    "verificationUrl": null,
+    "cluster": "tecnopedagogia",
+    "skills": [
+      "Gamificación Educativa",
+      "TIC en el Aprendizaje",
+      "Diseño Instruccional"
+    ],
+    "driveUrl": "https://drive.google.com/file/d/1_ODqH1MFe3SGJuiHAN52fdx8ZoAf9z1a/view",
+    "addedAt": "2026-10-11T01:03:48.938Z"
+  },
+  {
     "id": "cert-20-11-curacioncontenidos",
     "docType": "Inves",
     "fileName": "20-11-Inves-CuracionContenidos.jpg",
