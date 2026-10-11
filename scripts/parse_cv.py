@@ -192,8 +192,12 @@ def extract_section_content(latex: str, section_title: str) -> str:
     start = match.end()
     next_match = re.search(r'\\section\{', latex[start:])
     if next_match:
-        return latex[start:start + next_match.start()]
-    return latex[start:]
+        content = latex[start:start + next_match.start()]
+    else:
+        content = latex[start:]
+    # Eliminar bloques comentados \begin{comment}...\end{comment}
+    content = re.sub(r'\\begin\{comment\}.*?\\end\{comment\}', '', content, flags=re.DOTALL)
+    return content
 
 def parse_work_experience(section_text: str):
     """Extrae experiencias de la tabla de Experiencia Profesional."""
@@ -284,6 +288,9 @@ def parse_education(section_text: str):
     for block in blocks:
         block = block.strip()
         if not block:
+            continue
+        # Omitir estudios en pausa o comentados
+        if 'Ingeniería Computacional' in block or 'Rovira i Virgili' in block:
             continue
         
         year_match = re.search(r'\\textsc\{(\d{4})\}', block)
@@ -485,6 +492,12 @@ def build_knowledge_graph(profile, projects, publications, digital_resources, gi
             "name": "Tecnopedagogía & Aprendizaje Digital",
             "color": "#10b981",
             "description": "Producción virtual e-learning a gran escala, LMS Moodle, diseño tecnopedagógico, pensamiento computacional y STEAM."
+        },
+        {
+            "id": "keywords",
+            "name": "Palabras Clave Transversales",
+            "color": "#f59e0b",
+            "description": "Descriptores y conceptos articuladores que enlazan transversalmente publicaciones, proyectos, docencia y código abierto."
         }
     ]
     
@@ -563,6 +576,121 @@ def build_knowledge_graph(profile, projects, publications, digital_resources, gi
     add_link("unesco_etica", "pensamiento_comp", "formación ciudadana y ética digital", value=2)
     add_link("docencia_posgrados", "diagnostico_cognitivo", "evaluación de competencias en aula", value=2)
     
+    # 4. Palabras Clave Transversales (Keywords)
+    transversal_keywords = [
+        {
+            "id": "kw_ia_ed",
+            "label": "IA en Educación",
+            "desc": "Inteligencia artificial aplicada al aprendizaje, feedback formativo, personalización y analítica cognitiva.",
+            "pillar": "deep_learning",
+            "terms": ["inteligencia artificial", "artificial intelligence", "ia", "ai", "educativa", "educación", "learning"]
+        },
+        {
+            "id": "kw_deep_learning",
+            "label": "Deep Learning & LLMs",
+            "desc": "Modelos generativos de lenguaje, transformadores, procesamiento de lenguaje natural y prompt engineering.",
+            "pillar": "deep_learning",
+            "terms": ["deep learning", "llm", "lenguaje", "nlp", "mitos", "asistentes", "generativa", "prompt"]
+        },
+        {
+            "id": "kw_neuro_simbolico",
+            "label": "Modelos Neuro-Simbólicos",
+            "desc": "Integración de arquitecturas conexionistas (redes neuronales) con ontologías y razonamiento lógico.",
+            "pillar": "neuro_simbolico",
+            "terms": ["neuro-simbólico", "neuro-simbolico", "neuro", "simbólico", "ontología", "ontologias", "semántico", "ialab"]
+        },
+        {
+            "id": "kw_diagnostico_cognitivo",
+            "label": "Diagnóstico Cognitivo & CDM",
+            "desc": "Modelos psicométricos computacionales (DINA/CDM) para evaluación de habilidades y matrices Q.",
+            "pillar": "diagnostico_cognitivo",
+            "terms": ["diagnóstico cognitivo", "diagnostico cognitivo", "cdm", "dina", "cognitivo", "psicométrico", "icetei"]
+        },
+        {
+            "id": "kw_learning_analytics",
+            "label": "Learning Analytics",
+            "desc": "Minería de datos educativos, analítica de interacción en entornos virtuales y predicción de desempeño.",
+            "pillar": "diagnostico_cognitivo",
+            "terms": ["learning analytics", "analítica", "analitica", "minería de datos", "data science", "métricas"]
+        },
+        {
+            "id": "kw_moodle_lms",
+            "label": "LMS Moodle a Escala",
+            "desc": "Arquitectura de plataformas LMS de alta concurrencia, plugins institucionales, SCORM y analítica.",
+            "pillar": "moodle_scale",
+            "terms": ["moodle", "lms", "plugins", "reactivos", "bancos de preguntas", "aula virtual"]
+        },
+        {
+            "id": "kw_tecnopedagogia",
+            "label": "Tecnopedagogía & E-Learning",
+            "desc": "Diseño instruccional tecnopedagógico, entornos virtuales, producción multimedia y docencia virtual.",
+            "pillar": "unisabana_pv",
+            "terms": ["tecnopedagogía", "tecnopedagogia", "e-learning", "elearning", "producción virtual", "produccion virtual", "diseño instruccional"]
+        },
+        {
+            "id": "kw_pensamiento_comp",
+            "label": "Pensamiento Computacional & STEAM",
+            "desc": "Didáctica de la programación con Scratch, robótica educativa sostenible y desarrollo lógico.",
+            "pillar": "pensamiento_comp",
+            "terms": ["pensamiento computacional", "scratch", "steam", "robótica", "robotica", "programación", "reciclados", "oei", "ciespal"]
+        },
+        {
+            "id": "kw_etica_gobernanza",
+            "label": "Ética y Gobernanza de la IA",
+            "desc": "Recomendaciones éticas sobre IA (UNESCO), gobernanza algorítmica y derechos digitales.",
+            "pillar": "unesco_etica",
+            "terms": ["ética", "etica", "gobernanza", "unesco", "recomendaciones", "responsable"]
+        },
+        {
+            "id": "kw_politicas_publicas",
+            "label": "Políticas Públicas & Transformación Digital",
+            "desc": "Cooperación multilateral internacional (BID, CEPAL, CAN) y agendas digitales de país en MINTEL.",
+            "pillar": "mintel_te",
+            "terms": ["políticas públicas", "politicas publicas", "bid", "cepal", "can", "mintel", "transformación digital", "agenda digital"]
+        },
+        {
+            "id": "kw_open_source",
+            "label": "Software Libre & Open Source",
+            "desc": "Comunidades de software libre (ASLE), repositorios abiertos en GitHub y recursos educativos abiertos.",
+            "pillar": "espiral_ceo",
+            "terms": ["software libre", "open source", "código abierto", "asle", "github", "linux"]
+        },
+        {
+            "id": "kw_pkm_jardin",
+            "label": "Gestión del Conocimiento (PKM)",
+            "desc": "Metodología de Segundo Cerebro Digital, Obsidian Vaults, publicación Quartz 4 y Telegram Sync.",
+            "pillar": "ontologias",
+            "terms": ["pkm", "obsidian", "quartz", "jardín digital", "jardin digital", "telegram", "segundo cerebro"]
+        },
+        {
+            "id": "kw_calidad_superior",
+            "label": "Calidad y Docencia Universitaria",
+            "desc": "Acreditación institucional, comités curriculares y docencia de posgrado internacional.",
+            "pillar": "docencia_posgrados",
+            "terms": ["calidad", "acreditación", "docencia", "posgrado", "universidad", "evaluación"]
+        }
+    ]
+    
+    for kw in transversal_keywords:
+        add_node(kw["id"], kw["label"], "keywords", "keyword", size=14, info=kw["desc"])
+        add_link("keywords", kw["id"], "palabra clave", value=2)
+        if kw.get("pillar"):
+            add_link(kw["pillar"], kw["id"], "concepto transversal", value=2)
+            
+    # Conectar Publicaciones al Knowledge Graph
+    for pub in (publications or []):
+        pub_id = f"pub_{pub.get('id', pub['title'][:15].lower().replace(' ', '_'))}"
+        p_title = pub.get('title', 'Publicación')
+        p_cluster = pub.get('cluster', 'ia_data_science')
+        add_node(pub_id, p_title[:28] + "...", p_cluster, "publication", size=14, info=f"Publicación: {p_title} ({pub.get('year', '')}) - {pub.get('publisher', '')}")
+        add_link(p_cluster, pub_id, "producción científica", value=2)
+        
+        # Conectar publicación con palabras clave coincidentes
+        hay = (p_title + " " + " ".join(pub.get('keywords', []))).lower()
+        for kw in transversal_keywords:
+            if any(term in hay for term in kw["terms"]):
+                add_link(kw["id"], pub_id, "temática clave", value=2)
+
     # Conectar Repositorios de GitHub destacados
     for repo in (github_repos or []):
         repo_id = f"repo_{repo['name']}"
@@ -579,6 +707,12 @@ def build_knowledge_graph(profile, projects, publications, digital_resources, gi
             add_link("ontologias", repo_id, "jardín digital Quartz", value=2)
         else:
             add_link(repo['cluster'], repo_id, "código abierto", value=1)
+            
+        # Conectar repo a palabras clave
+        hay = (repo.get('title', '') + " " + repo.get('description', '') + " " + " ".join(repo.get('tags', []))).lower()
+        for kw in transversal_keywords:
+            if any(term in hay for term in kw["terms"]):
+                add_link(kw["id"], repo_id, "tecnología", value=2)
 
     # Conectar notas y ensayos de investigación del Jardín Digital (Quartz)
     for post in (digital_garden_posts or []):
@@ -595,6 +729,11 @@ def build_knowledge_graph(profile, projects, publications, digital_resources, gi
             add_link("pensamiento_comp", post_id, "recurso STEAM", value=2)
         else:
             add_link(post['cluster'], post_id, "publicación digital", value=1)
+            
+        # Conectar post a palabras clave
+        for kw in transversal_keywords:
+            if any(term in t_low for term in kw["terms"]):
+                add_link(kw["id"], post_id, "ensayo temático", value=2)
 
     # Conectar certificaciones clave al Knowledge Graph
     for cert in (certifications or []):
@@ -603,16 +742,26 @@ def build_knowledge_graph(profile, projects, publications, digital_resources, gi
         cluster = cert.get("cluster", "tecnopedagogia")
         add_node(c_id, c_title[:26] + "...", cluster, "certification", size=13, info=f"Certificación: {c_title} ({cert.get('issuer', '')}, {cert.get('year', '')})")
         add_link(cluster, c_id, "credencial validada", value=2)
+        
+        # Conectar certificaciones a palabras clave
+        c_hay = (c_title + " " + cert.get('issuer', '') + " " + " ".join(cert.get('skills', []))).lower()
+        for kw in transversal_keywords:
+            if any(term in c_hay for term in kw["terms"]):
+                add_link(kw["id"], c_id, "evidencia empírica", value=2)
+
+    valid_links = [l for l in links if l["source"] in node_ids and l["target"] in node_ids]
 
     return {
         "clusters": clusters,
         "nodes": nodes,
-        "links": links
+        "links": valid_links
     }
 
 def main():
     print(f"[*] Parseando CV desde {CV_TEX_PATH}...")
     tex_content = CV_TEX_PATH.read_text(encoding='utf-8')
+    # Remover bloques comentados de raíz
+    tex_content = re.sub(r'\\begin\{comment\}.*?\\end\{comment\}', '', tex_content, flags=re.DOTALL)
     
     # 1. Metadatos de perfil
     profile = {

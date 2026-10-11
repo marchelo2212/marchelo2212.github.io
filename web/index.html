@@ -556,16 +556,19 @@
       <!-- Controles de Clusters y Zoom -->
       <div class="flex flex-wrap items-center gap-1.5 font-mono text-[11px] bg-surface-card p-1.5 rounded-xl border border-white/[0.08]">
         <button class="cluster-btn px-2.5 py-1 rounded-lg bg-white/[0.1] text-white font-medium transition" data-cluster="all">
-          Todos (37)
+          Todos
         </button>
         <button class="cluster-btn px-2.5 py-1 rounded-lg text-sky-400 hover:bg-sky-500/10 transition" data-cluster="ia_data_science">
-          ● IA & Data (14)
+          ● IA & Data
         </button>
         <button class="cluster-btn px-2.5 py-1 rounded-lg text-purple-400 hover:bg-purple-500/10 transition" data-cluster="politicas_direccion">
-          ● Políticas (7)
+          ● Políticas
         </button>
         <button class="cluster-btn px-2.5 py-1 rounded-lg text-emerald-400 hover:bg-emerald-500/10 transition" data-cluster="tecnopedagogia">
-          ● Tecnopedagogía (15)
+          ● Tecnopedagogía
+        </button>
+        <button class="cluster-btn px-2.5 py-1 rounded-lg text-amber-400 hover:bg-amber-500/10 transition" data-cluster="keywords">
+          ★ Palabras Clave
         </button>
         
         <div class="h-4 w-px bg-white/[0.1] mx-1"></div>
@@ -651,8 +654,8 @@
       </div>
     </div>
 
-    <!-- Contenido del Timeline -->
-    <div id="timeline-content" class="space-y-4">
+    <!-- Contenido del Timeline (6 items visibles con scroll) -->
+    <div id="timeline-content" class="space-y-4 max-h-[640px] overflow-y-auto pr-2">
       <!-- Inyectado dinámicamente -->
     </div>
   </section>
@@ -695,8 +698,8 @@
       </div>
     </div>
 
-    <!-- Grid de Publicaciones -->
-    <div id="publications-grid" class="grid grid-cols-1 md:grid-cols-2 gap-4">
+    <!-- Grid de Publicaciones (2 columnas de 3 = 6 items visibles con scroll) -->
+    <div id="publications-grid" class="grid grid-cols-1 md:grid-cols-2 gap-4 max-h-[680px] overflow-y-auto pr-2">
       <!-- Inyectado dinámicamente -->
     </div>
   </section>
@@ -735,7 +738,8 @@
       </button>
     </div>
 
-    <div id="projects-grid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+    <!-- Grid de Proyectos (3 columnas de 2 = 6 items visibles con scroll) -->
+    <div id="projects-grid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 max-h-[580px] overflow-y-auto pr-2">
       <!-- Inyectado dinámicamente -->
     </div>
   </section>
@@ -753,7 +757,7 @@
           <span>ACADEMIC CREDENTIALS</span>
         </div>
         <h3 class="font-serif text-2xl font-medium text-white mb-4">Educación Universitaria</h3>
-        <div id="education-list" class="space-y-3 font-sans">
+        <div id="education-list" class="space-y-3 font-sans max-h-[580px] overflow-y-auto pr-2">
           <!-- Inyectado dinámicamente -->
         </div>
       </div>
@@ -784,7 +788,8 @@
           </div>
         </div>
 
-        <div id="certificates-list" class="space-y-3 font-sans text-xs">
+        <!-- Grid de Certificaciones (2 columnas de 3 = 6 items visibles con scroll) -->
+        <div id="certificates-list" class="grid grid-cols-1 sm:grid-cols-2 gap-3 font-sans text-xs max-h-[580px] overflow-y-auto pr-2">
           <!-- Inyectado dinámicamente desde data.json -->
         </div>
       </div>

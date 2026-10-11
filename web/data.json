@@ -126,6 +126,12 @@
         "name": "Tecnopedagogía & Aprendizaje Digital",
         "color": "#10b981",
         "description": "Producción virtual e-learning a gran escala, LMS Moodle, diseño tecnopedagógico, pensamiento computacional y STEAM."
+      },
+      {
+        "id": "keywords",
+        "name": "Palabras Clave Transversales",
+        "color": "#f59e0b",
+        "description": "Descriptores y conceptos articuladores que enlazan transversalmente publicaciones, proyectos, docencia y código abierto."
       }
     ],
     "nodes": [
@@ -160,6 +166,14 @@
         "type": "cluster_root",
         "size": 24,
         "info": "Producción virtual e-learning a gran escala, LMS Moodle, diseño tecnopedagógico, pensamiento computacional y STEAM."
+      },
+      {
+        "id": "keywords",
+        "label": "Palabras Clave Transversales",
+        "cluster": "keywords",
+        "type": "cluster_root",
+        "size": 24,
+        "info": "Descriptores y conceptos articuladores que enlazan transversalmente publicaciones, proyectos, docencia y código abierto."
       },
       {
         "id": "diagnostico_cognitivo",
@@ -280,6 +294,214 @@
         "type": "pillar",
         "size": 18,
         "info": "Modelos tecnopedagógicos y SGIC"
+      },
+      {
+        "id": "kw_ia_ed",
+        "label": "IA en Educación",
+        "cluster": "keywords",
+        "type": "keyword",
+        "size": 14,
+        "info": "Inteligencia artificial aplicada al aprendizaje, feedback formativo, personalización y analítica cognitiva."
+      },
+      {
+        "id": "kw_deep_learning",
+        "label": "Deep Learning & LLMs",
+        "cluster": "keywords",
+        "type": "keyword",
+        "size": 14,
+        "info": "Modelos generativos de lenguaje, transformadores, procesamiento de lenguaje natural y prompt engineering."
+      },
+      {
+        "id": "kw_neuro_simbolico",
+        "label": "Modelos Neuro-Simbólicos",
+        "cluster": "keywords",
+        "type": "keyword",
+        "size": 14,
+        "info": "Integración de arquitecturas conexionistas (redes neuronales) con ontologías y razonamiento lógico."
+      },
+      {
+        "id": "kw_diagnostico_cognitivo",
+        "label": "Diagnóstico Cognitivo & CDM",
+        "cluster": "keywords",
+        "type": "keyword",
+        "size": 14,
+        "info": "Modelos psicométricos computacionales (DINA/CDM) para evaluación de habilidades y matrices Q."
+      },
+      {
+        "id": "kw_learning_analytics",
+        "label": "Learning Analytics",
+        "cluster": "keywords",
+        "type": "keyword",
+        "size": 14,
+        "info": "Minería de datos educativos, analítica de interacción en entornos virtuales y predicción de desempeño."
+      },
+      {
+        "id": "kw_moodle_lms",
+        "label": "LMS Moodle a Escala",
+        "cluster": "keywords",
+        "type": "keyword",
+        "size": 14,
+        "info": "Arquitectura de plataformas LMS de alta concurrencia, plugins institucionales, SCORM y analítica."
+      },
+      {
+        "id": "kw_tecnopedagogia",
+        "label": "Tecnopedagogía & E-Learning",
+        "cluster": "keywords",
+        "type": "keyword",
+        "size": 14,
+        "info": "Diseño instruccional tecnopedagógico, entornos virtuales, producción multimedia y docencia virtual."
+      },
+      {
+        "id": "kw_pensamiento_comp",
+        "label": "Pensamiento Computacional & STEAM",
+        "cluster": "keywords",
+        "type": "keyword",
+        "size": 14,
+        "info": "Didáctica de la programación con Scratch, robótica educativa sostenible y desarrollo lógico."
+      },
+      {
+        "id": "kw_etica_gobernanza",
+        "label": "Ética y Gobernanza de la IA",
+        "cluster": "keywords",
+        "type": "keyword",
+        "size": 14,
+        "info": "Recomendaciones éticas sobre IA (UNESCO), gobernanza algorítmica y derechos digitales."
+      },
+      {
+        "id": "kw_politicas_publicas",
+        "label": "Políticas Públicas & Transformación Digital",
+        "cluster": "keywords",
+        "type": "keyword",
+        "size": 14,
+        "info": "Cooperación multilateral internacional (BID, CEPAL, CAN) y agendas digitales de país en MINTEL."
+      },
+      {
+        "id": "kw_open_source",
+        "label": "Software Libre & Open Source",
+        "cluster": "keywords",
+        "type": "keyword",
+        "size": 14,
+        "info": "Comunidades de software libre (ASLE), repositorios abiertos en GitHub y recursos educativos abiertos."
+      },
+      {
+        "id": "kw_pkm_jardin",
+        "label": "Gestión del Conocimiento (PKM)",
+        "cluster": "keywords",
+        "type": "keyword",
+        "size": 14,
+        "info": "Metodología de Segundo Cerebro Digital, Obsidian Vaults, publicación Quartz 4 y Telegram Sync."
+      },
+      {
+        "id": "kw_calidad_superior",
+        "label": "Calidad y Docencia Universitaria",
+        "cluster": "keywords",
+        "type": "keyword",
+        "size": 14,
+        "info": "Acreditación institucional, comités curriculares y docencia de posgrado internacional."
+      },
+      {
+        "id": "pub_paz-ojedaAdvancedCustomerSegmentation2026",
+        "label": "Advanced Customer Segmentati...",
+        "cluster": "ia_data_science",
+        "type": "publication",
+        "size": 14,
+        "info": "Publicación: Advanced Customer Segmentation in the Natural Supplements Industry to Enhance Marketing Strategies Using Big Data Tools (2026) - Springer Nature Switzerland"
+      },
+      {
+        "id": "pub_sotaminga-cinilinStudentPerceptionsAIBased2026",
+        "label": "Student Perceptions of an AI...",
+        "cluster": "ia_data_science",
+        "type": "publication",
+        "size": 14,
+        "info": "Publicación: Student Perceptions of an AI-Based Assistant for Formative Feedback in Higher Education (2026) - Springer Nature Switzerland"
+      },
+      {
+        "id": "pub_sotaminga-cinilinTechnologicalMigrationSoftware2026",
+        "label": "Technological Migration and ...",
+        "cluster": "ia_data_science",
+        "type": "publication",
+        "size": 14,
+        "info": "Publicación: Technological Migration and Software Optimization for Measuring Entrepreneurship Maturity (2026) - Springer Nature Switzerland"
+      },
+      {
+        "id": "pub_paredes-ulloaCompetenciasDigitalesDocentes2025",
+        "label": "Competencias digitales de lo...",
+        "cluster": "ia_data_science",
+        "type": "publication",
+        "size": 14,
+        "info": "Publicación: Competencias digitales de los docentes de la unidad educativa amauta ñanpi Autores (2025) - "
+      },
+      {
+        "id": "pub_apolo-buenanoUsosInternetCon2023",
+        "label": "Usos de Internet con fines e...",
+        "cluster": "ia_data_science",
+        "type": "publication",
+        "size": 14,
+        "info": "Publicación: Usos de Internet con fines educativos: perspectivas para su fortalecimiento (2023) - "
+      },
+      {
+        "id": "pub_sarmiento-pesantezNivelSatisfaccionEstudiantil2023",
+        "label": "Nivel de satisfacción estudi...",
+        "cluster": "ia_data_science",
+        "type": "publication",
+        "size": 14,
+        "info": "Publicación: Nivel de satisfacción estudiantil en el uso de estrategias y metodologías en la Educación Virtual (2023) - "
+      },
+      {
+        "id": "pub_arias-becerraQuizzizComoEstrategia2022",
+        "label": "Quizziz como estrategia de e...",
+        "cluster": "ia_data_science",
+        "type": "publication",
+        "size": 14,
+        "info": "Publicación: Quizziz como estrategia de evaluación en la carrera de medicina (2022) - "
+      },
+      {
+        "id": "pub_ochoa-coronelAprendizajeBasadoProblemas2022",
+        "label": "Aprendizaje basado en proble...",
+        "cluster": "politicas_direccion",
+        "type": "publication",
+        "size": 14,
+        "info": "Publicación: Aprendizaje basado en problemas. Experiencia en estudiantes universitarios (2022) - "
+      },
+      {
+        "id": "pub_palta-valladaresEscapeRoomComo2022",
+        "label": "Escape room como estrategia ...",
+        "cluster": "politicas_direccion",
+        "type": "publication",
+        "size": 14,
+        "info": "Publicación: Escape room como estrategia didáctica para el desarrollo del pensamiento crítico (2022) - "
+      },
+      {
+        "id": "pub_pogoVideojuegoRPGComo2022",
+        "label": "Videojuego RPG como material...",
+        "cluster": "tecnopedagogia",
+        "type": "publication",
+        "size": 14,
+        "info": "Publicación: Videojuego RPG como material de apoyo en la enseñanza de ortografía en niños de 10 años de edad (2022) - "
+      },
+      {
+        "id": "pub_riveraEscapeRoomEducativo2022",
+        "label": "Escape room educativo: Una m...",
+        "cluster": "ia_data_science",
+        "type": "publication",
+        "size": 14,
+        "info": "Publicación: Escape room educativo: Una mirada desde la experiencia de los estudiantes en Endodoncia (2022) - "
+      },
+      {
+        "id": "pub_sarangoBalanzaVirtualComo2022",
+        "label": "Balanza virtual como estrate...",
+        "cluster": "ia_data_science",
+        "type": "publication",
+        "size": 14,
+        "info": "Publicación: Balanza virtual como estrategia de aprendizaje, de ecuaciones de primer grado con una incógnita (2022) - "
+      },
+      {
+        "id": "pub_sotamingaPensamientoComputacionalProgramacion2021",
+        "label": "Pensamiento computacional, p...",
+        "cluster": "tecnopedagogia",
+        "type": "publication",
+        "size": 14,
+        "info": "Publicación: Pensamiento computacional, programación creativa y ciencias de la computación para la educación. Reflexiones y experiencias desde América Latina (2021) - CIESPAL"
       },
       {
         "id": "repo_curso_llm",
@@ -1446,6 +1668,12 @@
         "value": 3
       },
       {
+        "source": "marcelo",
+        "target": "keywords",
+        "relationship": "dimensión clave",
+        "value": 3
+      },
+      {
         "source": "ia_data_science",
         "target": "diagnostico_cognitivo",
         "relationship": "área técnica",
@@ -1560,9 +1788,351 @@
         "value": 2
       },
       {
+        "source": "keywords",
+        "target": "kw_ia_ed",
+        "relationship": "palabra clave",
+        "value": 2
+      },
+      {
+        "source": "deep_learning",
+        "target": "kw_ia_ed",
+        "relationship": "concepto transversal",
+        "value": 2
+      },
+      {
+        "source": "keywords",
+        "target": "kw_deep_learning",
+        "relationship": "palabra clave",
+        "value": 2
+      },
+      {
+        "source": "deep_learning",
+        "target": "kw_deep_learning",
+        "relationship": "concepto transversal",
+        "value": 2
+      },
+      {
+        "source": "keywords",
+        "target": "kw_neuro_simbolico",
+        "relationship": "palabra clave",
+        "value": 2
+      },
+      {
+        "source": "neuro_simbolico",
+        "target": "kw_neuro_simbolico",
+        "relationship": "concepto transversal",
+        "value": 2
+      },
+      {
+        "source": "keywords",
+        "target": "kw_diagnostico_cognitivo",
+        "relationship": "palabra clave",
+        "value": 2
+      },
+      {
+        "source": "diagnostico_cognitivo",
+        "target": "kw_diagnostico_cognitivo",
+        "relationship": "concepto transversal",
+        "value": 2
+      },
+      {
+        "source": "keywords",
+        "target": "kw_learning_analytics",
+        "relationship": "palabra clave",
+        "value": 2
+      },
+      {
+        "source": "diagnostico_cognitivo",
+        "target": "kw_learning_analytics",
+        "relationship": "concepto transversal",
+        "value": 2
+      },
+      {
+        "source": "keywords",
+        "target": "kw_moodle_lms",
+        "relationship": "palabra clave",
+        "value": 2
+      },
+      {
+        "source": "moodle_scale",
+        "target": "kw_moodle_lms",
+        "relationship": "concepto transversal",
+        "value": 2
+      },
+      {
+        "source": "keywords",
+        "target": "kw_tecnopedagogia",
+        "relationship": "palabra clave",
+        "value": 2
+      },
+      {
+        "source": "unisabana_pv",
+        "target": "kw_tecnopedagogia",
+        "relationship": "concepto transversal",
+        "value": 2
+      },
+      {
+        "source": "keywords",
+        "target": "kw_pensamiento_comp",
+        "relationship": "palabra clave",
+        "value": 2
+      },
+      {
+        "source": "pensamiento_comp",
+        "target": "kw_pensamiento_comp",
+        "relationship": "concepto transversal",
+        "value": 2
+      },
+      {
+        "source": "keywords",
+        "target": "kw_etica_gobernanza",
+        "relationship": "palabra clave",
+        "value": 2
+      },
+      {
+        "source": "unesco_etica",
+        "target": "kw_etica_gobernanza",
+        "relationship": "concepto transversal",
+        "value": 2
+      },
+      {
+        "source": "keywords",
+        "target": "kw_politicas_publicas",
+        "relationship": "palabra clave",
+        "value": 2
+      },
+      {
+        "source": "mintel_te",
+        "target": "kw_politicas_publicas",
+        "relationship": "concepto transversal",
+        "value": 2
+      },
+      {
+        "source": "keywords",
+        "target": "kw_open_source",
+        "relationship": "palabra clave",
+        "value": 2
+      },
+      {
+        "source": "espiral_ceo",
+        "target": "kw_open_source",
+        "relationship": "concepto transversal",
+        "value": 2
+      },
+      {
+        "source": "keywords",
+        "target": "kw_pkm_jardin",
+        "relationship": "palabra clave",
+        "value": 2
+      },
+      {
+        "source": "ontologias",
+        "target": "kw_pkm_jardin",
+        "relationship": "concepto transversal",
+        "value": 2
+      },
+      {
+        "source": "keywords",
+        "target": "kw_calidad_superior",
+        "relationship": "palabra clave",
+        "value": 2
+      },
+      {
+        "source": "docencia_posgrados",
+        "target": "kw_calidad_superior",
+        "relationship": "concepto transversal",
+        "value": 2
+      },
+      {
+        "source": "ia_data_science",
+        "target": "pub_paz-ojedaAdvancedCustomerSegmentation2026",
+        "relationship": "producción científica",
+        "value": 2
+      },
+      {
+        "source": "ia_data_science",
+        "target": "pub_sotaminga-cinilinStudentPerceptionsAIBased2026",
+        "relationship": "producción científica",
+        "value": 2
+      },
+      {
+        "source": "kw_ia_ed",
+        "target": "pub_sotaminga-cinilinStudentPerceptionsAIBased2026",
+        "relationship": "temática clave",
+        "value": 2
+      },
+      {
+        "source": "ia_data_science",
+        "target": "pub_sotaminga-cinilinTechnologicalMigrationSoftware2026",
+        "relationship": "producción científica",
+        "value": 2
+      },
+      {
+        "source": "ia_data_science",
+        "target": "pub_paredes-ulloaCompetenciasDigitalesDocentes2025",
+        "relationship": "producción científica",
+        "value": 2
+      },
+      {
+        "source": "kw_ia_ed",
+        "target": "pub_paredes-ulloaCompetenciasDigitalesDocentes2025",
+        "relationship": "temática clave",
+        "value": 2
+      },
+      {
+        "source": "ia_data_science",
+        "target": "pub_apolo-buenanoUsosInternetCon2023",
+        "relationship": "producción científica",
+        "value": 2
+      },
+      {
+        "source": "ia_data_science",
+        "target": "pub_sarmiento-pesantezNivelSatisfaccionEstudiantil2023",
+        "relationship": "producción científica",
+        "value": 2
+      },
+      {
+        "source": "kw_ia_ed",
+        "target": "pub_sarmiento-pesantezNivelSatisfaccionEstudiantil2023",
+        "relationship": "temática clave",
+        "value": 2
+      },
+      {
+        "source": "ia_data_science",
+        "target": "pub_arias-becerraQuizzizComoEstrategia2022",
+        "relationship": "producción científica",
+        "value": 2
+      },
+      {
+        "source": "kw_ia_ed",
+        "target": "pub_arias-becerraQuizzizComoEstrategia2022",
+        "relationship": "temática clave",
+        "value": 2
+      },
+      {
+        "source": "kw_etica_gobernanza",
+        "target": "pub_arias-becerraQuizzizComoEstrategia2022",
+        "relationship": "temática clave",
+        "value": 2
+      },
+      {
+        "source": "kw_calidad_superior",
+        "target": "pub_arias-becerraQuizzizComoEstrategia2022",
+        "relationship": "temática clave",
+        "value": 2
+      },
+      {
+        "source": "politicas_direccion",
+        "target": "pub_ochoa-coronelAprendizajeBasadoProblemas2022",
+        "relationship": "producción científica",
+        "value": 2
+      },
+      {
+        "source": "kw_ia_ed",
+        "target": "pub_ochoa-coronelAprendizajeBasadoProblemas2022",
+        "relationship": "temática clave",
+        "value": 2
+      },
+      {
+        "source": "kw_etica_gobernanza",
+        "target": "pub_ochoa-coronelAprendizajeBasadoProblemas2022",
+        "relationship": "temática clave",
+        "value": 2
+      },
+      {
+        "source": "politicas_direccion",
+        "target": "pub_palta-valladaresEscapeRoomComo2022",
+        "relationship": "producción científica",
+        "value": 2
+      },
+      {
+        "source": "kw_ia_ed",
+        "target": "pub_palta-valladaresEscapeRoomComo2022",
+        "relationship": "temática clave",
+        "value": 2
+      },
+      {
+        "source": "kw_etica_gobernanza",
+        "target": "pub_palta-valladaresEscapeRoomComo2022",
+        "relationship": "temática clave",
+        "value": 2
+      },
+      {
+        "source": "tecnopedagogia",
+        "target": "pub_pogoVideojuegoRPGComo2022",
+        "relationship": "producción científica",
+        "value": 2
+      },
+      {
+        "source": "kw_ia_ed",
+        "target": "pub_pogoVideojuegoRPGComo2022",
+        "relationship": "temática clave",
+        "value": 2
+      },
+      {
+        "source": "ia_data_science",
+        "target": "pub_riveraEscapeRoomEducativo2022",
+        "relationship": "producción científica",
+        "value": 2
+      },
+      {
+        "source": "kw_ia_ed",
+        "target": "pub_riveraEscapeRoomEducativo2022",
+        "relationship": "temática clave",
+        "value": 2
+      },
+      {
+        "source": "ia_data_science",
+        "target": "pub_sarangoBalanzaVirtualComo2022",
+        "relationship": "producción científica",
+        "value": 2
+      },
+      {
+        "source": "kw_ia_ed",
+        "target": "pub_sarangoBalanzaVirtualComo2022",
+        "relationship": "temática clave",
+        "value": 2
+      },
+      {
+        "source": "tecnopedagogia",
+        "target": "pub_sotamingaPensamientoComputacionalProgramacion2021",
+        "relationship": "producción científica",
+        "value": 2
+      },
+      {
+        "source": "kw_ia_ed",
+        "target": "pub_sotamingaPensamientoComputacionalProgramacion2021",
+        "relationship": "temática clave",
+        "value": 2
+      },
+      {
+        "source": "kw_pensamiento_comp",
+        "target": "pub_sotamingaPensamientoComputacionalProgramacion2021",
+        "relationship": "temática clave",
+        "value": 2
+      },
+      {
         "source": "deep_learning",
         "target": "repo_curso_llm",
         "relationship": "repositorio GitHub",
+        "value": 2
+      },
+      {
+        "source": "kw_ia_ed",
+        "target": "repo_curso_llm",
+        "relationship": "tecnología",
+        "value": 2
+      },
+      {
+        "source": "kw_deep_learning",
+        "target": "repo_curso_llm",
+        "relationship": "tecnología",
+        "value": 2
+      },
+      {
+        "source": "kw_moodle_lms",
+        "target": "repo_curso_llm",
+        "relationship": "tecnología",
         "value": 2
       },
       {
@@ -1572,9 +2142,39 @@
         "value": 2
       },
       {
+        "source": "kw_ia_ed",
+        "target": "repo_ProgramacionPensamientoComputacional",
+        "relationship": "tecnología",
+        "value": 2
+      },
+      {
+        "source": "kw_pensamiento_comp",
+        "target": "repo_ProgramacionPensamientoComputacional",
+        "relationship": "tecnología",
+        "value": 2
+      },
+      {
         "source": "unisabana_pv",
         "target": "repo_ibook-FSO",
         "relationship": "material docente interactivo",
+        "value": 2
+      },
+      {
+        "source": "kw_ia_ed",
+        "target": "repo_ibook-FSO",
+        "relationship": "tecnología",
+        "value": 2
+      },
+      {
+        "source": "kw_open_source",
+        "target": "repo_ibook-FSO",
+        "relationship": "tecnología",
+        "value": 2
+      },
+      {
+        "source": "kw_calidad_superior",
+        "target": "repo_ibook-FSO",
+        "relationship": "tecnología",
         "value": 2
       },
       {
@@ -1584,9 +2184,27 @@
         "value": 2
       },
       {
+        "source": "kw_ia_ed",
+        "target": "repo_ebook-IHM",
+        "relationship": "tecnología",
+        "value": 2
+      },
+      {
+        "source": "kw_calidad_superior",
+        "target": "repo_ebook-IHM",
+        "relationship": "tecnología",
+        "value": 2
+      },
+      {
         "source": "diagnostico_cognitivo",
         "target": "repo_ebook-matematica-discreta",
         "relationship": "recurso de ingeniería",
+        "value": 2
+      },
+      {
+        "source": "kw_ia_ed",
+        "target": "repo_ebook-matematica-discreta",
+        "relationship": "tecnología",
         "value": 2
       },
       {
@@ -1596,9 +2214,27 @@
         "value": 1
       },
       {
+        "source": "kw_ia_ed",
+        "target": "repo_Computacion-Sociedad",
+        "relationship": "tecnología",
+        "value": 2
+      },
+      {
+        "source": "kw_etica_gobernanza",
+        "target": "repo_Computacion-Sociedad",
+        "relationship": "tecnología",
+        "value": 2
+      },
+      {
         "source": "pensamiento_comp",
         "target": "repo_scriptScratch",
         "relationship": "recurso abierto STEAM",
+        "value": 2
+      },
+      {
+        "source": "kw_pensamiento_comp",
+        "target": "repo_scriptScratch",
+        "relationship": "tecnología",
         "value": 2
       },
       {
@@ -1608,9 +2244,27 @@
         "value": 1
       },
       {
+        "source": "kw_learning_analytics",
+        "target": "repo_PEC2-VisualizaionDatos",
+        "relationship": "tecnología",
+        "value": 2
+      },
+      {
         "source": "unisabana_pv",
         "target": "repo_cajaherramientas",
         "relationship": "material docente interactivo",
+        "value": 2
+      },
+      {
+        "source": "kw_moodle_lms",
+        "target": "repo_cajaherramientas",
+        "relationship": "tecnología",
+        "value": 2
+      },
+      {
+        "source": "kw_open_source",
+        "target": "repo_cajaherramientas",
+        "relationship": "tecnología",
         "value": 2
       },
       {
@@ -1620,9 +2274,45 @@
         "value": 2
       },
       {
+        "source": "kw_ia_ed",
+        "target": "repo_marchelo2212.github.io",
+        "relationship": "tecnología",
+        "value": 2
+      },
+      {
+        "source": "kw_neuro_simbolico",
+        "target": "repo_marchelo2212.github.io",
+        "relationship": "tecnología",
+        "value": 2
+      },
+      {
+        "source": "kw_learning_analytics",
+        "target": "repo_marchelo2212.github.io",
+        "relationship": "tecnología",
+        "value": 2
+      },
+      {
+        "source": "kw_pkm_jardin",
+        "target": "repo_marchelo2212.github.io",
+        "relationship": "tecnología",
+        "value": 2
+      },
+      {
         "source": "deep_learning",
         "target": "blog_fundamentos_de_ia_y_",
         "relationship": "ensayo conceptual",
+        "value": 2
+      },
+      {
+        "source": "kw_ia_ed",
+        "target": "blog_fundamentos_de_ia_y_",
+        "relationship": "ensayo temático",
+        "value": 2
+      },
+      {
+        "source": "kw_deep_learning",
+        "target": "blog_fundamentos_de_ia_y_",
+        "relationship": "ensayo temático",
         "value": 2
       },
       {
@@ -1632,9 +2322,33 @@
         "value": 2
       },
       {
+        "source": "kw_ia_ed",
+        "target": "blog_creación_de_pregunta",
+        "relationship": "ensayo temático",
+        "value": 2
+      },
+      {
+        "source": "kw_moodle_lms",
+        "target": "blog_creación_de_pregunta",
+        "relationship": "ensayo temático",
+        "value": 2
+      },
+      {
         "source": "deep_learning",
         "target": "blog_automatizando_la_cap",
         "relationship": "ensayo conceptual",
+        "value": 2
+      },
+      {
+        "source": "kw_ia_ed",
+        "target": "blog_automatizando_la_cap",
+        "relationship": "ensayo temático",
+        "value": 2
+      },
+      {
+        "source": "kw_pkm_jardin",
+        "target": "blog_automatizando_la_cap",
+        "relationship": "ensayo temático",
         "value": 2
       },
       {
@@ -1644,9 +2358,45 @@
         "value": 2
       },
       {
+        "source": "kw_ia_ed",
+        "target": "blog_guía_técnica_instal",
+        "relationship": "ensayo temático",
+        "value": 2
+      },
+      {
+        "source": "kw_moodle_lms",
+        "target": "blog_guía_técnica_instal",
+        "relationship": "ensayo temático",
+        "value": 2
+      },
+      {
         "source": "deep_learning",
         "target": "blog_publicando_obsidian_",
         "relationship": "ensayo conceptual",
+        "value": 2
+      },
+      {
+        "source": "kw_ia_ed",
+        "target": "blog_publicando_obsidian_",
+        "relationship": "ensayo temático",
+        "value": 2
+      },
+      {
+        "source": "kw_politicas_publicas",
+        "target": "blog_publicando_obsidian_",
+        "relationship": "ensayo temático",
+        "value": 2
+      },
+      {
+        "source": "kw_open_source",
+        "target": "blog_publicando_obsidian_",
+        "relationship": "ensayo temático",
+        "value": 2
+      },
+      {
+        "source": "kw_pkm_jardin",
+        "target": "blog_publicando_obsidian_",
+        "relationship": "ensayo temático",
         "value": 2
       },
       {
@@ -1656,9 +2406,27 @@
         "value": 2
       },
       {
+        "source": "kw_ia_ed",
+        "target": "blog_10_sitios_web_de_rob",
+        "relationship": "ensayo temático",
+        "value": 2
+      },
+      {
+        "source": "kw_pensamiento_comp",
+        "target": "blog_10_sitios_web_de_rob",
+        "relationship": "ensayo temático",
+        "value": 2
+      },
+      {
         "source": "pensamiento_comp",
         "target": "blog_top_20_recursos_digi",
         "relationship": "recurso STEAM",
+        "value": 2
+      },
+      {
+        "source": "kw_pensamiento_comp",
+        "target": "blog_top_20_recursos_digi",
+        "relationship": "ensayo temático",
         "value": 2
       },
       {
@@ -1674,9 +2442,21 @@
         "value": 2
       },
       {
+        "source": "kw_ia_ed",
+        "target": "cert_cert-26-08-iarealiztareas",
+        "relationship": "evidencia empírica",
+        "value": 2
+      },
+      {
         "source": "tecnopedagogia",
         "target": "cert_cert-26-06-seguridadinfo",
         "relationship": "credencial validada",
+        "value": 2
+      },
+      {
+        "source": "kw_politicas_publicas",
+        "target": "cert_cert-26-06-seguridadinfo",
+        "relationship": "evidencia empírica",
         "value": 2
       },
       {
@@ -1686,9 +2466,33 @@
         "value": 2
       },
       {
+        "source": "kw_ia_ed",
+        "target": "cert_cert-26-06-moodlemootcol26",
+        "relationship": "evidencia empírica",
+        "value": 2
+      },
+      {
+        "source": "kw_moodle_lms",
+        "target": "cert_cert-26-06-moodlemootcol26",
+        "relationship": "evidencia empírica",
+        "value": 2
+      },
+      {
         "source": "tecnopedagogia",
         "target": "cert_cert-26-06-dvvglobale",
         "relationship": "credencial validada",
+        "value": 2
+      },
+      {
+        "source": "kw_ia_ed",
+        "target": "cert_cert-26-06-dvvglobale",
+        "relationship": "evidencia empírica",
+        "value": 2
+      },
+      {
+        "source": "kw_tecnopedagogia",
+        "target": "cert_cert-26-06-dvvglobale",
+        "relationship": "evidencia empírica",
         "value": 2
       },
       {
@@ -1698,9 +2502,33 @@
         "value": 2
       },
       {
+        "source": "kw_ia_ed",
+        "target": "cert_cert-25-11-tutorcollegehoriz",
+        "relationship": "evidencia empírica",
+        "value": 2
+      },
+      {
         "source": "tecnopedagogia",
         "target": "cert_cert-25-11-bestpapericetei",
         "relationship": "credencial validada",
+        "value": 2
+      },
+      {
+        "source": "kw_ia_ed",
+        "target": "cert_cert-25-11-bestpapericetei",
+        "relationship": "evidencia empírica",
+        "value": 2
+      },
+      {
+        "source": "kw_diagnostico_cognitivo",
+        "target": "cert_cert-25-11-bestpapericetei",
+        "relationship": "evidencia empírica",
+        "value": 2
+      },
+      {
+        "source": "kw_learning_analytics",
+        "target": "cert_cert-25-11-bestpapericetei",
+        "relationship": "evidencia empírica",
         "value": 2
       },
       {
@@ -1710,15 +2538,63 @@
         "value": 2
       },
       {
+        "source": "kw_ia_ed",
+        "target": "cert_cert-25-06-diplomadodeeplearning",
+        "relationship": "evidencia empírica",
+        "value": 2
+      },
+      {
+        "source": "kw_deep_learning",
+        "target": "cert_cert-25-06-diplomadodeeplearning",
+        "relationship": "evidencia empírica",
+        "value": 2
+      },
+      {
+        "source": "kw_neuro_simbolico",
+        "target": "cert_cert-25-06-diplomadodeeplearning",
+        "relationship": "evidencia empírica",
+        "value": 2
+      },
+      {
+        "source": "kw_calidad_superior",
+        "target": "cert_cert-25-06-diplomadodeeplearning",
+        "relationship": "evidencia empírica",
+        "value": 2
+      },
+      {
         "source": "ia_data_science",
         "target": "cert_cert-25-06-delaideaalpaper",
         "relationship": "credencial validada",
         "value": 2
       },
       {
+        "source": "kw_ia_ed",
+        "target": "cert_cert-25-06-delaideaalpaper",
+        "relationship": "evidencia empírica",
+        "value": 2
+      },
+      {
+        "source": "kw_calidad_superior",
+        "target": "cert_cert-25-06-delaideaalpaper",
+        "relationship": "evidencia empírica",
+        "value": 2
+      },
+      {
         "source": "tecnopedagogia",
         "target": "cert_cert-24-11-transmediauflo",
         "relationship": "credencial validada",
+        "value": 2
+      },
+      {
+        "source": "kw_ia_ed",
+        "target": "cert_cert-24-11-transmediauflo",
+        "relationship": "evidencia empírica",
+        "value": 2
+      },
+      {
+        "source": "kw_calidad_superior",
+        "target": "cert_cert-24-11-transmediauflo",
+        "relationship": "evidencia empírica",
         "value": 2
       },
       {
@@ -1740,9 +2616,33 @@
         "value": 2
       },
       {
+        "source": "kw_ia_ed",
+        "target": "cert_cert-24-07-becacarlosjordana",
+        "relationship": "evidencia empírica",
+        "value": 2
+      },
+      {
+        "source": "kw_calidad_superior",
+        "target": "cert_cert-24-07-becacarlosjordana",
+        "relationship": "evidencia empírica",
+        "value": 2
+      },
+      {
         "source": "tecnopedagogia",
         "target": "cert_cert-24-01-becauoc2024",
         "relationship": "credencial validada",
+        "value": 2
+      },
+      {
+        "source": "kw_ia_ed",
+        "target": "cert_cert-24-01-becauoc2024",
+        "relationship": "evidencia empírica",
+        "value": 2
+      },
+      {
+        "source": "kw_calidad_superior",
+        "target": "cert_cert-24-01-becauoc2024",
+        "relationship": "evidencia empírica",
         "value": 2
       },
       {
@@ -1752,9 +2652,39 @@
         "value": 2
       },
       {
+        "source": "kw_ia_ed",
+        "target": "cert_cert-23-08-ponenciamoodle23",
+        "relationship": "evidencia empírica",
+        "value": 2
+      },
+      {
+        "source": "kw_moodle_lms",
+        "target": "cert_cert-23-08-ponenciamoodle23",
+        "relationship": "evidencia empírica",
+        "value": 2
+      },
+      {
+        "source": "kw_tecnopedagogia",
+        "target": "cert_cert-23-08-ponenciamoodle23",
+        "relationship": "evidencia empírica",
+        "value": 2
+      },
+      {
+        "source": "kw_calidad_superior",
+        "target": "cert_cert-23-08-ponenciamoodle23",
+        "relationship": "evidencia empírica",
+        "value": 2
+      },
+      {
         "source": "tecnopedagogia",
         "target": "cert_cert-23-08-ponenteusorecedu",
         "relationship": "credencial validada",
+        "value": 2
+      },
+      {
+        "source": "kw_ia_ed",
+        "target": "cert_cert-23-08-ponenteusorecedu",
+        "relationship": "evidencia empírica",
         "value": 2
       },
       {
@@ -1764,9 +2694,21 @@
         "value": 2
       },
       {
+        "source": "kw_ia_ed",
+        "target": "cert_cert-23-03-infosecawareness",
+        "relationship": "evidencia empírica",
+        "value": 2
+      },
+      {
         "source": "tecnopedagogia",
         "target": "cert_cert-23-03-fortinetnse1",
         "relationship": "credencial validada",
+        "value": 2
+      },
+      {
+        "source": "kw_ia_ed",
+        "target": "cert_cert-23-03-fortinetnse1",
+        "relationship": "evidencia empírica",
         "value": 2
       },
       {
@@ -1776,9 +2718,33 @@
         "value": 2
       },
       {
+        "source": "kw_ia_ed",
+        "target": "cert_cert-22-11-ponenciaried2022",
+        "relationship": "evidencia empírica",
+        "value": 2
+      },
+      {
+        "source": "kw_politicas_publicas",
+        "target": "cert_cert-22-11-ponenciaried2022",
+        "relationship": "evidencia empírica",
+        "value": 2
+      },
+      {
         "source": "tecnopedagogia",
         "target": "cert_cert-22-11-comitecientificovii",
         "relationship": "credencial validada",
+        "value": 2
+      },
+      {
+        "source": "kw_ia_ed",
+        "target": "cert_cert-22-11-comitecientificovii",
+        "relationship": "evidencia empírica",
+        "value": 2
+      },
+      {
+        "source": "kw_calidad_superior",
+        "target": "cert_cert-22-11-comitecientificovii",
+        "relationship": "evidencia empírica",
         "value": 2
       },
       {
@@ -1788,9 +2754,33 @@
         "value": 2
       },
       {
+        "source": "kw_ia_ed",
+        "target": "cert_cert-22-11-comiteviiiced",
+        "relationship": "evidencia empírica",
+        "value": 2
+      },
+      {
+        "source": "kw_calidad_superior",
+        "target": "cert_cert-22-11-comiteviiiced",
+        "relationship": "evidencia empírica",
+        "value": 2
+      },
+      {
         "source": "tecnopedagogia",
         "target": "cert_cert-22-11-mobilelearningugr",
         "relationship": "credencial validada",
+        "value": 2
+      },
+      {
+        "source": "kw_ia_ed",
+        "target": "cert_cert-22-11-mobilelearningugr",
+        "relationship": "evidencia empírica",
+        "value": 2
+      },
+      {
+        "source": "kw_calidad_superior",
+        "target": "cert_cert-22-11-mobilelearningugr",
+        "relationship": "evidencia empírica",
         "value": 2
       },
       {
@@ -1800,9 +2790,27 @@
         "value": 2
       },
       {
+        "source": "kw_ia_ed",
+        "target": "cert_cert-22-10-ponenciaprofuturo",
+        "relationship": "evidencia empírica",
+        "value": 2
+      },
+      {
         "source": "tecnopedagogia",
         "target": "cert_cert-22-10-pensamientocomp",
         "relationship": "credencial validada",
+        "value": 2
+      },
+      {
+        "source": "kw_ia_ed",
+        "target": "cert_cert-22-10-pensamientocomp",
+        "relationship": "evidencia empírica",
+        "value": 2
+      },
+      {
+        "source": "kw_pensamiento_comp",
+        "target": "cert_cert-22-10-pensamientocomp",
+        "relationship": "evidencia empírica",
         "value": 2
       },
       {
@@ -1812,15 +2820,57 @@
         "value": 2
       },
       {
+        "source": "kw_ia_ed",
+        "target": "cert_cert-22-08-novusevaluador",
+        "relationship": "evidencia empírica",
+        "value": 2
+      },
+      {
+        "source": "kw_calidad_superior",
+        "target": "cert_cert-22-08-novusevaluador",
+        "relationship": "evidencia empírica",
+        "value": 2
+      },
+      {
         "source": "tecnopedagogia",
         "target": "cert_cert-22-08-moodlemootcol2022",
         "relationship": "credencial validada",
         "value": 2
       },
       {
+        "source": "kw_ia_ed",
+        "target": "cert_cert-22-08-moodlemootcol2022",
+        "relationship": "evidencia empírica",
+        "value": 2
+      },
+      {
+        "source": "kw_moodle_lms",
+        "target": "cert_cert-22-08-moodlemootcol2022",
+        "relationship": "evidencia empírica",
+        "value": 2
+      },
+      {
+        "source": "kw_tecnopedagogia",
+        "target": "cert_cert-22-08-moodlemootcol2022",
+        "relationship": "evidencia empírica",
+        "value": 2
+      },
+      {
         "source": "tecnopedagogia",
         "target": "cert_cert-22-07-googleeducator1",
         "relationship": "credencial validada",
+        "value": 2
+      },
+      {
+        "source": "kw_ia_ed",
+        "target": "cert_cert-22-07-googleeducator1",
+        "relationship": "evidencia empírica",
+        "value": 2
+      },
+      {
+        "source": "kw_tecnopedagogia",
+        "target": "cert_cert-22-07-googleeducator1",
+        "relationship": "evidencia empírica",
         "value": 2
       },
       {
@@ -1842,9 +2892,21 @@
         "value": 2
       },
       {
+        "source": "kw_etica_gobernanza",
+        "target": "cert_cert-22-06-rgpduocdocentes",
+        "relationship": "evidencia empírica",
+        "value": 2
+      },
+      {
         "source": "politicas_direccion",
         "target": "cert_cert-22-05-intemocionalctrl",
         "relationship": "credencial validada",
+        "value": 2
+      },
+      {
+        "source": "kw_ia_ed",
+        "target": "cert_cert-22-05-intemocionalctrl",
+        "relationship": "evidencia empírica",
         "value": 2
       },
       {
@@ -1854,15 +2916,51 @@
         "value": 2
       },
       {
+        "source": "kw_ia_ed",
+        "target": "cert_cert-22-03-formdoctecnoped",
+        "relationship": "evidencia empírica",
+        "value": 2
+      },
+      {
+        "source": "kw_tecnopedagogia",
+        "target": "cert_cert-22-03-formdoctecnoped",
+        "relationship": "evidencia empírica",
+        "value": 2
+      },
+      {
+        "source": "kw_calidad_superior",
+        "target": "cert_cert-22-03-formdoctecnoped",
+        "relationship": "evidencia empírica",
+        "value": 2
+      },
+      {
         "source": "tecnopedagogia",
         "target": "cert_cert-22-03-pensamientocomp",
         "relationship": "credencial validada",
         "value": 2
       },
       {
+        "source": "kw_ia_ed",
+        "target": "cert_cert-22-03-pensamientocomp",
+        "relationship": "evidencia empírica",
+        "value": 2
+      },
+      {
+        "source": "kw_pensamiento_comp",
+        "target": "cert_cert-22-03-pensamientocomp",
+        "relationship": "evidencia empírica",
+        "value": 2
+      },
+      {
         "source": "politicas_direccion",
         "target": "cert_cert-22-02-becasantandereco",
         "relationship": "credencial validada",
+        "value": 2
+      },
+      {
+        "source": "kw_ia_ed",
+        "target": "cert_cert-22-02-becasantandereco",
+        "relationship": "evidencia empírica",
         "value": 2
       },
       {
@@ -1884,9 +2982,33 @@
         "value": 2
       },
       {
+        "source": "kw_ia_ed",
+        "target": "cert_cert-22-01-ponenteescuelas",
+        "relationship": "evidencia empírica",
+        "value": 2
+      },
+      {
         "source": "tecnopedagogia",
         "target": "cert_cert-21-12-gamificaciontic",
         "relationship": "credencial validada",
+        "value": 2
+      },
+      {
+        "source": "kw_ia_ed",
+        "target": "cert_cert-21-12-gamificaciontic",
+        "relationship": "evidencia empírica",
+        "value": 2
+      },
+      {
+        "source": "kw_tecnopedagogia",
+        "target": "cert_cert-21-12-gamificaciontic",
+        "relationship": "evidencia empírica",
+        "value": 2
+      },
+      {
+        "source": "kw_calidad_superior",
+        "target": "cert_cert-21-12-gamificaciontic",
+        "relationship": "evidencia empírica",
         "value": 2
       },
       {
@@ -1896,9 +3018,21 @@
         "value": 2
       },
       {
+        "source": "kw_ia_ed",
+        "target": "cert_cert-21-11-gestionpolitica",
+        "relationship": "evidencia empírica",
+        "value": 2
+      },
+      {
         "source": "politicas_direccion",
         "target": "cert_cert-21-11-gestionproyectos",
         "relationship": "credencial validada",
+        "value": 2
+      },
+      {
+        "source": "kw_politicas_publicas",
+        "target": "cert_cert-21-11-gestionproyectos",
+        "relationship": "evidencia empírica",
         "value": 2
       },
       {
@@ -1926,9 +3060,21 @@
         "value": 2
       },
       {
+        "source": "kw_ia_ed",
+        "target": "cert_cert-21-11-gerenciapublica",
+        "relationship": "evidencia empírica",
+        "value": 2
+      },
+      {
         "source": "politicas_direccion",
         "target": "cert_cert-21-11-liderazgopolitico",
         "relationship": "credencial validada",
+        "value": 2
+      },
+      {
+        "source": "kw_etica_gobernanza",
+        "target": "cert_cert-21-11-liderazgopolitico",
+        "relationship": "evidencia empírica",
         "value": 2
       },
       {
@@ -1938,15 +3084,75 @@
         "value": 2
       },
       {
+        "source": "kw_ia_ed",
+        "target": "cert_cert-21-08-becanebrijajuego",
+        "relationship": "evidencia empírica",
+        "value": 2
+      },
+      {
+        "source": "kw_tecnopedagogia",
+        "target": "cert_cert-21-08-becanebrijajuego",
+        "relationship": "evidencia empírica",
+        "value": 2
+      },
+      {
+        "source": "kw_pensamiento_comp",
+        "target": "cert_cert-21-08-becanebrijajuego",
+        "relationship": "evidencia empírica",
+        "value": 2
+      },
+      {
+        "source": "kw_politicas_publicas",
+        "target": "cert_cert-21-08-becanebrijajuego",
+        "relationship": "evidencia empírica",
+        "value": 2
+      },
+      {
+        "source": "kw_calidad_superior",
+        "target": "cert_cert-21-08-becanebrijajuego",
+        "relationship": "evidencia empírica",
+        "value": 2
+      },
+      {
         "source": "tecnopedagogia",
         "target": "cert_cert-21-08-cursogamificacion",
         "relationship": "credencial validada",
         "value": 2
       },
       {
+        "source": "kw_ia_ed",
+        "target": "cert_cert-21-08-cursogamificacion",
+        "relationship": "evidencia empírica",
+        "value": 2
+      },
+      {
+        "source": "kw_pensamiento_comp",
+        "target": "cert_cert-21-08-cursogamificacion",
+        "relationship": "evidencia empírica",
+        "value": 2
+      },
+      {
+        "source": "kw_politicas_publicas",
+        "target": "cert_cert-21-08-cursogamificacion",
+        "relationship": "evidencia empírica",
+        "value": 2
+      },
+      {
+        "source": "kw_calidad_superior",
+        "target": "cert_cert-21-08-cursogamificacion",
+        "relationship": "evidencia empírica",
+        "value": 2
+      },
+      {
         "source": "tecnopedagogia",
         "target": "cert_cert-21-08-festivalideas10",
         "relationship": "credencial validada",
+        "value": 2
+      },
+      {
+        "source": "kw_ia_ed",
+        "target": "cert_cert-21-08-festivalideas10",
+        "relationship": "evidencia empírica",
         "value": 2
       },
       {
@@ -1962,6 +3168,18 @@
         "value": 2
       },
       {
+        "source": "kw_ia_ed",
+        "target": "cert_cert-21-08-ideas10",
+        "relationship": "evidencia empírica",
+        "value": 2
+      },
+      {
+        "source": "kw_tecnopedagogia",
+        "target": "cert_cert-21-08-ideas10",
+        "relationship": "evidencia empírica",
+        "value": 2
+      },
+      {
         "source": "politicas_direccion",
         "target": "cert_cert-21-07-riesgobiologico",
         "relationship": "credencial validada",
@@ -1971,6 +3189,12 @@
         "source": "tecnopedagogia",
         "target": "cert_cert-21-06-bienestarsocioem",
         "relationship": "credencial validada",
+        "value": 2
+      },
+      {
+        "source": "kw_ia_ed",
+        "target": "cert_cert-21-06-bienestarsocioem",
+        "relationship": "evidencia empírica",
         "value": 2
       },
       {
@@ -1986,9 +3210,33 @@
         "value": 2
       },
       {
+        "source": "kw_ia_ed",
+        "target": "cert_cert-21-06-datosabiertosecuador",
+        "relationship": "evidencia empírica",
+        "value": 2
+      },
+      {
         "source": "tecnopedagogia",
         "target": "cert_cert-21-05-emocionaprender",
         "relationship": "credencial validada",
+        "value": 2
+      },
+      {
+        "source": "kw_ia_ed",
+        "target": "cert_cert-21-05-emocionaprender",
+        "relationship": "evidencia empírica",
+        "value": 2
+      },
+      {
+        "source": "kw_neuro_simbolico",
+        "target": "cert_cert-21-05-emocionaprender",
+        "relationship": "evidencia empírica",
+        "value": 2
+      },
+      {
+        "source": "kw_tecnopedagogia",
+        "target": "cert_cert-21-05-emocionaprender",
+        "relationship": "evidencia empírica",
         "value": 2
       },
       {
@@ -2010,9 +3258,33 @@
         "value": 2
       },
       {
+        "source": "kw_ia_ed",
+        "target": "cert_cert-21-04-programacionvideojuegos",
+        "relationship": "evidencia empírica",
+        "value": 2
+      },
+      {
+        "source": "kw_pensamiento_comp",
+        "target": "cert_cert-21-04-programacionvideojuegos",
+        "relationship": "evidencia empírica",
+        "value": 2
+      },
+      {
+        "source": "kw_politicas_publicas",
+        "target": "cert_cert-21-04-programacionvideojuegos",
+        "relationship": "evidencia empírica",
+        "value": 2
+      },
+      {
         "source": "politicas_direccion",
         "target": "cert_cert-21-04-childsafeguarding",
         "relationship": "credencial validada",
+        "value": 2
+      },
+      {
+        "source": "kw_etica_gobernanza",
+        "target": "cert_cert-21-04-childsafeguarding",
+        "relationship": "evidencia empírica",
         "value": 2
       },
       {
@@ -2022,9 +3294,21 @@
         "value": 2
       },
       {
+        "source": "kw_ia_ed",
+        "target": "cert_cert-21-03-webextraining",
+        "relationship": "evidencia empírica",
+        "value": 2
+      },
+      {
         "source": "politicas_direccion",
         "target": "cert_cert-21-02-confciberseguridad",
         "relationship": "credencial validada",
+        "value": 2
+      },
+      {
+        "source": "kw_ia_ed",
+        "target": "cert_cert-21-02-confciberseguridad",
+        "relationship": "evidencia empírica",
         "value": 2
       },
       {
@@ -2034,9 +3318,39 @@
         "value": 2
       },
       {
+        "source": "kw_ia_ed",
+        "target": "cert_cert-20-12-facilitacionunae",
+        "relationship": "evidencia empírica",
+        "value": 2
+      },
+      {
+        "source": "kw_tecnopedagogia",
+        "target": "cert_cert-20-12-facilitacionunae",
+        "relationship": "evidencia empírica",
+        "value": 2
+      },
+      {
+        "source": "kw_calidad_superior",
+        "target": "cert_cert-20-12-facilitacionunae",
+        "relationship": "evidencia empírica",
+        "value": 2
+      },
+      {
         "source": "politicas_direccion",
         "target": "cert_cert-20-12-violenciamujeres",
         "relationship": "credencial validada",
+        "value": 2
+      },
+      {
+        "source": "kw_ia_ed",
+        "target": "cert_cert-20-12-violenciamujeres",
+        "relationship": "evidencia empírica",
+        "value": 2
+      },
+      {
+        "source": "kw_politicas_publicas",
+        "target": "cert_cert-20-12-violenciamujeres",
+        "relationship": "evidencia empírica",
         "value": 2
       },
       {
@@ -2046,15 +3360,51 @@
         "value": 2
       },
       {
+        "source": "kw_ia_ed",
+        "target": "cert_cert-20-12-docenciavirtual",
+        "relationship": "evidencia empírica",
+        "value": 2
+      },
+      {
+        "source": "kw_tecnopedagogia",
+        "target": "cert_cert-20-12-docenciavirtual",
+        "relationship": "evidencia empírica",
+        "value": 2
+      },
+      {
+        "source": "kw_calidad_superior",
+        "target": "cert_cert-20-12-docenciavirtual",
+        "relationship": "evidencia empírica",
+        "value": 2
+      },
+      {
         "source": "tecnopedagogia",
         "target": "cert_cert-20-11-curacioncontenidos",
         "relationship": "credencial validada",
         "value": 2
       },
       {
+        "source": "kw_tecnopedagogia",
+        "target": "cert_cert-20-11-curacioncontenidos",
+        "relationship": "evidencia empírica",
+        "value": 2
+      },
+      {
         "source": "tecnopedagogia",
         "target": "cert_cert-20-11-expovidanueva",
         "relationship": "credencial validada",
+        "value": 2
+      },
+      {
+        "source": "kw_ia_ed",
+        "target": "cert_cert-20-11-expovidanueva",
+        "relationship": "evidencia empírica",
+        "value": 2
+      },
+      {
+        "source": "kw_tecnopedagogia",
+        "target": "cert_cert-20-11-expovidanueva",
+        "relationship": "evidencia empírica",
         "value": 2
       },
       {
@@ -2070,6 +3420,24 @@
         "value": 2
       },
       {
+        "source": "kw_ia_ed",
+        "target": "cert_cert-20-07-formacionconsultoruoc",
+        "relationship": "evidencia empírica",
+        "value": 2
+      },
+      {
+        "source": "kw_tecnopedagogia",
+        "target": "cert_cert-20-07-formacionconsultoruoc",
+        "relationship": "evidencia empírica",
+        "value": 2
+      },
+      {
+        "source": "kw_calidad_superior",
+        "target": "cert_cert-20-07-formacionconsultoruoc",
+        "relationship": "evidencia empírica",
+        "value": 2
+      },
+      {
         "source": "politicas_direccion",
         "target": "cert_cert-20-10-qahedmaster",
         "relationship": "credencial validada",
@@ -2082,9 +3450,39 @@
         "value": 2
       },
       {
+        "source": "kw_ia_ed",
+        "target": "cert_cert-20-09-congresoeduzona6",
+        "relationship": "evidencia empírica",
+        "value": 2
+      },
+      {
+        "source": "kw_diagnostico_cognitivo",
+        "target": "cert_cert-20-09-congresoeduzona6",
+        "relationship": "evidencia empírica",
+        "value": 2
+      },
+      {
+        "source": "kw_calidad_superior",
+        "target": "cert_cert-20-09-congresoeduzona6",
+        "relationship": "evidencia empírica",
+        "value": 2
+      },
+      {
         "source": "tecnopedagogia",
         "target": "cert_cert-20-07-tutoresenlinea",
         "relationship": "credencial validada",
+        "value": 2
+      },
+      {
+        "source": "kw_ia_ed",
+        "target": "cert_cert-20-07-tutoresenlinea",
+        "relationship": "evidencia empírica",
+        "value": 2
+      },
+      {
+        "source": "kw_calidad_superior",
+        "target": "cert_cert-20-07-tutoresenlinea",
+        "relationship": "evidencia empírica",
         "value": 2
       },
       {
@@ -2094,9 +3492,33 @@
         "value": 2
       },
       {
+        "source": "kw_ia_ed",
+        "target": "cert_cert-20-07-endinsatuoc",
+        "relationship": "evidencia empírica",
+        "value": 2
+      },
+      {
+        "source": "kw_calidad_superior",
+        "target": "cert_cert-20-07-endinsatuoc",
+        "relationship": "evidencia empírica",
+        "value": 2
+      },
+      {
         "source": "tecnopedagogia",
         "target": "cert_cert-20-01-semcalidadline",
         "relationship": "credencial validada",
+        "value": 2
+      },
+      {
+        "source": "kw_ia_ed",
+        "target": "cert_cert-20-01-semcalidadline",
+        "relationship": "evidencia empírica",
+        "value": 2
+      },
+      {
+        "source": "kw_calidad_superior",
+        "target": "cert_cert-20-01-semcalidadline",
+        "relationship": "evidencia empírica",
         "value": 2
       },
       {
@@ -2106,9 +3528,33 @@
         "value": 2
       },
       {
+        "source": "kw_ia_ed",
+        "target": "cert_cert-20-01-seminariocalidad",
+        "relationship": "evidencia empírica",
+        "value": 2
+      },
+      {
+        "source": "kw_calidad_superior",
+        "target": "cert_cert-20-01-seminariocalidad",
+        "relationship": "evidencia empírica",
+        "value": 2
+      },
+      {
         "source": "tecnopedagogia",
         "target": "cert_cert-20-01-formadorformadores",
         "relationship": "credencial validada",
+        "value": 2
+      },
+      {
+        "source": "kw_ia_ed",
+        "target": "cert_cert-20-01-formadorformadores",
+        "relationship": "evidencia empírica",
+        "value": 2
+      },
+      {
+        "source": "kw_tecnopedagogia",
+        "target": "cert_cert-20-01-formadorformadores",
+        "relationship": "evidencia empírica",
         "value": 2
       },
       {
@@ -2118,9 +3564,33 @@
         "value": 2
       },
       {
+        "source": "kw_ia_ed",
+        "target": "cert_cert-19-12-formadorformadores",
+        "relationship": "evidencia empírica",
+        "value": 2
+      },
+      {
+        "source": "kw_tecnopedagogia",
+        "target": "cert_cert-19-12-formadorformadores",
+        "relationship": "evidencia empírica",
+        "value": 2
+      },
+      {
         "source": "tecnopedagogia",
         "target": "cert_cert-19-06-moodledayconfe19",
         "relationship": "credencial validada",
+        "value": 2
+      },
+      {
+        "source": "kw_ia_ed",
+        "target": "cert_cert-19-06-moodledayconfe19",
+        "relationship": "evidencia empírica",
+        "value": 2
+      },
+      {
+        "source": "kw_moodle_lms",
+        "target": "cert_cert-19-06-moodledayconfe19",
+        "relationship": "evidencia empírica",
         "value": 2
       },
       {
@@ -2130,9 +3600,27 @@
         "value": 2
       },
       {
+        "source": "kw_moodle_lms",
+        "target": "cert_cert-19-06-moodleday2019",
+        "relationship": "evidencia empírica",
+        "value": 2
+      },
+      {
+        "source": "kw_tecnopedagogia",
+        "target": "cert_cert-19-06-moodleday2019",
+        "relationship": "evidencia empírica",
+        "value": 2
+      },
+      {
         "source": "politicas_direccion",
         "target": "cert_cert-18-11-ponenciaculturaprev",
         "relationship": "credencial validada",
+        "value": 2
+      },
+      {
+        "source": "kw_ia_ed",
+        "target": "cert_cert-18-11-ponenciaculturaprev",
+        "relationship": "evidencia empírica",
         "value": 2
       },
       {
@@ -2142,9 +3630,21 @@
         "value": 2
       },
       {
+        "source": "kw_ia_ed",
+        "target": "cert_cert-18-09-storytellingvirtual",
+        "relationship": "evidencia empírica",
+        "value": 2
+      },
+      {
         "source": "politicas_direccion",
         "target": "cert_cert-18-07-monitoresprevencion",
         "relationship": "credencial validada",
+        "value": 2
+      },
+      {
+        "source": "kw_ia_ed",
+        "target": "cert_cert-18-07-monitoresprevencion",
+        "relationship": "evidencia empírica",
         "value": 2
       },
       {
@@ -2154,9 +3654,39 @@
         "value": 2
       },
       {
+        "source": "kw_ia_ed",
+        "target": "cert_cert-18-06-accesibilidadfisica",
+        "relationship": "evidencia empírica",
+        "value": 2
+      },
+      {
+        "source": "kw_calidad_superior",
+        "target": "cert_cert-18-06-accesibilidadfisica",
+        "relationship": "evidencia empírica",
+        "value": 2
+      },
+      {
         "source": "tecnopedagogia",
         "target": "cert_cert-18-06-estrategiasdig",
         "relationship": "credencial validada",
+        "value": 2
+      },
+      {
+        "source": "kw_ia_ed",
+        "target": "cert_cert-18-06-estrategiasdig",
+        "relationship": "evidencia empírica",
+        "value": 2
+      },
+      {
+        "source": "kw_tecnopedagogia",
+        "target": "cert_cert-18-06-estrategiasdig",
+        "relationship": "evidencia empírica",
+        "value": 2
+      },
+      {
+        "source": "kw_politicas_publicas",
+        "target": "cert_cert-18-06-estrategiasdig",
+        "relationship": "evidencia empírica",
         "value": 2
       },
       {
@@ -2166,9 +3696,33 @@
         "value": 2
       },
       {
+        "source": "kw_ia_ed",
+        "target": "cert_cert-18-06-moodleday2018",
+        "relationship": "evidencia empírica",
+        "value": 2
+      },
+      {
+        "source": "kw_moodle_lms",
+        "target": "cert_cert-18-06-moodleday2018",
+        "relationship": "evidencia empírica",
+        "value": 2
+      },
+      {
         "source": "tecnopedagogia",
         "target": "cert_cert-18-05-ponenciaapienvs",
         "relationship": "credencial validada",
+        "value": 2
+      },
+      {
+        "source": "kw_learning_analytics",
+        "target": "cert_cert-18-05-ponenciaapienvs",
+        "relationship": "evidencia empírica",
+        "value": 2
+      },
+      {
+        "source": "kw_open_source",
+        "target": "cert_cert-18-05-ponenciaapienvs",
+        "relationship": "evidencia empírica",
         "value": 2
       },
       {
@@ -2178,9 +3732,45 @@
         "value": 2
       },
       {
+        "source": "kw_ia_ed",
+        "target": "cert_cert-18-04-ponenteflisol18",
+        "relationship": "evidencia empírica",
+        "value": 2
+      },
+      {
+        "source": "kw_neuro_simbolico",
+        "target": "cert_cert-18-04-ponenteflisol18",
+        "relationship": "evidencia empírica",
+        "value": 2
+      },
+      {
+        "source": "kw_pensamiento_comp",
+        "target": "cert_cert-18-04-ponenteflisol18",
+        "relationship": "evidencia empírica",
+        "value": 2
+      },
+      {
+        "source": "kw_politicas_publicas",
+        "target": "cert_cert-18-04-ponenteflisol18",
+        "relationship": "evidencia empírica",
+        "value": 2
+      },
+      {
+        "source": "kw_open_source",
+        "target": "cert_cert-18-04-ponenteflisol18",
+        "relationship": "evidencia empírica",
+        "value": 2
+      },
+      {
         "source": "politicas_direccion",
         "target": "cert_cert-18-03-sensdiscapacidad",
         "relationship": "credencial validada",
+        "value": 2
+      },
+      {
+        "source": "kw_ia_ed",
+        "target": "cert_cert-18-03-sensdiscapacidad",
+        "relationship": "evidencia empírica",
         "value": 2
       },
       {
@@ -2190,9 +3780,27 @@
         "value": 2
       },
       {
+        "source": "kw_ia_ed",
+        "target": "cert_cert-18-01-generacionnegocio",
+        "relationship": "evidencia empírica",
+        "value": 2
+      },
+      {
+        "source": "kw_calidad_superior",
+        "target": "cert_cert-18-01-generacionnegocio",
+        "relationship": "evidencia empírica",
+        "value": 2
+      },
+      {
         "source": "tecnopedagogia",
         "target": "cert_cert-18-01-seguridadticinfancia",
         "relationship": "credencial validada",
+        "value": 2
+      },
+      {
+        "source": "kw_ia_ed",
+        "target": "cert_cert-18-01-seguridadticinfancia",
+        "relationship": "evidencia empírica",
         "value": 2
       },
       {
@@ -2202,9 +3810,21 @@
         "value": 2
       },
       {
+        "source": "kw_pensamiento_comp",
+        "target": "cert_cert-17-12-ponenciascratch",
+        "relationship": "evidencia empírica",
+        "value": 2
+      },
+      {
         "source": "tecnopedagogia",
         "target": "cert_cert-17-12-eddisruptiva",
         "relationship": "credencial validada",
+        "value": 2
+      },
+      {
+        "source": "kw_ia_ed",
+        "target": "cert_cert-17-12-eddisruptiva",
+        "relationship": "evidencia empírica",
         "value": 2
       },
       {
@@ -2214,9 +3834,33 @@
         "value": 2
       },
       {
+        "source": "kw_moodle_lms",
+        "target": "cert_cert-17-12-moodlecert",
+        "relationship": "evidencia empírica",
+        "value": 2
+      },
+      {
+        "source": "kw_tecnopedagogia",
+        "target": "cert_cert-17-12-moodlecert",
+        "relationship": "evidencia empírica",
+        "value": 2
+      },
+      {
         "source": "tecnopedagogia",
         "target": "cert_cert-17-10-profesorsigloxxi",
         "relationship": "credencial validada",
+        "value": 2
+      },
+      {
+        "source": "kw_ia_ed",
+        "target": "cert_cert-17-10-profesorsigloxxi",
+        "relationship": "evidencia empírica",
+        "value": 2
+      },
+      {
+        "source": "kw_calidad_superior",
+        "target": "cert_cert-17-10-profesorsigloxxi",
+        "relationship": "evidencia empírica",
         "value": 2
       },
       {
@@ -2226,9 +3870,27 @@
         "value": 2
       },
       {
+        "source": "kw_moodle_lms",
+        "target": "cert_cert-17-09-personalizacionmoodle",
+        "relationship": "evidencia empírica",
+        "value": 2
+      },
+      {
         "source": "politicas_direccion",
         "target": "cert_cert-17-08-prevprenataldiscap",
         "relationship": "credencial validada",
+        "value": 2
+      },
+      {
+        "source": "kw_ia_ed",
+        "target": "cert_cert-17-08-prevprenataldiscap",
+        "relationship": "evidencia empírica",
+        "value": 2
+      },
+      {
+        "source": "kw_calidad_superior",
+        "target": "cert_cert-17-08-prevprenataldiscap",
+        "relationship": "evidencia empírica",
         "value": 2
       },
       {
@@ -2238,9 +3900,39 @@
         "value": 2
       },
       {
+        "source": "kw_ia_ed",
+        "target": "cert_cert-17-04-jornadasinfofis",
+        "relationship": "evidencia empírica",
+        "value": 2
+      },
+      {
+        "source": "kw_moodle_lms",
+        "target": "cert_cert-17-04-jornadasinfofis",
+        "relationship": "evidencia empírica",
+        "value": 2
+      },
+      {
+        "source": "kw_open_source",
+        "target": "cert_cert-17-04-jornadasinfofis",
+        "relationship": "evidencia empírica",
+        "value": 2
+      },
+      {
+        "source": "kw_calidad_superior",
+        "target": "cert_cert-17-04-jornadasinfofis",
+        "relationship": "evidencia empírica",
+        "value": 2
+      },
+      {
         "source": "tecnopedagogia",
         "target": "cert_cert-17-04-facilitacionped",
         "relationship": "credencial validada",
+        "value": 2
+      },
+      {
+        "source": "kw_ia_ed",
+        "target": "cert_cert-17-04-facilitacionped",
+        "relationship": "evidencia empírica",
         "value": 2
       },
       {
@@ -2250,9 +3942,51 @@
         "value": 2
       },
       {
+        "source": "kw_ia_ed",
+        "target": "cert_cert-17-04-tallersistemasop",
+        "relationship": "evidencia empírica",
+        "value": 2
+      },
+      {
+        "source": "kw_open_source",
+        "target": "cert_cert-17-04-tallersistemasop",
+        "relationship": "evidencia empírica",
+        "value": 2
+      },
+      {
+        "source": "kw_calidad_superior",
+        "target": "cert_cert-17-04-tallersistemasop",
+        "relationship": "evidencia empírica",
+        "value": 2
+      },
+      {
         "source": "tecnopedagogia",
         "target": "cert_cert-17-04-aulavirtualflisol",
         "relationship": "credencial validada",
+        "value": 2
+      },
+      {
+        "source": "kw_ia_ed",
+        "target": "cert_cert-17-04-aulavirtualflisol",
+        "relationship": "evidencia empírica",
+        "value": 2
+      },
+      {
+        "source": "kw_moodle_lms",
+        "target": "cert_cert-17-04-aulavirtualflisol",
+        "relationship": "evidencia empírica",
+        "value": 2
+      },
+      {
+        "source": "kw_open_source",
+        "target": "cert_cert-17-04-aulavirtualflisol",
+        "relationship": "evidencia empírica",
+        "value": 2
+      },
+      {
+        "source": "kw_calidad_superior",
+        "target": "cert_cert-17-04-aulavirtualflisol",
+        "relationship": "evidencia empírica",
         "value": 2
       },
       {
@@ -2262,9 +3996,33 @@
         "value": 2
       },
       {
+        "source": "kw_ia_ed",
+        "target": "cert_cert-17-02-recursosdigitales",
+        "relationship": "evidencia empírica",
+        "value": 2
+      },
+      {
+        "source": "kw_tecnopedagogia",
+        "target": "cert_cert-17-02-recursosdigitales",
+        "relationship": "evidencia empírica",
+        "value": 2
+      },
+      {
         "source": "tecnopedagogia",
         "target": "cert_cert-16-12-libreofficecec",
         "relationship": "credencial validada",
+        "value": 2
+      },
+      {
+        "source": "kw_ia_ed",
+        "target": "cert_cert-16-12-libreofficecec",
+        "relationship": "evidencia empírica",
+        "value": 2
+      },
+      {
+        "source": "kw_open_source",
+        "target": "cert_cert-16-12-libreofficecec",
+        "relationship": "evidencia empírica",
         "value": 2
       },
       {
@@ -2274,9 +4032,27 @@
         "value": 2
       },
       {
+        "source": "kw_ia_ed",
+        "target": "cert_cert-16-11-ponenciacovaite",
+        "relationship": "evidencia empírica",
+        "value": 2
+      },
+      {
         "source": "politicas_direccion",
         "target": "cert_cert-16-11-seminarioiipe",
         "relationship": "credencial validada",
+        "value": 2
+      },
+      {
+        "source": "kw_ia_ed",
+        "target": "cert_cert-16-11-seminarioiipe",
+        "relationship": "evidencia empírica",
+        "value": 2
+      },
+      {
+        "source": "kw_etica_gobernanza",
+        "target": "cert_cert-16-11-seminarioiipe",
+        "relationship": "evidencia empírica",
         "value": 2
       },
       {
@@ -2286,9 +4062,33 @@
         "value": 2
       },
       {
+        "source": "kw_ia_ed",
+        "target": "cert_cert-16-11-analiticasapre",
+        "relationship": "evidencia empírica",
+        "value": 2
+      },
+      {
+        "source": "kw_learning_analytics",
+        "target": "cert_cert-16-11-analiticasapre",
+        "relationship": "evidencia empírica",
+        "value": 2
+      },
+      {
         "source": "tecnopedagogia",
         "target": "cert_cert-16-10-openofficewriter",
         "relationship": "credencial validada",
+        "value": 2
+      },
+      {
+        "source": "kw_open_source",
+        "target": "cert_cert-16-10-openofficewriter",
+        "relationship": "evidencia empírica",
+        "value": 2
+      },
+      {
+        "source": "kw_calidad_superior",
+        "target": "cert_cert-16-10-openofficewriter",
+        "relationship": "evidencia empírica",
         "value": 2
       },
       {
@@ -2304,9 +4104,27 @@
         "value": 2
       },
       {
+        "source": "kw_ia_ed",
+        "target": "cert_cert-15-10-edsoportevirtual",
+        "relationship": "evidencia empírica",
+        "value": 2
+      },
+      {
         "source": "tecnopedagogia",
         "target": "cert_cert-15-10-expertoeduvirtual",
         "relationship": "credencial validada",
+        "value": 2
+      },
+      {
+        "source": "kw_ia_ed",
+        "target": "cert_cert-15-10-expertoeduvirtual",
+        "relationship": "evidencia empírica",
+        "value": 2
+      },
+      {
+        "source": "kw_tecnopedagogia",
+        "target": "cert_cert-15-10-expertoeduvirtual",
+        "relationship": "evidencia empírica",
         "value": 2
       },
       {
@@ -2316,9 +4134,21 @@
         "value": 2
       },
       {
+        "source": "kw_ia_ed",
+        "target": "cert_cert-15-08-tecnoeducacion",
+        "relationship": "evidencia empírica",
+        "value": 2
+      },
+      {
         "source": "tecnopedagogia",
         "target": "cert_cert-15-08-interaccionmovil",
         "relationship": "credencial validada",
+        "value": 2
+      },
+      {
+        "source": "kw_ia_ed",
+        "target": "cert_cert-15-08-interaccionmovil",
+        "relationship": "evidencia empírica",
         "value": 2
       },
       {
@@ -2328,9 +4158,33 @@
         "value": 2
       },
       {
+        "source": "kw_ia_ed",
+        "target": "cert_cert-15-06-realidadaumentada",
+        "relationship": "evidencia empírica",
+        "value": 2
+      },
+      {
         "source": "tecnopedagogia",
         "target": "cert_cert-15-06-entornosvirtuales",
         "relationship": "credencial validada",
+        "value": 2
+      },
+      {
+        "source": "kw_ia_ed",
+        "target": "cert_cert-15-06-entornosvirtuales",
+        "relationship": "evidencia empírica",
+        "value": 2
+      },
+      {
+        "source": "kw_tecnopedagogia",
+        "target": "cert_cert-15-06-entornosvirtuales",
+        "relationship": "evidencia empírica",
+        "value": 2
+      },
+      {
+        "source": "kw_calidad_superior",
+        "target": "cert_cert-15-06-entornosvirtuales",
+        "relationship": "evidencia empírica",
         "value": 2
       },
       {
@@ -2340,9 +4194,33 @@
         "value": 2
       },
       {
+        "source": "kw_ia_ed",
+        "target": "cert_cert-15-06-scratcharduino",
+        "relationship": "evidencia empírica",
+        "value": 2
+      },
+      {
+        "source": "kw_pensamiento_comp",
+        "target": "cert_cert-15-06-scratcharduino",
+        "relationship": "evidencia empírica",
+        "value": 2
+      },
+      {
         "source": "tecnopedagogia",
         "target": "cert_cert-15-05-alcanceacademico",
         "relationship": "credencial validada",
+        "value": 2
+      },
+      {
+        "source": "kw_ia_ed",
+        "target": "cert_cert-15-05-alcanceacademico",
+        "relationship": "evidencia empírica",
+        "value": 2
+      },
+      {
+        "source": "kw_politicas_publicas",
+        "target": "cert_cert-15-05-alcanceacademico",
+        "relationship": "evidencia empírica",
         "value": 2
       },
       {
@@ -2352,9 +4230,33 @@
         "value": 2
       },
       {
+        "source": "kw_ia_ed",
+        "target": "cert_cert-15-05-sitiowebcomercial",
+        "relationship": "evidencia empírica",
+        "value": 2
+      },
+      {
         "source": "tecnopedagogia",
         "target": "cert_cert-15-05-adminmoodle",
         "relationship": "credencial validada",
+        "value": 2
+      },
+      {
+        "source": "kw_ia_ed",
+        "target": "cert_cert-15-05-adminmoodle",
+        "relationship": "evidencia empírica",
+        "value": 2
+      },
+      {
+        "source": "kw_moodle_lms",
+        "target": "cert_cert-15-05-adminmoodle",
+        "relationship": "evidencia empírica",
+        "value": 2
+      },
+      {
+        "source": "kw_tecnopedagogia",
+        "target": "cert_cert-15-05-adminmoodle",
+        "relationship": "evidencia empírica",
         "value": 2
       },
       {
@@ -2364,9 +4266,45 @@
         "value": 2
       },
       {
+        "source": "kw_ia_ed",
+        "target": "cert_cert-15-05-fasepresenciafatla",
+        "relationship": "evidencia empírica",
+        "value": 2
+      },
+      {
+        "source": "kw_tecnopedagogia",
+        "target": "cert_cert-15-05-fasepresenciafatla",
+        "relationship": "evidencia empírica",
+        "value": 2
+      },
+      {
         "source": "tecnopedagogia",
         "target": "cert_cert-15-05-estrategiasmoodle",
         "relationship": "credencial validada",
+        "value": 2
+      },
+      {
+        "source": "kw_ia_ed",
+        "target": "cert_cert-15-05-estrategiasmoodle",
+        "relationship": "evidencia empírica",
+        "value": 2
+      },
+      {
+        "source": "kw_moodle_lms",
+        "target": "cert_cert-15-05-estrategiasmoodle",
+        "relationship": "evidencia empírica",
+        "value": 2
+      },
+      {
+        "source": "kw_tecnopedagogia",
+        "target": "cert_cert-15-05-estrategiasmoodle",
+        "relationship": "evidencia empírica",
+        "value": 2
+      },
+      {
+        "source": "kw_calidad_superior",
+        "target": "cert_cert-15-05-estrategiasmoodle",
+        "relationship": "evidencia empírica",
         "value": 2
       },
       {
@@ -2388,9 +4326,33 @@
         "value": 2
       },
       {
+        "source": "kw_ia_ed",
+        "target": "cert_cert-15-03-recursosedvirtual",
+        "relationship": "evidencia empírica",
+        "value": 2
+      },
+      {
+        "source": "kw_tecnopedagogia",
+        "target": "cert_cert-15-03-recursosedvirtual",
+        "relationship": "evidencia empírica",
+        "value": 2
+      },
+      {
         "source": "tecnopedagogia",
         "target": "cert_cert-15-02-marketingonline",
         "relationship": "credencial validada",
+        "value": 2
+      },
+      {
+        "source": "kw_ia_ed",
+        "target": "cert_cert-15-02-marketingonline",
+        "relationship": "evidencia empírica",
+        "value": 2
+      },
+      {
+        "source": "kw_calidad_superior",
+        "target": "cert_cert-15-02-marketingonline",
+        "relationship": "evidencia empírica",
         "value": 2
       },
       {
@@ -2400,9 +4362,39 @@
         "value": 2
       },
       {
+        "source": "kw_ia_ed",
+        "target": "cert_cert-15-02-entornosvirtuales",
+        "relationship": "evidencia empírica",
+        "value": 2
+      },
+      {
+        "source": "kw_moodle_lms",
+        "target": "cert_cert-15-02-entornosvirtuales",
+        "relationship": "evidencia empírica",
+        "value": 2
+      },
+      {
+        "source": "kw_tecnopedagogia",
+        "target": "cert_cert-15-02-entornosvirtuales",
+        "relationship": "evidencia empírica",
+        "value": 2
+      },
+      {
         "source": "tecnopedagogia",
         "target": "cert_cert-15-02-communitymanager",
         "relationship": "credencial validada",
+        "value": 2
+      },
+      {
+        "source": "kw_ia_ed",
+        "target": "cert_cert-15-02-communitymanager",
+        "relationship": "evidencia empírica",
+        "value": 2
+      },
+      {
+        "source": "kw_calidad_superior",
+        "target": "cert_cert-15-02-communitymanager",
+        "relationship": "evidencia empírica",
         "value": 2
       },
       {
@@ -2412,9 +4404,45 @@
         "value": 2
       },
       {
+        "source": "kw_ia_ed",
+        "target": "cert_cert-14-12-estrategiasmoodle",
+        "relationship": "evidencia empírica",
+        "value": 2
+      },
+      {
+        "source": "kw_moodle_lms",
+        "target": "cert_cert-14-12-estrategiasmoodle",
+        "relationship": "evidencia empírica",
+        "value": 2
+      },
+      {
+        "source": "kw_tecnopedagogia",
+        "target": "cert_cert-14-12-estrategiasmoodle",
+        "relationship": "evidencia empírica",
+        "value": 2
+      },
+      {
+        "source": "kw_calidad_superior",
+        "target": "cert_cert-14-12-estrategiasmoodle",
+        "relationship": "evidencia empírica",
+        "value": 2
+      },
+      {
         "source": "tecnopedagogia",
         "target": "cert_cert-14-05-certscratcharduino",
         "relationship": "credencial validada",
+        "value": 2
+      },
+      {
+        "source": "kw_ia_ed",
+        "target": "cert_cert-14-05-certscratcharduino",
+        "relationship": "evidencia empírica",
+        "value": 2
+      },
+      {
+        "source": "kw_pensamiento_comp",
+        "target": "cert_cert-14-05-certscratcharduino",
+        "relationship": "evidencia empírica",
         "value": 2
       },
       {
@@ -3100,17 +5128,6 @@
       "image": ""
     },
     {
-      "year": "2022",
-      "organization": "Young Potential Development",
-      "title": "Configuración dentro de plataforma virtual Moodle para desarrollo de procesos formativos”",
-      "cluster": "tecnopedagogia",
-      "featured": false,
-      "badge": "",
-      "links": [],
-      "tags": [],
-      "image": ""
-    },
-    {
       "year": "2021",
       "organization": "OEI - CIESPAL - Ministerio de educación",
       "title": "Curso masivo de Programación de videojuegos dirigido a miembros de la comunidad educativa.",
@@ -3216,17 +5233,6 @@
       "year": "2019",
       "organization": "CIESPAL - Ministerio de educación",
       "title": "Capacitación a docentes en el desarrollo del pensamiento computacional.",
-      "cluster": "tecnopedagogia",
-      "featured": false,
-      "badge": "",
-      "links": [],
-      "tags": [],
-      "image": ""
-    },
-    {
-      "year": "2019",
-      "organization": "CIESPAL - ChildFund",
-      "title": "Navegación Segura, ciberseguridad para niños y niñas.",
       "cluster": "tecnopedagogia",
       "featured": false,
       "badge": "",
@@ -3797,12 +5803,6 @@
       "year": "2024",
       "degree": "Máster Universitario en Ciencia de Datos",
       "institution": "Universitat Oberta de Catalunya",
-      "status": "En curso"
-    },
-    {
-      "year": "2022",
-      "degree": "Máster Universitario en Ingeniería Computacional y Matemática",
-      "institution": "Universitat Rovira i Virgili",
       "status": "En curso"
     },
     {

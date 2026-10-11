@@ -45,12 +45,13 @@ export class KnowledgeGraph {
     this.transform.x = width / 2;
     this.transform.y = height / 2;
 
-    // Atractores espaciales de los tres clusters principales
+    // Atractores espaciales de los tres clusters principales + keywords
     this.clusterCenters = {
       central: { x: 0, y: 0 },
       ia_data_science: { x: -width * 0.28, y: -height * 0.16 },
       politicas_direccion: { x: width * 0.28, y: -height * 0.16 },
-      tecnopedagogia: { x: 0, y: height * 0.26 }
+      tecnopedagogia: { x: 0, y: height * 0.26 },
+      keywords: { x: 0, y: -height * 0.04 }
     };
 
     // Inicializar posiciones de nodos con dispersión suave
@@ -322,6 +323,7 @@ export class KnowledgeGraph {
       case 'ia_data_science': return '#38bdf8'; // Sky Blue
       case 'politicas_direccion': return '#c084fc'; // Purple Violet
       case 'tecnopedagogia': return '#34d399'; // Emerald Mint
+      case 'keywords': return '#f59e0b'; // Amber Gold
       case 'central': return '#f59e0b'; // Amber
       default: return '#94a3b8';
     }
@@ -430,7 +432,7 @@ export class KnowledgeGraph {
 
       // Tipografía y Etiquetas
       const inSelectedCluster = this.activeCluster !== 'all' && n.cluster === this.activeCluster;
-      const showLabel = n.type === 'root' || n.type === 'cluster_root' || n.type === 'pillar' || inSelectedCluster || isHovered || isSelected || isConnected;
+      const showLabel = n.type === 'root' || n.type === 'cluster_root' || n.type === 'pillar' || n.type === 'keyword' || inSelectedCluster || isHovered || isSelected || isConnected;
       if (showLabel && !isDimmed) {
         const isBold = n.type === 'root' || n.type === 'cluster_root';
         ctx.font = `${isBold ? '600 11px' : '500 10px'} "Plus Jakarta Sans", sans-serif`;

@@ -152,24 +152,61 @@ function showNodeDetail(node) {
   } else if (node.cluster === 'tecnopedagogia') {
     clusterName = 'Tecnopedagogía & Aprendizaje';
     badgeClass = 'bg-emerald-500/10 text-emerald-400 border border-emerald-500/20';
+  } else if (node.cluster === 'keywords') {
+    clusterName = 'Palabra Clave Transversal';
+    badgeClass = 'bg-amber-500/10 text-amber-400 border border-amber-500/20';
   }
 
   clusterEl.textContent = clusterName;
   clusterEl.className = `font-mono text-[10px] uppercase tracking-wider px-2.5 py-0.5 rounded ${badgeClass}`;
 
+  const query = node.label.toLowerCase().replace('...', '').trim();
+  const searchInText = (txt) => (txt || '').toLowerCase().includes(query);
+
+  const relatedPubs = (cvData.publications || []).filter(p => 
+    searchInText(p.title) || (p.keywords && p.keywords.some(k => searchInText(k)))
+  );
+
   const relatedProjects = (cvData.projects || []).filter(p => 
-    p.title.toLowerCase().includes(node.label.toLowerCase()) ||
-    (p.tags && p.tags.some(t => t.toLowerCase().includes(node.label.toLowerCase())))
+    searchInText(p.title) || searchInText(p.organization) || (p.tags && p.tags.some(t => searchInText(t)))
+  );
+
+  const relatedCerts = (cvData.certifications || []).filter(c => 
+    searchInText(c.title) || (c.skills && c.skills.some(s => searchInText(s)))
   );
 
   linksEl.innerHTML = '';
-  if (relatedProjects.length > 0) {
-    linksEl.innerHTML += `<div class="font-mono text-[10px] uppercase tracking-wider text-slate-500 mt-2">Iniciativas relacionadas:</div>`;
-    relatedProjects.slice(0, 3).forEach(rp => {
+  if (relatedPubs.length > 0) {
+    linksEl.innerHTML += `<div class="font-mono text-[10px] uppercase tracking-wider text-amber-400 mt-2">Publicaciones indexadas:</div>`;
+    relatedPubs.slice(0, 2).forEach(rp => {
       linksEl.innerHTML += `
-        <div class="p-2.5 rounded-lg bg-white/[0.03] border border-white/[0.06] text-xs mt-1">
-          <div class="font-semibold text-white">${rp.title}</div>
+        <div class="p-2 rounded-lg bg-white/[0.03] border border-white/[0.06] text-xs mt-1">
+          <div class="font-semibold text-white line-clamp-1">${rp.title}</div>
+          <div class="font-mono text-[10px] text-slate-400 mt-0.5">${rp.year || ''} • ${rp.publisher || 'Artículo'}</div>
+        </div>
+      `;
+    });
+  }
+
+  if (relatedProjects.length > 0) {
+    linksEl.innerHTML += `<div class="font-mono text-[10px] uppercase tracking-wider text-purple-400 mt-2">Iniciativas y Proyectos:</div>`;
+    relatedProjects.slice(0, 2).forEach(rp => {
+      linksEl.innerHTML += `
+        <div class="p-2 rounded-lg bg-white/[0.03] border border-white/[0.06] text-xs mt-1">
+          <div class="font-semibold text-white line-clamp-1">${rp.title}</div>
           <div class="font-mono text-[10px] text-slate-400 mt-0.5">${rp.organization} (${rp.year})</div>
+        </div>
+      `;
+    });
+  }
+
+  if (relatedCerts.length > 0) {
+    linksEl.innerHTML += `<div class="font-mono text-[10px] uppercase tracking-wider text-sky-400 mt-2">Credenciales y Méritos:</div>`;
+    relatedCerts.slice(0, 2).forEach(rc => {
+      linksEl.innerHTML += `
+        <div class="p-2 rounded-lg bg-white/[0.03] border border-white/[0.06] text-xs mt-1">
+          <div class="font-semibold text-white line-clamp-1">${rc.title}</div>
+          <div class="font-mono text-[10px] text-slate-400 mt-0.5">${rc.issuer} (${rc.year})</div>
         </div>
       `;
     });
