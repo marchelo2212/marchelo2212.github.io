@@ -1,5 +1,30 @@
 [
   {
+    "id": "cert-24-07-creacionproghibrid",
+    "docType": "CurEst",
+    "fileName": "24-07-CurEst-CreacionProgHibrid.pdf",
+    "shortName": "CreacionProgHibrid",
+    "title": "Creación de programas semi presenciales y virtuales",
+    "role": "Participante",
+    "issuer": "UNESCO IESALC",
+    "year": 2024,
+    "yearShort": "24",
+    "month": "07",
+    "date": "2024-07-19",
+    "hours": 1.5,
+    "modality": "Virtual",
+    "credentialId": "maNX33e2A2",
+    "verificationUrl": "https://campus.iesalc.unesco.org/inicio/mod/customcert/verify_certificate.php",
+    "cluster": "tecnopedagogia",
+    "skills": [
+      "Diseño Instruccional",
+      "Educación Híbrida",
+      "Modalidad Virtual"
+    ],
+    "driveUrl": "https://drive.google.com/file/d/1_lM8Nu9bmsub1JpHIjm5XRe_vtIg9lSe/view",
+    "addedAt": "2026-10-11T04:21:23.303Z"
+  },
+  {
     "id": "cert-23-08-h5precursosdid",
     "docType": "CurEst",
     "fileName": "23-08-CurEst-H5PRecursosDid.pdf",
