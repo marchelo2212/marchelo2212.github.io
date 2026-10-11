@@ -1,5 +1,30 @@
 [
   {
+    "id": "cert-26-05-flisolcolombia",
+    "docType": "Inves",
+    "fileName": "26-05-Inves-FlisolColombia.pdf",
+    "shortName": "FlisolColombia",
+    "title": "Invitación a participar del FLISOL Colombia en el marco de Colombia 5.0, encuentro de ecosistemas digitales en Bogotá",
+    "role": "Ponente",
+    "issuer": "Ministerio de Tecnologías de la Información y las Comunicaciones (MinTIC)",
+    "year": 2026,
+    "yearShort": "26",
+    "month": "05",
+    "date": "2026-05-08",
+    "hours": 16,
+    "modality": "Presencial",
+    "credentialId": "262071338",
+    "verificationUrl": "https://www.mintic.gov.co",
+    "cluster": "politicas_direccion",
+    "skills": [
+      "Ecosistemas Digitales",
+      "Innovación Tecnológica",
+      "Transformación Productiva"
+    ],
+    "driveUrl": "https://drive.google.com/file/d/1HR_Hcw-kCbx--iHAic_BZHZa0iOigyfD/view",
+    "addedAt": "2026-10-11T03:58:25.045Z"
+  },
+  {
     "id": "cert-26-05-confecolombia50",
     "docType": "Inves",
     "fileName": "26-05-Inves-ConfeColombia50.pdf",
