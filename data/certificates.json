@@ -1,5 +1,30 @@
 [
   {
+    "id": "cert-19-10-competenciasonline",
+    "docType": "CurEst",
+    "fileName": "19-10-CurEst-CompetenciasOnline.pdf",
+    "shortName": "CompetenciasOnline",
+    "title": "Taller de Competencias para Postgrados Online",
+    "role": "Participante",
+    "issuer": "Universidad Benito Juárez G.",
+    "year": 2019,
+    "yearShort": "19",
+    "month": "10",
+    "date": "2019-10",
+    "hours": null,
+    "modality": "Virtual",
+    "credentialId": null,
+    "verificationUrl": null,
+    "cluster": "tecnopedagogia",
+    "skills": [
+      "Educación Online",
+      "Competencias Académicas",
+      "Entornos Virtuales"
+    ],
+    "driveUrl": "https://drive.google.com/file/d/118-O60lAo6eqbk6d7Q0wBSVLKiTPZ4KW/view",
+    "addedAt": "2026-10-11T04:21:44.763Z"
+  },
+  {
     "id": "cert-24-07-h5precursosdidac",
     "docType": "CurEst",
     "fileName": "24-07-CurEst-H5PRecursosDidac.pdf",
