@@ -1,5 +1,30 @@
 [
   {
+    "id": "cert-23-09-ponenciausorecursos",
+    "docType": "Inves",
+    "fileName": "23-09-Inves-PonenciaUsoRecursos.pdf",
+    "shortName": "PonenciaUsoRecursos",
+    "title": "Certificado de participación como ponente experto en el webinar “Uso de Recursos Educativos en el Aula”",
+    "role": "Ponente",
+    "issuer": "Ministerio de Educación del Ecuador",
+    "year": 2023,
+    "yearShort": "23",
+    "month": "09",
+    "date": "2023-09-07",
+    "hours": null,
+    "modality": "Virtual",
+    "credentialId": null,
+    "verificationUrl": null,
+    "cluster": "tecnopedagogia",
+    "skills": [
+      "Recursos Educativos",
+      "Tecnologías para la Educación",
+      "Ponencias Especializadas"
+    ],
+    "driveUrl": "https://drive.google.com/file/d/1KQQ3Un_44VAkO3cpJWz8ZQSQeSo6X1s-/view",
+    "addedAt": "2026-10-11T04:22:04.785Z"
+  },
+  {
     "id": "cert-20-06-herramientascolab",
     "docType": "CursImp",
     "fileName": "20-06-CursImp-HerramientasColab.pdf",
