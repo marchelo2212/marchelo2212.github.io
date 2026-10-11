@@ -1,5 +1,30 @@
 [
   {
+    "id": "cert-22-02-becasantandereco",
+    "docType": "Meri",
+    "fileName": "22-02-Meri-BecaSantanderEco.pdf",
+    "shortName": "BecaSantanderEco",
+    "title": "Becas Santander Estudios | Hacia una Economía Circular desde la Eco-innovación",
+    "role": "Galardonado",
+    "issuer": "Banco Santander",
+    "year": 2022,
+    "yearShort": "22",
+    "month": "02",
+    "date": "2022-02-14",
+    "hours": null,
+    "modality": "Virtual",
+    "credentialId": null,
+    "verificationUrl": "https://app.becas-santander.com/es/application/confirm/step1/61b62b8472a7020015c58e7f",
+    "cluster": "politicas_direccion",
+    "skills": [
+      "Economía Circular",
+      "Eco-innovación",
+      "Sostenibilidad"
+    ],
+    "driveUrl": "https://drive.google.com/file/d/1RhsjVlSXrrZhh7w22mozkCTpKffJ5cN2/view",
+    "addedAt": "2026-10-11T01:04:15.735Z"
+  },
+  {
     "id": "cert-24-01-becauoc2024",
     "docType": "Meri",
     "fileName": "24-01-Meri-BecaUOC2024.pdf",
