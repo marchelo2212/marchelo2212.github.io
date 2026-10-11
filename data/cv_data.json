@@ -514,6 +514,22 @@
         "info": "Certificación: Certificado de Aprobación: Capacitación en Investigación Científica 2024 (SCImago Research Group, 2024)"
       },
       {
+        "id": "cert_cert-24-07-becacarlosjordana",
+        "label": "Carta de Aprobación y lega...",
+        "cluster": "ia_data_science",
+        "type": "certification",
+        "size": 13,
+        "info": "Certificación: Carta de Aprobación y legalización de Beca Condonable de Distinción Carlos Jordana para el Doctorado en Ingeniería, 2024-2 (Universidad de La Sabana, 2024)"
+      },
+      {
+        "id": "cert_cert-24-01-becauoc2024",
+        "label": "PROGRAMA DE BECAS UNIVERSI...",
+        "cluster": "tecnopedagogia",
+        "type": "certification",
+        "size": 13,
+        "info": "Certificación: PROGRAMA DE BECAS UNIVERSIDAD OBERTA DE CATALUNYA SEGUNDO SEMESTRE 2023-2024 (Secretaría de Educación Superior, Ciencia, Tecnología e Innovación (SENESCYT) - Globo Común, 2024)"
+      },
+      {
         "id": "cert_cert-23-08-ponenciamoodle23",
         "label": "Uso de las actividades de ...",
         "cluster": "tecnopedagogia",
@@ -594,6 +610,14 @@
         "info": "Certificación: SEMINARIO DE INTRODUCCIÓN AL PENSAMIENTO COMPUTACIONAL DEL SIMPOSIO STEM MIAMI 2022 (Broward International University, 2022)"
       },
       {
+        "id": "cert_cert-22-08-novusevaluador",
+        "label": "Constancia de participació...",
+        "cluster": "tecnopedagogia",
+        "type": "certification",
+        "size": 13,
+        "info": "Certificación: Constancia de participación como Evaluador en la Convocatoria Novus 2022 (Instituto para el Futuro de la Educación y el Tecnológico de Monterrey, 2022)"
+      },
+      {
         "id": "cert_cert-22-08-moodlemootcol2022",
         "label": "MoodleMoot Colombia Online...",
         "cluster": "tecnopedagogia",
@@ -648,6 +672,14 @@
         "type": "certification",
         "size": 13,
         "info": "Certificación: ESCUELA DE PENSAMIENTO COMPUTACIONAL (Profuturo, 2022)"
+      },
+      {
+        "id": "cert_cert-22-02-becasantandereco",
+        "label": "Becas Santander Estudios |...",
+        "cluster": "politicas_direccion",
+        "type": "certification",
+        "size": 13,
+        "info": "Certificación: Becas Santander Estudios | Hacia una Economía Circular desde la Eco-innovación (Banco Santander, 2022)"
       },
       {
         "id": "cert_cert-22-02-operadorsncp",
@@ -736,6 +768,14 @@
         "type": "certification",
         "size": 13,
         "info": "Certificación: Liderazgo Político Público (EDES Business School UTPL y Corporación Líderes para Gobernar, 2021)"
+      },
+      {
+        "id": "cert_cert-21-08-becanebrijajuego",
+        "label": "Beca de 100% para el Curso...",
+        "cluster": "tecnopedagogia",
+        "type": "certification",
+        "size": 13,
+        "info": "Certificación: Beca de 100% para el Curso en Juego, Gamificación y TIC como Herramienta para el Aprendizaje (Universidad Nebrija y Organización de Estados Iberoamericanos (OEI), 2021)"
       },
       {
         "id": "cert_cert-21-08-cursogamificacion",
@@ -1694,6 +1734,18 @@
         "value": 2
       },
       {
+        "source": "ia_data_science",
+        "target": "cert_cert-24-07-becacarlosjordana",
+        "relationship": "credencial validada",
+        "value": 2
+      },
+      {
+        "source": "tecnopedagogia",
+        "target": "cert_cert-24-01-becauoc2024",
+        "relationship": "credencial validada",
+        "value": 2
+      },
+      {
         "source": "tecnopedagogia",
         "target": "cert_cert-23-08-ponenciamoodle23",
         "relationship": "credencial validada",
@@ -1755,6 +1807,12 @@
       },
       {
         "source": "tecnopedagogia",
+        "target": "cert_cert-22-08-novusevaluador",
+        "relationship": "credencial validada",
+        "value": 2
+      },
+      {
+        "source": "tecnopedagogia",
         "target": "cert_cert-22-08-moodlemootcol2022",
         "relationship": "credencial validada",
         "value": 2
@@ -1798,6 +1856,12 @@
       {
         "source": "tecnopedagogia",
         "target": "cert_cert-22-03-pensamientocomp",
+        "relationship": "credencial validada",
+        "value": 2
+      },
+      {
+        "source": "politicas_direccion",
+        "target": "cert_cert-22-02-becasantandereco",
         "relationship": "credencial validada",
         "value": 2
       },
@@ -1864,6 +1928,12 @@
       {
         "source": "politicas_direccion",
         "target": "cert_cert-21-11-liderazgopolitico",
+        "relationship": "credencial validada",
+        "value": 2
+      },
+      {
+        "source": "tecnopedagogia",
+        "target": "cert_cert-21-08-becanebrijajuego",
         "relationship": "credencial validada",
         "value": 2
       },
@@ -4040,6 +4110,54 @@
       ]
     },
     {
+      "id": "cert-24-07-becacarlosjordana",
+      "docType": "Meri",
+      "fileName": "24-07-Meri-BecaCarlosJordana.pdf",
+      "shortName": "BecaCarlosJordana",
+      "role": "Galardonado",
+      "title": "Carta de Aprobación y legalización de Beca Condonable de Distinción Carlos Jordana para el Doctorado en Ingeniería, 2024-2",
+      "issuer": "Universidad de La Sabana",
+      "year": "2024",
+      "yearShort": "24",
+      "month": "07",
+      "date": "2024-07-17",
+      "hours": null,
+      "modality": "Presencial",
+      "credentialId": null,
+      "verificationUrl": null,
+      "driveUrl": "https://drive.google.com/file/d/1QB1ogjTf9mTjSfInmAW458Ot2_x5WRIp/view",
+      "cluster": "ia_data_science",
+      "skills": [
+        "Excelencia Académica",
+        "Investigación Doctoral",
+        "Compromiso Académico"
+      ]
+    },
+    {
+      "id": "cert-24-01-becauoc2024",
+      "docType": "Meri",
+      "fileName": "24-01-Meri-BecaUOC2024.pdf",
+      "shortName": "BecaUOC2024",
+      "role": "Galardonado",
+      "title": "PROGRAMA DE BECAS UNIVERSIDAD OBERTA DE CATALUNYA SEGUNDO SEMESTRE 2023-2024",
+      "issuer": "Secretaría de Educación Superior, Ciencia, Tecnología e Innovación (SENESCYT) - Globo Común",
+      "year": "2024",
+      "yearShort": "24",
+      "month": "01",
+      "date": "2024-01-12",
+      "hours": null,
+      "modality": "Virtual",
+      "credentialId": "Acta Nro. 002-2024",
+      "verificationUrl": "https://www.educacionsuperior.gob.ec",
+      "driveUrl": "https://drive.google.com/file/d/1UKk0pzoRWEzsygYwGSPw81dMzDOBLyLL/view",
+      "cluster": "tecnopedagogia",
+      "skills": [
+        "Educación Superior",
+        "Cooperación Internacional",
+        "Aprendizaje en Línea"
+      ]
+    },
+    {
       "id": "cert-23-08-ponenciamoodle23",
       "docType": "Inves",
       "fileName": "23-08-Inves-PonenciaMoodle23.jpg",
@@ -4281,6 +4399,31 @@
       ]
     },
     {
+      "id": "cert-22-08-novusevaluador",
+      "docType": "Inves",
+      "fileName": "22-08-Inves-NovusEvaluador.pdf",
+      "shortName": "NovusEvaluador",
+      "role": "Jurado Evaluador",
+      "title": "Constancia de participación como Evaluador en la Convocatoria Novus 2022",
+      "issuer": "Instituto para el Futuro de la Educación y el Tecnológico de Monterrey",
+      "year": "2022",
+      "yearShort": "22",
+      "month": "08",
+      "date": "2022-08-11",
+      "hours": null,
+      "modality": "Virtual",
+      "credentialId": null,
+      "verificationUrl": null,
+      "driveUrl": "https://drive.google.com/file/d/1ahIKmJ4wF78ontqbeOoJ4PBcgdp9R3TT/view",
+      "cluster": "tecnopedagogia",
+      "skills": [
+        "Evaluación por Pares",
+        "Innovación Educativa",
+        "Investigación Educativa",
+        "Gestión de Proyectos Académicos"
+      ]
+    },
+    {
       "id": "cert-22-08-moodlemootcol2022",
       "docType": "CurEst",
       "fileName": "22-08-CurEst-MoodleMootCol2022.jpg",
@@ -4470,6 +4613,30 @@
         "Pensamiento Computacional",
         "Resolución de Problemas",
         "Educación Digital"
+      ]
+    },
+    {
+      "id": "cert-22-02-becasantandereco",
+      "docType": "Meri",
+      "fileName": "22-02-Meri-BecaSantanderEco.pdf",
+      "shortName": "BecaSantanderEco",
+      "role": "Galardonado",
+      "title": "Becas Santander Estudios | Hacia una Economía Circular desde la Eco-innovación",
+      "issuer": "Banco Santander",
+      "year": "2022",
+      "yearShort": "22",
+      "month": "02",
+      "date": "2022-02-14",
+      "hours": null,
+      "modality": "Virtual",
+      "credentialId": null,
+      "verificationUrl": "https://app.becas-santander.com/es/application/confirm/step1/61b62b8472a7020015c58e7f",
+      "driveUrl": "https://drive.google.com/file/d/1RhsjVlSXrrZhh7w22mozkCTpKffJ5cN2/view",
+      "cluster": "politicas_direccion",
+      "skills": [
+        "Economía Circular",
+        "Eco-innovación",
+        "Sostenibilidad"
       ]
     },
     {
@@ -4735,6 +4902,30 @@
         "Liderazgo Político",
         "Gestión Pública",
         "Gobernanza"
+      ]
+    },
+    {
+      "id": "cert-21-08-becanebrijajuego",
+      "docType": "Meri",
+      "fileName": "21-08-Meri-BecaNebrijaJuego.pdf",
+      "shortName": "BecaNebrijaJuego",
+      "role": "Galardonado",
+      "title": "Beca de 100% para el Curso en Juego, Gamificación y TIC como Herramienta para el Aprendizaje",
+      "issuer": "Universidad Nebrija y Organización de Estados Iberoamericanos (OEI)",
+      "year": "2021",
+      "yearShort": "21",
+      "month": "08",
+      "date": "2021-08-03",
+      "hours": null,
+      "modality": "Virtual",
+      "credentialId": null,
+      "verificationUrl": null,
+      "driveUrl": "https://drive.google.com/file/d/1_ODqH1MFe3SGJuiHAN52fdx8ZoAf9z1a/view",
+      "cluster": "tecnopedagogia",
+      "skills": [
+        "Gamificación Educativa",
+        "TIC en el Aprendizaje",
+        "Diseño Instruccional"
       ]
     },
     {
