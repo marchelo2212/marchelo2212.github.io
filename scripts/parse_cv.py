@@ -504,18 +504,30 @@ def build_knowledge_graph(profile, projects, publications, digital_resources, gi
     nodes = []
     links = []
     node_ids = set()
+    node_map = {}
     
-    def add_node(node_id, label, cluster, node_type, size=15, info=""):
+    def add_node(node_id, label, cluster, node_type, size=15, info="", keywords=None):
         if node_id not in node_ids:
-            nodes.append({
+            clean_kws = []
+            for k in (keywords or []):
+                if k and k not in clean_kws:
+                    clean_kws.append(k)
+            n = {
                 "id": node_id,
                 "label": label,
                 "cluster": cluster,
                 "type": node_type,
                 "size": size,
-                "info": info
-            })
+                "info": info,
+                "keywords": clean_kws
+            }
+            nodes.append(n)
             node_ids.add(node_id)
+            node_map[node_id] = n
+        elif keywords:
+            for k in keywords:
+                if k and k not in node_map[node_id]["keywords"]:
+                    node_map[node_id]["keywords"].append(k)
             
     def add_link(source, target, relationship="relacionado", value=1):
         links.append({
@@ -527,47 +539,64 @@ def build_knowledge_graph(profile, projects, publications, digital_resources, gi
         
     # Nodo Central
     root_id = "marcelo"
-    add_node(root_id, "Marcelo Sotaminga", "central", "root", size=30, info="Arquitecto Tecnopedagógico e Investigador en IA")
+    add_node(root_id, "Marcelo Sotaminga", "central", "root", size=30, 
+             info="Arquitecto Tecnopedagógico e Investigador en IA",
+             keywords=["Tecnopedagogía", "Inteligencia Artificial", "Políticas Públicas", "Data Science", "E-Learning", "Gobernanza IA"])
     
     # Nodos Cluster
     for c in clusters:
-        add_node(c["id"], c["name"], c["id"], "cluster_root", size=24, info=c["description"])
+        add_node(c["id"], c["name"], c["id"], "cluster_root", size=24, info=c["description"], keywords=[c["name"]])
         add_link(root_id, c["id"], "dimensión clave", value=3)
         
     # Nodos para IA & Data Science
     ai_pillars = [
-        ("diagnostico_cognitivo", "Diagnóstico Cognitivo", "Modelos psicométricos y redes neuronales"),
-        ("neuro_simbolico", "Ecosistema Neuro-Simbólico", "IALab Universidad de La Sabana"),
-        ("deep_learning", "Deep Learning & NLP", "Modelos de lenguaje y feedback formativo"),
-        ("ontologias", "Ontologías Educativas", "Modelamiento semántico del conocimiento"),
-        ("python_data", "Python & SQL / R", "Flujos ETL y analítica de datos")
+        ("diagnostico_cognitivo", "Diagnóstico Cognitivo", "Modelos psicométricos y redes neuronales", 
+         ["Diagnóstico Cognitivo", "CDM", "Psicometría", "Learning Analytics", "Data Science"]),
+        ("neuro_simbolico", "Ecosistema Neuro-Simbólico", "IALab Universidad de La Sabana",
+         ["Modelos Neuro-Simbólicos", "Ontologías", "IALab", "Inteligencia Artificial", "Razonamiento Lógico"]),
+        ("deep_learning", "Deep Learning & NLP", "Modelos de lenguaje y feedback formativo",
+         ["Deep Learning", "LLMs", "NLP", "Prompt Engineering", "IA en Educación"]),
+        ("ontologias", "Ontologías Educativas", "Modelamiento semántico del conocimiento",
+         ["Ontologías", "Modelamiento Semántico", "Grafos de Conocimiento", "PKM"]),
+        ("python_data", "Python & SQL / R", "Flujos ETL y analítica de datos",
+         ["Python", "SQL", "Data Science", "ETL", "Analítica"])
     ]
-    for nid, lbl, inf in ai_pillars:
-        add_node(nid, lbl, "ia_data_science", "pillar", size=18, info=inf)
+    for nid, lbl, inf, kws in ai_pillars:
+        add_node(nid, lbl, "ia_data_science", "pillar", size=18, info=inf, keywords=kws)
         add_link("ia_data_science", nid, "área técnica", value=2)
         
     # Nodos para Políticas Públicas & Dirección
     policy_pillars = [
-        ("mintel_te", "MINTEL Tecnologías Emergentes", "Dirección nacional de adopción tecnológica"),
-        ("unesco_etica", "Ética de la IA - UNESCO", "Red de países adoptantes de recomendaciones éticas"),
-        ("agenda_bid", "Agenda Transformación Digital - BID", "Estrategia país con el Banco Interamericano"),
-        ("agenda_andina", "Agenda Digital Andina (CAN)", "Integración y telecomunicaciones"),
-        ("espiral_ceo", "Dirección Espiral Educativa", "Gestión de proyectos y consultoría internacional")
+        ("mintel_te", "MINTEL Tecnologías Emergentes", "Dirección nacional de adopción tecnológica",
+         ["Políticas Públicas", "Tecnologías Emergentes", "MINTEL", "Gobernanza", "Transformación Digital"]),
+        ("unesco_etica", "Ética de la IA - UNESCO", "Red de países adoptantes de recomendaciones éticas",
+         ["Ética de la IA", "UNESCO", "Gobernanza", "Políticas Públicas", "Derechos Digitales"]),
+        ("agenda_bid", "Agenda Transformación Digital - BID", "Estrategia país con el Banco Interamericano",
+         ["Transformación Digital", "BID", "Políticas Públicas", "Estrategia País"]),
+        ("agenda_andina", "Agenda Digital Andina (CAN)", "Integración y telecomunicaciones",
+         ["Agenda Digital", "CAN", "Telecomunicaciones", "Integración Regional"]),
+        ("espiral_ceo", "Dirección Espiral Educativa", "Gestión de proyectos y consultoría internacional",
+         ["Consultoría", "Gestión de Proyectos", "Software Libre", "ASLE"])
     ]
-    for nid, lbl, inf in policy_pillars:
-        add_node(nid, lbl, "politicas_direccion", "pillar", size=18, info=inf)
+    for nid, lbl, inf, kws in policy_pillars:
+        add_node(nid, lbl, "politicas_direccion", "pillar", size=18, info=inf, keywords=kws)
         add_link("politicas_direccion", nid, "iniciativa clave", value=2)
         
     # Nodos para Tecnopedagogía & Aprendizaje
     ed_pillars = [
-        ("unisabana_pv", "Jefatura Producción Virtual Unisabana", "Ecosistemas e-learning y gobernanza TIC"),
-        ("moodle_scale", "LMS Moodle a Escala", "Administración, plugins, SCORM y analítica"),
-        ("pensamiento_comp", "Pensamiento Computacional (Scratch)", "Proyectos con OEI y CIESPAL"),
-        ("docencia_posgrados", "Docencia Posgrados Iberoamérica", "Maestrías en UOC, Sabana, UNAE, UTEG"),
-        ("evaluacion_calidad", "Calidad & Acreditación Superior", "Modelos tecnopedagógicos y SGIC")
+        ("unisabana_pv", "Jefatura Producción Virtual Unisabana", "Ecosistemas e-learning y gobernanza TIC",
+         ["Producción Virtual", "E-Learning", "Unisabana", "Tecnopedagogía", "LMS Moodle"]),
+        ("moodle_scale", "LMS Moodle a Escala", "Administración, plugins, SCORM y analítica",
+         ["LMS Moodle a Escala", "Moodle", "Plugins", "Evaluación Formativa", "E-Learning"]),
+        ("pensamiento_comp", "Pensamiento Computacional (Scratch)", "Proyectos con OEI y CIESPAL",
+         ["Pensamiento Computacional", "Scratch", "STEAM", "Robótica Educativa"]),
+        ("docencia_posgrados", "Docencia Posgrados Iberoamérica", "Maestrías en UOC, Sabana, UNAE, UTEG",
+         ["Docencia Universitaria", "Posgrados", "UOC", "Educación Superior"]),
+        ("evaluacion_calidad", "Calidad & Acreditación Superior", "Modelos tecnopedagógicos y SGIC",
+         ["Calidad Universitaria", "Acreditación", "Evaluación Institucional", "SGIC"])
     ]
-    for nid, lbl, inf in ed_pillars:
-        add_node(nid, lbl, "tecnopedagogia", "pillar", size=18, info=inf)
+    for nid, lbl, inf, kws in ed_pillars:
+        add_node(nid, lbl, "tecnopedagogia", "pillar", size=18, info=inf, keywords=kws)
         add_link("tecnopedagogia", nid, "competencia núcleo", value=2)
         
     # Conexiones sinérgicas inter-cluster (Puentes Tecnopedagógicos)
@@ -672,7 +701,7 @@ def build_knowledge_graph(profile, projects, publications, digital_resources, gi
     ]
     
     for kw in transversal_keywords:
-        add_node(kw["id"], kw["label"], "keywords", "keyword", size=14, info=kw["desc"])
+        add_node(kw["id"], kw["label"], "keywords", "keyword", size=15, info=kw["desc"], keywords=[kw["label"]])
         add_link("keywords", kw["id"], "palabra clave", value=2)
         if kw.get("pillar"):
             add_link(kw["pillar"], kw["id"], "concepto transversal", value=2)
@@ -682,19 +711,46 @@ def build_knowledge_graph(profile, projects, publications, digital_resources, gi
         pub_id = f"pub_{pub.get('id', pub['title'][:15].lower().replace(' ', '_'))}"
         p_title = pub.get('title', 'Publicación')
         p_cluster = pub.get('cluster', 'ia_data_science')
-        add_node(pub_id, p_title[:28] + "...", p_cluster, "publication", size=14, info=f"Publicación: {p_title} ({pub.get('year', '')}) - {pub.get('publisher', '')}")
+        pub_kws = list(pub.get('keywords', []))
+        add_node(pub_id, p_title[:28] + "...", p_cluster, "publication", size=14, 
+                 info=f"Publicación: {p_title} ({pub.get('year', '')}) - {pub.get('publisher', '')}",
+                 keywords=pub_kws)
         add_link(p_cluster, pub_id, "producción científica", value=2)
         
         # Conectar publicación con palabras clave coincidentes
-        hay = (p_title + " " + " ".join(pub.get('keywords', []))).lower()
+        hay = (p_title + " " + " ".join(pub_kws)).lower()
         for kw in transversal_keywords:
             if any(term in hay for term in kw["terms"]):
                 add_link(kw["id"], pub_id, "temática clave", value=2)
+                if kw["label"] not in node_map[pub_id]["keywords"]:
+                    node_map[pub_id]["keywords"].append(kw["label"])
+
+    # Conectar Proyectos Relevantes al Knowledge Graph (top emblemáticos)
+    for proj in (projects or [])[:12]:
+        proj_id = f"proj_{proj.get('year', '')}_{proj['title'][:16].lower().replace(' ', '_').replace(':', '')}"
+        pr_title = proj.get('title', 'Proyecto')
+        pr_tags = list(proj.get('tags', []))
+        pr_org = proj.get('organization', '')
+        pr_cluster = "politicas_direccion" if any(w in (pr_title + " " + pr_org).lower() for w in ["bid", "unesco", "can", "mintel", "cepal", "política", "estado"]) else "tecnopedagogia"
+        add_node(proj_id, pr_title[:26] + "...", pr_cluster, "project", size=14,
+                 info=f"Iniciativa: {pr_title} ({pr_org}, {proj.get('year', '')})",
+                 keywords=pr_tags + [pr_org])
+        add_link(pr_cluster, proj_id, "iniciativa clave", value=2)
+        
+        hay = (pr_title + " " + pr_org + " " + " ".join(pr_tags)).lower()
+        for kw in transversal_keywords:
+            if any(term in hay for term in kw["terms"]):
+                add_link(kw["id"], proj_id, "eje temático", value=2)
+                if kw["label"] not in node_map[proj_id]["keywords"]:
+                    node_map[proj_id]["keywords"].append(kw["label"])
 
     # Conectar Repositorios de GitHub destacados
     for repo in (github_repos or []):
         repo_id = f"repo_{repo['name']}"
-        add_node(repo_id, repo['title'][:28] + "...", repo['cluster'], "repository", size=13, info=f"{repo['title']} - {repo['description'][:80]}...")
+        repo_kws = list(repo.get('tags', []))
+        add_node(repo_id, repo['title'][:28] + "...", repo['cluster'], "repository", size=13, 
+                 info=f"{repo['title']} - {repo['description'][:80]}...",
+                 keywords=repo_kws + ["Código Abierto", "GitHub"])
         if repo['name'] == 'curso_llm':
             add_link("deep_learning", repo_id, "repositorio GitHub", value=2)
         elif repo['name'] in ['scriptScratch', 'ProgramacionPensamientoComputacional']:
@@ -708,17 +764,37 @@ def build_knowledge_graph(profile, projects, publications, digital_resources, gi
         else:
             add_link(repo['cluster'], repo_id, "código abierto", value=1)
             
-        # Conectar repo a palabras clave
-        hay = (repo.get('title', '') + " " + repo.get('description', '') + " " + " ".join(repo.get('tags', []))).lower()
+        hay = (repo.get('title', '') + " " + repo.get('description', '') + " " + " ".join(repo_kws)).lower()
         for kw in transversal_keywords:
             if any(term in hay for term in kw["terms"]):
                 add_link(kw["id"], repo_id, "tecnología", value=2)
+                if kw["label"] not in node_map[repo_id]["keywords"]:
+                    node_map[repo_id]["keywords"].append(kw["label"])
 
     # Conectar notas y ensayos de investigación del Jardín Digital (Quartz)
+    blog_specific_kws = {
+        "creación": ["Moodle", "IA en Educación", "Prompt Engineering", "LMS Moodle a Escala", "Evaluación Formativa"],
+        "fundamentos": ["Deep Learning & LLMs", "IA en Educación", "Filosofía de la IA", "Educación Superior"],
+        "automatizando": ["Gestión del Conocimiento (PKM)", "Obsidian", "Telegram Sync", "Ontologías Educativas"],
+        "guía técnica": ["LMS Moodle a Escala", "Moodle", "Plugins", "Administración LMS", "E-Learning"],
+        "publicando obsidian": ["Gestión del Conocimiento (PKM)", "Quartz", "Obsidian", "Software Libre & Open Source", "Jardín Digital"],
+        "10 sitios": ["Pensamiento Computacional & STEAM", "Robótica Educativa", "Reciclaje Maker", "Tecnopedagogía & E-Learning"],
+        "observatorio": ["Modelos Neuro-Simbólicos", "Diagnóstico Cognitivo & CDM", "Gobernanza de la IA", "Tesis Doctoral"]
+    }
+
     for post in (digital_garden_posts or []):
         post_id = f"blog_{post['title'][:20].lower().replace(' ', '_').replace(':', '')}"
-        add_node(post_id, post['title'][:26] + "...", post['cluster'], "blog_post", size=13, info=f"[{post['collection']}] {post['title']} - {post['description'][:80]}...")
         t_low = post['title'].lower()
+        post_kws = ["Jardín Digital", "Quartz"]
+        for k_term, specific_kws in blog_specific_kws.items():
+            if k_term in t_low:
+                post_kws.extend(specific_kws)
+                break
+                
+        add_node(post_id, post['title'][:26] + "...", post['cluster'], "blog_post", size=13, 
+                 info=f"[{post['collection']}] {post['title']} - {post['description'][:80]}...",
+                 keywords=post_kws)
+                 
         if "ia" in t_low or "mitos" in t_low:
             add_link("deep_learning", post_id, "ensayo conceptual", value=2)
         elif "moodle" in t_low:
@@ -730,24 +806,37 @@ def build_knowledge_graph(profile, projects, publications, digital_resources, gi
         else:
             add_link(post['cluster'], post_id, "publicación digital", value=1)
             
-        # Conectar post a palabras clave
         for kw in transversal_keywords:
             if any(term in t_low for term in kw["terms"]):
                 add_link(kw["id"], post_id, "ensayo temático", value=2)
+                if kw["label"] not in node_map[post_id]["keywords"]:
+                    node_map[post_id]["keywords"].append(kw["label"])
 
-    # Conectar certificaciones clave al Knowledge Graph
-    for cert in (certifications or []):
+    # Conectar certificaciones e hitos destacados (Merits + top credentials = ~18 nodos)
+    key_cert_keywords = ["best paper", "carlos jordana", "globo común", "novus", "santander", "ideas de 10", 
+                         "conferencia", "gamificación", "fortinet", "moodle", "scimago", "google", "puce"]
+    standout_certs = []
+    for c in (certifications or []):
+        c_title_low = (c.get("title", "") + " " + c.get("issuer", "")).lower()
+        if c.get("docType") == "Meri" or any(kw in c_title_low for kw in key_cert_keywords):
+            standout_certs.append(c)
+
+    for cert in standout_certs[:18]:
         c_title = cert.get("title", "")
         c_id = f"cert_{cert.get('id', c_title[:20].lower().replace(' ', '_'))}"
         cluster = cert.get("cluster", "tecnopedagogia")
-        add_node(c_id, c_title[:26] + "...", cluster, "certification", size=13, info=f"Certificación: {c_title} ({cert.get('issuer', '')}, {cert.get('year', '')})")
+        cert_kws = list(cert.get('skills', [])) + [cert.get('issuer', ''), cert.get('docType', 'Certificación')]
+        add_node(c_id, c_title[:26] + "...", cluster, "certification", size=13, 
+                 info=f"Certificación: {c_title} ({cert.get('issuer', '')}, {cert.get('year', '')})",
+                 keywords=cert_kws)
         add_link(cluster, c_id, "credencial validada", value=2)
         
-        # Conectar certificaciones a palabras clave
-        c_hay = (c_title + " " + cert.get('issuer', '') + " " + " ".join(cert.get('skills', []))).lower()
+        c_hay = (c_title + " " + cert.get('issuer', '') + " " + " ".join(cert_kws)).lower()
         for kw in transversal_keywords:
             if any(term in c_hay for term in kw["terms"]):
                 add_link(kw["id"], c_id, "evidencia empírica", value=2)
+                if kw["label"] not in node_map[c_id]["keywords"]:
+                    node_map[c_id]["keywords"].append(kw["label"])
 
     valid_links = [l for l in links if l["source"] in node_ids and l["target"] in node_ids]
 

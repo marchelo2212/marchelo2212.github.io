@@ -592,15 +592,16 @@
       </div>
 
       <!-- Drawer Lateral de Detalle de Nodo -->
-      <div id="node-detail-panel" class="absolute top-4 right-4 w-84 max-h-[500px] overflow-y-auto bg-surface-card/95 backdrop-blur-xl border border-white/[0.1] rounded-2xl p-5 shadow-2xl hidden transition-all">
+      <div id="node-detail-panel" class="absolute top-4 right-4 w-[340px] sm:w-[380px] max-w-[calc(100%-2rem)] max-h-[490px] overflow-y-auto bg-[#0c1017]/95 backdrop-blur-xl border border-white/[0.12] rounded-2xl p-5 shadow-2xl hidden transition-all z-20">
         <div class="flex items-center justify-between pb-3 border-b border-white/[0.08]">
           <span id="detail-node-cluster" class="font-mono text-[10px] uppercase tracking-wider px-2 py-0.5 rounded"></span>
-          <button id="close-detail-btn" class="text-slate-400 hover:text-white text-xs p-1">
+          <button id="close-detail-btn" class="text-slate-400 hover:text-white text-xs p-1" title="Cerrar panel">
             <i class="fa-solid fa-xmark"></i>
           </button>
         </div>
         <h4 id="detail-node-title" class="font-serif text-base font-bold text-white mt-3"></h4>
         <p id="detail-node-desc" class="text-xs text-slate-300 mt-1.5 leading-relaxed font-sans"></p>
+        <div id="detail-node-keywords" class="mt-3.5"></div>
         <div id="detail-node-links" class="mt-4 space-y-1.5"></div>
       </div>
     </div>

@@ -101,6 +101,27 @@ export class KnowledgeGraph {
     window.addEventListener('resize', resize);
   }
 
+  isNodeDimmed(n) {
+    if (this.highlightedKeyword) {
+      const kwLower = this.highlightedKeyword.toLowerCase();
+      const nodeKws = (n.keywords || []).map(k => String(k).toLowerCase());
+      const isMatch = n.label.toLowerCase().includes(kwLower) ||
+                      nodeKws.some(k => k.includes(kwLower) || kwLower.includes(k));
+      return !isMatch;
+    }
+    if (this.activeCluster === 'all') return false;
+    if (n.cluster === 'central') return false;
+    if (this.activeCluster === 'keywords') {
+      if (n.cluster === 'keywords' || n.type === 'keyword') return false;
+      const isConnected = this.links.some(l => 
+        (l.source === n && (l.target.cluster === 'keywords' || l.target.type === 'keyword')) ||
+        (l.target === n && (l.source.cluster === 'keywords' || l.source.type === 'keyword'))
+      );
+      return !isConnected;
+    }
+    return n.cluster !== this.activeCluster;
+  }
+
   setupEvents() {
     const getPos = e => {
       const rect = this.canvas.getBoundingClientRect();
@@ -113,14 +134,22 @@ export class KnowledgeGraph {
     };
 
     const findNodeAt = pos => {
+      // 1. Prioridad: nodos activos/no-atenuados
       for (let i = this.nodes.length - 1; i >= 0; i--) {
         const n = this.nodes[i];
-        if (this.activeCluster !== 'all' && n.cluster !== this.activeCluster && n.cluster !== 'central') {
-          continue;
-        }
+        if (this.isNodeDimmed(n)) continue;
         const dx = n.x - pos.x;
         const dy = n.y - pos.y;
-        if (Math.sqrt(dx * dx + dy * dy) <= n.radius + 6) {
+        if (Math.sqrt(dx * dx + dy * dy) <= n.radius + 8) {
+          return n;
+        }
+      }
+      // 2. Fallback: cualquier nodo en el canvas (garantiza que siempre sea clicable)
+      for (let i = this.nodes.length - 1; i >= 0; i--) {
+        const n = this.nodes[i];
+        const dx = n.x - pos.x;
+        const dy = n.y - pos.y;
+        if (Math.sqrt(dx * dx + dy * dy) <= n.radius + 8) {
           return n;
         }
       }
@@ -228,6 +257,85 @@ export class KnowledgeGraph {
 
   setCluster(clusterId) {
     this.activeCluster = clusterId;
+    this.highlightedKeyword = null;
+  }
+
+  highlightKeyword(kw) {
+    this.highlightedKeyword = kw;
+    this.activeCluster = 'all';
+    
+    // Buscar nodos coincidentes
+    const kwLower = (kw || '').toLowerCase();
+    const matchingNodes = this.nodes.filter(n => {
+      const nodeKws = (n.keywords || []).map(k => String(k).toLowerCase());
+      return n.label.toLowerCase().includes(kwLower) ||
+             nodeKws.some(k => k.includes(kwLower) || kwLower.includes(k));
+    });
+
+    if (matchingNodes.length > 0) {
+      this.focusOnNodes(matchingNodes);
+    }
+  }
+
+  clearKeywordHighlight() {
+    this.highlightedKeyword = null;
+  }
+
+  selectNodeById(nodeId) {
+    const node = this.nodeMap.get(nodeId);
+    if (node) {
+      this.selectedNode = node;
+      this.focusOnNode(node);
+      this.onNodeClick(node);
+    }
+  }
+
+  focusOnNode(node) {
+    this.selectedNode = node;
+    const targetScale = Math.max(this.transform.scale, 1.15);
+    const targetX = this.width / 2 - node.x * targetScale;
+    const targetY = this.height / 2 - node.y * targetScale;
+    this.animateCameraTo(targetX, targetY, targetScale);
+  }
+
+  focusOnNodes(nodesList) {
+    if (!nodesList || nodesList.length === 0) return;
+    const xs = nodesList.map(n => n.x);
+    const ys = nodesList.map(n => n.y);
+    const minX = Math.min(...xs), maxX = Math.max(...xs);
+    const minY = Math.min(...ys), maxY = Math.max(...ys);
+    const centerX = (minX + maxX) / 2;
+    const centerY = (minY + maxY) / 2;
+    const spanX = Math.max(maxX - minX + 160, 240);
+    const spanY = Math.max(maxY - minY + 160, 240);
+    
+    const targetScale = Math.min(Math.max(Math.min((this.width * 0.72) / spanX, (this.height * 0.72) / spanY), 0.65), 1.5);
+    const targetX = this.width / 2 - centerX * targetScale;
+    const targetY = this.height / 2 - centerY * targetScale;
+    this.animateCameraTo(targetX, targetY, targetScale);
+  }
+
+  animateCameraTo(targetX, targetY, targetScale = this.transform.scale) {
+    const startX = this.transform.x;
+    const startY = this.transform.y;
+    const startScale = this.transform.scale;
+    const startTime = performance.now();
+    const duration = 380;
+
+    const anim = (currentTime) => {
+      const elapsed = currentTime - startTime;
+      const progress = Math.min(elapsed / duration, 1);
+      const ease = 1 - Math.pow(1 - progress, 3);
+      
+      this.transform.x = startX + (targetX - startX) * ease;
+      this.transform.y = startY + (targetY - startY) * ease;
+      this.transform.scale = startScale + (targetScale - startScale) * ease;
+
+      if (progress < 1) {
+        requestAnimationFrame(anim);
+      }
+    };
+    requestAnimationFrame(anim);
   }
 
   resetView() {
@@ -235,6 +343,7 @@ export class KnowledgeGraph {
     this.transform.y = this.height / 2;
     this.transform.scale = 1;
     this.activeCluster = 'all';
+    this.highlightedKeyword = null;
     this.selectedNode = null;
     this.hoveredNode = null;
     this.hasUserPanned = false;
@@ -368,10 +477,9 @@ export class KnowledgeGraph {
       const isConnected = this.hoveredNode && 
         (link.source === this.hoveredNode || link.target === this.hoveredNode);
       
-      const isDimmed = this.activeCluster !== 'all' && 
-        link.source.cluster !== this.activeCluster && 
-        link.target.cluster !== this.activeCluster &&
-        link.source.cluster !== 'central' && link.target.cluster !== 'central';
+      const sourceDimmed = this.isNodeDimmed(link.source);
+      const targetDimmed = this.isNodeDimmed(link.target);
+      const isDimmed = sourceDimmed || targetDimmed;
 
       ctx.beginPath();
       ctx.moveTo(link.source.x, link.source.y);
@@ -379,10 +487,13 @@ export class KnowledgeGraph {
       
       if (isConnected) {
         ctx.strokeStyle = '#38bdf8';
-        ctx.lineWidth = 2.2;
+        ctx.lineWidth = 2.4;
+      } else if (this.highlightedKeyword && !isDimmed) {
+        ctx.strokeStyle = 'rgba(245, 158, 11, 0.85)';
+        ctx.lineWidth = 2.0;
       } else if (isDimmed) {
         ctx.strokeStyle = 'rgba(255, 255, 255, 0.03)';
-        ctx.lineWidth = 0.6;
+        ctx.lineWidth = 0.5;
       } else {
         ctx.strokeStyle = 'rgba(255, 255, 255, 0.16)';
         ctx.lineWidth = 1;
@@ -399,29 +510,27 @@ export class KnowledgeGraph {
              (l.target === n && l.source === this.hoveredNode)
       );
 
-      const isDimmed = this.activeCluster !== 'all' && 
-        n.cluster !== this.activeCluster && 
-        n.cluster !== 'central';
-
+      const isDimmed = this.isNodeDimmed(n);
+      const isKeywordMatch = this.highlightedKeyword && !isDimmed;
       const color = this.getClusterColor(n.cluster);
 
-      // Halo luminoso en hover, seleccionado, nodo central o cluster seleccionado
-      if ((isHovered || isSelected || n.type === 'root') && !isDimmed) {
+      // Halo luminoso en hover, seleccionado, nodo central o coincidencia de palabra clave
+      if ((isHovered || isSelected || n.type === 'root' || isKeywordMatch) && !isDimmed) {
         ctx.beginPath();
-        ctx.arc(n.x, n.y, n.radius + 8, 0, Math.PI * 2);
-        ctx.fillStyle = color + '2b';
+        ctx.arc(n.x, n.y, n.radius + (isKeywordMatch ? 10 : 7), 0, Math.PI * 2);
+        ctx.fillStyle = isKeywordMatch ? 'rgba(245, 158, 11, 0.28)' : (color + '2b');
         ctx.fill();
       }
 
       // Círculo principal del nodo
       ctx.beginPath();
       ctx.arc(n.x, n.y, n.radius, 0, Math.PI * 2);
-      ctx.fillStyle = isDimmed ? 'rgba(30, 41, 59, 0.35)' : (n.type === 'root' ? '#d97706' : color);
+      ctx.fillStyle = isDimmed ? 'rgba(30, 41, 59, 0.25)' : (n.type === 'root' ? '#d97706' : (n.type === 'keyword' ? '#f59e0b' : color));
       ctx.fill();
 
       // Borde del nodo
-      ctx.strokeStyle = isSelected ? '#ffffff' : (isHovered ? '#ffffff' : (isDimmed ? 'rgba(255, 255, 255, 0.1)' : 'rgba(255, 255, 255, 0.5)'));
-      ctx.lineWidth = isSelected ? 2.5 : 1.2;
+      ctx.strokeStyle = isSelected ? '#ffffff' : (isHovered ? '#ffffff' : (isKeywordMatch ? '#fef08a' : (isDimmed ? 'rgba(255, 255, 255, 0.08)' : 'rgba(255, 255, 255, 0.5)')));
+      ctx.lineWidth = (isSelected || isKeywordMatch) ? 2.5 : 1.2;
       ctx.stroke();
 
       // Punto central

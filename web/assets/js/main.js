@@ -102,6 +102,12 @@ function initKnowledgeGraph() {
       setActiveClusterBtn(btn);
       const cluster = btn.getAttribute('data-cluster');
       graphInstance.setCluster(cluster);
+      if (cluster === 'keywords') {
+        const kwNodes = graphInstance.nodes.filter(n => n.cluster === 'keywords' || n.type === 'keyword');
+        if (kwNodes.length > 0) {
+          graphInstance.focusOnNodes(kwNodes);
+        }
+      }
     });
   });
 
@@ -117,6 +123,8 @@ function initKnowledgeGraph() {
     resetBtn.addEventListener('click', () => {
       graphInstance.resetView();
       if (btnAll) setActiveClusterBtn(btnAll);
+      const panel = document.getElementById('node-detail-panel');
+      if (panel) panel.classList.add('hidden');
     });
   }
 
@@ -125,17 +133,22 @@ function initKnowledgeGraph() {
   if (closeDetailBtn) {
     closeDetailBtn.addEventListener('click', () => {
       document.getElementById('node-detail-panel').classList.add('hidden');
+      if (graphInstance) graphInstance.clearKeywordHighlight();
     });
   }
 }
 
+let currentDetailNode = null;
+
 function showNodeDetail(node) {
+  currentDetailNode = node;
   const panel = document.getElementById('node-detail-panel');
   if (!panel) return;
 
   const titleEl = document.getElementById('detail-node-title');
   const clusterEl = document.getElementById('detail-node-cluster');
   const descEl = document.getElementById('detail-node-desc');
+  const kwsEl = document.getElementById('detail-node-keywords');
   const linksEl = document.getElementById('detail-node-links');
 
   titleEl.textContent = node.label;
@@ -152,7 +165,7 @@ function showNodeDetail(node) {
   } else if (node.cluster === 'tecnopedagogia') {
     clusterName = 'Tecnopedagogía & Aprendizaje';
     badgeClass = 'bg-emerald-500/10 text-emerald-400 border border-emerald-500/20';
-  } else if (node.cluster === 'keywords') {
+  } else if (node.cluster === 'keywords' || node.type === 'keyword') {
     clusterName = 'Palabra Clave Transversal';
     badgeClass = 'bg-amber-500/10 text-amber-400 border border-amber-500/20';
   }
@@ -160,6 +173,43 @@ function showNodeDetail(node) {
   clusterEl.textContent = clusterName;
   clusterEl.className = `font-mono text-[10px] uppercase tracking-wider px-2.5 py-0.5 rounded ${badgeClass}`;
 
+  // Si el nodo seleccionado es directamente una palabra clave, abrir la vista de exploración de esa palabra clave
+  if (node.type === 'keyword' || node.cluster === 'keywords') {
+    exploreKeyword(node.label.replace('...', '').trim(), null);
+    panel.classList.remove('hidden');
+    return;
+  }
+
+  // Renderizar Palabras Clave del Nodo (Pills Clicables para navegar)
+  const nodeKws = node.keywords || [];
+  if (kwsEl) {
+    if (nodeKws.length > 0) {
+      kwsEl.innerHTML = `
+        <div class="text-[10px] font-mono uppercase tracking-wider text-amber-400 font-semibold mb-1.5 flex items-center gap-1.5">
+          <i class="fa-solid fa-tags text-[9px]"></i> Palabras clave (${nodeKws.length}):
+        </div>
+        <div class="flex flex-wrap gap-1.5">
+          ${nodeKws.map(kw => `
+            <button class="node-kw-pill px-2.5 py-1 rounded-lg bg-amber-500/10 hover:bg-amber-500/25 active:scale-95 text-amber-300 hover:text-white border border-amber-500/25 text-[11px] font-mono transition flex items-center gap-1 cursor-pointer" data-keyword="${kw}">
+              <i class="fa-solid fa-tag text-[9px] opacity-75"></i>
+              <span>${kw}</span>
+            </button>
+          `).join('')}
+        </div>
+      `;
+      kwsEl.querySelectorAll('.node-kw-pill').forEach(btn => {
+        btn.addEventListener('click', (e) => {
+          e.stopPropagation();
+          const kw = btn.getAttribute('data-keyword');
+          exploreKeyword(kw, node);
+        });
+      });
+    } else {
+      kwsEl.innerHTML = '';
+    }
+  }
+
+  // Elementos relacionados del CV
   const query = node.label.toLowerCase().replace('...', '').trim();
   const searchInText = (txt) => (txt || '').toLowerCase().includes(query);
 
@@ -211,6 +261,118 @@ function showNodeDetail(node) {
       `;
     });
   }
+
+  panel.classList.remove('hidden');
+}
+
+function exploreKeyword(kw, originNode) {
+  if (!graphInstance || !kw) return;
+
+  // 1. Iluminar en el canvas los nodos con esta palabra clave y centrar cámara
+  graphInstance.highlightKeyword(kw);
+
+  const panel = document.getElementById('node-detail-panel');
+  if (!panel) return;
+
+  const titleEl = document.getElementById('detail-node-title');
+  const clusterEl = document.getElementById('detail-node-cluster');
+  const descEl = document.getElementById('detail-node-desc');
+  const kwsEl = document.getElementById('detail-node-keywords');
+  const linksEl = document.getElementById('detail-node-links');
+
+  clusterEl.textContent = 'Exploración por Palabra Clave';
+  clusterEl.className = 'font-mono text-[10px] uppercase tracking-wider px-2.5 py-0.5 rounded bg-amber-500/15 text-amber-300 border border-amber-500/30';
+
+  titleEl.innerHTML = `<span class="flex items-center gap-2"><i class="fa-solid fa-tag text-amber-400 text-sm"></i> ${kw}</span>`;
+  
+  // Buscar nodos del grafo que contengan esta palabra clave
+  const kwLower = kw.toLowerCase();
+  const matchingGraphNodes = (graphInstance.nodes || []).filter(n => {
+    if (n.type === 'cluster_root' || n.type === 'root') return false;
+    const nodeKws = (n.keywords || []).map(k => String(k).toLowerCase());
+    return n.label.toLowerCase().includes(kwLower) ||
+           nodeKws.some(k => k.includes(kwLower) || kwLower.includes(k));
+  });
+
+  descEl.innerHTML = `
+    Navegando entre <strong>${matchingGraphNodes.length} nodos del grafo</strong> que comparten este concepto clave.
+    Haz clic en cualquiera para viajar a él directamente en el espacio latente:
+  `;
+
+  // Botón para volver al nodo de origen si existe
+  if (kwsEl) {
+    if (originNode) {
+      kwsEl.innerHTML = `
+        <button id="back-to-origin-btn" class="w-full text-left px-3 py-1.5 rounded-lg bg-white/[0.05] hover:bg-white/[0.1] border border-white/[0.08] text-xs text-slate-300 hover:text-white transition flex items-center justify-between cursor-pointer">
+          <span>← Volver a: <strong>${originNode.label}</strong></span>
+          <i class="fa-solid fa-rotate-left text-[10px]"></i>
+        </button>
+      `;
+      const backBtn = document.getElementById('back-to-origin-btn');
+      if (backBtn) {
+        backBtn.addEventListener('click', () => {
+          graphInstance.clearKeywordHighlight();
+          showNodeDetail(originNode);
+        });
+      }
+    } else {
+      kwsEl.innerHTML = `
+        <button id="reset-kw-highlight-btn" class="w-full text-left px-3 py-1.5 rounded-lg bg-white/[0.05] hover:bg-white/[0.1] border border-white/[0.08] text-xs text-slate-300 hover:text-white transition flex items-center justify-between cursor-pointer">
+          <span>← Restablecer vista del grafo</span>
+          <i class="fa-solid fa-expand text-[10px]"></i>
+        </button>
+      `;
+      const rstBtn = document.getElementById('reset-kw-highlight-btn');
+      if (rstBtn) {
+        rstBtn.addEventListener('click', () => {
+          graphInstance.clearKeywordHighlight();
+          panel.classList.add('hidden');
+        });
+      }
+    }
+  }
+
+  // Lista de Nodos clicables para navegar
+  const typeBadgeMeta = {
+    publication: { label: "Publicación", color: "text-amber-400 bg-amber-500/10 border-amber-500/20" },
+    project: { label: "Proyecto", color: "text-purple-400 bg-purple-500/10 border-purple-500/20" },
+    repository: { label: "Repositorio", color: "text-sky-400 bg-sky-500/10 border-sky-500/20" },
+    blog_post: { label: "Ensayo Quartz", color: "text-emerald-400 bg-emerald-500/10 border-emerald-500/20" },
+    certification: { label: "Certificación", color: "text-blue-400 bg-blue-500/10 border-blue-500/20" },
+    pillar: { label: "Pilar", color: "text-indigo-400 bg-indigo-500/10 border-indigo-500/20" },
+    keyword: { label: "Palabra Clave", color: "text-amber-400 bg-amber-500/10 border-amber-500/20" }
+  };
+
+  linksEl.innerHTML = `
+    <div class="space-y-1.5 mt-2">
+      ${matchingGraphNodes.map(mn => {
+        const meta = typeBadgeMeta[mn.type] || { label: mn.type || "Nodo", color: "text-slate-400 bg-white/[0.05] border-white/[0.08]" };
+        const isCurrent = originNode && originNode.id === mn.id;
+        return `
+          <div class="p-2.5 rounded-xl ${isCurrent ? 'bg-amber-500/15 border-amber-500/40' : 'bg-white/[0.03] hover:bg-white/[0.08] border-white/[0.06] hover:border-amber-400/40'} border transition cursor-pointer group node-jump-item" data-node-id="${mn.id}">
+            <div class="flex items-center justify-between text-[10px] font-mono mb-1">
+              <span class="px-1.5 py-0.2 rounded border text-[9px] ${meta.color}">${meta.label}</span>
+              <span class="text-amber-400/70 group-hover:text-amber-300 transition flex items-center gap-1 font-sans text-[11px]">
+                ${isCurrent ? '● Nodo actual' : 'Ver nodo →'}
+              </span>
+            </div>
+            <div class="font-semibold text-white text-xs group-hover:text-amber-200 transition line-clamp-1">${mn.label}</div>
+            <div class="text-[10px] text-slate-400 line-clamp-1 mt-0.5">${mn.info || ''}</div>
+          </div>
+        `;
+      }).join('')}
+    </div>
+  `;
+
+  // Asignar listeners de navegación a cada tarjeta de nodo
+  linksEl.querySelectorAll('.node-jump-item').forEach(item => {
+    item.addEventListener('click', () => {
+      const nodeId = item.getAttribute('data-node-id');
+      if (nodeId && graphInstance) {
+        graphInstance.selectNodeById(nodeId);
+      }
+    });
+  });
 
   panel.classList.remove('hidden');
 }

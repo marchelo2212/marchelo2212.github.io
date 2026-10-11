@@ -141,7 +141,15 @@
         "cluster": "central",
         "type": "root",
         "size": 30,
-        "info": "Arquitecto Tecnopedagógico e Investigador en IA"
+        "info": "Arquitecto Tecnopedagógico e Investigador en IA",
+        "keywords": [
+          "Tecnopedagogía",
+          "Inteligencia Artificial",
+          "Políticas Públicas",
+          "Data Science",
+          "E-Learning",
+          "Gobernanza IA"
+        ]
       },
       {
         "id": "ia_data_science",
@@ -149,7 +157,10 @@
         "cluster": "ia_data_science",
         "type": "cluster_root",
         "size": 24,
-        "info": "Modelos de diagnóstico cognitivo, Deep Learning, analítica educativa, ontologías y ecosistemas neuro-simbólicos."
+        "info": "Modelos de diagnóstico cognitivo, Deep Learning, analítica educativa, ontologías y ecosistemas neuro-simbólicos.",
+        "keywords": [
+          "Inteligencia Artificial & Data Science"
+        ]
       },
       {
         "id": "politicas_direccion",
@@ -157,7 +168,10 @@
         "cluster": "politicas_direccion",
         "type": "cluster_root",
         "size": 24,
-        "info": "Gobernanza de tecnologías emergentes, ética de la IA (UNESCO), agendas digitales (BID, CEPAL, CAN) y dirección estratégica."
+        "info": "Gobernanza de tecnologías emergentes, ética de la IA (UNESCO), agendas digitales (BID, CEPAL, CAN) y dirección estratégica.",
+        "keywords": [
+          "Políticas Públicas & Dirección"
+        ]
       },
       {
         "id": "tecnopedagogia",
@@ -165,7 +179,10 @@
         "cluster": "tecnopedagogia",
         "type": "cluster_root",
         "size": 24,
-        "info": "Producción virtual e-learning a gran escala, LMS Moodle, diseño tecnopedagógico, pensamiento computacional y STEAM."
+        "info": "Producción virtual e-learning a gran escala, LMS Moodle, diseño tecnopedagógico, pensamiento computacional y STEAM.",
+        "keywords": [
+          "Tecnopedagogía & Aprendizaje Digital"
+        ]
       },
       {
         "id": "keywords",
@@ -173,7 +190,10 @@
         "cluster": "keywords",
         "type": "cluster_root",
         "size": 24,
-        "info": "Descriptores y conceptos articuladores que enlazan transversalmente publicaciones, proyectos, docencia y código abierto."
+        "info": "Descriptores y conceptos articuladores que enlazan transversalmente publicaciones, proyectos, docencia y código abierto.",
+        "keywords": [
+          "Palabras Clave Transversales"
+        ]
       },
       {
         "id": "diagnostico_cognitivo",
@@ -181,7 +201,14 @@
         "cluster": "ia_data_science",
         "type": "pillar",
         "size": 18,
-        "info": "Modelos psicométricos y redes neuronales"
+        "info": "Modelos psicométricos y redes neuronales",
+        "keywords": [
+          "Diagnóstico Cognitivo",
+          "CDM",
+          "Psicometría",
+          "Learning Analytics",
+          "Data Science"
+        ]
       },
       {
         "id": "neuro_simbolico",
@@ -189,7 +216,14 @@
         "cluster": "ia_data_science",
         "type": "pillar",
         "size": 18,
-        "info": "IALab Universidad de La Sabana"
+        "info": "IALab Universidad de La Sabana",
+        "keywords": [
+          "Modelos Neuro-Simbólicos",
+          "Ontologías",
+          "IALab",
+          "Inteligencia Artificial",
+          "Razonamiento Lógico"
+        ]
       },
       {
         "id": "deep_learning",
@@ -197,7 +231,14 @@
         "cluster": "ia_data_science",
         "type": "pillar",
         "size": 18,
-        "info": "Modelos de lenguaje y feedback formativo"
+        "info": "Modelos de lenguaje y feedback formativo",
+        "keywords": [
+          "Deep Learning",
+          "LLMs",
+          "NLP",
+          "Prompt Engineering",
+          "IA en Educación"
+        ]
       },
       {
         "id": "ontologias",
@@ -205,7 +246,13 @@
         "cluster": "ia_data_science",
         "type": "pillar",
         "size": 18,
-        "info": "Modelamiento semántico del conocimiento"
+        "info": "Modelamiento semántico del conocimiento",
+        "keywords": [
+          "Ontologías",
+          "Modelamiento Semántico",
+          "Grafos de Conocimiento",
+          "PKM"
+        ]
       },
       {
         "id": "python_data",
@@ -213,7 +260,14 @@
         "cluster": "ia_data_science",
         "type": "pillar",
         "size": 18,
-        "info": "Flujos ETL y analítica de datos"
+        "info": "Flujos ETL y analítica de datos",
+        "keywords": [
+          "Python",
+          "SQL",
+          "Data Science",
+          "ETL",
+          "Analítica"
+        ]
       },
       {
         "id": "mintel_te",
@@ -221,7 +275,14 @@
         "cluster": "politicas_direccion",
         "type": "pillar",
         "size": 18,
-        "info": "Dirección nacional de adopción tecnológica"
+        "info": "Dirección nacional de adopción tecnológica",
+        "keywords": [
+          "Políticas Públicas",
+          "Tecnologías Emergentes",
+          "MINTEL",
+          "Gobernanza",
+          "Transformación Digital"
+        ]
       },
       {
         "id": "unesco_etica",
@@ -229,7 +290,14 @@
         "cluster": "politicas_direccion",
         "type": "pillar",
         "size": 18,
-        "info": "Red de países adoptantes de recomendaciones éticas"
+        "info": "Red de países adoptantes de recomendaciones éticas",
+        "keywords": [
+          "Ética de la IA",
+          "UNESCO",
+          "Gobernanza",
+          "Políticas Públicas",
+          "Derechos Digitales"
+        ]
       },
       {
         "id": "agenda_bid",
@@ -237,7 +305,13 @@
         "cluster": "politicas_direccion",
         "type": "pillar",
         "size": 18,
-        "info": "Estrategia país con el Banco Interamericano"
+        "info": "Estrategia país con el Banco Interamericano",
+        "keywords": [
+          "Transformación Digital",
+          "BID",
+          "Políticas Públicas",
+          "Estrategia País"
+        ]
       },
       {
         "id": "agenda_andina",
@@ -245,7 +319,13 @@
         "cluster": "politicas_direccion",
         "type": "pillar",
         "size": 18,
-        "info": "Integración y telecomunicaciones"
+        "info": "Integración y telecomunicaciones",
+        "keywords": [
+          "Agenda Digital",
+          "CAN",
+          "Telecomunicaciones",
+          "Integración Regional"
+        ]
       },
       {
         "id": "espiral_ceo",
@@ -253,7 +333,13 @@
         "cluster": "politicas_direccion",
         "type": "pillar",
         "size": 18,
-        "info": "Gestión de proyectos y consultoría internacional"
+        "info": "Gestión de proyectos y consultoría internacional",
+        "keywords": [
+          "Consultoría",
+          "Gestión de Proyectos",
+          "Software Libre",
+          "ASLE"
+        ]
       },
       {
         "id": "unisabana_pv",
@@ -261,7 +347,14 @@
         "cluster": "tecnopedagogia",
         "type": "pillar",
         "size": 18,
-        "info": "Ecosistemas e-learning y gobernanza TIC"
+        "info": "Ecosistemas e-learning y gobernanza TIC",
+        "keywords": [
+          "Producción Virtual",
+          "E-Learning",
+          "Unisabana",
+          "Tecnopedagogía",
+          "LMS Moodle"
+        ]
       },
       {
         "id": "moodle_scale",
@@ -269,7 +362,14 @@
         "cluster": "tecnopedagogia",
         "type": "pillar",
         "size": 18,
-        "info": "Administración, plugins, SCORM y analítica"
+        "info": "Administración, plugins, SCORM y analítica",
+        "keywords": [
+          "LMS Moodle a Escala",
+          "Moodle",
+          "Plugins",
+          "Evaluación Formativa",
+          "E-Learning"
+        ]
       },
       {
         "id": "pensamiento_comp",
@@ -277,7 +377,13 @@
         "cluster": "tecnopedagogia",
         "type": "pillar",
         "size": 18,
-        "info": "Proyectos con OEI y CIESPAL"
+        "info": "Proyectos con OEI y CIESPAL",
+        "keywords": [
+          "Pensamiento Computacional",
+          "Scratch",
+          "STEAM",
+          "Robótica Educativa"
+        ]
       },
       {
         "id": "docencia_posgrados",
@@ -285,7 +391,13 @@
         "cluster": "tecnopedagogia",
         "type": "pillar",
         "size": 18,
-        "info": "Maestrías en UOC, Sabana, UNAE, UTEG"
+        "info": "Maestrías en UOC, Sabana, UNAE, UTEG",
+        "keywords": [
+          "Docencia Universitaria",
+          "Posgrados",
+          "UOC",
+          "Educación Superior"
+        ]
       },
       {
         "id": "evaluacion_calidad",
@@ -293,111 +405,156 @@
         "cluster": "tecnopedagogia",
         "type": "pillar",
         "size": 18,
-        "info": "Modelos tecnopedagógicos y SGIC"
+        "info": "Modelos tecnopedagógicos y SGIC",
+        "keywords": [
+          "Calidad Universitaria",
+          "Acreditación",
+          "Evaluación Institucional",
+          "SGIC"
+        ]
       },
       {
         "id": "kw_ia_ed",
         "label": "IA en Educación",
         "cluster": "keywords",
         "type": "keyword",
-        "size": 14,
-        "info": "Inteligencia artificial aplicada al aprendizaje, feedback formativo, personalización y analítica cognitiva."
+        "size": 15,
+        "info": "Inteligencia artificial aplicada al aprendizaje, feedback formativo, personalización y analítica cognitiva.",
+        "keywords": [
+          "IA en Educación"
+        ]
       },
       {
         "id": "kw_deep_learning",
         "label": "Deep Learning & LLMs",
         "cluster": "keywords",
         "type": "keyword",
-        "size": 14,
-        "info": "Modelos generativos de lenguaje, transformadores, procesamiento de lenguaje natural y prompt engineering."
+        "size": 15,
+        "info": "Modelos generativos de lenguaje, transformadores, procesamiento de lenguaje natural y prompt engineering.",
+        "keywords": [
+          "Deep Learning & LLMs"
+        ]
       },
       {
         "id": "kw_neuro_simbolico",
         "label": "Modelos Neuro-Simbólicos",
         "cluster": "keywords",
         "type": "keyword",
-        "size": 14,
-        "info": "Integración de arquitecturas conexionistas (redes neuronales) con ontologías y razonamiento lógico."
+        "size": 15,
+        "info": "Integración de arquitecturas conexionistas (redes neuronales) con ontologías y razonamiento lógico.",
+        "keywords": [
+          "Modelos Neuro-Simbólicos"
+        ]
       },
       {
         "id": "kw_diagnostico_cognitivo",
         "label": "Diagnóstico Cognitivo & CDM",
         "cluster": "keywords",
         "type": "keyword",
-        "size": 14,
-        "info": "Modelos psicométricos computacionales (DINA/CDM) para evaluación de habilidades y matrices Q."
+        "size": 15,
+        "info": "Modelos psicométricos computacionales (DINA/CDM) para evaluación de habilidades y matrices Q.",
+        "keywords": [
+          "Diagnóstico Cognitivo & CDM"
+        ]
       },
       {
         "id": "kw_learning_analytics",
         "label": "Learning Analytics",
         "cluster": "keywords",
         "type": "keyword",
-        "size": 14,
-        "info": "Minería de datos educativos, analítica de interacción en entornos virtuales y predicción de desempeño."
+        "size": 15,
+        "info": "Minería de datos educativos, analítica de interacción en entornos virtuales y predicción de desempeño.",
+        "keywords": [
+          "Learning Analytics"
+        ]
       },
       {
         "id": "kw_moodle_lms",
         "label": "LMS Moodle a Escala",
         "cluster": "keywords",
         "type": "keyword",
-        "size": 14,
-        "info": "Arquitectura de plataformas LMS de alta concurrencia, plugins institucionales, SCORM y analítica."
+        "size": 15,
+        "info": "Arquitectura de plataformas LMS de alta concurrencia, plugins institucionales, SCORM y analítica.",
+        "keywords": [
+          "LMS Moodle a Escala"
+        ]
       },
       {
         "id": "kw_tecnopedagogia",
         "label": "Tecnopedagogía & E-Learning",
         "cluster": "keywords",
         "type": "keyword",
-        "size": 14,
-        "info": "Diseño instruccional tecnopedagógico, entornos virtuales, producción multimedia y docencia virtual."
+        "size": 15,
+        "info": "Diseño instruccional tecnopedagógico, entornos virtuales, producción multimedia y docencia virtual.",
+        "keywords": [
+          "Tecnopedagogía & E-Learning"
+        ]
       },
       {
         "id": "kw_pensamiento_comp",
         "label": "Pensamiento Computacional & STEAM",
         "cluster": "keywords",
         "type": "keyword",
-        "size": 14,
-        "info": "Didáctica de la programación con Scratch, robótica educativa sostenible y desarrollo lógico."
+        "size": 15,
+        "info": "Didáctica de la programación con Scratch, robótica educativa sostenible y desarrollo lógico.",
+        "keywords": [
+          "Pensamiento Computacional & STEAM"
+        ]
       },
       {
         "id": "kw_etica_gobernanza",
         "label": "Ética y Gobernanza de la IA",
         "cluster": "keywords",
         "type": "keyword",
-        "size": 14,
-        "info": "Recomendaciones éticas sobre IA (UNESCO), gobernanza algorítmica y derechos digitales."
+        "size": 15,
+        "info": "Recomendaciones éticas sobre IA (UNESCO), gobernanza algorítmica y derechos digitales.",
+        "keywords": [
+          "Ética y Gobernanza de la IA"
+        ]
       },
       {
         "id": "kw_politicas_publicas",
         "label": "Políticas Públicas & Transformación Digital",
         "cluster": "keywords",
         "type": "keyword",
-        "size": 14,
-        "info": "Cooperación multilateral internacional (BID, CEPAL, CAN) y agendas digitales de país en MINTEL."
+        "size": 15,
+        "info": "Cooperación multilateral internacional (BID, CEPAL, CAN) y agendas digitales de país en MINTEL.",
+        "keywords": [
+          "Políticas Públicas & Transformación Digital"
+        ]
       },
       {
         "id": "kw_open_source",
         "label": "Software Libre & Open Source",
         "cluster": "keywords",
         "type": "keyword",
-        "size": 14,
-        "info": "Comunidades de software libre (ASLE), repositorios abiertos en GitHub y recursos educativos abiertos."
+        "size": 15,
+        "info": "Comunidades de software libre (ASLE), repositorios abiertos en GitHub y recursos educativos abiertos.",
+        "keywords": [
+          "Software Libre & Open Source"
+        ]
       },
       {
         "id": "kw_pkm_jardin",
         "label": "Gestión del Conocimiento (PKM)",
         "cluster": "keywords",
         "type": "keyword",
-        "size": 14,
-        "info": "Metodología de Segundo Cerebro Digital, Obsidian Vaults, publicación Quartz 4 y Telegram Sync."
+        "size": 15,
+        "info": "Metodología de Segundo Cerebro Digital, Obsidian Vaults, publicación Quartz 4 y Telegram Sync.",
+        "keywords": [
+          "Gestión del Conocimiento (PKM)"
+        ]
       },
       {
         "id": "kw_calidad_superior",
         "label": "Calidad y Docencia Universitaria",
         "cluster": "keywords",
         "type": "keyword",
-        "size": 14,
-        "info": "Acreditación institucional, comités curriculares y docencia de posgrado internacional."
+        "size": 15,
+        "info": "Acreditación institucional, comités curriculares y docencia de posgrado internacional.",
+        "keywords": [
+          "Calidad y Docencia Universitaria"
+        ]
       },
       {
         "id": "pub_paz-ojedaAdvancedCustomerSegmentation2026",
@@ -405,7 +562,8 @@
         "cluster": "ia_data_science",
         "type": "publication",
         "size": 14,
-        "info": "Publicación: Advanced Customer Segmentation in the Natural Supplements Industry to Enhance Marketing Strategies Using Big Data Tools (2026) - Springer Nature Switzerland"
+        "info": "Publicación: Advanced Customer Segmentation in the Natural Supplements Industry to Enhance Marketing Strategies Using Big Data Tools (2026) - Springer Nature Switzerland",
+        "keywords": []
       },
       {
         "id": "pub_sotaminga-cinilinStudentPerceptionsAIBased2026",
@@ -413,7 +571,10 @@
         "cluster": "ia_data_science",
         "type": "publication",
         "size": 14,
-        "info": "Publicación: Student Perceptions of an AI-Based Assistant for Formative Feedback in Higher Education (2026) - Springer Nature Switzerland"
+        "info": "Publicación: Student Perceptions of an AI-Based Assistant for Formative Feedback in Higher Education (2026) - Springer Nature Switzerland",
+        "keywords": [
+          "IA en Educación"
+        ]
       },
       {
         "id": "pub_sotaminga-cinilinTechnologicalMigrationSoftware2026",
@@ -421,7 +582,8 @@
         "cluster": "ia_data_science",
         "type": "publication",
         "size": 14,
-        "info": "Publicación: Technological Migration and Software Optimization for Measuring Entrepreneurship Maturity (2026) - Springer Nature Switzerland"
+        "info": "Publicación: Technological Migration and Software Optimization for Measuring Entrepreneurship Maturity (2026) - Springer Nature Switzerland",
+        "keywords": []
       },
       {
         "id": "pub_paredes-ulloaCompetenciasDigitalesDocentes2025",
@@ -429,7 +591,14 @@
         "cluster": "ia_data_science",
         "type": "publication",
         "size": 14,
-        "info": "Publicación: Competencias digitales de los docentes de la unidad educativa amauta ñanpi Autores (2025) - "
+        "info": "Publicación: Competencias digitales de los docentes de la unidad educativa amauta ñanpi Autores (2025) - ",
+        "keywords": [
+          "Capacitacion docente",
+          "Innovacion educativa",
+          "Plataformas virtuales",
+          "Tecnologias de la Informacion y la Comunicacion",
+          "IA en Educación"
+        ]
       },
       {
         "id": "pub_apolo-buenanoUsosInternetCon2023",
@@ -437,7 +606,8 @@
         "cluster": "ia_data_science",
         "type": "publication",
         "size": 14,
-        "info": "Publicación: Usos de Internet con fines educativos: perspectivas para su fortalecimiento (2023) - "
+        "info": "Publicación: Usos de Internet con fines educativos: perspectivas para su fortalecimiento (2023) - ",
+        "keywords": []
       },
       {
         "id": "pub_sarmiento-pesantezNivelSatisfaccionEstudiantil2023",
@@ -445,7 +615,10 @@
         "cluster": "ia_data_science",
         "type": "publication",
         "size": 14,
-        "info": "Publicación: Nivel de satisfacción estudiantil en el uso de estrategias y metodologías en la Educación Virtual (2023) - "
+        "info": "Publicación: Nivel de satisfacción estudiantil en el uso de estrategias y metodologías en la Educación Virtual (2023) - ",
+        "keywords": [
+          "IA en Educación"
+        ]
       },
       {
         "id": "pub_arias-becerraQuizzizComoEstrategia2022",
@@ -453,7 +626,15 @@
         "cluster": "ia_data_science",
         "type": "publication",
         "size": 14,
-        "info": "Publicación: Quizziz como estrategia de evaluación en la carrera de medicina (2022) - "
+        "info": "Publicación: Quizziz como estrategia de evaluación en la carrera de medicina (2022) - ",
+        "keywords": [
+          "ensenanza multimedia",
+          "metodo de ensenanza. (Tesauro UNESCO).",
+          "Tecnologia educacional",
+          "IA en Educación",
+          "Ética y Gobernanza de la IA",
+          "Calidad y Docencia Universitaria"
+        ]
       },
       {
         "id": "pub_ochoa-coronelAprendizajeBasadoProblemas2022",
@@ -461,7 +642,15 @@
         "cluster": "politicas_direccion",
         "type": "publication",
         "size": 14,
-        "info": "Publicación: Aprendizaje basado en problemas. Experiencia en estudiantes universitarios (2022) - "
+        "info": "Publicación: Aprendizaje basado en problemas. Experiencia en estudiantes universitarios (2022) - ",
+        "keywords": [
+          "(Tesauro UNESCO)",
+          "aprendizaje activo",
+          "autoaprendizaje",
+          "Tecnica didactica",
+          "IA en Educación",
+          "Ética y Gobernanza de la IA"
+        ]
       },
       {
         "id": "pub_palta-valladaresEscapeRoomComo2022",
@@ -469,7 +658,16 @@
         "cluster": "politicas_direccion",
         "type": "publication",
         "size": 14,
-        "info": "Publicación: Escape room como estrategia didáctica para el desarrollo del pensamiento crítico (2022) - "
+        "info": "Publicación: Escape room como estrategia didáctica para el desarrollo del pensamiento crítico (2022) - ",
+        "keywords": [
+          "ensenanza superior",
+          "formacion medica",
+          "informatica educativa. (Tesauro UNESCO).",
+          "Innovacion educacional",
+          "juego educativo",
+          "IA en Educación",
+          "Ética y Gobernanza de la IA"
+        ]
       },
       {
         "id": "pub_pogoVideojuegoRPGComo2022",
@@ -477,7 +675,13 @@
         "cluster": "tecnopedagogia",
         "type": "publication",
         "size": 14,
-        "info": "Publicación: Videojuego RPG como material de apoyo en la enseñanza de ortografía en niños de 10 años de edad (2022) - "
+        "info": "Publicación: Videojuego RPG como material de apoyo en la enseñanza de ortografía en niños de 10 años de edad (2022) - ",
+        "keywords": [
+          "educational game",
+          "spelling",
+          "video game",
+          "IA en Educación"
+        ]
       },
       {
         "id": "pub_riveraEscapeRoomEducativo2022",
@@ -485,7 +689,38 @@
         "cluster": "ia_data_science",
         "type": "publication",
         "size": 14,
-        "info": "Publicación: Escape room educativo: Una mirada desde la experiencia de los estudiantes en Endodoncia (2022) - "
+        "info": "Publicación: Escape room educativo: Una mirada desde la experiencia de los estudiantes en Endodoncia (2022) - ",
+        "keywords": [
+          "Arts and Humanities",
+          "Business and Economics",
+          "Communication Sciences",
+          "Computer Science",
+          "Dominio de las Ciencias",
+          "double-blind peer review",
+          "Ecuador",
+          "Educational Sciences",
+          "English",
+          "Investigacion",
+          "journal",
+          "Mathematics",
+          "Medical Sciences",
+          "multidisciplinary",
+          "Natural Sciences",
+          "peer review",
+          "POCAIP",
+          "Polo de Capacitacion",
+          "Portuguese",
+          "Publicacion",
+          "publication",
+          "quarterly",
+          "science",
+          "scientific",
+          "scientific and technical",
+          "Social and Political Sciences",
+          "Spanich",
+          "Technology and Applied Sciences",
+          "IA en Educación"
+        ]
       },
       {
         "id": "pub_sarangoBalanzaVirtualComo2022",
@@ -493,7 +728,11 @@
         "cluster": "ia_data_science",
         "type": "publication",
         "size": 14,
-        "info": "Publicación: Balanza virtual como estrategia de aprendizaje, de ecuaciones de primer grado con una incógnita (2022) - "
+        "info": "Publicación: Balanza virtual como estrategia de aprendizaje, de ecuaciones de primer grado con una incógnita (2022) - ",
+        "keywords": [
+          "Matematicas Algebra Ecuacion Metodo de aprendizaje Innovacion pedagogica",
+          "IA en Educación"
+        ]
       },
       {
         "id": "pub_sotamingaPensamientoComputacionalProgramacion2021",
@@ -501,7 +740,198 @@
         "cluster": "tecnopedagogia",
         "type": "publication",
         "size": 14,
-        "info": "Publicación: Pensamiento computacional, programación creativa y ciencias de la computación para la educación. Reflexiones y experiencias desde América Latina (2021) - CIESPAL"
+        "info": "Publicación: Pensamiento computacional, programación creativa y ciencias de la computación para la educación. Reflexiones y experiencias desde América Latina (2021) - CIESPAL",
+        "keywords": [
+          "IA en Educación",
+          "Pensamiento Computacional & STEAM"
+        ]
+      },
+      {
+        "id": "proj_2026_ecosistema_neuro",
+        "label": "Ecosistema Neuro-Simbólico...",
+        "cluster": "tecnopedagogia",
+        "type": "project",
+        "size": 14,
+        "info": "Iniciativa: Ecosistema Neuro-Simbólico de Evaluación Inteligente: Transformación de la Educación STEM hacia un Territorio de Aprendizaje Sostenible en Sabana Centro”. (Universiadad de La Sabana - IALab, 2026)",
+        "keywords": [
+          "Deep Learning",
+          "Neuro-Simbólico",
+          "Evaluación Inteligente",
+          "STEM",
+          "Ontologías",
+          "Universiadad de La Sabana - IALab",
+          "IA en Educación",
+          "Deep Learning & LLMs",
+          "Modelos Neuro-Simbólicos",
+          "Calidad y Docencia Universitaria"
+        ]
+      },
+      {
+        "id": "proj_2025_diseño,_producci",
+        "label": "Diseño, producción y desar...",
+        "cluster": "tecnopedagogia",
+        "type": "project",
+        "size": 14,
+        "info": "Iniciativa: Diseño, producción y desarrollo de dos aulas virtuales en el marco del proyecto “Strengthening communications capacity for biodiversity conservation, Ecuador”. (Coordinadora de Medios Comunitarios Populares y Educativos del Ecuador - CORAPE, 2025)",
+        "keywords": [
+          "Aulas Virtuales",
+          "Moodle",
+          "Conservación",
+          "Biodiversidad",
+          "Coordinadora de Medios Comunitarios Populares y Educativos del Ecuador - CORAPE",
+          "Diagnóstico Cognitivo & CDM",
+          "LMS Moodle a Escala"
+        ]
+      },
+      {
+        "id": "proj_2025_implementación_d",
+        "label": "Implementación de infraest...",
+        "cluster": "tecnopedagogia",
+        "type": "project",
+        "size": 14,
+        "info": "Iniciativa: Implementación de infraestructura tecnológica para el levantamiento de un Campus de Formación Virtual. (Corporación Nacional de Finanzas Populares y Solidarias - Innovanci Internacional, 2025)",
+        "keywords": [
+          "Corporación Nacional de Finanzas Populares y Solidarias - Innovanci Internacional",
+          "IA en Educación"
+        ]
+      },
+      {
+        "id": "proj_2025_curso_de_pensami",
+        "label": "Curso de Pensamiento Compu...",
+        "cluster": "politicas_direccion",
+        "type": "project",
+        "size": 14,
+        "info": "Iniciativa: Curso de Pensamiento Computacional y Cultura Digital. (Organización de los Estados Iberoamericanos (OEI) - OpenLab Ecuador, 2025)",
+        "keywords": [
+          "OEI",
+          "Scratch",
+          "Pensamiento Computacional",
+          "Cultura Digital",
+          "Docencia STEAM",
+          "Organización de los Estados Iberoamericanos (OEI) - OpenLab Ecuador",
+          "IA en Educación",
+          "Pensamiento Computacional & STEAM",
+          "Políticas Públicas & Transformación Digital",
+          "Calidad y Docencia Universitaria"
+        ]
+      },
+      {
+        "id": "proj_2024_implementación_y",
+        "label": "Implementación y acompañam...",
+        "cluster": "politicas_direccion",
+        "type": "project",
+        "size": 14,
+        "info": "Iniciativa: Implementación y acompañamiento a docentes en el marco del piloto de Ciudadanía Digital. (Banco Interamericano de Desarrollo (BID)- Ministerio de Educación del Ecuador, 2024)",
+        "keywords": [
+          "BID",
+          "MINEDUC",
+          "Competencias Digitales",
+          "Acompañamiento Docente",
+          "Banco Interamericano de Desarrollo (BID)- Ministerio de Educación del Ecuador",
+          "IA en Educación",
+          "Políticas Públicas & Transformación Digital"
+        ]
+      },
+      {
+        "id": "proj_2024_ferias_de_proyec",
+        "label": "Ferias de Proyectos Educat...",
+        "cluster": "tecnopedagogia",
+        "type": "project",
+        "size": 14,
+        "info": "Iniciativa: Ferias de Proyectos Educativos por parte del Ministerio de Educación. (Ministerio de Educación del Ecuador, 2024)",
+        "keywords": [
+          "Ministerio de Educación del Ecuador",
+          "IA en Educación"
+        ]
+      },
+      {
+        "id": "proj_2024_desarrollo_de_cu",
+        "label": "Desarrollo de Cursos MOOC ...",
+        "cluster": "tecnopedagogia",
+        "type": "project",
+        "size": 14,
+        "info": "Iniciativa: Desarrollo de Cursos MOOC sobre Ciudadanía Digital. (ChildFund Ecuador, 2024)",
+        "keywords": [
+          "BID",
+          "MINEDUC",
+          "Competencias Digitales",
+          "Acompañamiento Docente",
+          "ChildFund Ecuador",
+          "IA en Educación",
+          "Políticas Públicas & Transformación Digital"
+        ]
+      },
+      {
+        "id": "proj_2022_agenda_de_transf",
+        "label": "Agenda de Transformación D...",
+        "cluster": "politicas_direccion",
+        "type": "project",
+        "size": 14,
+        "info": "Iniciativa: Agenda de Transformación Digital del Ecuador - MINTEL. (Banco Interamericano de Desarrollo (BID), 2022)",
+        "keywords": [
+          "BID",
+          "MINTEL",
+          "Transformación Digital",
+          "Estrategia País",
+          "KPIs",
+          "Banco Interamericano de Desarrollo (BID)",
+          "IA en Educación",
+          "Políticas Públicas & Transformación Digital"
+        ]
+      },
+      {
+        "id": "proj_2022_agenda_digital_a",
+        "label": "Agenda Digital Andina - MI...",
+        "cluster": "politicas_direccion",
+        "type": "project",
+        "size": 14,
+        "info": "Iniciativa: Agenda Digital Andina - MINTEL. (Comunidad Andina, 2022)",
+        "keywords": [
+          "Comunidad Andina",
+          "Integración Regional",
+          "Telecomunicaciones",
+          "Diagnóstico Cognitivo & CDM",
+          "Políticas Públicas & Transformación Digital"
+        ]
+      },
+      {
+        "id": "proj_2022_agenda_digital_p",
+        "label": "Agenda digital para Améric...",
+        "cluster": "politicas_direccion",
+        "type": "project",
+        "size": 14,
+        "info": "Iniciativa: Agenda digital para América Latina y el Caribe (eLAC2022) - MINTEL. (Comisión Económica para América Latina y el Caribe (CEPAL), 2022)",
+        "keywords": [
+          "Comisión Económica para América Latina y el Caribe (CEPAL)",
+          "Políticas Públicas & Transformación Digital"
+        ]
+      },
+      {
+        "id": "proj_2022_red_de_primeros_",
+        "label": "Red de primeros países ad...",
+        "cluster": "politicas_direccion",
+        "type": "project",
+        "size": 14,
+        "info": "Iniciativa: Red de primeros países adoptantes de la Recomendación sobre la Ética de la Inteligencia Artificial - MINTEL. (Organización de las Naciones Unidas para la Educación, la Ciencia y la Cultura (UNESCO), 2022)",
+        "keywords": [
+          "Organización de las Naciones Unidas para la Educación, la Ciencia y la Cultura (UNESCO)",
+          "IA en Educación",
+          "Ética y Gobernanza de la IA",
+          "Políticas Públicas & Transformación Digital"
+        ]
+      },
+      {
+        "id": "proj_2022_programa_de_form",
+        "label": "Programa de formación en l...",
+        "cluster": "politicas_direccion",
+        "type": "project",
+        "size": 14,
+        "info": "Iniciativa: Programa de formación en la metodología STEAM a docentes del magisterio nacional. (Organización de los Estados Americanos OEI, 2022)",
+        "keywords": [
+          "Organización de los Estados Americanos OEI",
+          "Pensamiento Computacional & STEAM",
+          "Políticas Públicas & Transformación Digital"
+        ]
       },
       {
         "id": "repo_curso_llm",
@@ -509,7 +939,19 @@
         "cluster": "ia_data_science",
         "type": "repository",
         "size": 13,
-        "info": "Curso: Modelos de Lenguaje (LLMs) e IA Generativa - Recursos didácticos, cuadernos interactivos y laboratorios para la formación apl..."
+        "info": "Curso: Modelos de Lenguaje (LLMs) e IA Generativa - Recursos didácticos, cuadernos interactivos y laboratorios para la formación apl...",
+        "keywords": [
+          "LLMs",
+          "Python",
+          "Generative AI",
+          "NLP",
+          "Educación con IA",
+          "Código Abierto",
+          "GitHub",
+          "IA en Educación",
+          "Deep Learning & LLMs",
+          "LMS Moodle a Escala"
+        ]
       },
       {
         "id": "repo_ProgramacionPensamientoComputacional",
@@ -517,7 +959,18 @@
         "cluster": "tecnopedagogia",
         "type": "repository",
         "size": 13,
-        "info": "Pensamiento Computacional & Programación Didáctica - Guías, desafíos de lógica y secuencias didácticas orientadas a la formación del ..."
+        "info": "Pensamiento Computacional & Programación Didáctica - Guías, desafíos de lógica y secuencias didácticas orientadas a la formación del ...",
+        "keywords": [
+          "Pensamiento Computacional",
+          "Scratch",
+          "Python",
+          "Didáctica",
+          "STEAM",
+          "Código Abierto",
+          "GitHub",
+          "IA en Educación",
+          "Pensamiento Computacional & STEAM"
+        ]
       },
       {
         "id": "repo_ibook-FSO",
@@ -525,7 +978,18 @@
         "cluster": "tecnopedagogia",
         "type": "repository",
         "size": 13,
-        "info": "E-Book Interactivo: Fundamentos de Sistemas Operativos - Libro interactivo y recurso docente para la asignatura universitaria de Fundamen..."
+        "info": "E-Book Interactivo: Fundamentos de Sistemas Operativos - Libro interactivo y recurso docente para la asignatura universitaria de Fundamen...",
+        "keywords": [
+          "GNU/Linux",
+          "Sistemas Operativos",
+          "Docencia Superior",
+          "E-Book",
+          "Código Abierto",
+          "GitHub",
+          "IA en Educación",
+          "Software Libre & Open Source",
+          "Calidad y Docencia Universitaria"
+        ]
       },
       {
         "id": "repo_ebook-IHM",
@@ -533,7 +997,17 @@
         "cluster": "tecnopedagogia",
         "type": "repository",
         "size": 13,
-        "info": "E-Book Interactivo: Interacción Humano-Máquina (IHM) - Texto interactivo para la cátedra universitaria de IHM: principios de usabilidad..."
+        "info": "E-Book Interactivo: Interacción Humano-Máquina (IHM) - Texto interactivo para la cátedra universitaria de IHM: principios de usabilidad...",
+        "keywords": [
+          "IHM / HCI",
+          "Usabilidad",
+          "UX/UI",
+          "Docencia Superior",
+          "Código Abierto",
+          "GitHub",
+          "IA en Educación",
+          "Calidad y Docencia Universitaria"
+        ]
       },
       {
         "id": "repo_ebook-matematica-discreta",
@@ -541,7 +1015,16 @@
         "cluster": "ia_data_science",
         "type": "repository",
         "size": 13,
-        "info": "E-Book Interactivo: Matemáticas Discretas - Recurso educativo para estudiantes de ingeniería: lógica proposicional, teoría d..."
+        "info": "E-Book Interactivo: Matemáticas Discretas - Recurso educativo para estudiantes de ingeniería: lógica proposicional, teoría d...",
+        "keywords": [
+          "Matemáticas Discretas",
+          "Grafos",
+          "Lógica",
+          "Ingeniería",
+          "Código Abierto",
+          "GitHub",
+          "IA en Educación"
+        ]
       },
       {
         "id": "repo_Computacion-Sociedad",
@@ -549,7 +1032,16 @@
         "cluster": "politicas_direccion",
         "type": "repository",
         "size": 13,
-        "info": "Cátedra: Computación y Sociedad - Materiales de debate sobre impacto social de la tecnología, ética en inteligenci..."
+        "info": "Cátedra: Computación y Sociedad - Materiales de debate sobre impacto social de la tecnología, ética en inteligenci...",
+        "keywords": [
+          "Ética Tecnológica",
+          "Cultura Digital",
+          "Sociedad del Conocimiento",
+          "Código Abierto",
+          "GitHub",
+          "IA en Educación",
+          "Ética y Gobernanza de la IA"
+        ]
       },
       {
         "id": "repo_scriptScratch",
@@ -557,7 +1049,16 @@
         "cluster": "tecnopedagogia",
         "type": "repository",
         "size": 13,
-        "info": "Scripts y Algoritmos Didácticos en Scratch - Colección de algoritmos, simulaciones y juegos formativos desarrollados en Scrat..."
+        "info": "Scripts y Algoritmos Didácticos en Scratch - Colección de algoritmos, simulaciones y juegos formativos desarrollados en Scrat...",
+        "keywords": [
+          "Scratch",
+          "Algoritmos",
+          "Gamificación",
+          "Videojuegos Educativos",
+          "Código Abierto",
+          "GitHub",
+          "Pensamiento Computacional & STEAM"
+        ]
       },
       {
         "id": "repo_PEC2-VisualizaionDatos",
@@ -565,7 +1066,16 @@
         "cluster": "ia_data_science",
         "type": "repository",
         "size": 13,
-        "info": "Visualización de Datos y Analítica Gráfica - Modelado y diseño de visualizaciones analíticas de datos cuantitativos con enfoq..."
+        "info": "Visualización de Datos y Analítica Gráfica - Modelado y diseño de visualizaciones analíticas de datos cuantitativos con enfoq...",
+        "keywords": [
+          "Data Viz",
+          "Analítica",
+          "R / Python",
+          "Gráficos Estadísticos",
+          "Código Abierto",
+          "GitHub",
+          "Learning Analytics"
+        ]
       },
       {
         "id": "repo_cajaherramientas",
@@ -573,7 +1083,17 @@
         "cluster": "tecnopedagogia",
         "type": "repository",
         "size": 13,
-        "info": "Caja de Herramientas Tecnopedagógicas - Repositorio de instrumentos, rúbricas, plantillas y herramientas de software lib..."
+        "info": "Caja de Herramientas Tecnopedagógicas - Repositorio de instrumentos, rúbricas, plantillas y herramientas de software lib...",
+        "keywords": [
+          "Toolkit",
+          "Software Libre",
+          "Rúbricas",
+          "Moodle",
+          "Código Abierto",
+          "GitHub",
+          "LMS Moodle a Escala",
+          "Software Libre & Open Source"
+        ]
       },
       {
         "id": "repo_marchelo2212.github.io",
@@ -581,7 +1101,20 @@
         "cluster": "ia_data_science",
         "type": "repository",
         "size": 13,
-        "info": "Digital Garden & Segundo Cerebro (Obsidian + Quartz) - Espacio público de notas interconectadas de investigación sobre IA, ontologías, ..."
+        "info": "Digital Garden & Segundo Cerebro (Obsidian + Quartz) - Espacio público de notas interconectadas de investigación sobre IA, ontologías, ...",
+        "keywords": [
+          "Obsidian",
+          "Quartz",
+          "Digital Garden",
+          "PKM",
+          "Segundo Cerebro",
+          "Código Abierto",
+          "GitHub",
+          "IA en Educación",
+          "Modelos Neuro-Simbólicos",
+          "Learning Analytics",
+          "Gestión del Conocimiento (PKM)"
+        ]
       },
       {
         "id": "blog_fundamentos_de_ia_y_",
@@ -589,7 +1122,15 @@
         "cluster": "ia_data_science",
         "type": "blog_post",
         "size": 13,
-        "info": "[Blog 2025] Fundamentos de IA y Mitos - Profundización conceptual: IA débil vs AGI, evolución histórica desde Turing, au..."
+        "info": "[Blog 2025] Fundamentos de IA y Mitos - Profundización conceptual: IA débil vs AGI, evolución histórica desde Turing, au...",
+        "keywords": [
+          "Jardín Digital",
+          "Quartz",
+          "Deep Learning & LLMs",
+          "IA en Educación",
+          "Filosofía de la IA",
+          "Educación Superior"
+        ]
       },
       {
         "id": "blog_creación_de_pregunta",
@@ -597,7 +1138,16 @@
         "cluster": "tecnopedagogia",
         "type": "blog_post",
         "size": 13,
-        "info": "[Blog 2025] Creación de preguntas de base estructurada para Moodle empleando IA - Metodología y prompting para analizar material de cursos y generar bancos estruc..."
+        "info": "[Blog 2025] Creación de preguntas de base estructurada para Moodle empleando IA - Metodología y prompting para analizar material de cursos y generar bancos estruc...",
+        "keywords": [
+          "Jardín Digital",
+          "Quartz",
+          "Moodle",
+          "IA en Educación",
+          "Prompt Engineering",
+          "LMS Moodle a Escala",
+          "Evaluación Formativa"
+        ]
       },
       {
         "id": "blog_automatizando_la_cap",
@@ -605,7 +1155,16 @@
         "cluster": "ia_data_science",
         "type": "blog_post",
         "size": 13,
-        "info": "[Blog 2025] Automatizando la captura de información desde Telegram hacia Obsidian usando hashtags - Pipeline automatizado de captura de papers, ontologías y herramientas para la in..."
+        "info": "[Blog 2025] Automatizando la captura de información desde Telegram hacia Obsidian usando hashtags - Pipeline automatizado de captura de papers, ontologías y herramientas para la in...",
+        "keywords": [
+          "Jardín Digital",
+          "Quartz",
+          "Gestión del Conocimiento (PKM)",
+          "Obsidian",
+          "Telegram Sync",
+          "Ontologías Educativas",
+          "IA en Educación"
+        ]
       },
       {
         "id": "blog_guía_técnica_instal",
@@ -613,7 +1172,17 @@
         "cluster": "tecnopedagogia",
         "type": "blog_post",
         "size": 13,
-        "info": "[Blog 2025] Guía Técnica: Instalación y Desinstalación de Plugins Oficiales en Moodle 4.5.4+ - Manual técnico de mejores prácticas para la administración, gobernanza, desplieg..."
+        "info": "[Blog 2025] Guía Técnica: Instalación y Desinstalación de Plugins Oficiales en Moodle 4.5.4+ - Manual técnico de mejores prácticas para la administración, gobernanza, desplieg...",
+        "keywords": [
+          "Jardín Digital",
+          "Quartz",
+          "LMS Moodle a Escala",
+          "Moodle",
+          "Plugins",
+          "Administración LMS",
+          "E-Learning",
+          "IA en Educación"
+        ]
       },
       {
         "id": "blog_publicando_obsidian_",
@@ -621,7 +1190,16 @@
         "cluster": "ia_data_science",
         "type": "blog_post",
         "size": 13,
-        "info": "[Blog 2025] Publicando Obsidian Vault con Quartz 4 y GitHub - Arquitectura y pipeline de despliegue continuo de un segundo cerebro digital int..."
+        "info": "[Blog 2025] Publicando Obsidian Vault con Quartz 4 y GitHub - Arquitectura y pipeline de despliegue continuo de un segundo cerebro digital int...",
+        "keywords": [
+          "Jardín Digital",
+          "Quartz",
+          "Gestión del Conocimiento (PKM)",
+          "Obsidian",
+          "Software Libre & Open Source",
+          "IA en Educación",
+          "Políticas Públicas & Transformación Digital"
+        ]
       },
       {
         "id": "blog_10_sitios_web_de_rob",
@@ -629,7 +1207,16 @@
         "cluster": "tecnopedagogia",
         "type": "blog_post",
         "size": 13,
-        "info": "[Blog 2025] 10 sitios web de robótica educativa con materiales reciclados - Curaduría pedagógica de iniciativas internacionales que integran robótica, pensa..."
+        "info": "[Blog 2025] 10 sitios web de robótica educativa con materiales reciclados - Curaduría pedagógica de iniciativas internacionales que integran robótica, pensa...",
+        "keywords": [
+          "Jardín Digital",
+          "Quartz",
+          "Pensamiento Computacional & STEAM",
+          "Robótica Educativa",
+          "Reciclaje Maker",
+          "Tecnopedagogía & E-Learning",
+          "IA en Educación"
+        ]
       },
       {
         "id": "blog_top_20_recursos_digi",
@@ -637,7 +1224,12 @@
         "cluster": "tecnopedagogia",
         "type": "blog_post",
         "size": 13,
-        "info": "[Blog 2025] Top 20 Recursos Digitales STEM-STEAM - Selección de simuladores, laboratorios virtuales y herramientas interactivas de ..."
+        "info": "[Blog 2025] Top 20 Recursos Digitales STEM-STEAM - Selección de simuladores, laboratorios virtuales y herramientas interactivas de ...",
+        "keywords": [
+          "Jardín Digital",
+          "Quartz",
+          "Pensamiento Computacional & STEAM"
+        ]
       },
       {
         "id": "blog_observatorio_de_publ",
@@ -645,23 +1237,15 @@
         "cluster": "ia_data_science",
         "type": "blog_post",
         "size": 13,
-        "info": "[Blog 2026] Observatorio de Publicaciones y Ensayos 2026 - Repositorio continuo de reflexiones, modelos neuro-simbólicos, avances de tesis ..."
-      },
-      {
-        "id": "cert_cert-26-08-iarealiztareas",
-        "label": "IA para automatizar tareas...",
-        "cluster": "tecnopedagogia",
-        "type": "certification",
-        "size": 13,
-        "info": "Certificación: IA para automatizar tareas académicas y administrativas (Grupo editorial ECOE Ediciones S.A.S, 2026)"
-      },
-      {
-        "id": "cert_cert-26-06-seguridadinfo",
-        "label": "Certificado de reconocimie...",
-        "cluster": "tecnopedagogia",
-        "type": "certification",
-        "size": 13,
-        "info": "Certificación: Certificado de reconocimiento por participar en las capacitaciones sobre Concientización en seguridad Informática (ESCANOR CORP, 2026)"
+        "info": "[Blog 2026] Observatorio de Publicaciones y Ensayos 2026 - Repositorio continuo de reflexiones, modelos neuro-simbólicos, avances de tesis ...",
+        "keywords": [
+          "Jardín Digital",
+          "Quartz",
+          "Modelos Neuro-Simbólicos",
+          "Diagnóstico Cognitivo & CDM",
+          "Gobernanza de la IA",
+          "Tesis Doctoral"
+        ]
       },
       {
         "id": "cert_cert-26-06-moodlemootcol26",
@@ -669,23 +1253,17 @@
         "cluster": "tecnopedagogia",
         "type": "certification",
         "size": 13,
-        "info": "Certificación: Certificado de Participación - Moodle Moot Colombia 2026 (Moodle Moot Colombia, 2026)"
-      },
-      {
-        "id": "cert_cert-26-06-dvvglobale",
-        "label": "Validación curricular y co...",
-        "cluster": "tecnopedagogia",
-        "type": "certification",
-        "size": 13,
-        "info": "Certificación: Validación curricular y contextualización del Currículum GlobALE para América Latina (DVV International y Fundación Openlab Ecuador, 2026)"
-      },
-      {
-        "id": "cert_cert-25-11-tutorcollegehoriz",
-        "label": "Tutor in COLLEGE HORIZONS ...",
-        "cluster": "politicas_direccion",
-        "type": "certification",
-        "size": 13,
-        "info": "Certificación: Tutor in COLLEGE HORIZONS PROGRAM (Centro de Educación Continua de la Escuela Politécnica Nacional and the United States Embassy, 2025)"
+        "info": "Certificación: Certificado de Participación - Moodle Moot Colombia 2026 (Moodle Moot Colombia, 2026)",
+        "keywords": [
+          "Educación Digital",
+          "Tecnologías Moodle",
+          "Aprendizaje Colaborativo",
+          "Innovación Educativa",
+          "Moodle Moot Colombia",
+          "CurEst",
+          "IA en Educación",
+          "LMS Moodle a Escala"
+        ]
       },
       {
         "id": "cert_cert-25-11-bestpapericetei",
@@ -693,23 +1271,16 @@
         "cluster": "tecnopedagogia",
         "type": "certification",
         "size": 13,
-        "info": "Certificación: Best Paper in Track 3: Digital Education and Learning Analytics (ICETEI 2025 & RED EDUTEM, 2025)"
-      },
-      {
-        "id": "cert_cert-25-06-diplomadodeeplearning",
-        "label": "Diplomado Inteligencia Art...",
-        "cluster": "ia_data_science",
-        "type": "certification",
-        "size": 13,
-        "info": "Certificación: Diplomado Inteligencia Artificial con Deep Learning (Universidad de La Sabana, 2025)"
-      },
-      {
-        "id": "cert_cert-25-06-delaideaalpaper",
-        "label": "De la Idea al Paper: Funda...",
-        "cluster": "ia_data_science",
-        "type": "certification",
-        "size": 13,
-        "info": "Certificación: De la Idea al Paper: Fundamentos para la Redacción de Artículos (Pontificia Universidad Católica del Ecuador, 2025)"
+        "info": "Certificación: Best Paper in Track 3: Digital Education and Learning Analytics (ICETEI 2025 & RED EDUTEM, 2025)",
+        "keywords": [
+          "Learning Analytics",
+          "AI-Based Assistants",
+          "Formative Feedback",
+          "ICETEI 2025 & RED EDUTEM",
+          "Meri",
+          "IA en Educación",
+          "Diagnóstico Cognitivo & CDM"
+        ]
       },
       {
         "id": "cert_cert-24-11-transmediauflo",
@@ -717,7 +1288,17 @@
         "cluster": "tecnopedagogia",
         "type": "certification",
         "size": 13,
-        "info": "Certificación: I Jornadas Institucionales de Innovación Educativa en la Universidad: Transmedia, gamificación y performance (Universidad de Flores (UFLO), 2024)"
+        "info": "Certificación: I Jornadas Institucionales de Innovación Educativa en la Universidad: Transmedia, gamificación y performance (Universidad de Flores (UFLO), 2024)",
+        "keywords": [
+          "Transmedia",
+          "Gamificación",
+          "Performance Educativa",
+          "Innovación Educativa",
+          "Universidad de Flores (UFLO)",
+          "CurEst",
+          "IA en Educación",
+          "Calidad y Docencia Universitaria"
+        ]
       },
       {
         "id": "cert_cert-24-10-capacitacioninvest",
@@ -725,7 +1306,14 @@
         "cluster": "ia_data_science",
         "type": "certification",
         "size": 13,
-        "info": "Certificación: CAPACITACIÓN EN INVESTIGACIÓN CIENTÍFICA 2024 (SCImago Research Group, 2024)"
+        "info": "Certificación: CAPACITACIÓN EN INVESTIGACIÓN CIENTÍFICA 2024 (SCImago Research Group, 2024)",
+        "keywords": [
+          "Metodología Científica",
+          "Publicación Académica",
+          "Ciimetría",
+          "SCImago Research Group",
+          "CurEst"
+        ]
       },
       {
         "id": "cert_cert-24-10-capacitacioncienc",
@@ -733,7 +1321,14 @@
         "cluster": "ia_data_science",
         "type": "certification",
         "size": 13,
-        "info": "Certificación: Certificado de Aprobación: Capacitación en Investigación Científica 2024 (SCImago Research Group, 2024)"
+        "info": "Certificación: Certificado de Aprobación: Capacitación en Investigación Científica 2024 (SCImago Research Group, 2024)",
+        "keywords": [
+          "Investigación Científica",
+          "Metodología de la Investigación",
+          "Publicación Académica",
+          "SCImago Research Group",
+          "CurEst"
+        ]
       },
       {
         "id": "cert_cert-24-07-becacarlosjordana",
@@ -741,7 +1336,16 @@
         "cluster": "ia_data_science",
         "type": "certification",
         "size": 13,
-        "info": "Certificación: Carta de Aprobación y legalización de Beca Condonable de Distinción Carlos Jordana para el Doctorado en Ingeniería, 2024-2 (Universidad de La Sabana, 2024)"
+        "info": "Certificación: Carta de Aprobación y legalización de Beca Condonable de Distinción Carlos Jordana para el Doctorado en Ingeniería, 2024-2 (Universidad de La Sabana, 2024)",
+        "keywords": [
+          "Excelencia Académica",
+          "Investigación Doctoral",
+          "Compromiso Académico",
+          "Universidad de La Sabana",
+          "Meri",
+          "IA en Educación",
+          "Calidad y Docencia Universitaria"
+        ]
       },
       {
         "id": "cert_cert-24-01-becauoc2024",
@@ -749,7 +1353,16 @@
         "cluster": "tecnopedagogia",
         "type": "certification",
         "size": 13,
-        "info": "Certificación: PROGRAMA DE BECAS UNIVERSIDAD OBERTA DE CATALUNYA SEGUNDO SEMESTRE 2023-2024 (Secretaría de Educación Superior, Ciencia, Tecnología e Innovación (SENESCYT) - Globo Común, 2024)"
+        "info": "Certificación: PROGRAMA DE BECAS UNIVERSIDAD OBERTA DE CATALUNYA SEGUNDO SEMESTRE 2023-2024 (Secretaría de Educación Superior, Ciencia, Tecnología e Innovación (SENESCYT) - Globo Común, 2024)",
+        "keywords": [
+          "Educación Superior",
+          "Cooperación Internacional",
+          "Aprendizaje en Línea",
+          "Secretaría de Educación Superior, Ciencia, Tecnología e Innovación (SENESCYT) - Globo Común",
+          "Meri",
+          "IA en Educación",
+          "Calidad y Docencia Universitaria"
+        ]
       },
       {
         "id": "cert_cert-23-08-ponenciamoodle23",
@@ -757,15 +1370,19 @@
         "cluster": "tecnopedagogia",
         "type": "certification",
         "size": 13,
-        "info": "Certificación: Uso de las actividades de aprendizaje en Moodle para la evaluación en la educación continua y formal (Edu Labs y Escuela Politécnica Nacional, 2023)"
-      },
-      {
-        "id": "cert_cert-23-08-ponenteusorecedu",
-        "label": "Ponente Experto en el Webi...",
-        "cluster": "tecnopedagogia",
-        "type": "certification",
-        "size": 13,
-        "info": "Certificación: Ponente Experto en el Webinar Uso de Recursos Educativos en el Aula (Ministerio de Educación del Ecuador, 2023)"
+        "info": "Certificación: Uso de las actividades de aprendizaje en Moodle para la evaluación en la educación continua y formal (Edu Labs y Escuela Politécnica Nacional, 2023)",
+        "keywords": [
+          "Evaluación Educativa",
+          "Moodle",
+          "Educación Continua",
+          "Tecnopedagogía",
+          "Edu Labs y Escuela Politécnica Nacional",
+          "Inves",
+          "IA en Educación",
+          "LMS Moodle a Escala",
+          "Tecnopedagogía & E-Learning",
+          "Calidad y Docencia Universitaria"
+        ]
       },
       {
         "id": "cert_cert-23-03-infosecawareness",
@@ -773,7 +1390,15 @@
         "cluster": "politicas_direccion",
         "type": "certification",
         "size": 13,
-        "info": "Certificación: Information Security Awareness (Fortinet Training Institute, 2023)"
+        "info": "Certificación: Information Security Awareness (Fortinet Training Institute, 2023)",
+        "keywords": [
+          "Information Security",
+          "Cybersecurity",
+          "Security Awareness",
+          "Fortinet Training Institute",
+          "CurEst",
+          "IA en Educación"
+        ]
       },
       {
         "id": "cert_cert-23-03-fortinetnse1",
@@ -781,55 +1406,15 @@
         "cluster": "tecnopedagogia",
         "type": "certification",
         "size": 13,
-        "info": "Certificación: NSE 1 Network Security Associate (Fortinet, 2023)"
-      },
-      {
-        "id": "cert_cert-22-11-ponenciaried2022",
-        "label": "Seminario Virtual de la RI...",
-        "cluster": "tecnopedagogia",
-        "type": "certification",
-        "size": 13,
-        "info": "Certificación: Seminario Virtual de la RIED 2022 (Red Interamericana de Educación Docente (RIED) - OEA, 2022)"
-      },
-      {
-        "id": "cert_cert-22-11-comitecientificovii",
-        "label": "MIEMBRO DEL COMITÉ CIENTÍF...",
-        "cluster": "tecnopedagogia",
-        "type": "certification",
-        "size": 13,
-        "info": "Certificación: MIEMBRO DEL COMITÉ CIENTÍFICO-EVALUADOR EXTERNO EN EL VII CONGRESO INTERNACIONAL DE EDUCACIÓN CONTEMPORÁNEA CALIDAD EDUCATIVA Y BUEN VIVIR (Universidad Nacional de Chimborazo, 2022)"
-      },
-      {
-        "id": "cert_cert-22-11-comiteviiiced",
-        "label": "MIEMBRO DEL COMITÉ CIENTÍF...",
-        "cluster": "tecnopedagogia",
-        "type": "certification",
-        "size": 13,
-        "info": "Certificación: MIEMBRO DEL COMITÉ CIENTÍFICO-EVALUADOR EXTERNO EN EL VII CONGRESO INTERNACIONAL DE EDUCACIÓN CONTEMPORÁNEA CALIDAD EDUCATIVA Y BUEN VIVIR (Facultad de Ciencias de la Educación, Humanas y Tecnologías, 2022)"
-      },
-      {
-        "id": "cert_cert-22-11-mobilelearningugr",
-        "label": "Mobile learning: claves pa...",
-        "cluster": "tecnopedagogia",
-        "type": "certification",
-        "size": 13,
-        "info": "Certificación: Mobile learning: claves para la aplicación de los dispositivos móviles en el aula. 1ª Edición (Universidad de Granada, 2022)"
-      },
-      {
-        "id": "cert_cert-22-10-ponenciaprofuturo",
-        "label": "Ponencia en la tertulia di...",
-        "cluster": "tecnopedagogia",
-        "type": "certification",
-        "size": 13,
-        "info": "Certificación: Ponencia en la tertulia dialógica: \"Mejorando nuestras vidas en comunidad, con el uso de las TIC\" (Fundación Telefónica Movistar Ecuador y ChildFund Ecuador, 2022)"
-      },
-      {
-        "id": "cert_cert-22-10-pensamientocomp",
-        "label": "SEMINARIO DE INTRODUCCIÓN ...",
-        "cluster": "tecnopedagogia",
-        "type": "certification",
-        "size": 13,
-        "info": "Certificación: SEMINARIO DE INTRODUCCIÓN AL PENSAMIENTO COMPUTACIONAL DEL SIMPOSIO STEM MIAMI 2022 (Broward International University, 2022)"
+        "info": "Certificación: NSE 1 Network Security Associate (Fortinet, 2023)",
+        "keywords": [
+          "Network Security",
+          "Cybersecurity Fundamentals",
+          "Fortinet Security Fabric",
+          "Fortinet",
+          "Cert",
+          "IA en Educación"
+        ]
       },
       {
         "id": "cert_cert-22-08-novusevaluador",
@@ -837,7 +1422,17 @@
         "cluster": "tecnopedagogia",
         "type": "certification",
         "size": 13,
-        "info": "Certificación: Constancia de participación como Evaluador en la Convocatoria Novus 2022 (Instituto para el Futuro de la Educación y el Tecnológico de Monterrey, 2022)"
+        "info": "Certificación: Constancia de participación como Evaluador en la Convocatoria Novus 2022 (Instituto para el Futuro de la Educación y el Tecnológico de Monterrey, 2022)",
+        "keywords": [
+          "Evaluación por Pares",
+          "Innovación Educativa",
+          "Investigación Educativa",
+          "Gestión de Proyectos Académicos",
+          "Instituto para el Futuro de la Educación y el Tecnológico de Monterrey",
+          "Inves",
+          "IA en Educación",
+          "Calidad y Docencia Universitaria"
+        ]
       },
       {
         "id": "cert_cert-22-08-moodlemootcol2022",
@@ -845,7 +1440,17 @@
         "cluster": "tecnopedagogia",
         "type": "certification",
         "size": 13,
-        "info": "Certificación: MoodleMoot Colombia Online 2022 (Edu Labs, 2022)"
+        "info": "Certificación: MoodleMoot Colombia Online 2022 (Edu Labs, 2022)",
+        "keywords": [
+          "Moodle",
+          "Tecnopedagogía",
+          "Educación Virtual",
+          "Edu Labs",
+          "CurEst",
+          "IA en Educación",
+          "LMS Moodle a Escala",
+          "Tecnopedagogía & E-Learning"
+        ]
       },
       {
         "id": "cert_cert-22-07-googleeducator1",
@@ -853,7 +1458,18 @@
         "cluster": "tecnopedagogia",
         "type": "certification",
         "size": 13,
-        "info": "Certificación: Certified Educator - Level 1 (Google for Education, 2022)"
+        "info": "Certificación: Certified Educator - Level 1 (Google for Education, 2022)",
+        "keywords": [
+          "Google Workspace for Education",
+          "Tecnopedagogía",
+          "Competencias Digitales Docentes",
+          "Google for Education",
+          "Cert",
+          "IA en Educación",
+          "Tecnopedagogía & E-Learning",
+          "Herramientas Digitales de Aprendizaje",
+          "Pedagogía Digital"
+        ]
       },
       {
         "id": "cert_cert-22-07-ciberseguridadtele",
@@ -861,39 +1477,14 @@
         "cluster": "tecnopedagogia",
         "type": "certification",
         "size": 13,
-        "info": "Certificación: Protegemos tu Negocio: Ciberseguridad en el Teletrabajo (Google Actívate e INCIBE, 2022)"
-      },
-      {
-        "id": "cert_cert-22-06-rgpduocdocentes",
-        "label": "PROTOCOLO DE CUMPLIMIENTO ...",
-        "cluster": "politicas_direccion",
-        "type": "certification",
-        "size": 13,
-        "info": "Certificación: PROTOCOLO DE CUMPLIMIENTO DEL RGPD PARA COLABORADORES DOCENTES DE LA UOC (Universitat Oberta de Catalunya, 2022)"
-      },
-      {
-        "id": "cert_cert-22-05-intemocionalctrl",
-        "label": "INTELIGENCIA EMOCIONAL APL...",
-        "cluster": "politicas_direccion",
-        "type": "certification",
-        "size": 13,
-        "info": "Certificación: INTELIGENCIA EMOCIONAL APLICADA AL CONTROL - VIRTUAL (Contraloría General del Estado - Ecuador, 2022)"
-      },
-      {
-        "id": "cert_cert-22-03-formdoctecnoped",
-        "label": "FORMACIÓN DOCENTE TECNO-PE...",
-        "cluster": "tecnopedagogia",
-        "type": "certification",
-        "size": 13,
-        "info": "Certificación: FORMACIÓN DOCENTE TECNO-PEDAGÓGICA PARA EDUCACIÓN EN LÍNEA (Universidad Nacional de Educación (UNAE), 2022)"
-      },
-      {
-        "id": "cert_cert-22-03-pensamientocomp",
-        "label": "ESCUELA DE PENSAMIENTO COM...",
-        "cluster": "tecnopedagogia",
-        "type": "certification",
-        "size": 13,
-        "info": "Certificación: ESCUELA DE PENSAMIENTO COMPUTACIONAL (Profuturo, 2022)"
+        "info": "Certificación: Protegemos tu Negocio: Ciberseguridad en el Teletrabajo (Google Actívate e INCIBE, 2022)",
+        "keywords": [
+          "Ciberseguridad",
+          "Teletrabajo Seguro",
+          "Gestión de Incidentes",
+          "Google Actívate e INCIBE",
+          "Cert"
+        ]
       },
       {
         "id": "cert_cert-22-02-becasantandereco",
@@ -901,31 +1492,15 @@
         "cluster": "politicas_direccion",
         "type": "certification",
         "size": 13,
-        "info": "Certificación: Becas Santander Estudios | Hacia una Economía Circular desde la Eco-innovación (Banco Santander, 2022)"
-      },
-      {
-        "id": "cert_cert-22-02-operadorsncp",
-        "label": "Operador del Sistema Nacio...",
-        "cluster": "politicas_direccion",
-        "type": "certification",
-        "size": 13,
-        "info": "Certificación: Operador del Sistema Nacional de Compras Públicas - Fundamentos de Contratación Pública (Servicio Nacional de Contratación Pública (SERCOP), 2022)"
-      },
-      {
-        "id": "cert_cert-22-02-certsercop",
-        "label": "Operador del Sistema Nacio...",
-        "cluster": "politicas_direccion",
-        "type": "certification",
-        "size": 13,
-        "info": "Certificación: Operador del Sistema Nacional de Compras Públicas - Fundamentos de Contratación Pública (Servicio Nacional de Contratación Pública, 2022)"
-      },
-      {
-        "id": "cert_cert-22-01-ponenteescuelas",
-        "label": "Certificado de participaci...",
-        "cluster": "tecnopedagogia",
-        "type": "certification",
-        "size": 13,
-        "info": "Certificación: Certificado de participación como ponente en los Webinars: Campamentos \"ESCUELAS QUE ME INSPIRAN\" capacitación y formación en innovación tecnopedagógica para la comunidad educativa 2021 (Ministerio de Educación, 2022)"
+        "info": "Certificación: Becas Santander Estudios | Hacia una Economía Circular desde la Eco-innovación (Banco Santander, 2022)",
+        "keywords": [
+          "Economía Circular",
+          "Eco-innovación",
+          "Sostenibilidad",
+          "Banco Santander",
+          "Meri",
+          "IA en Educación"
+        ]
       },
       {
         "id": "cert_cert-21-12-gamificaciontic",
@@ -933,63 +1508,18 @@
         "cluster": "tecnopedagogia",
         "type": "certification",
         "size": 13,
-        "info": "Certificación: JUEGOS, GAMIFICACIÓN Y TIC (Universidad Antonio de Nebrija, 2021)"
-      },
-      {
-        "id": "cert_cert-21-11-gestionpolitica",
-        "label": "El Rol de la Comunicación ...",
-        "cluster": "politicas_direccion",
-        "type": "certification",
-        "size": 13,
-        "info": "Certificación: El Rol de la Comunicación en la Gestión Política (EDES Business School - UTPL, 2021)"
-      },
-      {
-        "id": "cert_cert-21-11-gestionproyectos",
-        "label": "Gestión de Proyectos Públi...",
-        "cluster": "politicas_direccion",
-        "type": "certification",
-        "size": 13,
-        "info": "Certificación: Gestión de Proyectos Públicos (EDES Business School UTPL, 2021)"
-      },
-      {
-        "id": "cert_cert-21-11-sectorpublicoequipos",
-        "label": "REQUISITOS DEL SECTOR PÚBL...",
-        "cluster": "politicas_direccion",
-        "type": "certification",
-        "size": 13,
-        "info": "Certificación: REQUISITOS DEL SECTOR PÚBLICO PARA GESTIONAR EQUIPOS DE TRABAJO (EDES Business School UTPL y Corporación Líderes para Gobernar, 2021)"
-      },
-      {
-        "id": "cert_cert-21-11-contratacionpublica",
-        "label": "CONTRATACIÓN PÚBLICA...",
-        "cluster": "politicas_direccion",
-        "type": "certification",
-        "size": 13,
-        "info": "Certificación: CONTRATACIÓN PÚBLICA (EDES Business School - UTPL, 2021)"
-      },
-      {
-        "id": "cert_cert-21-11-praticassaludable",
-        "label": "Prácticas de Vida Saludabl...",
-        "cluster": "politicas_direccion",
-        "type": "certification",
-        "size": 13,
-        "info": "Certificación: Prácticas de Vida Saludable (Ministerio de Salud Pública, 2021)"
-      },
-      {
-        "id": "cert_cert-21-11-gerenciapublica",
-        "label": "LAS HERRAMIENTAS BÁSICAS P...",
-        "cluster": "politicas_direccion",
-        "type": "certification",
-        "size": 13,
-        "info": "Certificación: LAS HERRAMIENTAS BÁSICAS PARA UNA EFICIENTE GERENCIA PÚBLICA (EDES Business School - UTPL, 2021)"
-      },
-      {
-        "id": "cert_cert-21-11-liderazgopolitico",
-        "label": "Liderazgo Político Público...",
-        "cluster": "politicas_direccion",
-        "type": "certification",
-        "size": 13,
-        "info": "Certificación: Liderazgo Político Público (EDES Business School UTPL y Corporación Líderes para Gobernar, 2021)"
+        "info": "Certificación: JUEGOS, GAMIFICACIÓN Y TIC (Universidad Antonio de Nebrija, 2021)",
+        "keywords": [
+          "Gamificación",
+          "Game Based Learning",
+          "Diseño Instruccional",
+          "TIC Educativas",
+          "Universidad Antonio de Nebrija",
+          "CurEst",
+          "IA en Educación",
+          "Tecnopedagogía & E-Learning",
+          "Calidad y Docencia Universitaria"
+        ]
       },
       {
         "id": "cert_cert-21-08-becanebrijajuego",
@@ -997,655 +1527,19 @@
         "cluster": "tecnopedagogia",
         "type": "certification",
         "size": 13,
-        "info": "Certificación: Beca de 100% para el Curso en Juego, Gamificación y TIC como Herramienta para el Aprendizaje (Universidad Nebrija y Organización de Estados Iberoamericanos (OEI), 2021)"
-      },
-      {
-        "id": "cert_cert-21-08-cursogamificacion",
-        "label": "CURSO EN JUEGO, GAMIFICACI...",
-        "cluster": "tecnopedagogia",
-        "type": "certification",
-        "size": 13,
-        "info": "Certificación: CURSO EN JUEGO, GAMIFICACIÓN Y TIC COMO HERRAMIENTA PARA EL APRENDIZAJE (Universidad Nebrija y Organización de Estados Iberoamericanos para la Educación, la Ciencia y la Cultura (OEI), 2021)"
-      },
-      {
-        "id": "cert_cert-21-08-festivalideas10",
-        "label": "Festival de Ideas Educativ...",
-        "cluster": "tecnopedagogia",
-        "type": "certification",
-        "size": 13,
-        "info": "Certificación: Festival de Ideas Educativas 'Ideas de 10' (Programa ProFuturo, 2021)"
-      },
-      {
-        "id": "cert_cert-21-08-riesgoergonomico",
-        "label": "RIESGO ERGONÓMICO CHILDFUN...",
-        "cluster": "politicas_direccion",
-        "type": "certification",
-        "size": 13,
-        "info": "Certificación: RIESGO ERGONÓMICO CHILDFUND INTERNATIONAL, USA (SERILAN, 2021)"
-      },
-      {
-        "id": "cert_cert-21-08-ideas10",
-        "label": "Festival de Ideas Educativ...",
-        "cluster": "tecnopedagogia",
-        "type": "certification",
-        "size": 13,
-        "info": "Certificación: Festival de Ideas Educativas Ideas de 10 (Fundación Telefónica Movistar Ecuador y ChildFund Ecuador, 2021)"
-      },
-      {
-        "id": "cert_cert-21-07-riesgobiologico",
-        "label": "FACTOR DE RIESGO BIOLÓGICO...",
-        "cluster": "politicas_direccion",
-        "type": "certification",
-        "size": 13,
-        "info": "Certificación: FACTOR DE RIESGO BIOLÓGICO CHILDFUND INTERNATIONAL (SERILAN / ChildFund International, 2021)"
-      },
-      {
-        "id": "cert_cert-21-06-bienestarsocioem",
-        "label": "El bienestar socio-emocion...",
-        "cluster": "tecnopedagogia",
-        "type": "certification",
-        "size": 13,
-        "info": "Certificación: El bienestar socio-emocional en el proceso de aprendizaje que forma parte del ciclo de webinars: El estudiante: una combinación única de capacidades (Fundación Telefónica / ChildFund Ecuador, 2021)"
-      },
-      {
-        "id": "cert_cert-21-06-seguridadlaboral",
-        "label": "FUNDAMENTOS DE SEGURIDAD Y...",
-        "cluster": "politicas_direccion",
-        "type": "certification",
-        "size": 13,
-        "info": "Certificación: FUNDAMENTOS DE SEGURIDAD Y SALUD OCUPACIONAL (SERILAN, 2021)"
-      },
-      {
-        "id": "cert_cert-21-06-datosabiertosecuador",
-        "label": "INTRODUCCIÓN A LOS DATOS A...",
-        "cluster": "politicas_direccion",
-        "type": "certification",
-        "size": 13,
-        "info": "Certificación: INTRODUCCIÓN A LOS DATOS ABIERTOS EN ECUADOR (Datalat, Red Ecuatoriana de Datos Abiertos y Metadatos (REDAM) e Innovación para el Cambio Hub Latinoamérica, 2021)"
-      },
-      {
-        "id": "cert_cert-21-05-emocionaprender",
-        "label": "¿Cómo despertar la emoción...",
-        "cluster": "tecnopedagogia",
-        "type": "certification",
-        "size": 13,
-        "info": "Certificación: ¿Cómo despertar la emoción por aprender? (Fundación Telefónica y ChildFund Ecuador, 2021)"
-      },
-      {
-        "id": "cert_cert-21-05-excel365beginner",
-        "label": "Excel 365 - Beginner...",
-        "cluster": "ia_data_science",
-        "type": "certification",
-        "size": 13,
-        "info": "Certificación: Excel 365 - Beginner (Intellezy / DisasterReady.org, 2021)"
-      },
-      {
-        "id": "cert_cert-21-04-commremoteteams",
-        "label": "Effective Communication fo...",
-        "cluster": "tecnopedagogia",
-        "type": "certification",
-        "size": 13,
-        "info": "Certificación: Effective Communication for Remote Teams (Cornerstone OnDemand Foundation, 2021)"
-      },
-      {
-        "id": "cert_cert-21-04-programacionvideojuegos",
-        "label": "Curso de Programación de V...",
-        "cluster": "tecnopedagogia",
-        "type": "certification",
-        "size": 13,
-        "info": "Certificación: Curso de Programación de Videojuegos para docentes y estudiantes de bachillerato (Ministerio de Educación del Ecuador, Organización de Estados Iberoamericanos (OEI) y Centro Internacional de Estudios Superiores de Comunicación para América Latina (CIESPAL), 2021)"
-      },
-      {
-        "id": "cert_cert-21-04-childsafeguarding",
-        "label": "Child Safeguarding Present...",
-        "cluster": "politicas_direccion",
-        "type": "certification",
-        "size": 13,
-        "info": "Certificación: Child Safeguarding Presentation (ChildFund International, 2021)"
-      },
-      {
-        "id": "cert_cert-21-03-webextraining",
-        "label": "Comunicación sincrónica co...",
-        "cluster": "tecnopedagogia",
-        "type": "certification",
-        "size": 13,
-        "info": "Certificación: Comunicación sincrónica con webex y su licencia training (institucional) (Escuela Politécnica Nacional, Centro de Educación Continua, 2021)"
-      },
-      {
-        "id": "cert_cert-21-02-confciberseguridad",
-        "label": "Certificado de Agradecimie...",
-        "cluster": "politicas_direccion",
-        "type": "certification",
-        "size": 13,
-        "info": "Certificación: Certificado de Agradecimiento por Conferencia de Ciberseguridad (Distrito 01D03 Girón a Santa Isabel - Educación, 2021)"
-      },
-      {
-        "id": "cert_cert-20-12-facilitacionunae",
-        "label": "DOCENCIA PARA ENTORNOS VIR...",
-        "cluster": "tecnopedagogia",
-        "type": "certification",
-        "size": 13,
-        "info": "Certificación: DOCENCIA PARA ENTORNOS VIRTUALES: APORTES PARA SU DESARROLLO SINCRÓNICO Y ASINCRÓNICO (Universidad Nacional de Educación (UNAE), 2020)"
-      },
-      {
-        "id": "cert_cert-20-12-violenciamujeres",
-        "label": "VIOLENCIA CONTRA LAS MUJER...",
-        "cluster": "politicas_direccion",
-        "type": "certification",
-        "size": 13,
-        "info": "Certificación: VIOLENCIA CONTRA LAS MUJERES Y MECANISMOS DE PROTECCIÓN EN EL MARCO DEL SISTEMA DE PROTECCIÓN INTEGRAL (Consejo de Protección de Derechos del Distrito Metropolitano de Quito, 2020)"
-      },
-      {
-        "id": "cert_cert-20-12-docenciavirtual",
-        "label": "DOCENCIA PARA ENTORNOS VIR...",
-        "cluster": "tecnopedagogia",
-        "type": "certification",
-        "size": 13,
-        "info": "Certificación: DOCENCIA PARA ENTORNOS VIRTUALES: APORTES PARA SU DESARROLLO SINCRÓNICO Y ASINCRÓNICO (Universidad Nacional de Educación (UNAE), 2020)"
-      },
-      {
-        "id": "cert_cert-20-11-curacioncontenidos",
-        "label": "Certificado como expositor...",
-        "cluster": "tecnopedagogia",
-        "type": "certification",
-        "size": 13,
-        "info": "Certificación: Certificado como expositor en la Jornada de Actualización Científica y Profesional Vida Nueva 2020 (Instituto Superior Tecnológico Vida Nueva, 2020)"
-      },
-      {
-        "id": "cert_cert-20-11-expovidanueva",
-        "label": "Participación como exposit...",
-        "cluster": "tecnopedagogia",
-        "type": "certification",
-        "size": 13,
-        "info": "Certificación: Participación como expositor en la Jornada de Actualización Científica y Profesional Vida Nueva 2020 (Instituto Superior Tecnológico Vida Nueva, 2020)"
-      },
-      {
-        "id": "cert_cert-20-10-qaheducationmaster",
-        "label": "Master’s Degree in Quality...",
-        "cluster": "politicas_direccion",
-        "type": "certification",
-        "size": 13,
-        "info": "Certificación: Master’s Degree in Quality Management and Evaluation in Higher Education (Universitat Oberta de Catalunya (UOC) & INQAAHE, 2020)"
-      },
-      {
-        "id": "cert_cert-20-07-formacionconsultoruoc",
-        "label": "Certificat del curs de for...",
-        "cluster": "tecnopedagogia",
-        "type": "certification",
-        "size": 13,
-        "info": "Certificación: Certificat del curs de formació bàsica per al consultor (professorat col·laborador) - Endinsa't a la UOC (Universitat Oberta de Catalunya, 2020)"
-      },
-      {
-        "id": "cert_cert-20-10-qahedmaster",
-        "label": "Master's Degree in Quality...",
-        "cluster": "politicas_direccion",
-        "type": "certification",
-        "size": 13,
-        "info": "Certificación: Master's Degree in Quality Management and Evaluation in Higher Education (International Network for Quality Assurance Agencies in Higher Education (INQAAHE), 2020)"
-      },
-      {
-        "id": "cert_cert-20-09-congresoeduzona6",
-        "label": "I CONGRESO INTERNACIONAL D...",
-        "cluster": "tecnopedagogia",
-        "type": "certification",
-        "size": 13,
-        "info": "Certificación: I CONGRESO INTERNACIONAL DE EDUCACIÓN DE ZONA 6 “YO EDUCO” (Coordinación de Educación Zonal 6 - Universidad de Cuenca, 2020)"
-      },
-      {
-        "id": "cert_cert-20-07-tutoresenlinea",
-        "label": "Formación de Tutores de Ni...",
-        "cluster": "tecnopedagogia",
-        "type": "certification",
-        "size": 13,
-        "info": "Certificación: Formación de Tutores de Nivelación Especializados en Modalidad en Línea (Universidad Internacional de La Rioja, 2020)"
-      },
-      {
-        "id": "cert_cert-20-07-endinsatuoc",
-        "label": "Certificat del curs de for...",
-        "cluster": "tecnopedagogia",
-        "type": "certification",
-        "size": 13,
-        "info": "Certificación: Certificat del curs de formació básica per al consultor (professorat col·laborador) - Endinsa't a la UOC (Universitat Oberta de Catalunya, 2020)"
-      },
-      {
-        "id": "cert_cert-20-01-semcalidadline",
-        "label": "Seminario de Evaluación de...",
-        "cluster": "tecnopedagogia",
-        "type": "certification",
-        "size": 13,
-        "info": "Certificación: Seminario de Evaluación de la Calidad de la Formación en Modalidad en Línea: el caso español (Secretaría de Educación Superior, Ciencia, Tecnología e Innovación (SENESCYT), 2020)"
-      },
-      {
-        "id": "cert_cert-20-01-seminariocalidad",
-        "label": "Seminario de Evaluación de...",
-        "cluster": "tecnopedagogia",
-        "type": "certification",
-        "size": 13,
-        "info": "Certificación: Seminario de Evaluación de la Calidad de la Formación en Modalidad en Línea: el caso español (Secretaría de Educación Superior, Ciencia, Tecnología e Innovación (SENESCYT), 2020)"
-      },
-      {
-        "id": "cert_cert-20-01-formadorformadores",
-        "label": "FORMADOR DE FORMADORES CEC...",
-        "cluster": "tecnopedagogia",
-        "type": "certification",
-        "size": 13,
-        "info": "Certificación: FORMADOR DE FORMADORES CEC-EPN (Escuela Politécnica Nacional - Centro de Educación Continua, 2020)"
-      },
-      {
-        "id": "cert_cert-19-12-formadorformadores",
-        "label": "FORMADOR DE FORMADORES CEC...",
-        "cluster": "tecnopedagogia",
-        "type": "certification",
-        "size": 13,
-        "info": "Certificación: FORMADOR DE FORMADORES CEC-EPN (Escuela Politécnica Nacional, Centro de Educación Continua, 2019)"
-      },
-      {
-        "id": "cert_cert-19-06-moodledayconfe19",
-        "label": "Certificado de Conferencia...",
-        "cluster": "tecnopedagogia",
-        "type": "certification",
-        "size": 13,
-        "info": "Certificación: Certificado de Conferencia: Mediación pedagógica, TIC y Moodle (Escuela Politécnica Nacional (CEC-EPN) y Comunidad Moodle Ecuador, 2019)"
-      },
-      {
-        "id": "cert_cert-19-06-moodleday2019",
-        "label": "CERTIFICADO - Moodle Day 2...",
-        "cluster": "tecnopedagogia",
-        "type": "certification",
-        "size": 13,
-        "info": "Certificación: CERTIFICADO - Moodle Day 2019 (Escuela Politécnica Nacional / CEC-EPN, 2019)"
-      },
-      {
-        "id": "cert_cert-18-11-ponenciaculturaprev",
-        "label": "II Encuentro Nacional Haci...",
-        "cluster": "politicas_direccion",
-        "type": "certification",
-        "size": 13,
-        "info": "Certificación: II Encuentro Nacional Hacia una Cultura de Prevención de Discapacidades (PreNatal, C.D.H. Ideas, Espiral Educativa, Sas Libre, 2018)"
-      },
-      {
-        "id": "cert_cert-18-09-storytellingvirtual",
-        "label": "TALLER DE STORYTELLING: NA...",
-        "cluster": "tecnopedagogia",
-        "type": "certification",
-        "size": 13,
-        "info": "Certificación: TALLER DE STORYTELLING: NARRATIVAS DIGITALES PARA EL APRENDIZAJE VIRTUAL (B-LEARNING) (Escuela Politécnica Nacional - Centro de Educación Continua, 2018)"
-      },
-      {
-        "id": "cert_cert-18-07-monitoresprevencion",
-        "label": "Curso “Formación de Monito...",
-        "cluster": "politicas_direccion",
-        "type": "certification",
-        "size": 13,
-        "info": "Certificación: Curso “Formación de Monitores en Didáctica de la Prevención de Discapacidades” (PreNatal Ecuador / Fundación de Waal / Consejo Nacional para la Igualdad de Discapacidades (CONADIS), 2018)"
-      },
-      {
-        "id": "cert_cert-18-06-accesibilidadfisica",
-        "label": "Curso de Capacitación en A...",
-        "cluster": "politicas_direccion",
-        "type": "certification",
-        "size": 13,
-        "info": "Certificación: Curso de Capacitación en Accesibilidad al Medio Físico y Normativa Técnica Ecuatoriana (INEN - CONADIS - Universidad Tecnológica Indoamérica, 2018)"
-      },
-      {
-        "id": "cert_cert-18-06-estrategiasdig",
-        "label": "Estrategias Didácticas Dig...",
-        "cluster": "tecnopedagogia",
-        "type": "certification",
-        "size": 13,
-        "info": "Certificación: Estrategias Didácticas Digitales - 7ta. edición (Organización de los Estados Americanos (OEA), 2018)"
-      },
-      {
-        "id": "cert_cert-18-06-moodleday2018",
-        "label": "Certificado Moodle Day 201...",
-        "cluster": "tecnopedagogia",
-        "type": "certification",
-        "size": 13,
-        "info": "Certificación: Certificado Moodle Day 2018 (Escuela Politécnica Nacional / Centro de Educación Continua / Moodle Ecuador, 2018)"
-      },
-      {
-        "id": "cert_cert-18-05-ponenciaapienvs",
-        "label": "API DE ANALÍTICAS DE APREN...",
-        "cluster": "tecnopedagogia",
-        "type": "certification",
-        "size": 13,
-        "info": "Certificación: API DE ANALÍTICAS DE APRENDIZAJE EN ENTORNOS VIRTUALES (Escuela Superior Politécnica de Chimborazo (ESPOCH) - Facultad de Informática y Electrónica, 2018)"
-      },
-      {
-        "id": "cert_cert-18-04-ponenteflisol18",
-        "label": "Certificado de Ponente en ...",
-        "cluster": "ia_data_science",
-        "type": "certification",
-        "size": 13,
-        "info": "Certificación: Certificado de Ponente en el 14vo Festival Latinoamericano de Instalación de Software Libre (FLISoL) (Red de Investigación, Conocimiento, Hardware y Software Libre / MediaLabUIO CIESPAL, 2018)"
-      },
-      {
-        "id": "cert_cert-18-03-sensdiscapacidad",
-        "label": "Certificado de Sensibiliza...",
-        "cluster": "politicas_direccion",
-        "type": "certification",
-        "size": 13,
-        "info": "Certificación: Certificado de Sensibilización en Discapacidades (Ministerio del Trabajo y Consejo Nacional para la Igualdad de Discapacidades (CONADIS), 2018)"
-      },
-      {
-        "id": "cert_cert-18-01-generacionnegocio",
-        "label": "Generación y maduración de...",
-        "cluster": "politicas_direccion",
-        "type": "certification",
-        "size": 13,
-        "info": "Certificación: Generación y maduración de ideas de negocio (Universitat Oberta de Catalunya (UOC), 2018)"
-      },
-      {
-        "id": "cert_cert-18-01-seguridadticinfancia",
-        "label": "Certificat de formació en ...",
-        "cluster": "tecnopedagogia",
-        "type": "certification",
-        "size": 13,
-        "info": "Certificación: Certificat de formació en Seguretat a la Xarxa: La Seguretat TIC en la Infància (Universitat Oberta de Catalunya, 2018)"
-      },
-      {
-        "id": "cert_cert-17-12-ponenciascratch",
-        "label": "Programando un juego en 15...",
-        "cluster": "tecnopedagogia",
-        "type": "certification",
-        "size": 13,
-        "info": "Certificación: Programando un juego en 15 minutos con Scratch (Comunidades de Tecnologías Libres de Ecuador y Venezuela, 2017)"
-      },
-      {
-        "id": "cert_cert-17-12-eddisruptiva",
-        "label": "II Seminario Internacional...",
-        "cluster": "tecnopedagogia",
-        "type": "certification",
-        "size": 13,
-        "info": "Certificación: II Seminario Internacional de Educación Disruptiva con TIC (Fundación Telefónica Movistar, Corporación Red Infodesarrollo y UNAE, 2017)"
-      },
-      {
-        "id": "cert_cert-17-12-moodlecert",
-        "label": "Moodle Course Creator Cert...",
-        "cluster": "tecnopedagogia",
-        "type": "certification",
-        "size": 13,
-        "info": "Certificación: Moodle Course Creator Certification (Edu Labs SAS, 2017)"
-      },
-      {
-        "id": "cert_cert-17-10-profesorsigloxxi",
-        "label": "El profesor del siglo XXI...",
-        "cluster": "tecnopedagogia",
-        "type": "certification",
-        "size": 13,
-        "info": "Certificación: El profesor del siglo XXI (Pontificia Universidad Católica de Valparaíso, 2017)"
-      },
-      {
-        "id": "cert_cert-17-09-personalizacionmoodle",
-        "label": "Personalización gráfica de...",
-        "cluster": "tecnopedagogia",
-        "type": "certification",
-        "size": 13,
-        "info": "Certificación: Personalización gráfica de Moodle 3.3 con Theme ADAPTABLE (Comunidades de Tecnologías Libres de Ecuador y Venezuela, 2017)"
-      },
-      {
-        "id": "cert_cert-17-08-prevprenataldiscap",
-        "label": "PROGRAMA DE FORMACIÓN DE M...",
-        "cluster": "politicas_direccion",
-        "type": "certification",
-        "size": 13,
-        "info": "Certificación: PROGRAMA DE FORMACIÓN DE MEDIADORES EN PREVENCIÓN PRENATAL DE DISCAPACIDADES (Universidad Central del Ecuador, Fundación de Waal, Ministerio de Salud Pública, 2017)"
-      },
-      {
-        "id": "cert_cert-17-04-jornadasinfofis",
-        "label": "V Jornadas Internacionales...",
-        "cluster": "tecnopedagogia",
-        "type": "certification",
-        "size": 13,
-        "info": "Certificación: V Jornadas Internacionales, V Congreso Nacional de Ciencias Software Libre y Nuevas Tecnologías Aplicadas a la Educación y III Encuentro de Docentes de Informática y Física (Universidad Central del Ecuador, 2017)"
-      },
-      {
-        "id": "cert_cert-17-04-facilitacionped",
-        "label": "Formación de Monitores en ...",
-        "cluster": "tecnopedagogia",
-        "type": "certification",
-        "size": 13,
-        "info": "Certificación: Formación de Monitores en mediación pedagógica, educación popular y estrategias de facilitación (Fundación de Waal y PreNatal, 2017)"
-      },
-      {
-        "id": "cert_cert-17-04-tallersistemasop",
-        "label": "V JORNADAS INTERNACIONALES...",
-        "cluster": "tecnopedagogia",
-        "type": "certification",
-        "size": 13,
-        "info": "Certificación: V JORNADAS INTERNACIONALES, V CONGRESO NACIONAL DE CIENCIAS SOFTWARE LIBRE Y NUEVAS TECNOLOGÍAS APLICADAS A LA EDUCACIÓN Y III ENCUENTRO DE DOCENTES DE INFORMÁTICA Y FÍSICA (Universidad Central del Ecuador, 2017)"
-      },
-      {
-        "id": "cert_cert-17-04-aulavirtualflisol",
-        "label": "\"V JORNADAS INTERNACIONALE...",
-        "cluster": "tecnopedagogia",
-        "type": "certification",
-        "size": 13,
-        "info": "Certificación: \"V JORNADAS INTERNACIONALES, V CONGRESO NACIONAL DE CIENCIAS SOFTWARE LIBRE Y NUEVAS TECNOLOGÍAS APLICADAS A LA EDUCACIÓN Y III ENCUENTRO DE DOCENTES DE INFORMÁTICA Y FÍSICA\" (Universidad Central del Ecuador - Asociación de Software Libre del Ecuador - FLISOL, 2017)"
-      },
-      {
-        "id": "cert_cert-17-02-recursosdigitales",
-        "label": "Recursos Didácticos Digita...",
-        "cluster": "tecnopedagogia",
-        "type": "certification",
-        "size": 13,
-        "info": "Certificación: Recursos Didácticos Digitales para el Aula (Escuela Politécnica Nacional - Centro de Educación Continua, 2017)"
-      },
-      {
-        "id": "cert_cert-16-12-libreofficecec",
-        "label": "OFIMATICA CON SOFTWARE LIB...",
-        "cluster": "tecnopedagogia",
-        "type": "certification",
-        "size": 13,
-        "info": "Certificación: OFIMATICA CON SOFTWARE LIBRE: LIBREOFFICE (CEC-IAEN, 2016)"
-      },
-      {
-        "id": "cert_cert-16-11-ponenciacovaite",
-        "label": "Generando una comunidad de...",
-        "cluster": "tecnopedagogia",
-        "type": "certification",
-        "size": 13,
-        "info": "Certificación: Generando una comunidad de la Indagación en la prevención prenatal de discapacidades (Comité Organizador del COVAITE 2016 (Argentina y Colombia), 2016)"
-      },
-      {
-        "id": "cert_cert-16-11-seminarioiipe",
-        "label": "Seminario Internacional Po...",
-        "cluster": "politicas_direccion",
-        "type": "certification",
-        "size": 13,
-        "info": "Certificación: Seminario Internacional Políticas de formación docente inicial y continua (Instituto Internacional de Planeamiento de la Educación (IIPE-UNESCO), 2016)"
-      },
-      {
-        "id": "cert_cert-16-11-analiticasapre",
-        "label": "Analíticas de Aprendizaje ...",
-        "cluster": "tecnopedagogia",
-        "type": "certification",
-        "size": 13,
-        "info": "Certificación: Analíticas de Aprendizaje en los Cursos Virtuales (Escuela Politécnica Nacional - Centro de Educación Continua, 2016)"
-      },
-      {
-        "id": "cert_cert-16-10-openofficewriter",
-        "label": "Software libre: Ofimática ...",
-        "cluster": "tecnopedagogia",
-        "type": "certification",
-        "size": 13,
-        "info": "Certificación: Software libre: Ofimática con OpenOffice (Universidad de Zaragoza, 2016)"
-      },
-      {
-        "id": "cert_cert-15-10-creacionblogsweb",
-        "label": "Creación de blogs y sitios...",
-        "cluster": "tecnopedagogia",
-        "type": "certification",
-        "size": 13,
-        "info": "Certificación: Creación de blogs y sitios web (PLANETA FATLA, 2015)"
-      },
-      {
-        "id": "cert_cert-15-10-edsoportevirtual",
-        "label": "Educación con Soporte Virt...",
-        "cluster": "tecnopedagogia",
-        "type": "certification",
-        "size": 13,
-        "info": "Certificación: Educación con Soporte Virtual (Planeta FATLA, 2015)"
-      },
-      {
-        "id": "cert_cert-15-10-expertoeduvirtual",
-        "label": "EXPERTO EN EDUCACIÓN VIRTU...",
-        "cluster": "tecnopedagogia",
-        "type": "certification",
-        "size": 13,
-        "info": "Certificación: EXPERTO EN EDUCACIÓN VIRTUAL (Planeta FATLA, 2015)"
-      },
-      {
-        "id": "cert_cert-15-08-tecnoeducacion",
-        "label": "TE201x: Tecnologías para l...",
-        "cluster": "tecnopedagogia",
-        "type": "certification",
-        "size": 13,
-        "info": "Certificación: TE201x: Tecnologías para la educación (Universitat Politècnica de València, 2015)"
-      },
-      {
-        "id": "cert_cert-15-08-interaccionmovil",
-        "label": "Interacción digital y rede...",
-        "cluster": "tecnopedagogia",
-        "type": "certification",
-        "size": 13,
-        "info": "Certificación: Interacción digital y redes móviles (Planeta FATLA, 2015)"
-      },
-      {
-        "id": "cert_cert-15-06-realidadaumentada",
-        "label": "Realidad aumentada y conec...",
-        "cluster": "tecnopedagogia",
-        "type": "certification",
-        "size": 13,
-        "info": "Certificación: Realidad aumentada y conectivismo (Planeta FATLA, 2015)"
-      },
-      {
-        "id": "cert_cert-15-06-entornosvirtuales",
-        "label": "Entornos virtuales de apre...",
-        "cluster": "tecnopedagogia",
-        "type": "certification",
-        "size": 13,
-        "info": "Certificación: Entornos virtuales de aprendizaje: entre la presencialidad y la virtualidad (Universidad Nacional del Nordeste, 2015)"
-      },
-      {
-        "id": "cert_cert-15-06-scratcharduino",
-        "label": "Robots y Videojuegos en la...",
-        "cluster": "tecnopedagogia",
-        "type": "certification",
-        "size": 13,
-        "info": "Certificación: Robots y Videojuegos en las aulas: Scratch y Arduino para profesores (3.ª edición) (Universitat Pompeu Fabra, 2015)"
-      },
-      {
-        "id": "cert_cert-15-05-alcanceacademico",
-        "label": "Alcance Académico y Estánd...",
-        "cluster": "tecnopedagogia",
-        "type": "certification",
-        "size": 13,
-        "info": "Certificación: Alcance Académico y Estándares Internacionales (Planeta Fatla, 2015)"
-      },
-      {
-        "id": "cert_cert-15-05-sitiowebcomercial",
-        "label": "CREACION DE UN SITIO WEB C...",
-        "cluster": "tecnopedagogia",
-        "type": "certification",
-        "size": 13,
-        "info": "Certificación: CREACION DE UN SITIO WEB COMERCIAL (Planeta FATLA, 2015)"
-      },
-      {
-        "id": "cert_cert-15-05-adminmoodle",
-        "label": "Administración de platafor...",
-        "cluster": "tecnopedagogia",
-        "type": "certification",
-        "size": 13,
-        "info": "Certificación: Administración de plataformas Moodle (Asociación Mundial de Tutores Virtuales (ASOMTV), 2015)"
-      },
-      {
-        "id": "cert_cert-15-05-fasepresenciafatla",
-        "label": "Certificado Fase Presencia...",
-        "cluster": "tecnopedagogia",
-        "type": "certification",
-        "size": 13,
-        "info": "Certificación: Certificado Fase Presencia - Modelo de Educación Virtual PACIE (Planeta FATLA, 2015)"
-      },
-      {
-        "id": "cert_cert-15-05-estrategiasmoodle",
-        "label": "Estrategias Metodológicas ...",
-        "cluster": "tecnopedagogia",
-        "type": "certification",
-        "size": 13,
-        "info": "Certificación: Estrategias Metodológicas para el Docente E-learning (4.ª edición) (Universidad de San Martín de Porres, 2015)"
-      },
-      {
-        "id": "cert_cert-15-05-revistadigitalonline",
-        "label": "Revista digital online...",
-        "cluster": "tecnopedagogia",
-        "type": "certification",
-        "size": 13,
-        "info": "Certificación: Revista digital online (PLANETA FATLA, 2015)"
-      },
-      {
-        "id": "cert_cert-15-04-planestrategicoeco",
-        "label": "PLAN ESTRATEGICO DE UN ECO...",
-        "cluster": "politicas_direccion",
-        "type": "certification",
-        "size": 13,
-        "info": "Certificación: PLAN ESTRATEGICO DE UN ECOMMERCE (Planeta FATLA, 2015)"
-      },
-      {
-        "id": "cert_cert-15-03-recursosedvirtual",
-        "label": "Recursos de educación virt...",
-        "cluster": "tecnopedagogia",
-        "type": "certification",
-        "size": 13,
-        "info": "Certificación: Recursos de educación virtual (PLANETA FATLA, 2015)"
-      },
-      {
-        "id": "cert_cert-15-02-marketingonline",
-        "label": "Estrategias de Marketing O...",
-        "cluster": "tecnopedagogia",
-        "type": "certification",
-        "size": 13,
-        "info": "Certificación: Estrategias de Marketing Online. Community Manager (2.ª edición) (Universidad CEU Cardenal Herrera, 2015)"
-      },
-      {
-        "id": "cert_cert-15-02-entornosvirtuales",
-        "label": "Experto en Educación Virtu...",
-        "cluster": "tecnopedagogia",
-        "type": "certification",
-        "size": 13,
-        "info": "Certificación: Experto en Educación Virtual: Módulo Entornos Virtuales de Aprendizaje (Planeta FATLA, 2015)"
-      },
-      {
-        "id": "cert_cert-15-02-communitymanager",
-        "label": "Estrategias de Marketing O...",
-        "cluster": "tecnopedagogia",
-        "type": "certification",
-        "size": 13,
-        "info": "Certificación: Estrategias de Marketing Online. Community Manager (2.ª edición) (Universidad CEU Cardenal Herrera / Miríada X, 2015)"
-      },
-      {
-        "id": "cert_cert-14-12-estrategiasmoodle",
-        "label": "Estrategias Metodológicas ...",
-        "cluster": "tecnopedagogia",
-        "type": "certification",
-        "size": 13,
-        "info": "Certificación: Estrategias Metodológicas para el Docente E-learning (3.ª edición) (Universidad de San Martín de Porres, 2014)"
-      },
-      {
-        "id": "cert_cert-14-05-certscratcharduino",
-        "label": "Certificat de formació en ...",
-        "cluster": "tecnopedagogia",
-        "type": "certification",
-        "size": 13,
-        "info": "Certificación: Certificat de formació en S4A: Scratch/Snap 4 Arduino (Universitat Oberta de Catalunya, 2014)"
-      },
-      {
-        "id": "cert_cert-13-12-hourofcode",
-        "label": "The Hour of Code...",
-        "cluster": "ia_data_science",
-        "type": "certification",
-        "size": 13,
-        "info": "Certificación: The Hour of Code (Code.org, 2013)"
+        "info": "Certificación: Beca de 100% para el Curso en Juego, Gamificación y TIC como Herramienta para el Aprendizaje (Universidad Nebrija y Organización de Estados Iberoamericanos (OEI), 2021)",
+        "keywords": [
+          "Gamificación Educativa",
+          "TIC en el Aprendizaje",
+          "Diseño Instruccional",
+          "Universidad Nebrija y Organización de Estados Iberoamericanos (OEI)",
+          "Meri",
+          "IA en Educación",
+          "Tecnopedagogía & E-Learning",
+          "Pensamiento Computacional & STEAM",
+          "Políticas Públicas & Transformación Digital",
+          "Calidad y Docencia Universitaria"
+        ]
       }
     ],
     "links": [
@@ -2112,6 +2006,234 @@
         "value": 2
       },
       {
+        "source": "tecnopedagogia",
+        "target": "proj_2026_ecosistema_neuro",
+        "relationship": "iniciativa clave",
+        "value": 2
+      },
+      {
+        "source": "kw_ia_ed",
+        "target": "proj_2026_ecosistema_neuro",
+        "relationship": "eje temático",
+        "value": 2
+      },
+      {
+        "source": "kw_deep_learning",
+        "target": "proj_2026_ecosistema_neuro",
+        "relationship": "eje temático",
+        "value": 2
+      },
+      {
+        "source": "kw_neuro_simbolico",
+        "target": "proj_2026_ecosistema_neuro",
+        "relationship": "eje temático",
+        "value": 2
+      },
+      {
+        "source": "kw_calidad_superior",
+        "target": "proj_2026_ecosistema_neuro",
+        "relationship": "eje temático",
+        "value": 2
+      },
+      {
+        "source": "tecnopedagogia",
+        "target": "proj_2025_diseño,_producci",
+        "relationship": "iniciativa clave",
+        "value": 2
+      },
+      {
+        "source": "kw_diagnostico_cognitivo",
+        "target": "proj_2025_diseño,_producci",
+        "relationship": "eje temático",
+        "value": 2
+      },
+      {
+        "source": "kw_moodle_lms",
+        "target": "proj_2025_diseño,_producci",
+        "relationship": "eje temático",
+        "value": 2
+      },
+      {
+        "source": "tecnopedagogia",
+        "target": "proj_2025_implementación_d",
+        "relationship": "iniciativa clave",
+        "value": 2
+      },
+      {
+        "source": "kw_ia_ed",
+        "target": "proj_2025_implementación_d",
+        "relationship": "eje temático",
+        "value": 2
+      },
+      {
+        "source": "politicas_direccion",
+        "target": "proj_2025_curso_de_pensami",
+        "relationship": "iniciativa clave",
+        "value": 2
+      },
+      {
+        "source": "kw_ia_ed",
+        "target": "proj_2025_curso_de_pensami",
+        "relationship": "eje temático",
+        "value": 2
+      },
+      {
+        "source": "kw_pensamiento_comp",
+        "target": "proj_2025_curso_de_pensami",
+        "relationship": "eje temático",
+        "value": 2
+      },
+      {
+        "source": "kw_politicas_publicas",
+        "target": "proj_2025_curso_de_pensami",
+        "relationship": "eje temático",
+        "value": 2
+      },
+      {
+        "source": "kw_calidad_superior",
+        "target": "proj_2025_curso_de_pensami",
+        "relationship": "eje temático",
+        "value": 2
+      },
+      {
+        "source": "politicas_direccion",
+        "target": "proj_2024_implementación_y",
+        "relationship": "iniciativa clave",
+        "value": 2
+      },
+      {
+        "source": "kw_ia_ed",
+        "target": "proj_2024_implementación_y",
+        "relationship": "eje temático",
+        "value": 2
+      },
+      {
+        "source": "kw_politicas_publicas",
+        "target": "proj_2024_implementación_y",
+        "relationship": "eje temático",
+        "value": 2
+      },
+      {
+        "source": "tecnopedagogia",
+        "target": "proj_2024_ferias_de_proyec",
+        "relationship": "iniciativa clave",
+        "value": 2
+      },
+      {
+        "source": "kw_ia_ed",
+        "target": "proj_2024_ferias_de_proyec",
+        "relationship": "eje temático",
+        "value": 2
+      },
+      {
+        "source": "tecnopedagogia",
+        "target": "proj_2024_desarrollo_de_cu",
+        "relationship": "iniciativa clave",
+        "value": 2
+      },
+      {
+        "source": "kw_ia_ed",
+        "target": "proj_2024_desarrollo_de_cu",
+        "relationship": "eje temático",
+        "value": 2
+      },
+      {
+        "source": "kw_politicas_publicas",
+        "target": "proj_2024_desarrollo_de_cu",
+        "relationship": "eje temático",
+        "value": 2
+      },
+      {
+        "source": "politicas_direccion",
+        "target": "proj_2022_agenda_de_transf",
+        "relationship": "iniciativa clave",
+        "value": 2
+      },
+      {
+        "source": "kw_ia_ed",
+        "target": "proj_2022_agenda_de_transf",
+        "relationship": "eje temático",
+        "value": 2
+      },
+      {
+        "source": "kw_politicas_publicas",
+        "target": "proj_2022_agenda_de_transf",
+        "relationship": "eje temático",
+        "value": 2
+      },
+      {
+        "source": "politicas_direccion",
+        "target": "proj_2022_agenda_digital_a",
+        "relationship": "iniciativa clave",
+        "value": 2
+      },
+      {
+        "source": "kw_diagnostico_cognitivo",
+        "target": "proj_2022_agenda_digital_a",
+        "relationship": "eje temático",
+        "value": 2
+      },
+      {
+        "source": "kw_politicas_publicas",
+        "target": "proj_2022_agenda_digital_a",
+        "relationship": "eje temático",
+        "value": 2
+      },
+      {
+        "source": "politicas_direccion",
+        "target": "proj_2022_agenda_digital_p",
+        "relationship": "iniciativa clave",
+        "value": 2
+      },
+      {
+        "source": "kw_politicas_publicas",
+        "target": "proj_2022_agenda_digital_p",
+        "relationship": "eje temático",
+        "value": 2
+      },
+      {
+        "source": "politicas_direccion",
+        "target": "proj_2022_red_de_primeros_",
+        "relationship": "iniciativa clave",
+        "value": 2
+      },
+      {
+        "source": "kw_ia_ed",
+        "target": "proj_2022_red_de_primeros_",
+        "relationship": "eje temático",
+        "value": 2
+      },
+      {
+        "source": "kw_etica_gobernanza",
+        "target": "proj_2022_red_de_primeros_",
+        "relationship": "eje temático",
+        "value": 2
+      },
+      {
+        "source": "kw_politicas_publicas",
+        "target": "proj_2022_red_de_primeros_",
+        "relationship": "eje temático",
+        "value": 2
+      },
+      {
+        "source": "politicas_direccion",
+        "target": "proj_2022_programa_de_form",
+        "relationship": "iniciativa clave",
+        "value": 2
+      },
+      {
+        "source": "kw_pensamiento_comp",
+        "target": "proj_2022_programa_de_form",
+        "relationship": "eje temático",
+        "value": 2
+      },
+      {
+        "source": "kw_politicas_publicas",
+        "target": "proj_2022_programa_de_form",
+        "relationship": "eje temático",
+        "value": 2
+      },
+      {
         "source": "deep_learning",
         "target": "repo_curso_llm",
         "relationship": "repositorio GitHub",
@@ -2437,30 +2559,6 @@
       },
       {
         "source": "tecnopedagogia",
-        "target": "cert_cert-26-08-iarealiztareas",
-        "relationship": "credencial validada",
-        "value": 2
-      },
-      {
-        "source": "kw_ia_ed",
-        "target": "cert_cert-26-08-iarealiztareas",
-        "relationship": "evidencia empírica",
-        "value": 2
-      },
-      {
-        "source": "tecnopedagogia",
-        "target": "cert_cert-26-06-seguridadinfo",
-        "relationship": "credencial validada",
-        "value": 2
-      },
-      {
-        "source": "kw_politicas_publicas",
-        "target": "cert_cert-26-06-seguridadinfo",
-        "relationship": "evidencia empírica",
-        "value": 2
-      },
-      {
-        "source": "tecnopedagogia",
         "target": "cert_cert-26-06-moodlemootcol26",
         "relationship": "credencial validada",
         "value": 2
@@ -2474,36 +2572,6 @@
       {
         "source": "kw_moodle_lms",
         "target": "cert_cert-26-06-moodlemootcol26",
-        "relationship": "evidencia empírica",
-        "value": 2
-      },
-      {
-        "source": "tecnopedagogia",
-        "target": "cert_cert-26-06-dvvglobale",
-        "relationship": "credencial validada",
-        "value": 2
-      },
-      {
-        "source": "kw_ia_ed",
-        "target": "cert_cert-26-06-dvvglobale",
-        "relationship": "evidencia empírica",
-        "value": 2
-      },
-      {
-        "source": "kw_tecnopedagogia",
-        "target": "cert_cert-26-06-dvvglobale",
-        "relationship": "evidencia empírica",
-        "value": 2
-      },
-      {
-        "source": "politicas_direccion",
-        "target": "cert_cert-25-11-tutorcollegehoriz",
-        "relationship": "credencial validada",
-        "value": 2
-      },
-      {
-        "source": "kw_ia_ed",
-        "target": "cert_cert-25-11-tutorcollegehoriz",
         "relationship": "evidencia empírica",
         "value": 2
       },
@@ -2528,54 +2596,6 @@
       {
         "source": "kw_learning_analytics",
         "target": "cert_cert-25-11-bestpapericetei",
-        "relationship": "evidencia empírica",
-        "value": 2
-      },
-      {
-        "source": "ia_data_science",
-        "target": "cert_cert-25-06-diplomadodeeplearning",
-        "relationship": "credencial validada",
-        "value": 2
-      },
-      {
-        "source": "kw_ia_ed",
-        "target": "cert_cert-25-06-diplomadodeeplearning",
-        "relationship": "evidencia empírica",
-        "value": 2
-      },
-      {
-        "source": "kw_deep_learning",
-        "target": "cert_cert-25-06-diplomadodeeplearning",
-        "relationship": "evidencia empírica",
-        "value": 2
-      },
-      {
-        "source": "kw_neuro_simbolico",
-        "target": "cert_cert-25-06-diplomadodeeplearning",
-        "relationship": "evidencia empírica",
-        "value": 2
-      },
-      {
-        "source": "kw_calidad_superior",
-        "target": "cert_cert-25-06-diplomadodeeplearning",
-        "relationship": "evidencia empírica",
-        "value": 2
-      },
-      {
-        "source": "ia_data_science",
-        "target": "cert_cert-25-06-delaideaalpaper",
-        "relationship": "credencial validada",
-        "value": 2
-      },
-      {
-        "source": "kw_ia_ed",
-        "target": "cert_cert-25-06-delaideaalpaper",
-        "relationship": "evidencia empírica",
-        "value": 2
-      },
-      {
-        "source": "kw_calidad_superior",
-        "target": "cert_cert-25-06-delaideaalpaper",
         "relationship": "evidencia empírica",
         "value": 2
       },
@@ -2676,18 +2696,6 @@
         "value": 2
       },
       {
-        "source": "tecnopedagogia",
-        "target": "cert_cert-23-08-ponenteusorecedu",
-        "relationship": "credencial validada",
-        "value": 2
-      },
-      {
-        "source": "kw_ia_ed",
-        "target": "cert_cert-23-08-ponenteusorecedu",
-        "relationship": "evidencia empírica",
-        "value": 2
-      },
-      {
         "source": "politicas_direccion",
         "target": "cert_cert-23-03-infosecawareness",
         "relationship": "credencial validada",
@@ -2708,108 +2716,6 @@
       {
         "source": "kw_ia_ed",
         "target": "cert_cert-23-03-fortinetnse1",
-        "relationship": "evidencia empírica",
-        "value": 2
-      },
-      {
-        "source": "tecnopedagogia",
-        "target": "cert_cert-22-11-ponenciaried2022",
-        "relationship": "credencial validada",
-        "value": 2
-      },
-      {
-        "source": "kw_ia_ed",
-        "target": "cert_cert-22-11-ponenciaried2022",
-        "relationship": "evidencia empírica",
-        "value": 2
-      },
-      {
-        "source": "kw_politicas_publicas",
-        "target": "cert_cert-22-11-ponenciaried2022",
-        "relationship": "evidencia empírica",
-        "value": 2
-      },
-      {
-        "source": "tecnopedagogia",
-        "target": "cert_cert-22-11-comitecientificovii",
-        "relationship": "credencial validada",
-        "value": 2
-      },
-      {
-        "source": "kw_ia_ed",
-        "target": "cert_cert-22-11-comitecientificovii",
-        "relationship": "evidencia empírica",
-        "value": 2
-      },
-      {
-        "source": "kw_calidad_superior",
-        "target": "cert_cert-22-11-comitecientificovii",
-        "relationship": "evidencia empírica",
-        "value": 2
-      },
-      {
-        "source": "tecnopedagogia",
-        "target": "cert_cert-22-11-comiteviiiced",
-        "relationship": "credencial validada",
-        "value": 2
-      },
-      {
-        "source": "kw_ia_ed",
-        "target": "cert_cert-22-11-comiteviiiced",
-        "relationship": "evidencia empírica",
-        "value": 2
-      },
-      {
-        "source": "kw_calidad_superior",
-        "target": "cert_cert-22-11-comiteviiiced",
-        "relationship": "evidencia empírica",
-        "value": 2
-      },
-      {
-        "source": "tecnopedagogia",
-        "target": "cert_cert-22-11-mobilelearningugr",
-        "relationship": "credencial validada",
-        "value": 2
-      },
-      {
-        "source": "kw_ia_ed",
-        "target": "cert_cert-22-11-mobilelearningugr",
-        "relationship": "evidencia empírica",
-        "value": 2
-      },
-      {
-        "source": "kw_calidad_superior",
-        "target": "cert_cert-22-11-mobilelearningugr",
-        "relationship": "evidencia empírica",
-        "value": 2
-      },
-      {
-        "source": "tecnopedagogia",
-        "target": "cert_cert-22-10-ponenciaprofuturo",
-        "relationship": "credencial validada",
-        "value": 2
-      },
-      {
-        "source": "kw_ia_ed",
-        "target": "cert_cert-22-10-ponenciaprofuturo",
-        "relationship": "evidencia empírica",
-        "value": 2
-      },
-      {
-        "source": "tecnopedagogia",
-        "target": "cert_cert-22-10-pensamientocomp",
-        "relationship": "credencial validada",
-        "value": 2
-      },
-      {
-        "source": "kw_ia_ed",
-        "target": "cert_cert-22-10-pensamientocomp",
-        "relationship": "evidencia empírica",
-        "value": 2
-      },
-      {
-        "source": "kw_pensamiento_comp",
-        "target": "cert_cert-22-10-pensamientocomp",
         "relationship": "evidencia empírica",
         "value": 2
       },
@@ -2887,72 +2793,6 @@
       },
       {
         "source": "politicas_direccion",
-        "target": "cert_cert-22-06-rgpduocdocentes",
-        "relationship": "credencial validada",
-        "value": 2
-      },
-      {
-        "source": "kw_etica_gobernanza",
-        "target": "cert_cert-22-06-rgpduocdocentes",
-        "relationship": "evidencia empírica",
-        "value": 2
-      },
-      {
-        "source": "politicas_direccion",
-        "target": "cert_cert-22-05-intemocionalctrl",
-        "relationship": "credencial validada",
-        "value": 2
-      },
-      {
-        "source": "kw_ia_ed",
-        "target": "cert_cert-22-05-intemocionalctrl",
-        "relationship": "evidencia empírica",
-        "value": 2
-      },
-      {
-        "source": "tecnopedagogia",
-        "target": "cert_cert-22-03-formdoctecnoped",
-        "relationship": "credencial validada",
-        "value": 2
-      },
-      {
-        "source": "kw_ia_ed",
-        "target": "cert_cert-22-03-formdoctecnoped",
-        "relationship": "evidencia empírica",
-        "value": 2
-      },
-      {
-        "source": "kw_tecnopedagogia",
-        "target": "cert_cert-22-03-formdoctecnoped",
-        "relationship": "evidencia empírica",
-        "value": 2
-      },
-      {
-        "source": "kw_calidad_superior",
-        "target": "cert_cert-22-03-formdoctecnoped",
-        "relationship": "evidencia empírica",
-        "value": 2
-      },
-      {
-        "source": "tecnopedagogia",
-        "target": "cert_cert-22-03-pensamientocomp",
-        "relationship": "credencial validada",
-        "value": 2
-      },
-      {
-        "source": "kw_ia_ed",
-        "target": "cert_cert-22-03-pensamientocomp",
-        "relationship": "evidencia empírica",
-        "value": 2
-      },
-      {
-        "source": "kw_pensamiento_comp",
-        "target": "cert_cert-22-03-pensamientocomp",
-        "relationship": "evidencia empírica",
-        "value": 2
-      },
-      {
-        "source": "politicas_direccion",
         "target": "cert_cert-22-02-becasantandereco",
         "relationship": "credencial validada",
         "value": 2
@@ -2964,30 +2804,6 @@
         "value": 2
       },
       {
-        "source": "politicas_direccion",
-        "target": "cert_cert-22-02-operadorsncp",
-        "relationship": "credencial validada",
-        "value": 2
-      },
-      {
-        "source": "politicas_direccion",
-        "target": "cert_cert-22-02-certsercop",
-        "relationship": "credencial validada",
-        "value": 2
-      },
-      {
-        "source": "tecnopedagogia",
-        "target": "cert_cert-22-01-ponenteescuelas",
-        "relationship": "credencial validada",
-        "value": 2
-      },
-      {
-        "source": "kw_ia_ed",
-        "target": "cert_cert-22-01-ponenteescuelas",
-        "relationship": "evidencia empírica",
-        "value": 2
-      },
-      {
         "source": "tecnopedagogia",
         "target": "cert_cert-21-12-gamificaciontic",
         "relationship": "credencial validada",
@@ -3012,72 +2828,6 @@
         "value": 2
       },
       {
-        "source": "politicas_direccion",
-        "target": "cert_cert-21-11-gestionpolitica",
-        "relationship": "credencial validada",
-        "value": 2
-      },
-      {
-        "source": "kw_ia_ed",
-        "target": "cert_cert-21-11-gestionpolitica",
-        "relationship": "evidencia empírica",
-        "value": 2
-      },
-      {
-        "source": "politicas_direccion",
-        "target": "cert_cert-21-11-gestionproyectos",
-        "relationship": "credencial validada",
-        "value": 2
-      },
-      {
-        "source": "kw_politicas_publicas",
-        "target": "cert_cert-21-11-gestionproyectos",
-        "relationship": "evidencia empírica",
-        "value": 2
-      },
-      {
-        "source": "politicas_direccion",
-        "target": "cert_cert-21-11-sectorpublicoequipos",
-        "relationship": "credencial validada",
-        "value": 2
-      },
-      {
-        "source": "politicas_direccion",
-        "target": "cert_cert-21-11-contratacionpublica",
-        "relationship": "credencial validada",
-        "value": 2
-      },
-      {
-        "source": "politicas_direccion",
-        "target": "cert_cert-21-11-praticassaludable",
-        "relationship": "credencial validada",
-        "value": 2
-      },
-      {
-        "source": "politicas_direccion",
-        "target": "cert_cert-21-11-gerenciapublica",
-        "relationship": "credencial validada",
-        "value": 2
-      },
-      {
-        "source": "kw_ia_ed",
-        "target": "cert_cert-21-11-gerenciapublica",
-        "relationship": "evidencia empírica",
-        "value": 2
-      },
-      {
-        "source": "politicas_direccion",
-        "target": "cert_cert-21-11-liderazgopolitico",
-        "relationship": "credencial validada",
-        "value": 2
-      },
-      {
-        "source": "kw_etica_gobernanza",
-        "target": "cert_cert-21-11-liderazgopolitico",
-        "relationship": "evidencia empírica",
-        "value": 2
-      },
-      {
         "source": "tecnopedagogia",
         "target": "cert_cert-21-08-becanebrijajuego",
         "relationship": "credencial validada",
@@ -3111,1344 +2861,6 @@
         "source": "kw_calidad_superior",
         "target": "cert_cert-21-08-becanebrijajuego",
         "relationship": "evidencia empírica",
-        "value": 2
-      },
-      {
-        "source": "tecnopedagogia",
-        "target": "cert_cert-21-08-cursogamificacion",
-        "relationship": "credencial validada",
-        "value": 2
-      },
-      {
-        "source": "kw_ia_ed",
-        "target": "cert_cert-21-08-cursogamificacion",
-        "relationship": "evidencia empírica",
-        "value": 2
-      },
-      {
-        "source": "kw_pensamiento_comp",
-        "target": "cert_cert-21-08-cursogamificacion",
-        "relationship": "evidencia empírica",
-        "value": 2
-      },
-      {
-        "source": "kw_politicas_publicas",
-        "target": "cert_cert-21-08-cursogamificacion",
-        "relationship": "evidencia empírica",
-        "value": 2
-      },
-      {
-        "source": "kw_calidad_superior",
-        "target": "cert_cert-21-08-cursogamificacion",
-        "relationship": "evidencia empírica",
-        "value": 2
-      },
-      {
-        "source": "tecnopedagogia",
-        "target": "cert_cert-21-08-festivalideas10",
-        "relationship": "credencial validada",
-        "value": 2
-      },
-      {
-        "source": "kw_ia_ed",
-        "target": "cert_cert-21-08-festivalideas10",
-        "relationship": "evidencia empírica",
-        "value": 2
-      },
-      {
-        "source": "politicas_direccion",
-        "target": "cert_cert-21-08-riesgoergonomico",
-        "relationship": "credencial validada",
-        "value": 2
-      },
-      {
-        "source": "tecnopedagogia",
-        "target": "cert_cert-21-08-ideas10",
-        "relationship": "credencial validada",
-        "value": 2
-      },
-      {
-        "source": "kw_ia_ed",
-        "target": "cert_cert-21-08-ideas10",
-        "relationship": "evidencia empírica",
-        "value": 2
-      },
-      {
-        "source": "kw_tecnopedagogia",
-        "target": "cert_cert-21-08-ideas10",
-        "relationship": "evidencia empírica",
-        "value": 2
-      },
-      {
-        "source": "politicas_direccion",
-        "target": "cert_cert-21-07-riesgobiologico",
-        "relationship": "credencial validada",
-        "value": 2
-      },
-      {
-        "source": "tecnopedagogia",
-        "target": "cert_cert-21-06-bienestarsocioem",
-        "relationship": "credencial validada",
-        "value": 2
-      },
-      {
-        "source": "kw_ia_ed",
-        "target": "cert_cert-21-06-bienestarsocioem",
-        "relationship": "evidencia empírica",
-        "value": 2
-      },
-      {
-        "source": "politicas_direccion",
-        "target": "cert_cert-21-06-seguridadlaboral",
-        "relationship": "credencial validada",
-        "value": 2
-      },
-      {
-        "source": "politicas_direccion",
-        "target": "cert_cert-21-06-datosabiertosecuador",
-        "relationship": "credencial validada",
-        "value": 2
-      },
-      {
-        "source": "kw_ia_ed",
-        "target": "cert_cert-21-06-datosabiertosecuador",
-        "relationship": "evidencia empírica",
-        "value": 2
-      },
-      {
-        "source": "tecnopedagogia",
-        "target": "cert_cert-21-05-emocionaprender",
-        "relationship": "credencial validada",
-        "value": 2
-      },
-      {
-        "source": "kw_ia_ed",
-        "target": "cert_cert-21-05-emocionaprender",
-        "relationship": "evidencia empírica",
-        "value": 2
-      },
-      {
-        "source": "kw_neuro_simbolico",
-        "target": "cert_cert-21-05-emocionaprender",
-        "relationship": "evidencia empírica",
-        "value": 2
-      },
-      {
-        "source": "kw_tecnopedagogia",
-        "target": "cert_cert-21-05-emocionaprender",
-        "relationship": "evidencia empírica",
-        "value": 2
-      },
-      {
-        "source": "ia_data_science",
-        "target": "cert_cert-21-05-excel365beginner",
-        "relationship": "credencial validada",
-        "value": 2
-      },
-      {
-        "source": "tecnopedagogia",
-        "target": "cert_cert-21-04-commremoteteams",
-        "relationship": "credencial validada",
-        "value": 2
-      },
-      {
-        "source": "tecnopedagogia",
-        "target": "cert_cert-21-04-programacionvideojuegos",
-        "relationship": "credencial validada",
-        "value": 2
-      },
-      {
-        "source": "kw_ia_ed",
-        "target": "cert_cert-21-04-programacionvideojuegos",
-        "relationship": "evidencia empírica",
-        "value": 2
-      },
-      {
-        "source": "kw_pensamiento_comp",
-        "target": "cert_cert-21-04-programacionvideojuegos",
-        "relationship": "evidencia empírica",
-        "value": 2
-      },
-      {
-        "source": "kw_politicas_publicas",
-        "target": "cert_cert-21-04-programacionvideojuegos",
-        "relationship": "evidencia empírica",
-        "value": 2
-      },
-      {
-        "source": "politicas_direccion",
-        "target": "cert_cert-21-04-childsafeguarding",
-        "relationship": "credencial validada",
-        "value": 2
-      },
-      {
-        "source": "kw_etica_gobernanza",
-        "target": "cert_cert-21-04-childsafeguarding",
-        "relationship": "evidencia empírica",
-        "value": 2
-      },
-      {
-        "source": "tecnopedagogia",
-        "target": "cert_cert-21-03-webextraining",
-        "relationship": "credencial validada",
-        "value": 2
-      },
-      {
-        "source": "kw_ia_ed",
-        "target": "cert_cert-21-03-webextraining",
-        "relationship": "evidencia empírica",
-        "value": 2
-      },
-      {
-        "source": "politicas_direccion",
-        "target": "cert_cert-21-02-confciberseguridad",
-        "relationship": "credencial validada",
-        "value": 2
-      },
-      {
-        "source": "kw_ia_ed",
-        "target": "cert_cert-21-02-confciberseguridad",
-        "relationship": "evidencia empírica",
-        "value": 2
-      },
-      {
-        "source": "tecnopedagogia",
-        "target": "cert_cert-20-12-facilitacionunae",
-        "relationship": "credencial validada",
-        "value": 2
-      },
-      {
-        "source": "kw_ia_ed",
-        "target": "cert_cert-20-12-facilitacionunae",
-        "relationship": "evidencia empírica",
-        "value": 2
-      },
-      {
-        "source": "kw_tecnopedagogia",
-        "target": "cert_cert-20-12-facilitacionunae",
-        "relationship": "evidencia empírica",
-        "value": 2
-      },
-      {
-        "source": "kw_calidad_superior",
-        "target": "cert_cert-20-12-facilitacionunae",
-        "relationship": "evidencia empírica",
-        "value": 2
-      },
-      {
-        "source": "politicas_direccion",
-        "target": "cert_cert-20-12-violenciamujeres",
-        "relationship": "credencial validada",
-        "value": 2
-      },
-      {
-        "source": "kw_ia_ed",
-        "target": "cert_cert-20-12-violenciamujeres",
-        "relationship": "evidencia empírica",
-        "value": 2
-      },
-      {
-        "source": "kw_politicas_publicas",
-        "target": "cert_cert-20-12-violenciamujeres",
-        "relationship": "evidencia empírica",
-        "value": 2
-      },
-      {
-        "source": "tecnopedagogia",
-        "target": "cert_cert-20-12-docenciavirtual",
-        "relationship": "credencial validada",
-        "value": 2
-      },
-      {
-        "source": "kw_ia_ed",
-        "target": "cert_cert-20-12-docenciavirtual",
-        "relationship": "evidencia empírica",
-        "value": 2
-      },
-      {
-        "source": "kw_tecnopedagogia",
-        "target": "cert_cert-20-12-docenciavirtual",
-        "relationship": "evidencia empírica",
-        "value": 2
-      },
-      {
-        "source": "kw_calidad_superior",
-        "target": "cert_cert-20-12-docenciavirtual",
-        "relationship": "evidencia empírica",
-        "value": 2
-      },
-      {
-        "source": "tecnopedagogia",
-        "target": "cert_cert-20-11-curacioncontenidos",
-        "relationship": "credencial validada",
-        "value": 2
-      },
-      {
-        "source": "kw_tecnopedagogia",
-        "target": "cert_cert-20-11-curacioncontenidos",
-        "relationship": "evidencia empírica",
-        "value": 2
-      },
-      {
-        "source": "tecnopedagogia",
-        "target": "cert_cert-20-11-expovidanueva",
-        "relationship": "credencial validada",
-        "value": 2
-      },
-      {
-        "source": "kw_ia_ed",
-        "target": "cert_cert-20-11-expovidanueva",
-        "relationship": "evidencia empírica",
-        "value": 2
-      },
-      {
-        "source": "kw_tecnopedagogia",
-        "target": "cert_cert-20-11-expovidanueva",
-        "relationship": "evidencia empírica",
-        "value": 2
-      },
-      {
-        "source": "politicas_direccion",
-        "target": "cert_cert-20-10-qaheducationmaster",
-        "relationship": "credencial validada",
-        "value": 2
-      },
-      {
-        "source": "tecnopedagogia",
-        "target": "cert_cert-20-07-formacionconsultoruoc",
-        "relationship": "credencial validada",
-        "value": 2
-      },
-      {
-        "source": "kw_ia_ed",
-        "target": "cert_cert-20-07-formacionconsultoruoc",
-        "relationship": "evidencia empírica",
-        "value": 2
-      },
-      {
-        "source": "kw_tecnopedagogia",
-        "target": "cert_cert-20-07-formacionconsultoruoc",
-        "relationship": "evidencia empírica",
-        "value": 2
-      },
-      {
-        "source": "kw_calidad_superior",
-        "target": "cert_cert-20-07-formacionconsultoruoc",
-        "relationship": "evidencia empírica",
-        "value": 2
-      },
-      {
-        "source": "politicas_direccion",
-        "target": "cert_cert-20-10-qahedmaster",
-        "relationship": "credencial validada",
-        "value": 2
-      },
-      {
-        "source": "tecnopedagogia",
-        "target": "cert_cert-20-09-congresoeduzona6",
-        "relationship": "credencial validada",
-        "value": 2
-      },
-      {
-        "source": "kw_ia_ed",
-        "target": "cert_cert-20-09-congresoeduzona6",
-        "relationship": "evidencia empírica",
-        "value": 2
-      },
-      {
-        "source": "kw_diagnostico_cognitivo",
-        "target": "cert_cert-20-09-congresoeduzona6",
-        "relationship": "evidencia empírica",
-        "value": 2
-      },
-      {
-        "source": "kw_calidad_superior",
-        "target": "cert_cert-20-09-congresoeduzona6",
-        "relationship": "evidencia empírica",
-        "value": 2
-      },
-      {
-        "source": "tecnopedagogia",
-        "target": "cert_cert-20-07-tutoresenlinea",
-        "relationship": "credencial validada",
-        "value": 2
-      },
-      {
-        "source": "kw_ia_ed",
-        "target": "cert_cert-20-07-tutoresenlinea",
-        "relationship": "evidencia empírica",
-        "value": 2
-      },
-      {
-        "source": "kw_calidad_superior",
-        "target": "cert_cert-20-07-tutoresenlinea",
-        "relationship": "evidencia empírica",
-        "value": 2
-      },
-      {
-        "source": "tecnopedagogia",
-        "target": "cert_cert-20-07-endinsatuoc",
-        "relationship": "credencial validada",
-        "value": 2
-      },
-      {
-        "source": "kw_ia_ed",
-        "target": "cert_cert-20-07-endinsatuoc",
-        "relationship": "evidencia empírica",
-        "value": 2
-      },
-      {
-        "source": "kw_calidad_superior",
-        "target": "cert_cert-20-07-endinsatuoc",
-        "relationship": "evidencia empírica",
-        "value": 2
-      },
-      {
-        "source": "tecnopedagogia",
-        "target": "cert_cert-20-01-semcalidadline",
-        "relationship": "credencial validada",
-        "value": 2
-      },
-      {
-        "source": "kw_ia_ed",
-        "target": "cert_cert-20-01-semcalidadline",
-        "relationship": "evidencia empírica",
-        "value": 2
-      },
-      {
-        "source": "kw_calidad_superior",
-        "target": "cert_cert-20-01-semcalidadline",
-        "relationship": "evidencia empírica",
-        "value": 2
-      },
-      {
-        "source": "tecnopedagogia",
-        "target": "cert_cert-20-01-seminariocalidad",
-        "relationship": "credencial validada",
-        "value": 2
-      },
-      {
-        "source": "kw_ia_ed",
-        "target": "cert_cert-20-01-seminariocalidad",
-        "relationship": "evidencia empírica",
-        "value": 2
-      },
-      {
-        "source": "kw_calidad_superior",
-        "target": "cert_cert-20-01-seminariocalidad",
-        "relationship": "evidencia empírica",
-        "value": 2
-      },
-      {
-        "source": "tecnopedagogia",
-        "target": "cert_cert-20-01-formadorformadores",
-        "relationship": "credencial validada",
-        "value": 2
-      },
-      {
-        "source": "kw_ia_ed",
-        "target": "cert_cert-20-01-formadorformadores",
-        "relationship": "evidencia empírica",
-        "value": 2
-      },
-      {
-        "source": "kw_tecnopedagogia",
-        "target": "cert_cert-20-01-formadorformadores",
-        "relationship": "evidencia empírica",
-        "value": 2
-      },
-      {
-        "source": "tecnopedagogia",
-        "target": "cert_cert-19-12-formadorformadores",
-        "relationship": "credencial validada",
-        "value": 2
-      },
-      {
-        "source": "kw_ia_ed",
-        "target": "cert_cert-19-12-formadorformadores",
-        "relationship": "evidencia empírica",
-        "value": 2
-      },
-      {
-        "source": "kw_tecnopedagogia",
-        "target": "cert_cert-19-12-formadorformadores",
-        "relationship": "evidencia empírica",
-        "value": 2
-      },
-      {
-        "source": "tecnopedagogia",
-        "target": "cert_cert-19-06-moodledayconfe19",
-        "relationship": "credencial validada",
-        "value": 2
-      },
-      {
-        "source": "kw_ia_ed",
-        "target": "cert_cert-19-06-moodledayconfe19",
-        "relationship": "evidencia empírica",
-        "value": 2
-      },
-      {
-        "source": "kw_moodle_lms",
-        "target": "cert_cert-19-06-moodledayconfe19",
-        "relationship": "evidencia empírica",
-        "value": 2
-      },
-      {
-        "source": "tecnopedagogia",
-        "target": "cert_cert-19-06-moodleday2019",
-        "relationship": "credencial validada",
-        "value": 2
-      },
-      {
-        "source": "kw_moodle_lms",
-        "target": "cert_cert-19-06-moodleday2019",
-        "relationship": "evidencia empírica",
-        "value": 2
-      },
-      {
-        "source": "kw_tecnopedagogia",
-        "target": "cert_cert-19-06-moodleday2019",
-        "relationship": "evidencia empírica",
-        "value": 2
-      },
-      {
-        "source": "politicas_direccion",
-        "target": "cert_cert-18-11-ponenciaculturaprev",
-        "relationship": "credencial validada",
-        "value": 2
-      },
-      {
-        "source": "kw_ia_ed",
-        "target": "cert_cert-18-11-ponenciaculturaprev",
-        "relationship": "evidencia empírica",
-        "value": 2
-      },
-      {
-        "source": "tecnopedagogia",
-        "target": "cert_cert-18-09-storytellingvirtual",
-        "relationship": "credencial validada",
-        "value": 2
-      },
-      {
-        "source": "kw_ia_ed",
-        "target": "cert_cert-18-09-storytellingvirtual",
-        "relationship": "evidencia empírica",
-        "value": 2
-      },
-      {
-        "source": "politicas_direccion",
-        "target": "cert_cert-18-07-monitoresprevencion",
-        "relationship": "credencial validada",
-        "value": 2
-      },
-      {
-        "source": "kw_ia_ed",
-        "target": "cert_cert-18-07-monitoresprevencion",
-        "relationship": "evidencia empírica",
-        "value": 2
-      },
-      {
-        "source": "politicas_direccion",
-        "target": "cert_cert-18-06-accesibilidadfisica",
-        "relationship": "credencial validada",
-        "value": 2
-      },
-      {
-        "source": "kw_ia_ed",
-        "target": "cert_cert-18-06-accesibilidadfisica",
-        "relationship": "evidencia empírica",
-        "value": 2
-      },
-      {
-        "source": "kw_calidad_superior",
-        "target": "cert_cert-18-06-accesibilidadfisica",
-        "relationship": "evidencia empírica",
-        "value": 2
-      },
-      {
-        "source": "tecnopedagogia",
-        "target": "cert_cert-18-06-estrategiasdig",
-        "relationship": "credencial validada",
-        "value": 2
-      },
-      {
-        "source": "kw_ia_ed",
-        "target": "cert_cert-18-06-estrategiasdig",
-        "relationship": "evidencia empírica",
-        "value": 2
-      },
-      {
-        "source": "kw_tecnopedagogia",
-        "target": "cert_cert-18-06-estrategiasdig",
-        "relationship": "evidencia empírica",
-        "value": 2
-      },
-      {
-        "source": "kw_politicas_publicas",
-        "target": "cert_cert-18-06-estrategiasdig",
-        "relationship": "evidencia empírica",
-        "value": 2
-      },
-      {
-        "source": "tecnopedagogia",
-        "target": "cert_cert-18-06-moodleday2018",
-        "relationship": "credencial validada",
-        "value": 2
-      },
-      {
-        "source": "kw_ia_ed",
-        "target": "cert_cert-18-06-moodleday2018",
-        "relationship": "evidencia empírica",
-        "value": 2
-      },
-      {
-        "source": "kw_moodle_lms",
-        "target": "cert_cert-18-06-moodleday2018",
-        "relationship": "evidencia empírica",
-        "value": 2
-      },
-      {
-        "source": "tecnopedagogia",
-        "target": "cert_cert-18-05-ponenciaapienvs",
-        "relationship": "credencial validada",
-        "value": 2
-      },
-      {
-        "source": "kw_learning_analytics",
-        "target": "cert_cert-18-05-ponenciaapienvs",
-        "relationship": "evidencia empírica",
-        "value": 2
-      },
-      {
-        "source": "kw_open_source",
-        "target": "cert_cert-18-05-ponenciaapienvs",
-        "relationship": "evidencia empírica",
-        "value": 2
-      },
-      {
-        "source": "ia_data_science",
-        "target": "cert_cert-18-04-ponenteflisol18",
-        "relationship": "credencial validada",
-        "value": 2
-      },
-      {
-        "source": "kw_ia_ed",
-        "target": "cert_cert-18-04-ponenteflisol18",
-        "relationship": "evidencia empírica",
-        "value": 2
-      },
-      {
-        "source": "kw_neuro_simbolico",
-        "target": "cert_cert-18-04-ponenteflisol18",
-        "relationship": "evidencia empírica",
-        "value": 2
-      },
-      {
-        "source": "kw_pensamiento_comp",
-        "target": "cert_cert-18-04-ponenteflisol18",
-        "relationship": "evidencia empírica",
-        "value": 2
-      },
-      {
-        "source": "kw_politicas_publicas",
-        "target": "cert_cert-18-04-ponenteflisol18",
-        "relationship": "evidencia empírica",
-        "value": 2
-      },
-      {
-        "source": "kw_open_source",
-        "target": "cert_cert-18-04-ponenteflisol18",
-        "relationship": "evidencia empírica",
-        "value": 2
-      },
-      {
-        "source": "politicas_direccion",
-        "target": "cert_cert-18-03-sensdiscapacidad",
-        "relationship": "credencial validada",
-        "value": 2
-      },
-      {
-        "source": "kw_ia_ed",
-        "target": "cert_cert-18-03-sensdiscapacidad",
-        "relationship": "evidencia empírica",
-        "value": 2
-      },
-      {
-        "source": "politicas_direccion",
-        "target": "cert_cert-18-01-generacionnegocio",
-        "relationship": "credencial validada",
-        "value": 2
-      },
-      {
-        "source": "kw_ia_ed",
-        "target": "cert_cert-18-01-generacionnegocio",
-        "relationship": "evidencia empírica",
-        "value": 2
-      },
-      {
-        "source": "kw_calidad_superior",
-        "target": "cert_cert-18-01-generacionnegocio",
-        "relationship": "evidencia empírica",
-        "value": 2
-      },
-      {
-        "source": "tecnopedagogia",
-        "target": "cert_cert-18-01-seguridadticinfancia",
-        "relationship": "credencial validada",
-        "value": 2
-      },
-      {
-        "source": "kw_ia_ed",
-        "target": "cert_cert-18-01-seguridadticinfancia",
-        "relationship": "evidencia empírica",
-        "value": 2
-      },
-      {
-        "source": "tecnopedagogia",
-        "target": "cert_cert-17-12-ponenciascratch",
-        "relationship": "credencial validada",
-        "value": 2
-      },
-      {
-        "source": "kw_pensamiento_comp",
-        "target": "cert_cert-17-12-ponenciascratch",
-        "relationship": "evidencia empírica",
-        "value": 2
-      },
-      {
-        "source": "tecnopedagogia",
-        "target": "cert_cert-17-12-eddisruptiva",
-        "relationship": "credencial validada",
-        "value": 2
-      },
-      {
-        "source": "kw_ia_ed",
-        "target": "cert_cert-17-12-eddisruptiva",
-        "relationship": "evidencia empírica",
-        "value": 2
-      },
-      {
-        "source": "tecnopedagogia",
-        "target": "cert_cert-17-12-moodlecert",
-        "relationship": "credencial validada",
-        "value": 2
-      },
-      {
-        "source": "kw_moodle_lms",
-        "target": "cert_cert-17-12-moodlecert",
-        "relationship": "evidencia empírica",
-        "value": 2
-      },
-      {
-        "source": "kw_tecnopedagogia",
-        "target": "cert_cert-17-12-moodlecert",
-        "relationship": "evidencia empírica",
-        "value": 2
-      },
-      {
-        "source": "tecnopedagogia",
-        "target": "cert_cert-17-10-profesorsigloxxi",
-        "relationship": "credencial validada",
-        "value": 2
-      },
-      {
-        "source": "kw_ia_ed",
-        "target": "cert_cert-17-10-profesorsigloxxi",
-        "relationship": "evidencia empírica",
-        "value": 2
-      },
-      {
-        "source": "kw_calidad_superior",
-        "target": "cert_cert-17-10-profesorsigloxxi",
-        "relationship": "evidencia empírica",
-        "value": 2
-      },
-      {
-        "source": "tecnopedagogia",
-        "target": "cert_cert-17-09-personalizacionmoodle",
-        "relationship": "credencial validada",
-        "value": 2
-      },
-      {
-        "source": "kw_moodle_lms",
-        "target": "cert_cert-17-09-personalizacionmoodle",
-        "relationship": "evidencia empírica",
-        "value": 2
-      },
-      {
-        "source": "politicas_direccion",
-        "target": "cert_cert-17-08-prevprenataldiscap",
-        "relationship": "credencial validada",
-        "value": 2
-      },
-      {
-        "source": "kw_ia_ed",
-        "target": "cert_cert-17-08-prevprenataldiscap",
-        "relationship": "evidencia empírica",
-        "value": 2
-      },
-      {
-        "source": "kw_calidad_superior",
-        "target": "cert_cert-17-08-prevprenataldiscap",
-        "relationship": "evidencia empírica",
-        "value": 2
-      },
-      {
-        "source": "tecnopedagogia",
-        "target": "cert_cert-17-04-jornadasinfofis",
-        "relationship": "credencial validada",
-        "value": 2
-      },
-      {
-        "source": "kw_ia_ed",
-        "target": "cert_cert-17-04-jornadasinfofis",
-        "relationship": "evidencia empírica",
-        "value": 2
-      },
-      {
-        "source": "kw_moodle_lms",
-        "target": "cert_cert-17-04-jornadasinfofis",
-        "relationship": "evidencia empírica",
-        "value": 2
-      },
-      {
-        "source": "kw_open_source",
-        "target": "cert_cert-17-04-jornadasinfofis",
-        "relationship": "evidencia empírica",
-        "value": 2
-      },
-      {
-        "source": "kw_calidad_superior",
-        "target": "cert_cert-17-04-jornadasinfofis",
-        "relationship": "evidencia empírica",
-        "value": 2
-      },
-      {
-        "source": "tecnopedagogia",
-        "target": "cert_cert-17-04-facilitacionped",
-        "relationship": "credencial validada",
-        "value": 2
-      },
-      {
-        "source": "kw_ia_ed",
-        "target": "cert_cert-17-04-facilitacionped",
-        "relationship": "evidencia empírica",
-        "value": 2
-      },
-      {
-        "source": "tecnopedagogia",
-        "target": "cert_cert-17-04-tallersistemasop",
-        "relationship": "credencial validada",
-        "value": 2
-      },
-      {
-        "source": "kw_ia_ed",
-        "target": "cert_cert-17-04-tallersistemasop",
-        "relationship": "evidencia empírica",
-        "value": 2
-      },
-      {
-        "source": "kw_open_source",
-        "target": "cert_cert-17-04-tallersistemasop",
-        "relationship": "evidencia empírica",
-        "value": 2
-      },
-      {
-        "source": "kw_calidad_superior",
-        "target": "cert_cert-17-04-tallersistemasop",
-        "relationship": "evidencia empírica",
-        "value": 2
-      },
-      {
-        "source": "tecnopedagogia",
-        "target": "cert_cert-17-04-aulavirtualflisol",
-        "relationship": "credencial validada",
-        "value": 2
-      },
-      {
-        "source": "kw_ia_ed",
-        "target": "cert_cert-17-04-aulavirtualflisol",
-        "relationship": "evidencia empírica",
-        "value": 2
-      },
-      {
-        "source": "kw_moodle_lms",
-        "target": "cert_cert-17-04-aulavirtualflisol",
-        "relationship": "evidencia empírica",
-        "value": 2
-      },
-      {
-        "source": "kw_open_source",
-        "target": "cert_cert-17-04-aulavirtualflisol",
-        "relationship": "evidencia empírica",
-        "value": 2
-      },
-      {
-        "source": "kw_calidad_superior",
-        "target": "cert_cert-17-04-aulavirtualflisol",
-        "relationship": "evidencia empírica",
-        "value": 2
-      },
-      {
-        "source": "tecnopedagogia",
-        "target": "cert_cert-17-02-recursosdigitales",
-        "relationship": "credencial validada",
-        "value": 2
-      },
-      {
-        "source": "kw_ia_ed",
-        "target": "cert_cert-17-02-recursosdigitales",
-        "relationship": "evidencia empírica",
-        "value": 2
-      },
-      {
-        "source": "kw_tecnopedagogia",
-        "target": "cert_cert-17-02-recursosdigitales",
-        "relationship": "evidencia empírica",
-        "value": 2
-      },
-      {
-        "source": "tecnopedagogia",
-        "target": "cert_cert-16-12-libreofficecec",
-        "relationship": "credencial validada",
-        "value": 2
-      },
-      {
-        "source": "kw_ia_ed",
-        "target": "cert_cert-16-12-libreofficecec",
-        "relationship": "evidencia empírica",
-        "value": 2
-      },
-      {
-        "source": "kw_open_source",
-        "target": "cert_cert-16-12-libreofficecec",
-        "relationship": "evidencia empírica",
-        "value": 2
-      },
-      {
-        "source": "tecnopedagogia",
-        "target": "cert_cert-16-11-ponenciacovaite",
-        "relationship": "credencial validada",
-        "value": 2
-      },
-      {
-        "source": "kw_ia_ed",
-        "target": "cert_cert-16-11-ponenciacovaite",
-        "relationship": "evidencia empírica",
-        "value": 2
-      },
-      {
-        "source": "politicas_direccion",
-        "target": "cert_cert-16-11-seminarioiipe",
-        "relationship": "credencial validada",
-        "value": 2
-      },
-      {
-        "source": "kw_ia_ed",
-        "target": "cert_cert-16-11-seminarioiipe",
-        "relationship": "evidencia empírica",
-        "value": 2
-      },
-      {
-        "source": "kw_etica_gobernanza",
-        "target": "cert_cert-16-11-seminarioiipe",
-        "relationship": "evidencia empírica",
-        "value": 2
-      },
-      {
-        "source": "tecnopedagogia",
-        "target": "cert_cert-16-11-analiticasapre",
-        "relationship": "credencial validada",
-        "value": 2
-      },
-      {
-        "source": "kw_ia_ed",
-        "target": "cert_cert-16-11-analiticasapre",
-        "relationship": "evidencia empírica",
-        "value": 2
-      },
-      {
-        "source": "kw_learning_analytics",
-        "target": "cert_cert-16-11-analiticasapre",
-        "relationship": "evidencia empírica",
-        "value": 2
-      },
-      {
-        "source": "tecnopedagogia",
-        "target": "cert_cert-16-10-openofficewriter",
-        "relationship": "credencial validada",
-        "value": 2
-      },
-      {
-        "source": "kw_open_source",
-        "target": "cert_cert-16-10-openofficewriter",
-        "relationship": "evidencia empírica",
-        "value": 2
-      },
-      {
-        "source": "kw_calidad_superior",
-        "target": "cert_cert-16-10-openofficewriter",
-        "relationship": "evidencia empírica",
-        "value": 2
-      },
-      {
-        "source": "tecnopedagogia",
-        "target": "cert_cert-15-10-creacionblogsweb",
-        "relationship": "credencial validada",
-        "value": 2
-      },
-      {
-        "source": "tecnopedagogia",
-        "target": "cert_cert-15-10-edsoportevirtual",
-        "relationship": "credencial validada",
-        "value": 2
-      },
-      {
-        "source": "kw_ia_ed",
-        "target": "cert_cert-15-10-edsoportevirtual",
-        "relationship": "evidencia empírica",
-        "value": 2
-      },
-      {
-        "source": "tecnopedagogia",
-        "target": "cert_cert-15-10-expertoeduvirtual",
-        "relationship": "credencial validada",
-        "value": 2
-      },
-      {
-        "source": "kw_ia_ed",
-        "target": "cert_cert-15-10-expertoeduvirtual",
-        "relationship": "evidencia empírica",
-        "value": 2
-      },
-      {
-        "source": "kw_tecnopedagogia",
-        "target": "cert_cert-15-10-expertoeduvirtual",
-        "relationship": "evidencia empírica",
-        "value": 2
-      },
-      {
-        "source": "tecnopedagogia",
-        "target": "cert_cert-15-08-tecnoeducacion",
-        "relationship": "credencial validada",
-        "value": 2
-      },
-      {
-        "source": "kw_ia_ed",
-        "target": "cert_cert-15-08-tecnoeducacion",
-        "relationship": "evidencia empírica",
-        "value": 2
-      },
-      {
-        "source": "tecnopedagogia",
-        "target": "cert_cert-15-08-interaccionmovil",
-        "relationship": "credencial validada",
-        "value": 2
-      },
-      {
-        "source": "kw_ia_ed",
-        "target": "cert_cert-15-08-interaccionmovil",
-        "relationship": "evidencia empírica",
-        "value": 2
-      },
-      {
-        "source": "tecnopedagogia",
-        "target": "cert_cert-15-06-realidadaumentada",
-        "relationship": "credencial validada",
-        "value": 2
-      },
-      {
-        "source": "kw_ia_ed",
-        "target": "cert_cert-15-06-realidadaumentada",
-        "relationship": "evidencia empírica",
-        "value": 2
-      },
-      {
-        "source": "tecnopedagogia",
-        "target": "cert_cert-15-06-entornosvirtuales",
-        "relationship": "credencial validada",
-        "value": 2
-      },
-      {
-        "source": "kw_ia_ed",
-        "target": "cert_cert-15-06-entornosvirtuales",
-        "relationship": "evidencia empírica",
-        "value": 2
-      },
-      {
-        "source": "kw_tecnopedagogia",
-        "target": "cert_cert-15-06-entornosvirtuales",
-        "relationship": "evidencia empírica",
-        "value": 2
-      },
-      {
-        "source": "kw_calidad_superior",
-        "target": "cert_cert-15-06-entornosvirtuales",
-        "relationship": "evidencia empírica",
-        "value": 2
-      },
-      {
-        "source": "tecnopedagogia",
-        "target": "cert_cert-15-06-scratcharduino",
-        "relationship": "credencial validada",
-        "value": 2
-      },
-      {
-        "source": "kw_ia_ed",
-        "target": "cert_cert-15-06-scratcharduino",
-        "relationship": "evidencia empírica",
-        "value": 2
-      },
-      {
-        "source": "kw_pensamiento_comp",
-        "target": "cert_cert-15-06-scratcharduino",
-        "relationship": "evidencia empírica",
-        "value": 2
-      },
-      {
-        "source": "tecnopedagogia",
-        "target": "cert_cert-15-05-alcanceacademico",
-        "relationship": "credencial validada",
-        "value": 2
-      },
-      {
-        "source": "kw_ia_ed",
-        "target": "cert_cert-15-05-alcanceacademico",
-        "relationship": "evidencia empírica",
-        "value": 2
-      },
-      {
-        "source": "kw_politicas_publicas",
-        "target": "cert_cert-15-05-alcanceacademico",
-        "relationship": "evidencia empírica",
-        "value": 2
-      },
-      {
-        "source": "tecnopedagogia",
-        "target": "cert_cert-15-05-sitiowebcomercial",
-        "relationship": "credencial validada",
-        "value": 2
-      },
-      {
-        "source": "kw_ia_ed",
-        "target": "cert_cert-15-05-sitiowebcomercial",
-        "relationship": "evidencia empírica",
-        "value": 2
-      },
-      {
-        "source": "tecnopedagogia",
-        "target": "cert_cert-15-05-adminmoodle",
-        "relationship": "credencial validada",
-        "value": 2
-      },
-      {
-        "source": "kw_ia_ed",
-        "target": "cert_cert-15-05-adminmoodle",
-        "relationship": "evidencia empírica",
-        "value": 2
-      },
-      {
-        "source": "kw_moodle_lms",
-        "target": "cert_cert-15-05-adminmoodle",
-        "relationship": "evidencia empírica",
-        "value": 2
-      },
-      {
-        "source": "kw_tecnopedagogia",
-        "target": "cert_cert-15-05-adminmoodle",
-        "relationship": "evidencia empírica",
-        "value": 2
-      },
-      {
-        "source": "tecnopedagogia",
-        "target": "cert_cert-15-05-fasepresenciafatla",
-        "relationship": "credencial validada",
-        "value": 2
-      },
-      {
-        "source": "kw_ia_ed",
-        "target": "cert_cert-15-05-fasepresenciafatla",
-        "relationship": "evidencia empírica",
-        "value": 2
-      },
-      {
-        "source": "kw_tecnopedagogia",
-        "target": "cert_cert-15-05-fasepresenciafatla",
-        "relationship": "evidencia empírica",
-        "value": 2
-      },
-      {
-        "source": "tecnopedagogia",
-        "target": "cert_cert-15-05-estrategiasmoodle",
-        "relationship": "credencial validada",
-        "value": 2
-      },
-      {
-        "source": "kw_ia_ed",
-        "target": "cert_cert-15-05-estrategiasmoodle",
-        "relationship": "evidencia empírica",
-        "value": 2
-      },
-      {
-        "source": "kw_moodle_lms",
-        "target": "cert_cert-15-05-estrategiasmoodle",
-        "relationship": "evidencia empírica",
-        "value": 2
-      },
-      {
-        "source": "kw_tecnopedagogia",
-        "target": "cert_cert-15-05-estrategiasmoodle",
-        "relationship": "evidencia empírica",
-        "value": 2
-      },
-      {
-        "source": "kw_calidad_superior",
-        "target": "cert_cert-15-05-estrategiasmoodle",
-        "relationship": "evidencia empírica",
-        "value": 2
-      },
-      {
-        "source": "tecnopedagogia",
-        "target": "cert_cert-15-05-revistadigitalonline",
-        "relationship": "credencial validada",
-        "value": 2
-      },
-      {
-        "source": "politicas_direccion",
-        "target": "cert_cert-15-04-planestrategicoeco",
-        "relationship": "credencial validada",
-        "value": 2
-      },
-      {
-        "source": "tecnopedagogia",
-        "target": "cert_cert-15-03-recursosedvirtual",
-        "relationship": "credencial validada",
-        "value": 2
-      },
-      {
-        "source": "kw_ia_ed",
-        "target": "cert_cert-15-03-recursosedvirtual",
-        "relationship": "evidencia empírica",
-        "value": 2
-      },
-      {
-        "source": "kw_tecnopedagogia",
-        "target": "cert_cert-15-03-recursosedvirtual",
-        "relationship": "evidencia empírica",
-        "value": 2
-      },
-      {
-        "source": "tecnopedagogia",
-        "target": "cert_cert-15-02-marketingonline",
-        "relationship": "credencial validada",
-        "value": 2
-      },
-      {
-        "source": "kw_ia_ed",
-        "target": "cert_cert-15-02-marketingonline",
-        "relationship": "evidencia empírica",
-        "value": 2
-      },
-      {
-        "source": "kw_calidad_superior",
-        "target": "cert_cert-15-02-marketingonline",
-        "relationship": "evidencia empírica",
-        "value": 2
-      },
-      {
-        "source": "tecnopedagogia",
-        "target": "cert_cert-15-02-entornosvirtuales",
-        "relationship": "credencial validada",
-        "value": 2
-      },
-      {
-        "source": "kw_ia_ed",
-        "target": "cert_cert-15-02-entornosvirtuales",
-        "relationship": "evidencia empírica",
-        "value": 2
-      },
-      {
-        "source": "kw_moodle_lms",
-        "target": "cert_cert-15-02-entornosvirtuales",
-        "relationship": "evidencia empírica",
-        "value": 2
-      },
-      {
-        "source": "kw_tecnopedagogia",
-        "target": "cert_cert-15-02-entornosvirtuales",
-        "relationship": "evidencia empírica",
-        "value": 2
-      },
-      {
-        "source": "tecnopedagogia",
-        "target": "cert_cert-15-02-communitymanager",
-        "relationship": "credencial validada",
-        "value": 2
-      },
-      {
-        "source": "kw_ia_ed",
-        "target": "cert_cert-15-02-communitymanager",
-        "relationship": "evidencia empírica",
-        "value": 2
-      },
-      {
-        "source": "kw_calidad_superior",
-        "target": "cert_cert-15-02-communitymanager",
-        "relationship": "evidencia empírica",
-        "value": 2
-      },
-      {
-        "source": "tecnopedagogia",
-        "target": "cert_cert-14-12-estrategiasmoodle",
-        "relationship": "credencial validada",
-        "value": 2
-      },
-      {
-        "source": "kw_ia_ed",
-        "target": "cert_cert-14-12-estrategiasmoodle",
-        "relationship": "evidencia empírica",
-        "value": 2
-      },
-      {
-        "source": "kw_moodle_lms",
-        "target": "cert_cert-14-12-estrategiasmoodle",
-        "relationship": "evidencia empírica",
-        "value": 2
-      },
-      {
-        "source": "kw_tecnopedagogia",
-        "target": "cert_cert-14-12-estrategiasmoodle",
-        "relationship": "evidencia empírica",
-        "value": 2
-      },
-      {
-        "source": "kw_calidad_superior",
-        "target": "cert_cert-14-12-estrategiasmoodle",
-        "relationship": "evidencia empírica",
-        "value": 2
-      },
-      {
-        "source": "tecnopedagogia",
-        "target": "cert_cert-14-05-certscratcharduino",
-        "relationship": "credencial validada",
-        "value": 2
-      },
-      {
-        "source": "kw_ia_ed",
-        "target": "cert_cert-14-05-certscratcharduino",
-        "relationship": "evidencia empírica",
-        "value": 2
-      },
-      {
-        "source": "kw_pensamiento_comp",
-        "target": "cert_cert-14-05-certscratcharduino",
-        "relationship": "evidencia empírica",
-        "value": 2
-      },
-      {
-        "source": "ia_data_science",
-        "target": "cert_cert-13-12-hourofcode",
-        "relationship": "credencial validada",
         "value": 2
       }
     ]
