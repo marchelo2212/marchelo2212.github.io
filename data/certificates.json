@@ -1,5 +1,30 @@
 [
   {
+    "id": "cert-24-07-becacarlosjordana",
+    "docType": "Meri",
+    "fileName": "24-07-Meri-BecaCarlosJordana.pdf",
+    "shortName": "BecaCarlosJordana",
+    "title": "Carta de Aprobación y legalización de Beca Condonable de Distinción Carlos Jordana para el Doctorado en Ingeniería, 2024-2",
+    "role": "Galardonado",
+    "issuer": "Universidad de La Sabana",
+    "year": 2024,
+    "yearShort": "24",
+    "month": "07",
+    "date": "2024-07-17",
+    "hours": null,
+    "modality": "Presencial",
+    "credentialId": null,
+    "verificationUrl": null,
+    "cluster": "ia_data_science",
+    "skills": [
+      "Excelencia Académica",
+      "Investigación Doctoral",
+      "Compromiso Académico"
+    ],
+    "driveUrl": "https://drive.google.com/file/d/1QB1ogjTf9mTjSfInmAW458Ot2_x5WRIp/view",
+    "addedAt": "2026-10-11T01:03:58.039Z"
+  },
+  {
     "id": "cert-21-08-becanebrijajuego",
     "docType": "Meri",
     "fileName": "21-08-Meri-BecaNebrijaJuego.pdf",
