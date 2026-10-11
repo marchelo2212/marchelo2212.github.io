@@ -1,5 +1,30 @@
 [
   {
+    "id": "cert-25-06-scratchday2025",
+    "docType": "Inves",
+    "fileName": "25-06-Inves-ScratchDay2025.pdf",
+    "shortName": "ScratchDay2025",
+    "title": "Certificado de Participación como Ponente en Scratch Day Quito 2025",
+    "role": "Ponente",
+    "issuer": "Fundación Openlab Ecuador",
+    "year": 2025,
+    "yearShort": "25",
+    "month": "06",
+    "date": "2025-06-03",
+    "hours": 0,
+    "modality": "Presencial",
+    "credentialId": null,
+    "verificationUrl": "openlab.ec/scratchday2025",
+    "cluster": "tecnopedagogia",
+    "skills": [
+      "Pensamiento Computacional",
+      "Cultura Digital",
+      "Aprendizaje Creativo"
+    ],
+    "driveUrl": "https://drive.google.com/file/d/1zYhV8bkHp5EsHQ-nmyofDUi2sUyxReyt/view",
+    "addedAt": "2026-10-11T04:22:25.290Z"
+  },
+  {
     "id": "cert-21-10-certdocenciabacon",
     "docType": "CursImp",
     "fileName": "21-10-CursImp-CertDocenciaBacon.pdf",
