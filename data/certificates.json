@@ -1,5 +1,31 @@
 [
   {
+    "id": "cert-26-05-confecolombia50",
+    "docType": "Inves",
+    "fileName": "26-05-Inves-ConfeColombia50.pdf",
+    "shortName": "ConfeColombia50",
+    "title": "Conferencista Software libre y Soberanía Digital en Colombia 5.0",
+    "role": "Ponente",
+    "issuer": "Ministerio de Tecnologías de la Información y las Comunicaciones (MinTIC)",
+    "year": 2026,
+    "yearShort": "26",
+    "month": "05",
+    "date": "2026-05-08",
+    "hours": 16,
+    "modality": "Presencial",
+    "credentialId": "262072358",
+    "verificationUrl": null,
+    "cluster": "politicas_direccion",
+    "skills": [
+      "Soberanía Digital",
+      "Software Libre",
+      "Transformación Digital",
+      "Innovación Tecnológica"
+    ],
+    "driveUrl": "https://drive.google.com/file/d/1nPVSFCx9oLtcPx9sOA4Lxh3V9jQTY0ex/view",
+    "addedAt": "2026-10-11T03:58:13.892Z"
+  },
+  {
     "id": "cert-26-06-congresoaprendizaje",
     "docType": "CurEst",
     "fileName": "26-06-CurEst-CongresoAprendizaje.pdf",
