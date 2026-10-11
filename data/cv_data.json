@@ -4468,6 +4468,30 @@
       ]
     },
     {
+      "id": "cert-26-06-congresoaprendizaje",
+      "docType": "CurEst",
+      "fileName": "26-06-CurEst-CongresoAprendizaje.pdf",
+      "shortName": "CongresoAprendizaje",
+      "role": "Participante",
+      "title": "II Congreso de Aprendizaje Experiencial",
+      "issuer": "Universidad de La Sabana",
+      "year": "2026",
+      "yearShort": "26",
+      "month": "06",
+      "date": "2026-06-19",
+      "hours": 16,
+      "modality": "Presencial",
+      "credentialId": null,
+      "verificationUrl": null,
+      "driveUrl": "https://drive.google.com/file/d/12SIRVxOruUWVDFiT3I1He9CowDuiBxWS/view",
+      "cluster": "tecnopedagogia",
+      "skills": [
+        "Aprendizaje Experiencial",
+        "Innovación Educativa",
+        "Diseño Curricular"
+      ]
+    },
+    {
       "id": "cert-26-06-seguridadinfo",
       "docType": "CurEst",
       "fileName": "26-06-CurEst-SeguridadInfo.pdf",
