@@ -1,5 +1,31 @@
 [
   {
+    "id": "cert-22-08-novusevaluador",
+    "docType": "Inves",
+    "fileName": "22-08-Inves-NovusEvaluador.pdf",
+    "shortName": "NovusEvaluador",
+    "title": "Constancia de participación como Evaluador en la Convocatoria Novus 2022",
+    "role": "Jurado Evaluador",
+    "issuer": "Instituto para el Futuro de la Educación y el Tecnológico de Monterrey",
+    "year": 2022,
+    "yearShort": "22",
+    "month": "08",
+    "date": "2022-08-11",
+    "hours": null,
+    "modality": "Virtual",
+    "credentialId": null,
+    "verificationUrl": null,
+    "cluster": "tecnopedagogia",
+    "skills": [
+      "Evaluación por Pares",
+      "Innovación Educativa",
+      "Investigación Educativa",
+      "Gestión de Proyectos Académicos"
+    ],
+    "driveUrl": "https://drive.google.com/file/d/1ahIKmJ4wF78ontqbeOoJ4PBcgdp9R3TT/view",
+    "addedAt": "2026-10-11T01:04:24.185Z"
+  },
+  {
     "id": "cert-22-02-becasantandereco",
     "docType": "Meri",
     "fileName": "22-02-Meri-BecaSantanderEco.pdf",
