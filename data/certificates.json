@@ -1,5 +1,30 @@
 [
   {
+    "id": "cert-26-07-charlamagistralia",
+    "docType": "Inves",
+    "fileName": "26-07-Inves-CharlaMagistralIA.pdf",
+    "shortName": "CharlaMagistralIA",
+    "title": "Aprender en la Era de la Inteligencia Artificial: Retos, Oportunidades y Futuro en la Salud",
+    "role": "Ponente",
+    "issuer": "Universidad Católica de Cuenca",
+    "year": 2026,
+    "yearShort": "26",
+    "month": "07",
+    "date": "2026-07-03",
+    "hours": 4,
+    "modality": "Presencial",
+    "credentialId": null,
+    "verificationUrl": null,
+    "cluster": "ia_data_science",
+    "skills": [
+      "Inteligencia Artificial en Salud",
+      "Ética y Educación Médica",
+      "Innovación Tecnológica"
+    ],
+    "driveUrl": "https://drive.google.com/file/d/1DmmM-FhVPB6ncTcLEdv4liFuhhLPNXkY/view",
+    "addedAt": "2026-10-11T03:58:47.634Z"
+  },
+  {
     "id": "cert-26-06-eventoascun2026",
     "docType": "Inves",
     "fileName": "26-06-Inves-EventoAscun2026.pdf",
