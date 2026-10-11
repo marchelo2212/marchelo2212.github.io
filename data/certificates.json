@@ -1,5 +1,30 @@
 [
   {
+    "id": "cert-26-10-clavesformacion",
+    "docType": "CurEst",
+    "fileName": "26-10-CurEst-ClavesFormacion.pdf",
+    "shortName": "ClavesFormacion",
+    "title": "Claves de la formación virtual: aprendizaje activo e integración de TIC",
+    "role": "Participante",
+    "issuer": "UNESCO-IESALC",
+    "year": 2026,
+    "yearShort": "26",
+    "month": "10",
+    "date": "2026-10-11",
+    "hours": 4,
+    "modality": "Virtual",
+    "credentialId": "PrtQBbOcY6",
+    "verificationUrl": "https://campus.iesalc.unesco.org/inicio/mod/customcert/verify_certificate.php",
+    "cluster": "tecnopedagogia",
+    "skills": [
+      "Aprendizaje Activo",
+      "Integración de TIC",
+      "Formación Virtual"
+    ],
+    "driveUrl": "https://drive.google.com/file/d/1mykXTIom7pXqko1hEDN9iUruY8Uap3eb/view",
+    "addedAt": "2026-10-11T12:58:11.827Z"
+  },
+  {
     "id": "cert-24-12-reconocimientocepepn",
     "docType": "Meri",
     "fileName": "24-12-Meri-ReconocimientoCEPEPN.pdf",
