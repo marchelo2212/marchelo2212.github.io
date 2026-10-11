@@ -1,5 +1,30 @@
 [
   {
+    "id": "cert-21-10-certdocenciabacon",
+    "docType": "CursImp",
+    "fileName": "21-10-CursImp-CertDocenciaBacon.pdf",
+    "shortName": "CertDocenciaBacon",
+    "title": "Certificado de Trabajo como Docente",
+    "role": "Docente / Facilitador",
+    "issuer": "Unidad Educativa Particular Francis Bacon",
+    "year": 2021,
+    "yearShort": "21",
+    "month": "10",
+    "date": "2021-10-02",
+    "hours": null,
+    "modality": "Presencial",
+    "credentialId": null,
+    "verificationUrl": null,
+    "cluster": "tecnopedagogia",
+    "skills": [
+      "Docencia",
+      "Educación Secundaria",
+      "Gestión de Aula"
+    ],
+    "driveUrl": "https://drive.google.com/file/d/1FW21N86b7b4VfdBS2o45MIx8y02tGtaf/view",
+    "addedAt": "2026-10-11T04:22:15.487Z"
+  },
+  {
     "id": "cert-23-09-ponenciausorecursos",
     "docType": "Inves",
     "fileName": "23-09-Inves-PonenciaUsoRecursos.pdf",
