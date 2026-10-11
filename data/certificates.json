@@ -1,5 +1,30 @@
 [
   {
+    "id": "cert-24-12-reconocimientocepepn",
+    "docType": "Meri",
+    "fileName": "24-12-Meri-ReconocimientoCEPEPN.pdf",
+    "shortName": "ReconocimientoCEPEPN",
+    "title": "Certificado de Reconocimiento por destacada labor y compromiso en la formación de estudiantes",
+    "role": "Galardonado",
+    "issuer": "Escuela Politécnica Nacional - Centro de Educación Continua (CEC-EPN)",
+    "year": 2024,
+    "yearShort": "24",
+    "month": "12",
+    "date": "2024-12-09",
+    "hours": null,
+    "modality": "Presencial",
+    "credentialId": null,
+    "verificationUrl": null,
+    "cluster": "tecnopedagogia",
+    "skills": [
+      "Formación Continua",
+      "Docencia Universitaria",
+      "Compromiso Académico"
+    ],
+    "driveUrl": "https://drive.google.com/file/d/1TXOKFGfZSCKGb1PUejVXea4p1pLpsJ8T/view",
+    "addedAt": "2026-10-11T04:22:46.048Z"
+  },
+  {
     "id": "cert-25-05-ponenciascratchday25",
     "docType": "Inves",
     "fileName": "25-05-Inves-PonenciaScratchDay25.pdf",
