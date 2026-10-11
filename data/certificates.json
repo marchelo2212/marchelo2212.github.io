@@ -1,5 +1,30 @@
 [
   {
+    "id": "cert-24-01-becauoc2024",
+    "docType": "Meri",
+    "fileName": "24-01-Meri-BecaUOC2024.pdf",
+    "shortName": "BecaUOC2024",
+    "title": "PROGRAMA DE BECAS UNIVERSIDAD OBERTA DE CATALUNYA SEGUNDO SEMESTRE 2023-2024",
+    "role": "Galardonado",
+    "issuer": "Secretaría de Educación Superior, Ciencia, Tecnología e Innovación (SENESCYT) - Globo Común",
+    "year": 2024,
+    "yearShort": "24",
+    "month": "01",
+    "date": "2024-01-12",
+    "hours": null,
+    "modality": "Virtual",
+    "credentialId": "Acta Nro. 002-2024",
+    "verificationUrl": "https://www.educacionsuperior.gob.ec",
+    "cluster": "tecnopedagogia",
+    "skills": [
+      "Educación Superior",
+      "Cooperación Internacional",
+      "Aprendizaje en Línea"
+    ],
+    "driveUrl": "https://drive.google.com/file/d/1UKk0pzoRWEzsygYwGSPw81dMzDOBLyLL/view",
+    "addedAt": "2026-10-11T01:04:06.925Z"
+  },
+  {
     "id": "cert-24-07-becacarlosjordana",
     "docType": "Meri",
     "fileName": "24-07-Meri-BecaCarlosJordana.pdf",
