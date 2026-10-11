@@ -1,5 +1,30 @@
 [
   {
+    "id": "cert-26-06-eventoascun2026",
+    "docType": "Inves",
+    "fileName": "26-06-Inves-EventoAscun2026.pdf",
+    "shortName": "EventoAscun2026",
+    "title": "Presentación virtual o presencial en evento ASCUN 2026",
+    "role": "Ponente",
+    "issuer": "Asociación Colombiana de Universidades (ASCUN)",
+    "year": 2026,
+    "yearShort": "26",
+    "month": "06",
+    "date": "2026",
+    "hours": 10,
+    "modality": "Híbrida",
+    "credentialId": null,
+    "verificationUrl": null,
+    "cluster": "tecnopedagogia",
+    "skills": [
+      "Presentación Académica",
+      "Investigación Educativa",
+      "Educación Superior"
+    ],
+    "driveUrl": "https://drive.google.com/file/d/1wGROvhP-jTonuU5Q_FG5m7RrYgAIRcc6/view",
+    "addedAt": "2026-10-11T03:58:35.043Z"
+  },
+  {
     "id": "cert-26-05-flisolcolombia",
     "docType": "Inves",
     "fileName": "26-05-Inves-FlisolColombia.pdf",
