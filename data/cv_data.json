@@ -563,7 +563,11 @@
         "type": "publication",
         "size": 14,
         "info": "Publicación: Advanced Customer Segmentation in the Natural Supplements Industry to Enhance Marketing Strategies Using Big Data Tools (2026) - Springer Nature Switzerland",
-        "keywords": []
+        "keywords": [
+          "IA & Data Science",
+          "Modelos Computacionales",
+          "Analítica"
+        ]
       },
       {
         "id": "pub_sotaminga-cinilinStudentPerceptionsAIBased2026",
@@ -583,7 +587,11 @@
         "type": "publication",
         "size": 14,
         "info": "Publicación: Technological Migration and Software Optimization for Measuring Entrepreneurship Maturity (2026) - Springer Nature Switzerland",
-        "keywords": []
+        "keywords": [
+          "IA & Data Science",
+          "Modelos Computacionales",
+          "Analítica"
+        ]
       },
       {
         "id": "pub_paredes-ulloaCompetenciasDigitalesDocentes2025",
@@ -607,7 +615,11 @@
         "type": "publication",
         "size": 14,
         "info": "Publicación: Usos de Internet con fines educativos: perspectivas para su fortalecimiento (2023) - ",
-        "keywords": []
+        "keywords": [
+          "IA & Data Science",
+          "Modelos Computacionales",
+          "Analítica"
+        ]
       },
       {
         "id": "pub_sarmiento-pesantezNivelSatisfaccionEstudiantil2023",
@@ -1283,6 +1295,25 @@
         ]
       },
       {
+        "id": "cert_cert-25-06-diplomadodeeplearning",
+        "label": "Diplomado Inteligencia Art...",
+        "cluster": "ia_data_science",
+        "type": "certification",
+        "size": 13,
+        "info": "Certificación: Diplomado Inteligencia Artificial con Deep Learning (Universidad de La Sabana, 2025)",
+        "keywords": [
+          "Inteligencia Artificial",
+          "Deep Learning",
+          "Redes Neuronales",
+          "Universidad de La Sabana",
+          "Cert",
+          "IA en Educación",
+          "Deep Learning & LLMs",
+          "Modelos Neuro-Simbólicos",
+          "Calidad y Docencia Universitaria"
+        ]
+      },
+      {
         "id": "cert_cert-24-11-transmediauflo",
         "label": "I Jornadas Institucionales...",
         "cluster": "tecnopedagogia",
@@ -1298,21 +1329,6 @@
           "CurEst",
           "IA en Educación",
           "Calidad y Docencia Universitaria"
-        ]
-      },
-      {
-        "id": "cert_cert-24-10-capacitacioninvest",
-        "label": "CAPACITACIÓN EN INVESTIGAC...",
-        "cluster": "ia_data_science",
-        "type": "certification",
-        "size": 13,
-        "info": "Certificación: CAPACITACIÓN EN INVESTIGACIÓN CIENTÍFICA 2024 (SCImago Research Group, 2024)",
-        "keywords": [
-          "Metodología Científica",
-          "Publicación Académica",
-          "Ciimetría",
-          "SCImago Research Group",
-          "CurEst"
         ]
       },
       {
@@ -1539,6 +1555,76 @@
           "Pensamiento Computacional & STEAM",
           "Políticas Públicas & Transformación Digital",
           "Calidad y Docencia Universitaria"
+        ]
+      },
+      {
+        "id": "cert_cert-21-08-cursogamificacion",
+        "label": "CURSO EN JUEGO, GAMIFICACI...",
+        "cluster": "tecnopedagogia",
+        "type": "certification",
+        "size": 13,
+        "info": "Certificación: CURSO EN JUEGO, GAMIFICACIÓN Y TIC COMO HERRAMIENTA PARA EL APRENDIZAJE (Universidad Nebrija y Organización de Estados Iberoamericanos para la Educación, la Ciencia y la Cultura (OEI), 2021)",
+        "keywords": [
+          "Gamificación",
+          "TIC Educativas",
+          "Estrategias de Aprendizaje",
+          "Universidad Nebrija y Organización de Estados Iberoamericanos para la Educación, la Ciencia y la Cultura (OEI)",
+          "CurEst",
+          "IA en Educación",
+          "Pensamiento Computacional & STEAM",
+          "Políticas Públicas & Transformación Digital",
+          "Calidad y Docencia Universitaria"
+        ]
+      },
+      {
+        "id": "cert_cert-21-08-ideas10",
+        "label": "Festival de Ideas Educativ...",
+        "cluster": "tecnopedagogia",
+        "type": "certification",
+        "size": 13,
+        "info": "Certificación: Festival de Ideas Educativas Ideas de 10 (Fundación Telefónica Movistar Ecuador y ChildFund Ecuador, 2021)",
+        "keywords": [
+          "Innovación Educativa",
+          "Pedagogía Digital",
+          "Tecnopedagogía",
+          "Fundación Telefónica Movistar Ecuador y ChildFund Ecuador",
+          "Meri",
+          "IA en Educación",
+          "Tecnopedagogía & E-Learning"
+        ]
+      },
+      {
+        "id": "cert_cert-21-02-confciberseguridad",
+        "label": "Certificado de Agradecimie...",
+        "cluster": "politicas_direccion",
+        "type": "certification",
+        "size": 13,
+        "info": "Certificación: Certificado de Agradecimiento por Conferencia de Ciberseguridad (Distrito 01D03 Girón a Santa Isabel - Educación, 2021)",
+        "keywords": [
+          "Ciberseguridad",
+          "Educación Digital",
+          "Conferencias",
+          "Distrito 01D03 Girón a Santa Isabel - Educación",
+          "Meri",
+          "IA en Educación"
+        ]
+      },
+      {
+        "id": "cert_cert-19-06-moodledayconfe19",
+        "label": "Certificado de Conferencia...",
+        "cluster": "tecnopedagogia",
+        "type": "certification",
+        "size": 13,
+        "info": "Certificación: Certificado de Conferencia: Mediación pedagógica, TIC y Moodle (Escuela Politécnica Nacional (CEC-EPN) y Comunidad Moodle Ecuador, 2019)",
+        "keywords": [
+          "Mediación Pedagógica",
+          "TIC en Educación",
+          "Moodle",
+          "Estrategias Regionales",
+          "Escuela Politécnica Nacional (CEC-EPN) y Comunidad Moodle Ecuador",
+          "Inves",
+          "IA en Educación",
+          "LMS Moodle a Escala"
         ]
       }
     ],
@@ -2600,6 +2686,36 @@
         "value": 2
       },
       {
+        "source": "ia_data_science",
+        "target": "cert_cert-25-06-diplomadodeeplearning",
+        "relationship": "credencial validada",
+        "value": 2
+      },
+      {
+        "source": "kw_ia_ed",
+        "target": "cert_cert-25-06-diplomadodeeplearning",
+        "relationship": "evidencia empírica",
+        "value": 2
+      },
+      {
+        "source": "kw_deep_learning",
+        "target": "cert_cert-25-06-diplomadodeeplearning",
+        "relationship": "evidencia empírica",
+        "value": 2
+      },
+      {
+        "source": "kw_neuro_simbolico",
+        "target": "cert_cert-25-06-diplomadodeeplearning",
+        "relationship": "evidencia empírica",
+        "value": 2
+      },
+      {
+        "source": "kw_calidad_superior",
+        "target": "cert_cert-25-06-diplomadodeeplearning",
+        "relationship": "evidencia empírica",
+        "value": 2
+      },
+      {
         "source": "tecnopedagogia",
         "target": "cert_cert-24-11-transmediauflo",
         "relationship": "credencial validada",
@@ -2615,12 +2731,6 @@
         "source": "kw_calidad_superior",
         "target": "cert_cert-24-11-transmediauflo",
         "relationship": "evidencia empírica",
-        "value": 2
-      },
-      {
-        "source": "ia_data_science",
-        "target": "cert_cert-24-10-capacitacioninvest",
-        "relationship": "credencial validada",
         "value": 2
       },
       {
@@ -2860,6 +2970,84 @@
       {
         "source": "kw_calidad_superior",
         "target": "cert_cert-21-08-becanebrijajuego",
+        "relationship": "evidencia empírica",
+        "value": 2
+      },
+      {
+        "source": "tecnopedagogia",
+        "target": "cert_cert-21-08-cursogamificacion",
+        "relationship": "credencial validada",
+        "value": 2
+      },
+      {
+        "source": "kw_ia_ed",
+        "target": "cert_cert-21-08-cursogamificacion",
+        "relationship": "evidencia empírica",
+        "value": 2
+      },
+      {
+        "source": "kw_pensamiento_comp",
+        "target": "cert_cert-21-08-cursogamificacion",
+        "relationship": "evidencia empírica",
+        "value": 2
+      },
+      {
+        "source": "kw_politicas_publicas",
+        "target": "cert_cert-21-08-cursogamificacion",
+        "relationship": "evidencia empírica",
+        "value": 2
+      },
+      {
+        "source": "kw_calidad_superior",
+        "target": "cert_cert-21-08-cursogamificacion",
+        "relationship": "evidencia empírica",
+        "value": 2
+      },
+      {
+        "source": "tecnopedagogia",
+        "target": "cert_cert-21-08-ideas10",
+        "relationship": "credencial validada",
+        "value": 2
+      },
+      {
+        "source": "kw_ia_ed",
+        "target": "cert_cert-21-08-ideas10",
+        "relationship": "evidencia empírica",
+        "value": 2
+      },
+      {
+        "source": "kw_tecnopedagogia",
+        "target": "cert_cert-21-08-ideas10",
+        "relationship": "evidencia empírica",
+        "value": 2
+      },
+      {
+        "source": "politicas_direccion",
+        "target": "cert_cert-21-02-confciberseguridad",
+        "relationship": "credencial validada",
+        "value": 2
+      },
+      {
+        "source": "kw_ia_ed",
+        "target": "cert_cert-21-02-confciberseguridad",
+        "relationship": "evidencia empírica",
+        "value": 2
+      },
+      {
+        "source": "tecnopedagogia",
+        "target": "cert_cert-19-06-moodledayconfe19",
+        "relationship": "credencial validada",
+        "value": 2
+      },
+      {
+        "source": "kw_ia_ed",
+        "target": "cert_cert-19-06-moodledayconfe19",
+        "relationship": "evidencia empírica",
+        "value": 2
+      },
+      {
+        "source": "kw_moodle_lms",
+        "target": "cert_cert-19-06-moodledayconfe19",
         "relationship": "evidencia empírica",
         "value": 2
       }
@@ -4474,30 +4662,6 @@
       ]
     },
     {
-      "id": "cert-24-10-capacitacioninvest",
-      "docType": "CurEst",
-      "fileName": "24-10-CurEst-CapacitacionInvest.jpg",
-      "shortName": "CapacitacionInvest",
-      "role": "Participante",
-      "title": "CAPACITACIÓN EN INVESTIGACIÓN CIENTÍFICA 2024",
-      "issuer": "SCImago Research Group",
-      "year": "2024",
-      "yearShort": "24",
-      "month": "10",
-      "date": "2024-10-08",
-      "hours": 60,
-      "modality": "Virtual",
-      "credentialId": "fkeS9HeAQ3",
-      "verificationUrl": null,
-      "driveUrl": "https://drive.google.com/file/d/1NwMjbRZJj6a5twQR8YS5G957mknHJNXm/view",
-      "cluster": "ia_data_science",
-      "skills": [
-        "Metodología Científica",
-        "Publicación Académica",
-        "Ciimetría"
-      ]
-    },
-    {
       "id": "cert-24-10-capacitacioncienc",
       "docType": "CurEst",
       "fileName": "24-10-CurEst-CapacitacionCienc.pdf",
@@ -4712,30 +4876,6 @@
         "Evaluación por Pares",
         "Investigación Educativa",
         "Arbitraje Científico"
-      ]
-    },
-    {
-      "id": "cert-22-11-comiteviiiced",
-      "docType": "Inves",
-      "fileName": "22-11-Inves-ComiteVIIICED.jpg",
-      "shortName": "ComiteVIIICED",
-      "role": "Revisor Par",
-      "title": "MIEMBRO DEL COMITÉ CIENTÍFICO-EVALUADOR EXTERNO EN EL VII CONGRESO INTERNACIONAL DE EDUCACIÓN CONTEMPORÁNEA CALIDAD EDUCATIVA Y BUEN VIVIR",
-      "issuer": "Facultad de Ciencias de la Educación, Humanas y Tecnologías",
-      "year": "2022",
-      "yearShort": "22",
-      "month": "11",
-      "date": "2022-11-25",
-      "hours": 0,
-      "modality": "Presencial",
-      "credentialId": "CGVII-TH-0000106",
-      "verificationUrl": null,
-      "driveUrl": "https://drive.google.com/file/d/1nZo5ls4aDMM11Mjc7B27WDe-7bl-cpUM/view",
-      "cluster": "tecnopedagogia",
-      "skills": [
-        "Evaluación Científica",
-        "Revisión por Pares",
-        "Calidad Educativa"
       ]
     },
     {
@@ -5052,30 +5192,6 @@
       ]
     },
     {
-      "id": "cert-22-02-operadorsncp",
-      "docType": "Cert",
-      "fileName": "22-02-Cert-OperadorSNCP.jpg",
-      "shortName": "OperadorSNCP",
-      "role": "Participante",
-      "title": "Operador del Sistema Nacional de Compras Públicas - Fundamentos de Contratación Pública",
-      "issuer": "Servicio Nacional de Contratación Pública (SERCOP)",
-      "year": "2022",
-      "yearShort": "22",
-      "month": "02",
-      "date": "2022-02-26",
-      "hours": 40,
-      "modality": "Virtual",
-      "credentialId": "ZYmX8I8D4c",
-      "verificationUrl": null,
-      "driveUrl": "https://drive.google.com/file/d/1cc2nWiCNGAGGZ72iawe9eneWwvHtZ7cZ/view",
-      "cluster": "politicas_direccion",
-      "skills": [
-        "Contratación Pública",
-        "Normativa Legal Vigente",
-        "Gestión de Compras Públicas"
-      ]
-    },
-    {
       "id": "cert-22-02-certsercop",
       "docType": "Cert",
       "fileName": "22-02-Cert-CertSercop.pdf",
@@ -5362,30 +5478,6 @@
         "Gamificación",
         "TIC Educativas",
         "Estrategias de Aprendizaje"
-      ]
-    },
-    {
-      "id": "cert-21-08-festivalideas10",
-      "docType": "Meri",
-      "fileName": "21-08-Meri-FestivalIdeas10.jpg",
-      "shortName": "FestivalIdeas10",
-      "role": "Participante",
-      "title": "Festival de Ideas Educativas 'Ideas de 10'",
-      "issuer": "Programa ProFuturo",
-      "year": "2021",
-      "yearShort": "21",
-      "month": "08",
-      "date": "2021-08-17",
-      "hours": null,
-      "modality": "Virtual",
-      "credentialId": null,
-      "verificationUrl": null,
-      "driveUrl": "https://drive.google.com/file/d/1AwrI5XsWnjVU97ll6iL7qkJwMRvFoxRy/view",
-      "cluster": "tecnopedagogia",
-      "skills": [
-        "Innovación Educativa",
-        "Pedagogía Contemporánea",
-        "Ideación"
       ]
     },
     {
@@ -5702,31 +5794,6 @@
       ]
     },
     {
-      "id": "cert-20-12-facilitacionunae",
-      "docType": "CursImp",
-      "fileName": "20-12-CursImp-FacilitacionUNAE.jpg",
-      "shortName": "FacilitacionUNAE",
-      "role": "Docente / Facilitador",
-      "title": "DOCENCIA PARA ENTORNOS VIRTUALES: APORTES PARA SU DESARROLLO SINCRÓNICO Y ASINCRÓNICO",
-      "issuer": "Universidad Nacional de Educación (UNAE)",
-      "year": "2020",
-      "yearShort": "20",
-      "month": "12",
-      "date": "2020-12-30",
-      "hours": 40,
-      "modality": "Virtual",
-      "credentialId": null,
-      "verificationUrl": null,
-      "driveUrl": "https://drive.google.com/file/d/1UtJfxr1iCyaBofR5-F8IpdjNw3EILPhI/view",
-      "cluster": "tecnopedagogia",
-      "skills": [
-        "Tecnopedagogía",
-        "Educación Virtual",
-        "Entornos Sincrónicos y Asincrónicos",
-        "Docencia Universitaria"
-      ]
-    },
-    {
       "id": "cert-20-12-violenciamujeres",
       "docType": "CurEst",
       "fileName": "20-12-CurEst-ViolenciaMujeres.pdf",
@@ -5872,13 +5939,13 @@
       ]
     },
     {
-      "id": "cert-20-10-qahedmaster",
+      "id": "cert-20-10-qahed",
       "docType": "Cert",
-      "fileName": "20-10-Cert-QAHEdMaster.jpg",
-      "shortName": "QAHEdMaster",
+      "fileName": "20-10-Cert-QAHEd.jpg",
+      "shortName": "QAHEd",
       "role": "Participante",
       "title": "Master's Degree in Quality Management and Evaluation in Higher Education",
-      "issuer": "International Network for Quality Assurance Agencies in Higher Education (INQAAHE)",
+      "issuer": "International Network for Quality Assurance Agencies in Higher Education (INQAAHE) & Universitat Oberta de Catalunya (UOC)",
       "year": "2020",
       "yearShort": "20",
       "month": "10",
@@ -5891,8 +5958,8 @@
       "cluster": "politicas_direccion",
       "skills": [
         "Quality Management",
-        "Higher Education",
-        "Program Evaluation"
+        "Higher Education Evaluation",
+        "QA Graduate Program"
       ]
     },
     {
@@ -5969,30 +6036,6 @@
       ]
     },
     {
-      "id": "cert-20-01-semcalidadline",
-      "docType": "CurEst",
-      "fileName": "20-01-CurEst-SemCalidadLine.jpg",
-      "shortName": "SemCalidadLine",
-      "role": "Participante",
-      "title": "Seminario de Evaluación de la Calidad de la Formación en Modalidad en Línea: el caso español",
-      "issuer": "Secretaría de Educación Superior, Ciencia, Tecnología e Innovación (SENESCYT)",
-      "year": "2020",
-      "yearShort": "20",
-      "month": "01",
-      "date": "2020-01-21",
-      "hours": 16,
-      "modality": "Presencial",
-      "credentialId": null,
-      "verificationUrl": null,
-      "driveUrl": "https://drive.google.com/file/d/1OKysORQQfeZGgVp-r2Q0m6cD_h-VMM8d/view",
-      "cluster": "tecnopedagogia",
-      "skills": [
-        "Evaluación Educativa",
-        "Educación en Línea",
-        "Calidad Académica"
-      ]
-    },
-    {
       "id": "cert-20-01-seminariocalidad",
       "docType": "CurEst",
       "fileName": "20-01-CurEst-SeminarioCalidad.pdf",
@@ -6038,30 +6081,6 @@
         "Formación Docente",
         "Diseño Instruccional",
         "Pedagogía Universitaria"
-      ]
-    },
-    {
-      "id": "cert-19-12-formadorformadores",
-      "docType": "CurEst",
-      "fileName": "19-12-CurEst-FormadorFormadores.jpg",
-      "shortName": "FormadorFormadores",
-      "role": "Participante",
-      "title": "FORMADOR DE FORMADORES CEC-EPN",
-      "issuer": "Escuela Politécnica Nacional, Centro de Educación Continua",
-      "year": "2019",
-      "yearShort": "19",
-      "month": "12",
-      "date": "2019-12-20",
-      "hours": 48,
-      "modality": "Presencial",
-      "credentialId": "5G4H6VUCG",
-      "verificationUrl": "https://aps.cec-epn.edu.ec/dp/?cod=5G4H6VUCG",
-      "driveUrl": "https://drive.google.com/file/d/1PjsYpdE_ArpH37YeYm9ZS3slEbCiDQq0/view",
-      "cluster": "tecnopedagogia",
-      "skills": [
-        "Pedagogía Activa",
-        "Diseño Instruccional",
-        "Capacitación Docente"
       ]
     },
     {
@@ -6530,7 +6549,7 @@
       "fileName": "17-04-Inves-JornadasInfoFis.jpg",
       "shortName": "JornadasInfoFis",
       "role": "Ponente",
-      "title": "V Jornadas Internacionales, V Congreso Nacional de Ciencias Software Libre y Nuevas Tecnologías Aplicadas a la Educación y III Encuentro de Docentes de Informática y Física",
+      "title": "Ponente: V Jornadas Internacionales y V Congreso Nacional de Ciencias Software Libre",
       "issuer": "Universidad Central del Ecuador",
       "year": "2017",
       "yearShort": "17",
@@ -6579,7 +6598,7 @@
       "fileName": "17-04-CursImp-TallerSistemasOp.jpg",
       "shortName": "TallerSistemasOp",
       "role": "Docente / Facilitador",
-      "title": "V JORNADAS INTERNACIONALES, V CONGRESO NACIONAL DE CIENCIAS SOFTWARE LIBRE Y NUEVAS TECNOLOGÍAS APLICADAS A LA EDUCACIÓN Y III ENCUENTRO DE DOCENTES DE INFORMÁTICA Y FÍSICA",
+      "title": "Facilitador del Taller: Sistemas Operativos GNU/Linux - V Jornadas Internacionales de Software Libre",
       "issuer": "Universidad Central del Ecuador",
       "year": "2017",
       "yearShort": "17",
@@ -7204,30 +7223,6 @@
         "Plataforma Educativa Moodle",
         "Elaboración de contenidos elearning",
         "Educación y las TIC"
-      ]
-    },
-    {
-      "id": "cert-15-02-communitymanager",
-      "docType": "CurEst",
-      "fileName": "15-02-CurEst-CommunityManager.jpg",
-      "shortName": "CommunityManager",
-      "role": "Participante",
-      "title": "Estrategias de Marketing Online. Community Manager (2.ª edición)",
-      "issuer": "Universidad CEU Cardenal Herrera / Miríada X",
-      "year": "2015",
-      "yearShort": "15",
-      "month": "02",
-      "date": "2015-02-03",
-      "hours": 24,
-      "modality": "Virtual",
-      "credentialId": "4c82a342-ec87-42e8-a5b2-f192b0f3547e",
-      "verificationUrl": null,
-      "driveUrl": "https://drive.google.com/file/d/19-Ni_Ma6b4agmnkOALbkOy5NQ77MuVXZ/view",
-      "cluster": "tecnopedagogia",
-      "skills": [
-        "Marketing Online",
-        "Community Management",
-        "Herramientas Digitales"
       ]
     },
     {

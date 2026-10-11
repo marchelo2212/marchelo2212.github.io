@@ -812,8 +812,8 @@ def build_knowledge_graph(profile, projects, publications, digital_resources, gi
                 if kw["label"] not in node_map[post_id]["keywords"]:
                     node_map[post_id]["keywords"].append(kw["label"])
 
-    # Conectar certificaciones e hitos destacados (Merits + top credentials = ~18 nodos)
-    key_cert_keywords = ["best paper", "carlos jordana", "globo común", "novus", "santander", "ideas de 10", 
+    # Conectar certificaciones e hitos destacados (Merits + top credentials = ~20 nodos)
+    key_cert_keywords = ["diplomado", "deep learning", "best paper", "carlos jordana", "globo común", "novus", "santander", "ideas de 10", 
                          "conferencia", "gamificación", "fortinet", "moodle", "scimago", "google", "puce"]
     standout_certs = []
     for c in (certifications or []):
@@ -821,7 +821,7 @@ def build_knowledge_graph(profile, projects, publications, digital_resources, gi
         if c.get("docType") == "Meri" or any(kw in c_title_low for kw in key_cert_keywords):
             standout_certs.append(c)
 
-    for cert in standout_certs[:18]:
+    for cert in standout_certs[:22]:
         c_title = cert.get("title", "")
         c_id = f"cert_{cert.get('id', c_title[:20].lower().replace(' ', '_'))}"
         cluster = cert.get("cluster", "tecnopedagogia")
@@ -837,6 +837,24 @@ def build_knowledge_graph(profile, projects, publications, digital_resources, gi
                 add_link(kw["id"], c_id, "evidencia empírica", value=2)
                 if kw["label"] not in node_map[c_id]["keywords"]:
                     node_map[c_id]["keywords"].append(kw["label"])
+
+    # Garantizar que el 100% de los nodos del grafo tengan palabras clave ricas
+    cluster_fallback_kws = {
+        "ia_data_science": ["IA & Data Science", "Modelos Computacionales", "Analítica"],
+        "politicas_direccion": ["Políticas Públicas", "Gobernanza Digital", "Educación Superior"],
+        "tecnopedagogia": ["Tecnopedagogía", "E-Learning", "Innovación Educativa"],
+        "keywords": ["Concepto Transversal"]
+    }
+    for n in nodes:
+        if not n.get("keywords") or len(n["keywords"]) == 0:
+            n_txt = (n.get("label", "") + " " + n.get("info", "")).lower()
+            inferred = []
+            for t_kw in transversal_keywords:
+                if any(term in n_txt for term in t_kw["terms"]):
+                    inferred.append(t_kw["label"])
+            if not inferred:
+                inferred = list(cluster_fallback_kws.get(n.get("cluster"), ["Investigación & Desarrollo"]))
+            n["keywords"] = inferred
 
     valid_links = [l for l in links if l["source"] in node_ids and l["target"] in node_ids]
 

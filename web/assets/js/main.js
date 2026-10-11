@@ -2,17 +2,17 @@
  * main.js - Orquestador general del Research Lab & CV Interactivo (Edición Editorial)
  */
 
-import { KnowledgeGraph } from './graph.js';
-import { AIAssistant } from './assistant.js';
+import { KnowledgeGraph } from './graph.js?v=20261011-4';
+import { AIAssistant } from './assistant.js?v=20261011-4';
 
 let cvData = null;
 let graphInstance = null;
 let assistantInstance = null;
 
-// Cargar data.json
+// Cargar data.json con cache-busting para evitar estados obsoletos
 async function loadData() {
   try {
-    const res = await fetch('data.json');
+    const res = await fetch(`data.json?v=${Date.now()}`);
     if (!res.ok) throw new Error('Error al cargar data.json');
     cvData = await res.json();
     initApp();
@@ -181,16 +181,39 @@ function showNodeDetail(node) {
   }
 
   // Renderizar Palabras Clave del Nodo (Pills Clicables para navegar)
-  const nodeKws = node.keywords || [];
+  let nodeKws = (node.keywords && node.keywords.length > 0) ? [...node.keywords] : [];
+  if (nodeKws.length === 0) {
+    const hay = ((node.label || '') + ' ' + (node.info || '')).toLowerCase();
+    if (node.cluster === 'ia_data_science') nodeKws.push('IA & Data Science');
+    else if (node.cluster === 'politicas_direccion') nodeKws.push('Políticas Públicas', 'Gobernanza Digital');
+    else if (node.cluster === 'tecnopedagogia') nodeKws.push('Tecnopedagogía', 'E-Learning');
+
+    if (hay.includes('deep learning') || hay.includes('llm') || hay.includes('lenguaje') || hay.includes('inteligencia artificial') || hay.includes('ia')) {
+      if (!nodeKws.includes('Deep Learning & LLMs')) nodeKws.push('Deep Learning & LLMs');
+    }
+    if (hay.includes('cognitivo') || hay.includes('cdm') || hay.includes('psicométrico')) {
+      if (!nodeKws.includes('Diagnóstico Cognitivo & CDM')) nodeKws.push('Diagnóstico Cognitivo & CDM');
+    }
+    if (hay.includes('neuro') || hay.includes('ontolog')) {
+      if (!nodeKws.includes('Modelos Neuro-Simbólicos')) nodeKws.push('Modelos Neuro-Simbólicos');
+    }
+    if (hay.includes('moodle') || hay.includes('lms')) {
+      if (!nodeKws.includes('LMS Moodle a Escala')) nodeKws.push('LMS Moodle a Escala');
+    }
+    if (hay.includes('sabana') || hay.includes('uoc') || hay.includes('universidad') || hay.includes('docencia')) {
+      if (!nodeKws.includes('Calidad y Docencia Universitaria')) nodeKws.push('Calidad y Docencia Universitaria');
+    }
+  }
+
   if (kwsEl) {
     if (nodeKws.length > 0) {
       kwsEl.innerHTML = `
-        <div class="text-[10px] font-mono uppercase tracking-wider text-amber-400 font-semibold mb-1.5 flex items-center gap-1.5">
-          <i class="fa-solid fa-tags text-[9px]"></i> Palabras clave (${nodeKws.length}):
+        <div class="text-[10px] font-mono uppercase tracking-wider text-amber-400 font-semibold mb-2 flex items-center gap-1.5">
+          <i class="fa-solid fa-tags text-[10px]"></i> Palabras clave (${nodeKws.length}):
         </div>
         <div class="flex flex-wrap gap-1.5">
           ${nodeKws.map(kw => `
-            <button class="node-kw-pill px-2.5 py-1 rounded-lg bg-amber-500/10 hover:bg-amber-500/25 active:scale-95 text-amber-300 hover:text-white border border-amber-500/25 text-[11px] font-mono transition flex items-center gap-1 cursor-pointer" data-keyword="${kw}">
+            <button class="node-kw-pill px-2.5 py-1 rounded-lg bg-amber-500/15 hover:bg-amber-500/30 active:scale-95 text-amber-300 hover:text-white border border-amber-500/30 text-[11px] font-mono transition flex items-center gap-1.5 cursor-pointer shadow-sm" data-keyword="${kw}" title="Explorar nodos con '${kw}'">
               <i class="fa-solid fa-tag text-[9px] opacity-75"></i>
               <span>${kw}</span>
             </button>

@@ -280,7 +280,7 @@
     "docType": "Inves",
     "fileName": "17-04-Inves-JornadasInfoFis.jpg",
     "shortName": "JornadasInfoFis",
-    "title": "V Jornadas Internacionales, V Congreso Nacional de Ciencias Software Libre y Nuevas Tecnologías Aplicadas a la Educación y III Encuentro de Docentes de Informática y Física",
+    "title": "Ponente: V Jornadas Internacionales y V Congreso Nacional de Ciencias Software Libre",
     "role": "Ponente",
     "issuer": "Universidad Central del Ecuador",
     "year": 2017,
@@ -831,56 +831,6 @@
     "addedAt": "2026-10-10T23:40:14.506Z"
   },
   {
-    "id": "cert-19-12-formadorformadores",
-    "docType": "CurEst",
-    "fileName": "19-12-CurEst-FormadorFormadores.jpg",
-    "shortName": "FormadorFormadores",
-    "title": "FORMADOR DE FORMADORES CEC-EPN",
-    "role": "Participante",
-    "issuer": "Escuela Politécnica Nacional, Centro de Educación Continua",
-    "year": 2019,
-    "yearShort": "19",
-    "month": "12",
-    "date": "2019-12-20",
-    "hours": 48,
-    "modality": "Presencial",
-    "credentialId": "5G4H6VUCG",
-    "verificationUrl": "https://aps.cec-epn.edu.ec/dp/?cod=5G4H6VUCG",
-    "cluster": "tecnopedagogia",
-    "skills": [
-      "Pedagogía Activa",
-      "Diseño Instruccional",
-      "Capacitación Docente"
-    ],
-    "driveUrl": "https://drive.google.com/file/d/1PjsYpdE_ArpH37YeYm9ZS3slEbCiDQq0/view",
-    "addedAt": "2026-10-10T23:39:15.440Z"
-  },
-  {
-    "id": "cert-20-01-semcalidadline",
-    "docType": "CurEst",
-    "fileName": "20-01-CurEst-SemCalidadLine.jpg",
-    "shortName": "SemCalidadLine",
-    "title": "Seminario de Evaluación de la Calidad de la Formación en Modalidad en Línea: el caso español",
-    "role": "Participante",
-    "issuer": "Secretaría de Educación Superior, Ciencia, Tecnología e Innovación (SENESCYT)",
-    "year": 2020,
-    "yearShort": "20",
-    "month": "01",
-    "date": "2020-01-21",
-    "hours": 16,
-    "modality": "Presencial",
-    "credentialId": null,
-    "verificationUrl": null,
-    "cluster": "tecnopedagogia",
-    "skills": [
-      "Evaluación Educativa",
-      "Educación en Línea",
-      "Calidad Académica"
-    ],
-    "driveUrl": "https://drive.google.com/file/d/1OKysORQQfeZGgVp-r2Q0m6cD_h-VMM8d/view",
-    "addedAt": "2026-10-10T23:39:05.881Z"
-  },
-  {
     "id": "cert-19-06-moodleday2019",
     "docType": "CurEst",
     "fileName": "19-06-CurEst-MoodleDay2019.jpg",
@@ -931,32 +881,6 @@
     "addedAt": "2026-10-10T23:38:46.622Z"
   },
   {
-    "id": "cert-20-12-facilitacionunae",
-    "docType": "CursImp",
-    "fileName": "20-12-CursImp-FacilitacionUNAE.jpg",
-    "shortName": "FacilitacionUNAE",
-    "title": "DOCENCIA PARA ENTORNOS VIRTUALES: APORTES PARA SU DESARROLLO SINCRÓNICO Y ASINCRÓNICO",
-    "role": "Docente / Facilitador",
-    "issuer": "Universidad Nacional de Educación (UNAE)",
-    "year": 2020,
-    "yearShort": "20",
-    "month": "12",
-    "date": "2020-12-30",
-    "hours": 40,
-    "modality": "Virtual",
-    "credentialId": null,
-    "verificationUrl": null,
-    "cluster": "tecnopedagogia",
-    "skills": [
-      "Tecnopedagogía",
-      "Educación Virtual",
-      "Entornos Sincrónicos y Asincrónicos",
-      "Docencia Universitaria"
-    ],
-    "driveUrl": "https://drive.google.com/file/d/1UtJfxr1iCyaBofR5-F8IpdjNw3EILPhI/view",
-    "addedAt": "2026-10-10T23:38:36.384Z"
-  },
-  {
     "id": "cert-13-12-hourofcode",
     "docType": "CurEst",
     "fileName": "13-12-CurEst-HourOfCode.jpg",
@@ -980,56 +904,6 @@
     ],
     "driveUrl": "https://drive.google.com/file/d/1RnSVghc-1QjKRHdYPQcwtWltksbT3J0f/view",
     "addedAt": "2026-10-10T23:38:26.148Z"
-  },
-  {
-    "id": "cert-21-08-festivalideas10",
-    "docType": "Meri",
-    "fileName": "21-08-Meri-FestivalIdeas10.jpg",
-    "shortName": "FestivalIdeas10",
-    "title": "Festival de Ideas Educativas 'Ideas de 10'",
-    "role": "Participante",
-    "issuer": "Programa ProFuturo",
-    "year": 2021,
-    "yearShort": "21",
-    "month": "08",
-    "date": "2021-08-17",
-    "hours": null,
-    "modality": "Virtual",
-    "credentialId": null,
-    "verificationUrl": null,
-    "cluster": "tecnopedagogia",
-    "skills": [
-      "Innovación Educativa",
-      "Pedagogía Contemporánea",
-      "Ideación"
-    ],
-    "driveUrl": "https://drive.google.com/file/d/1AwrI5XsWnjVU97ll6iL7qkJwMRvFoxRy/view",
-    "addedAt": "2026-10-10T23:37:09.740Z"
-  },
-  {
-    "id": "cert-22-02-operadorsncp",
-    "docType": "Cert",
-    "fileName": "22-02-Cert-OperadorSNCP.jpg",
-    "shortName": "OperadorSNCP",
-    "title": "Operador del Sistema Nacional de Compras Públicas - Fundamentos de Contratación Pública",
-    "role": "Participante",
-    "issuer": "Servicio Nacional de Contratación Pública (SERCOP)",
-    "year": 2022,
-    "yearShort": "22",
-    "month": "02",
-    "date": "2022-02-26",
-    "hours": 40,
-    "modality": "Virtual",
-    "credentialId": "ZYmX8I8D4c",
-    "verificationUrl": null,
-    "cluster": "politicas_direccion",
-    "skills": [
-      "Contratación Pública",
-      "Normativa Legal Vigente",
-      "Gestión de Compras Públicas"
-    ],
-    "driveUrl": "https://drive.google.com/file/d/1cc2nWiCNGAGGZ72iawe9eneWwvHtZ7cZ/view",
-    "addedAt": "2026-10-10T23:36:59.707Z"
   },
   {
     "id": "cert-23-08-ponenteusorecedu",
@@ -1080,31 +954,6 @@
     ],
     "driveUrl": "https://drive.google.com/file/d/1tTIcv-AtnPWpN9sOtzAb-V2QkLgq57ah/view",
     "addedAt": "2026-10-10T23:36:28.666Z"
-  },
-  {
-    "id": "cert-22-11-comiteviiiced",
-    "docType": "Inves",
-    "fileName": "22-11-Inves-ComiteVIIICED.jpg",
-    "shortName": "ComiteVIIICED",
-    "title": "MIEMBRO DEL COMITÉ CIENTÍFICO-EVALUADOR EXTERNO EN EL VII CONGRESO INTERNACIONAL DE EDUCACIÓN CONTEMPORÁNEA CALIDAD EDUCATIVA Y BUEN VIVIR",
-    "role": "Revisor Par",
-    "issuer": "Facultad de Ciencias de la Educación, Humanas y Tecnologías",
-    "year": 2022,
-    "yearShort": "22",
-    "month": "11",
-    "date": "2022-11-25",
-    "hours": 0,
-    "modality": "Presencial",
-    "credentialId": "CGVII-TH-0000106",
-    "verificationUrl": null,
-    "cluster": "tecnopedagogia",
-    "skills": [
-      "Evaluación Científica",
-      "Revisión por Pares",
-      "Calidad Educativa"
-    ],
-    "driveUrl": "https://drive.google.com/file/d/1nZo5ls4aDMM11Mjc7B27WDe-7bl-cpUM/view",
-    "addedAt": "2026-10-10T23:36:18.697Z"
   },
   {
     "id": "cert-15-10-creacionblogsweb",
@@ -1337,7 +1186,7 @@
     "docType": "CursImp",
     "fileName": "17-04-CursImp-TallerSistemasOp.jpg",
     "shortName": "TallerSistemasOp",
-    "title": "V JORNADAS INTERNACIONALES, V CONGRESO NACIONAL DE CIENCIAS SOFTWARE LIBRE Y NUEVAS TECNOLOGÍAS APLICADAS A LA EDUCACIÓN Y III ENCUENTRO DE DOCENTES DE INFORMÁTICA Y FÍSICA",
+    "title": "Facilitador del Taller: Sistemas Operativos GNU/Linux - V Jornadas Internacionales de Software Libre",
     "role": "Docente / Facilitador",
     "issuer": "Universidad Central del Ecuador",
     "year": 2017,
@@ -1586,81 +1435,6 @@
     "addedAt": "2026-10-10T23:32:26.741Z"
   },
   {
-    "id": "cert-24-10-capacitacioninvest",
-    "docType": "CurEst",
-    "fileName": "24-10-CurEst-CapacitacionInvest.jpg",
-    "shortName": "CapacitacionInvest",
-    "title": "CAPACITACIÓN EN INVESTIGACIÓN CIENTÍFICA 2024",
-    "role": "Participante",
-    "issuer": "SCImago Research Group",
-    "year": 2024,
-    "yearShort": "24",
-    "month": "10",
-    "date": "2024-10-08",
-    "hours": 60,
-    "modality": "Virtual",
-    "credentialId": "fkeS9HeAQ3",
-    "verificationUrl": null,
-    "cluster": "ia_data_science",
-    "skills": [
-      "Metodología Científica",
-      "Publicación Académica",
-      "Ciimetría"
-    ],
-    "driveUrl": "https://drive.google.com/file/d/1NwMjbRZJj6a5twQR8YS5G957mknHJNXm/view",
-    "addedAt": "2026-10-10T23:31:03.425Z"
-  },
-  {
-    "id": "cert-24-10-capacitacionciencias",
-    "docType": "CurEst",
-    "fileName": "24-10-CurEst-CapacitacionCiencias.jpg",
-    "shortName": "CapacitacionCiencias",
-    "title": "CAPACITACIÓN EN INVESTIGACIÓN CIENTÍFICA 2024",
-    "role": "Participante",
-    "issuer": "SCImago Research Group",
-    "year": 2024,
-    "yearShort": "24",
-    "month": "10",
-    "date": "2024-10-08",
-    "hours": 60,
-    "modality": "Virtual",
-    "credentialId": "fkeS9HeAQ3",
-    "verificationUrl": null,
-    "cluster": "ia_data_science",
-    "skills": [
-      "Investigación Científica",
-      "Cienciometría",
-      "Publicación Académica"
-    ],
-    "driveUrl": "https://drive.google.com/file/d/1NwMjbRZJj6a5twQR8YS5G957mknHJNXm/view",
-    "addedAt": "2026-10-10T23:31:01.739Z"
-  },
-  {
-    "id": "cert-20-10-qahedmaster",
-    "docType": "Cert",
-    "fileName": "20-10-Cert-QAHEdMaster.jpg",
-    "shortName": "QAHEdMaster",
-    "title": "Master's Degree in Quality Management and Evaluation in Higher Education",
-    "role": "Participante",
-    "issuer": "International Network for Quality Assurance Agencies in Higher Education (INQAAHE)",
-    "year": 2020,
-    "yearShort": "20",
-    "month": "10",
-    "date": "2020-10-29",
-    "hours": null,
-    "modality": "Virtual",
-    "credentialId": null,
-    "verificationUrl": null,
-    "cluster": "politicas_direccion",
-    "skills": [
-      "Quality Management",
-      "Higher Education",
-      "Program Evaluation"
-    ],
-    "driveUrl": "https://drive.google.com/file/d/1RvrzgN07PGUw8pMoLtTXLTFsxl0xpnVz/view",
-    "addedAt": "2026-10-10T23:30:55.168Z"
-  },
-  {
     "id": "cert-20-10-qahed",
     "docType": "Cert",
     "fileName": "20-10-Cert-QAHEd.jpg",
@@ -1711,31 +1485,6 @@
     "addedAt": "2026-10-10T23:30:46.777Z"
   },
   {
-    "id": "cert-15-10-expertoeducacion",
-    "docType": "Cert",
-    "fileName": "15-10-Cert-ExpertoEducacion.jpg",
-    "shortName": "ExpertoEducacion",
-    "title": "EXPERTO EN EDUCACIÓN VIRTUAL",
-    "role": "Participante",
-    "issuer": "Planeta FATLA",
-    "year": 2015,
-    "yearShort": "15",
-    "month": "10",
-    "date": "2015-10-31",
-    "hours": 1015,
-    "modality": "Virtual",
-    "credentialId": "EPE-EC-XLI-1510-011",
-    "verificationUrl": null,
-    "cluster": "tecnopedagogia",
-    "skills": [
-      "Educación Virtual",
-      "Diseño Instruccional",
-      "Tecnologías Educativas"
-    ],
-    "driveUrl": "https://drive.google.com/file/d/1Fv7wKYIwc1tn-dgljlnDAEXDmHxUKUdp/view",
-    "addedAt": "2026-10-10T23:30:42.528Z"
-  },
-  {
     "id": "cert-17-12-moodlecert",
     "docType": "Cert",
     "fileName": "17-12-Cert-MoodleCert.jpg",
@@ -1784,31 +1533,6 @@
     ],
     "driveUrl": "https://drive.google.com/file/d/1EBU5JRIH6fbdaCElQimf9rolG2--bH6g/view",
     "addedAt": "2026-10-10T23:30:29.388Z"
-  },
-  {
-    "id": "cert-23-03-nse1associate",
-    "docType": "Cert",
-    "fileName": "23-03-Cert-NSE1Associate.jpg",
-    "shortName": "NSE1Associate",
-    "title": "NSE 1 Network Security Associate",
-    "role": "Participante",
-    "issuer": "Fortinet",
-    "year": 2023,
-    "yearShort": "23",
-    "month": "03",
-    "date": "2023-03-21",
-    "hours": null,
-    "modality": "Virtual",
-    "credentialId": "VoBwMv1GEZ",
-    "verificationUrl": "https://training.fortinet.com/mod/customcert/verify_certificate.php",
-    "cluster": "tecnopedagogia",
-    "skills": [
-      "Network Security",
-      "Cybersecurity Fundamentals",
-      "Fortinet Security Fabric"
-    ],
-    "driveUrl": "https://drive.google.com/file/d/1EBU5JRIH6fbdaCElQimf9rolG2--bH6g/view",
-    "addedAt": "2026-10-10T23:30:23.907Z"
   },
   {
     "id": "cert-20-07-tutoresenlinea",
@@ -1885,31 +1609,6 @@
     ],
     "driveUrl": "https://drive.google.com/file/d/12MtY-sVwTpwu-cR_CFbz926HKOPWUZnI/view",
     "addedAt": "2026-10-10T23:30:03.817Z"
-  },
-  {
-    "id": "cert-15-03-recursoseduvirtual",
-    "docType": "CurEst",
-    "fileName": "15-03-CurEst-RecursosEduVirtual.jpg",
-    "shortName": "RecursosEduVirtual",
-    "title": "Recursos de educación virtual",
-    "role": "Participante",
-    "issuer": "Planeta FATLA",
-    "year": 2015,
-    "yearShort": "15",
-    "month": "03",
-    "date": "2015-03-30",
-    "hours": 84,
-    "modality": "Virtual",
-    "credentialId": "1719920041",
-    "verificationUrl": null,
-    "cluster": "tecnopedagogia",
-    "skills": [
-      "Educación Virtual",
-      "Recursos Digitales",
-      "Entornos de Aprendizaje"
-    ],
-    "driveUrl": "https://drive.google.com/file/d/12MtY-sVwTpwu-cR_CFbz926HKOPWUZnI/view",
-    "addedAt": "2026-10-10T23:29:58.788Z"
   },
   {
     "id": "cert-15-05-alcanceacademico",
@@ -1989,31 +1688,6 @@
     "addedAt": "2026-10-10T23:29:38.874Z"
   },
   {
-    "id": "cert-15-02-communitymanager",
-    "docType": "CurEst",
-    "fileName": "15-02-CurEst-CommunityManager.jpg",
-    "shortName": "CommunityManager",
-    "title": "Estrategias de Marketing Online. Community Manager (2.ª edición)",
-    "role": "Participante",
-    "issuer": "Universidad CEU Cardenal Herrera / Miríada X",
-    "year": 2015,
-    "yearShort": "15",
-    "month": "02",
-    "date": "2015-02-03",
-    "hours": 24,
-    "modality": "Virtual",
-    "credentialId": "4c82a342-ec87-42e8-a5b2-f192b0f3547e",
-    "verificationUrl": null,
-    "cluster": "tecnopedagogia",
-    "skills": [
-      "Marketing Online",
-      "Community Management",
-      "Herramientas Digitales"
-    ],
-    "driveUrl": "https://drive.google.com/file/d/19-Ni_Ma6b4agmnkOALbkOy5NQ77MuVXZ/view",
-    "addedAt": "2026-10-10T23:29:30.140Z"
-  },
-  {
     "id": "cert-15-04-planestrategicoeco",
     "docType": "CurEst",
     "fileName": "15-04-CurEst-PlanEstrategicoEco.jpg",
@@ -2038,31 +1712,6 @@
     ],
     "driveUrl": "https://drive.google.com/file/d/1pV5dm5754oHD17Ze9X2K-Uc5pDJbYmX2/view",
     "addedAt": "2026-10-10T23:29:20.394Z"
-  },
-  {
-    "id": "cert-15-04-planestrategicoecommerce",
-    "docType": "CurEst",
-    "fileName": "15-04-CurEst-PlanEstrategicoEcommerce.jpg",
-    "shortName": "PlanEstrategicoEcommerce",
-    "title": "PLAN ESTRATEGICO DE UN ECOMMERCE",
-    "role": "Participante",
-    "issuer": "Planeta FATLA",
-    "year": 2015,
-    "yearShort": "15",
-    "month": "04",
-    "date": "2015-04-30",
-    "hours": 150,
-    "modality": "Virtual",
-    "credentialId": "FATLA-ECE-PEE",
-    "verificationUrl": "www.fatla.org",
-    "cluster": "politicas_direccion",
-    "skills": [
-      "Mercado físico y digital",
-      "Políticas de precios",
-      "Plan estratégico"
-    ],
-    "driveUrl": "https://drive.google.com/file/d/1pV5dm5754oHD17Ze9X2K-Uc5pDJbYmX2/view",
-    "addedAt": "2026-10-10T23:29:18.899Z"
   },
   {
     "id": "cert-15-05-sitiowebcomercial",
@@ -2191,32 +1840,6 @@
     ],
     "driveUrl": "https://drive.google.com/file/d/1gOrhAAeSTP6h5GWHIjs_IHQSxTV7yoKl/view",
     "addedAt": "2026-10-10T23:28:26.408Z"
-  },
-  {
-    "id": "cert-15-06-fatlarealidadaumentada",
-    "docType": "CurEst",
-    "fileName": "15-06-CurEst-FatlaRealidadAumentada.jpg",
-    "shortName": "FatlaRealidadAumentada",
-    "title": "Realidad aumentada y conectivismo",
-    "role": "Participante",
-    "issuer": "Planeta Fatla",
-    "year": 2015,
-    "yearShort": "15",
-    "month": "06",
-    "date": "2015-06-30",
-    "hours": 150,
-    "modality": "Virtual",
-    "credentialId": "FATLA-EEV-MPC",
-    "verificationUrl": "www.fatla.org",
-    "cluster": "tecnopedagogia",
-    "skills": [
-      "Realidad aumentada",
-      "Conectivismo",
-      "Equipos tecnopedagógicos",
-      "Educación con recursos RA"
-    ],
-    "driveUrl": "https://drive.google.com/file/d/1gOrhAAeSTP6h5GWHIjs_IHQSxTV7yoKl/view",
-    "addedAt": "2026-10-10T23:28:25.181Z"
   },
   {
     "id": "cert-15-06-entornosvirtuales",
@@ -2570,31 +2193,6 @@
     "addedAt": "2026-10-10T22:28:18.467Z"
   },
   {
-    "id": "cert-22-04-formdoctecno",
-    "docType": "Cert",
-    "fileName": "22-04-Cert-FormDocTecno.pdf",
-    "shortName": "FormDocTecno",
-    "title": "FORMACIÓN DOCENTE TECNO-PEDAGÓGICA PARA EDUCACIÓN EN LÍNEA",
-    "role": "Participante",
-    "issuer": "Universidad Nacional de Educación",
-    "year": 2022,
-    "yearShort": "22",
-    "month": "04",
-    "date": "2022-04-18",
-    "hours": 120,
-    "modality": "Virtual",
-    "credentialId": "040-COPE-UNAE-202269476",
-    "verificationUrl": "https://sga.unae.edu.ec/consultacertificadoformacioncontinua",
-    "cluster": "tecnopedagogia",
-    "skills": [
-      "Tecnología Educativa",
-      "Pedagogía Online",
-      "Diseño Instruccional"
-    ],
-    "driveUrl": "https://drive.google.com/file/d/1yQ0_uDVl5j1sdyDd-vJ62e5_zNQJFTig/view",
-    "addedAt": "2026-10-10T22:28:15.457Z"
-  },
-  {
     "id": "cert-22-06-rgpduocdocentes",
     "docType": "Cert",
     "fileName": "22-06-Cert-RgpdUocDocentes.pdf",
@@ -2618,32 +2216,6 @@
     ],
     "driveUrl": "https://drive.google.com/file/d/1vfM_Sl4XtDAzASzVg9QGhJnT2QqliEpY/view",
     "addedAt": "2026-10-10T22:28:09.866Z"
-  },
-  {
-    "id": "cert-22-06-rgpddocentesuoc",
-    "docType": "Cert",
-    "fileName": "22-06-Cert-RgpdDocentesUoc.pdf",
-    "shortName": "RgpdDocentesUoc",
-    "title": "PROTOCOLO DE CUMPLIMIENTO DEL RGPD PARA COLABORADORES DOCENTES DE LA UOC",
-    "role": "Participante",
-    "issuer": "Universitat Oberta de Catalunya",
-    "year": 2022,
-    "yearShort": "22",
-    "month": "06",
-    "date": "2022-06-30",
-    "hours": 10,
-    "modality": "Virtual",
-    "credentialId": "JVBILN1IQB",
-    "verificationUrl": null,
-    "cluster": "politicas_direccion",
-    "skills": [
-      "RGPD",
-      "Protección de Datos",
-      "Ética Académica",
-      "Privacidad en la Educación"
-    ],
-    "driveUrl": "https://drive.google.com/file/d/1vfM_Sl4XtDAzASzVg9QGhJnT2QqliEpY/view",
-    "addedAt": "2026-10-10T22:28:06.246Z"
   },
   {
     "id": "cert-21-11-gestionproyectos",
