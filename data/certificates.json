@@ -1,5 +1,30 @@
 [
   {
+    "id": "cert-24-07-h5precursosdidac",
+    "docType": "CurEst",
+    "fileName": "24-07-CurEst-H5PRecursosDidac.pdf",
+    "shortName": "H5PRecursosDidac",
+    "title": "Recursos didácticos usando contenido enriquecido en H5P",
+    "role": "Participante",
+    "issuer": "UNESCO-IESALC",
+    "year": 2024,
+    "yearShort": "24",
+    "month": "07",
+    "date": "2024-07-19",
+    "hours": 2,
+    "modality": "Virtual",
+    "credentialId": "N1G8M5oMp6",
+    "verificationUrl": "https://campus.iesalc.unesco.org/inicio/mod/customcert/verify_certificate.php",
+    "cluster": "tecnopedagogia",
+    "skills": [
+      "H5P",
+      "Contenido Enriquecido",
+      "Recursos Didácticos Digitales"
+    ],
+    "driveUrl": "https://drive.google.com/file/d/1kBF0ozFK7gbaYj5BOrVBRgvA3I5w6PmF/view",
+    "addedAt": "2026-10-11T04:21:34.108Z"
+  },
+  {
     "id": "cert-24-07-creacionproghibrid",
     "docType": "CurEst",
     "fileName": "24-07-CurEst-CreacionProgHibrid.pdf",
