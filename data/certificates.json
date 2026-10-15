@@ -1,5 +1,30 @@
 [
   {
+    "id": "cert-21-02-uoccertdocente",
+    "docType": "CertTra",
+    "fileName": "21-02-CertTra-UOCCertDocente.pdf",
+    "shortName": "UOCCertDocente",
+    "title": "Profesor Colaborador - Iniciación a las competencias TIC",
+    "role": "Docente Universitario",
+    "issuer": "Universitat Oberta de Catalunya",
+    "year": 2021,
+    "yearShort": "21",
+    "month": "02",
+    "date": "2021-02-23",
+    "hours": 0,
+    "modality": "Virtual",
+    "credentialId": null,
+    "verificationUrl": null,
+    "cluster": "tecnopedagogia",
+    "skills": [
+      "Competencias TIC",
+      "Educación Virtual",
+      "Docencia Universitaria"
+    ],
+    "driveUrl": "https://drive.google.com/file/d/1Q7_9-MbFIdVOzWttyhhVDu599dSw_wWw/view",
+    "addedAt": "2026-10-15T22:19:00.280Z"
+  },
+  {
     "id": "cert-21-03-ciespalvideojuegos",
     "docType": "Contra",
     "fileName": "21-03-Contra-CiespalVideojuegos.pdf",
