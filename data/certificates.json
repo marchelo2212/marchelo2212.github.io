@@ -1,5 +1,31 @@
 [
   {
+    "id": "cert-21-09-nombramientomintel",
+    "docType": "CertTra",
+    "fileName": "21-09-CertTra-NombramientoMintel.pdf",
+    "shortName": "NombramientoMintel",
+    "title": "Director de Fomento de Tecnologías Emergentes",
+    "role": "Coordinador",
+    "issuer": "Ministerio de Telecomunicaciones y de la Sociedad de la Información (MINTEL)",
+    "year": 2021,
+    "yearShort": "21",
+    "month": "09",
+    "date": "2021-09-20",
+    "hours": null,
+    "modality": "Presencial",
+    "credentialId": "425",
+    "verificationUrl": null,
+    "cluster": "politicas_direccion",
+    "skills": [
+      "Gestión Pública",
+      "Tecnologías Emergentes",
+      "Liderazgo Institucional",
+      "Dirección de Proyectos"
+    ],
+    "driveUrl": "https://drive.google.com/file/d/1wt_pE_hbu4klsKlKyEgzZAQi-x6Ih-lr/view",
+    "addedAt": "2026-10-15T22:17:57.525Z"
+  },
+  {
     "id": "cert-22-12-moodlesotaminga",
     "docType": "CursImp",
     "fileName": "22-12-CursImp-MoodleSotaminga.pdf",
