@@ -1,5 +1,30 @@
 [
   {
+    "id": "cert-23-08-modrectecfis",
+    "docType": "CursImp",
+    "fileName": "23-08-CursImp-ModRecTecFis.pdf",
+    "shortName": "ModRecTecFis",
+    "title": "Módulo de Recursos Tecnológicos para el Aprendizaje de la Educación Física y Deporte",
+    "role": "Docente / Facilitador",
+    "issuer": "Universidad Católica de Cuenca",
+    "year": 2023,
+    "yearShort": "23",
+    "month": "08",
+    "date": "2023-08-10",
+    "hours": null,
+    "modality": "Presencial",
+    "credentialId": null,
+    "verificationUrl": null,
+    "cluster": "tecnopedagogia",
+    "skills": [
+      "Tecnologías Educativas",
+      "Educación Física",
+      "Docencia de Posgrado"
+    ],
+    "driveUrl": "https://drive.google.com/file/d/1NNr7xTJ9WWNp6md8bouirUIyOe_oClpv/view",
+    "addedAt": "2026-10-15T22:17:34.259Z"
+  },
+  {
     "id": "cert-22-12-instructorcec2022",
     "docType": "CursImp",
     "fileName": "22-12-CursImp-InstructorCEC2022.pdf",
