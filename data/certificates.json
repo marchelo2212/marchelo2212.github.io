@@ -1,5 +1,30 @@
 [
   {
+    "id": "cert-22-12-instructorcec2022",
+    "docType": "CursImp",
+    "fileName": "22-12-CursImp-InstructorCEC2022.pdf",
+    "shortName": "InstructorCEC2022",
+    "title": "Instructor del Centro de Educación Continua EPN 2022",
+    "role": "Docente / Facilitador",
+    "issuer": "Escuela Politécnica Nacional - CEC EPN",
+    "year": 2022,
+    "yearShort": "22",
+    "month": "12",
+    "date": "2022-12-15",
+    "hours": null,
+    "modality": "Presencial",
+    "credentialId": null,
+    "verificationUrl": null,
+    "cluster": "tecnopedagogia",
+    "skills": [
+      "Educación Continua",
+      "Docencia",
+      "Transferencia de Conocimiento"
+    ],
+    "driveUrl": "https://drive.google.com/file/d/1NvDS8Uu6xl_BpvgF9Y4t6zZBHfXCaASK/view",
+    "addedAt": "2026-10-15T22:17:23.616Z"
+  },
+  {
     "id": "cert-23-08-relacionlaboraldoc",
     "docType": "CertTra",
     "fileName": "23-08-CertTra-RelacionLaboralDoc.pdf",
