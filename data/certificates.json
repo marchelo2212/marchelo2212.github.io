@@ -1,5 +1,31 @@
 [
   {
+    "id": "cert-21-10-disenoaulainclusiva",
+    "docType": "CertTra",
+    "fileName": "21-10-CertTra-DisenoAulaInclusiva.pdf",
+    "shortName": "DisenoAulaInclusiva",
+    "title": "Diseño del aula virtual de la Maestría en Educación Inclusiva",
+    "role": "Consultor Especialista",
+    "issuer": "Universidad Nacional de Educación (UNAE)",
+    "year": 2021,
+    "yearShort": "21",
+    "month": "10",
+    "date": "2021-10-16",
+    "hours": null,
+    "modality": "Virtual",
+    "credentialId": "0104225719",
+    "verificationUrl": null,
+    "cluster": "tecnopedagogia",
+    "skills": [
+      "Tecnopedagogía",
+      "Diseño Instruccional",
+      "Educación Inclusiva",
+      "Aulas Virtuales"
+    ],
+    "driveUrl": "https://drive.google.com/file/d/1gdndBNKRm0-5gBSbxmJKNyDnZ1eu5hNC/view",
+    "addedAt": "2026-10-15T22:18:28.407Z"
+  },
+  {
     "id": "cert-21-12-certinstructcec",
     "docType": "CursImp",
     "fileName": "21-12-CursImp-CertInstructCEC.pdf",
