@@ -1,5 +1,31 @@
 [
   {
+    "id": "cert-21-12-certinstructcec",
+    "docType": "CursImp",
+    "fileName": "21-12-CursImp-CertInstructCEC.pdf",
+    "shortName": "CertInstructCEC",
+    "title": "Certificado de Reconocimiento como Instructor del Centro de Educación Continua EPN",
+    "role": "Docente / Facilitador",
+    "issuer": "Escuela Politécnica Nacional, Centro de Educación Continua",
+    "year": 2021,
+    "yearShort": "21",
+    "month": "12",
+    "date": "2021",
+    "hours": null,
+    "modality": "Presencial",
+    "credentialId": null,
+    "verificationUrl": null,
+    "cluster": "tecnopedagogia",
+    "skills": [
+      "Docencia",
+      "Educación Continua",
+      "Facilitación",
+      "Pedagogía"
+    ],
+    "driveUrl": "https://drive.google.com/file/d/1bXFMz233obCyJSMcav7FikqRunCHlOaQ/view",
+    "addedAt": "2026-10-15T22:18:19.437Z"
+  },
+  {
     "id": "cert-21-12-directormintel21",
     "docType": "CertTra",
     "fileName": "21-12-CertTra-DirectorMintel21.pdf",
