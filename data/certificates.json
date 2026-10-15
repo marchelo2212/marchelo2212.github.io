@@ -1,5 +1,30 @@
 [
   {
+    "id": "cert-20-12-fundaciondewaal",
+    "docType": "CertTra",
+    "fileName": "20-12-CertTra-FundacionDeWaal.pdf",
+    "shortName": "FundacionDeWaal",
+    "title": "Coordinador Educación virtual y TIC",
+    "role": "Coordinador",
+    "issuer": "Fundación de Waal",
+    "year": 2020,
+    "yearShort": "20",
+    "month": "12",
+    "date": "2020-12-15",
+    "hours": null,
+    "modality": "Virtual",
+    "credentialId": null,
+    "verificationUrl": null,
+    "cluster": "tecnopedagogia",
+    "skills": [
+      "Educación Virtual",
+      "Tecnologías de la Información y Comunicación (TIC)",
+      "Gestión de Proyectos Educativos"
+    ],
+    "driveUrl": "https://drive.google.com/file/d/1HTX0ZlXqEz_tSE5xKb5wv2FOoLxAx3Vs/view",
+    "addedAt": "2026-10-15T22:18:37.857Z"
+  },
+  {
     "id": "cert-21-10-disenoaulainclusiva",
     "docType": "CertTra",
     "fileName": "21-10-CertTra-DisenoAulaInclusiva.pdf",
