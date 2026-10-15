@@ -1,5 +1,30 @@
 [
   {
+    "id": "cert-20-01-coordfdw",
+    "docType": "CertTra",
+    "fileName": "20-01-CertTra-CoordFdW.pdf",
+    "shortName": "CoordFdW",
+    "title": "Coordinador de Equipo Educación y TIC",
+    "role": "Coordinador",
+    "issuer": "Fundación de Waal (FdW)",
+    "year": 2020,
+    "yearShort": "20",
+    "month": "01",
+    "date": "2020-01-10",
+    "hours": null,
+    "modality": "Virtual",
+    "credentialId": null,
+    "verificationUrl": null,
+    "cluster": "tecnopedagogia",
+    "skills": [
+      "Gestión de Entornos Virtuales",
+      "Diseño Instruccional",
+      "E-learning"
+    ],
+    "driveUrl": "https://drive.google.com/file/d/1HfzYxCo-jUH9lATqR_Lf_3tRzeW2J28S/view",
+    "addedAt": "2026-10-15T22:19:32.850Z"
+  },
+  {
     "id": "cert-20-06-herramientascolab",
     "docType": "CursImp",
     "fileName": "20-06-CursImp-HerramientasColab.pdf",
