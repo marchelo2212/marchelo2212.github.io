@@ -1,5 +1,31 @@
 [
   {
+    "id": "cert-15-10-facilitadorfdw",
+    "docType": "CursImp",
+    "fileName": "15-10-CursImp-FacilitadorFdW.pdf",
+    "shortName": "FacilitadorFdW",
+    "title": "Programa de capacitación PREVENCIÓN DE DEFICIENCIAS Y ENFERMEDADES EN LA ETAPA PRENATAL Y POSNATAL",
+    "role": "Docente / Facilitador",
+    "issuer": "Fundación de Waal Ecuador",
+    "year": 2015,
+    "yearShort": "15",
+    "month": "10",
+    "date": "2019-10-03",
+    "hours": null,
+    "modality": "Virtual",
+    "credentialId": null,
+    "verificationUrl": null,
+    "cluster": "tecnopedagogia",
+    "skills": [
+      "Educación",
+      "TICs",
+      "Moodle",
+      "Modelos Pedagógicos"
+    ],
+    "driveUrl": "https://drive.google.com/file/d/1FfGKeOF3BDxJAmN1PonA240QgHFx2wUI/view",
+    "addedAt": "2026-10-15T22:20:04.446Z"
+  },
+  {
     "id": "cert-19-05-metodologiastic",
     "docType": "CursImp",
     "fileName": "19-05-CursImp-MetodologiasTIC.pdf",
