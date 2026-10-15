@@ -1,5 +1,31 @@
 [
   {
+    "id": "cert-19-12-instcec",
+    "docType": "CursImp",
+    "fileName": "19-12-CursImp-InstCEC.pdf",
+    "shortName": "InstCEC",
+    "title": "Instructor en el Centro de Educación Continua",
+    "role": "Docente / Facilitador",
+    "issuer": "Escuela Politécnica Nacional, Centro de Educación Continua",
+    "year": 2019,
+    "yearShort": "19",
+    "month": "12",
+    "date": "2019-12-02",
+    "hours": null,
+    "modality": "Presencial",
+    "credentialId": null,
+    "verificationUrl": null,
+    "cluster": "tecnopedagogia",
+    "skills": [
+      "Docencia",
+      "Capacitación",
+      "Educación Continua",
+      "Transferencia de Conocimiento"
+    ],
+    "driveUrl": "https://drive.google.com/file/d/1aMvXNMi1CGgl8kCzfZGpo5aIt1QroqKf/view",
+    "addedAt": "2026-10-15T22:19:42.958Z"
+  },
+  {
     "id": "cert-20-01-coordfdw",
     "docType": "CertTra",
     "fileName": "20-01-CertTra-CoordFdW.pdf",
