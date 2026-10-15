@@ -1,5 +1,30 @@
 [
   {
+    "id": "cert-23-08-relacionlaboraldoc",
+    "docType": "CertTra",
+    "fileName": "23-08-CertTra-RelacionLaboralDoc.pdf",
+    "shortName": "RelacionLaboralDoc",
+    "title": "Profesor No Titular - Categoría Ocasional",
+    "role": "Docente Universitario",
+    "issuer": "Universidad Indoamérica",
+    "year": 2023,
+    "yearShort": "23",
+    "month": "08",
+    "date": "2023-08-09",
+    "hours": null,
+    "modality": "Presencial",
+    "credentialId": "CERT-UTI-2023-125",
+    "verificationUrl": null,
+    "cluster": "tecnopedagogia",
+    "skills": [
+      "Docencia Universitaria",
+      "Gestión Académica",
+      "Pedagogía Superior"
+    ],
+    "driveUrl": "https://drive.google.com/file/d/1pH2CVK6IcgLw7byHL-6wJmP6vJzQGQrT/view",
+    "addedAt": "2026-10-15T22:17:11.601Z"
+  },
+  {
     "id": "cert-24-08-coordingtic",
     "docType": "CertTra",
     "fileName": "24-08-CertTra-CoordIngTIC.pdf",
