@@ -1,5 +1,30 @@
 [
   {
+    "id": "cert-24-08-coordingtic",
+    "docType": "CertTra",
+    "fileName": "24-08-CertTra-CoordIngTIC.pdf",
+    "shortName": "CoordIngTIC",
+    "title": "Coordinador Académico de Modalidad Presencial - Carrera de Ingeniería en Tecnologías de la Información",
+    "role": "Coordinador",
+    "issuer": "Universidad Indoamérica",
+    "year": 2024,
+    "yearShort": "24",
+    "month": "08",
+    "date": "2024-08-23",
+    "hours": null,
+    "modality": "Presencial",
+    "credentialId": "CERT-UTI-2024-150",
+    "verificationUrl": null,
+    "cluster": "politicas_direccion",
+    "skills": [
+      "Gestión Académica",
+      "Coordinación Curricular",
+      "Evaluación Educativa"
+    ],
+    "driveUrl": "https://drive.google.com/file/d/1JBzh_DZBkm9w9rSteHdu9HsFzc2mvMBB/view",
+    "addedAt": "2026-10-15T22:17:00.803Z"
+  },
+  {
     "id": "cert-25-06-certtraindoamerica",
     "docType": "CertTra",
     "fileName": "25-06-CertTra-CertTraIndoamerica.pdf",
