@@ -1,5 +1,30 @@
 [
   {
+    "id": "cert-18-05-coordinadorticfdw",
+    "docType": "CertTra",
+    "fileName": "18-05-CertTra-CoordinadorTICFdW.pdf",
+    "shortName": "CoordinadorTICFdW",
+    "title": "Coordinador de Equipo TIC",
+    "role": "Coordinador",
+    "issuer": "Fundación de Waal - PreNatal Prevención de Discapacidades",
+    "year": 2018,
+    "yearShort": "18",
+    "month": "05",
+    "date": "2018-05-28",
+    "hours": null,
+    "modality": "Presencial",
+    "credentialId": null,
+    "verificationUrl": "www.fdwaal.org",
+    "cluster": "tecnopedagogia",
+    "skills": [
+      "Infraestructura Tecnológica",
+      "Entornos Virtuales de Aprendizaje",
+      "Gestión de Proyectos TIC"
+    ],
+    "driveUrl": "https://drive.google.com/file/d/1SgPPFPIY3h2PMiv0x6MKHEEgL2FYVavr/view",
+    "addedAt": "2026-10-15T22:20:25.892Z"
+  },
+  {
     "id": "cert-19-10-instrcursoscecepn",
     "docType": "CursImp",
     "fileName": "19-10-CursImp-InstrCursosCecEpn.pdf",
