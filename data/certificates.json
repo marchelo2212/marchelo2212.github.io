@@ -1,5 +1,30 @@
 [
   {
+    "id": "cert-25-06-certtraindoamerica",
+    "docType": "CertTra",
+    "fileName": "25-06-CertTra-CertTraIndoamerica.pdf",
+    "shortName": "CertTraIndoamerica",
+    "title": "PROFESOR NO TITULAR - CATEGORÍA OCASIONAL",
+    "role": "Docente Universitario",
+    "issuer": "Universidad Tecnológica Indoamérica",
+    "year": 2025,
+    "yearShort": "25",
+    "month": "06",
+    "date": "2025-06-06",
+    "hours": null,
+    "modality": "Presencial",
+    "credentialId": "CERT-UTI-2025-090",
+    "verificationUrl": null,
+    "cluster": "tecnopedagogia",
+    "skills": [
+      "Docencia Universitaria",
+      "Investigación Científica",
+      "Gestión Curricular"
+    ],
+    "driveUrl": "https://drive.google.com/file/d/1Eqz1ePA6rlbXG8Ok6QCGgs_SHyjG1RXy/view",
+    "addedAt": "2026-10-15T22:16:48.829Z"
+  },
+  {
     "id": "cert-25-06-ponenciascratchday",
     "docType": "Inves",
     "fileName": "25-06-Inves-PonenciaScratchDay.pdf",
