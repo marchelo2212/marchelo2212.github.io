@@ -1,5 +1,30 @@
 [
   {
+    "id": "cert-13-01-docentefrancisbacon",
+    "docType": "CertTra",
+    "fileName": "13-01-CertTra-DocenteFrancisBacon.pdf",
+    "shortName": "DocenteFrancisBacon",
+    "title": "Docente",
+    "role": "Docente Universitario",
+    "issuer": "Unidad Educativa Particular Francis Bacon",
+    "year": 2013,
+    "yearShort": "13",
+    "month": "01",
+    "date": "2013-01",
+    "hours": null,
+    "modality": "Presencial",
+    "credentialId": null,
+    "verificationUrl": null,
+    "cluster": "tecnopedagogia",
+    "skills": [
+      "Docencia",
+      "Pedagogía",
+      "Gestión Educativa"
+    ],
+    "driveUrl": "https://drive.google.com/file/d/1nv45HeTM4awj-dM0ym4jEh43HL13eq7a/view",
+    "addedAt": "2026-10-15T22:16:26.826Z"
+  },
+  {
     "id": "cert-26-10-clavesformacion",
     "docType": "CurEst",
     "fileName": "26-10-CurEst-ClavesFormacion.pdf",
