@@ -1,5 +1,30 @@
 [
   {
+    "id": "cert-22-12-moodlesotaminga",
+    "docType": "CursImp",
+    "fileName": "22-12-CursImp-MoodleSotaminga.pdf",
+    "shortName": "MoodleSotaminga",
+    "title": "Instructor del Sistema Moodle",
+    "role": "Docente / Facilitador",
+    "issuer": "ESPE-INNOVATIVA E.P. - Universidad de las Fuerzas Armadas ESPE",
+    "year": 2022,
+    "yearShort": "22",
+    "month": "12",
+    "date": "2022-12-14",
+    "hours": 40,
+    "modality": "Virtual",
+    "credentialId": null,
+    "verificationUrl": null,
+    "cluster": "tecnopedagogia",
+    "skills": [
+      "Sistemas Moodle",
+      "Gestión de Entornos Virtuales",
+      "Educación Digital"
+    ],
+    "driveUrl": "https://drive.google.com/file/d/1irLJAUAfxIrKCsS0zEeQAFUQjzNjPU3u/view",
+    "addedAt": "2026-10-15T22:17:44.195Z"
+  },
+  {
     "id": "cert-23-08-modrectecfis",
     "docType": "CursImp",
     "fileName": "23-08-CursImp-ModRecTecFis.pdf",
