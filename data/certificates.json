@@ -1,5 +1,30 @@
 [
   {
+    "id": "cert-19-10-instrcursoscecepn",
+    "docType": "CursImp",
+    "fileName": "19-10-CursImp-InstrCursosCecEpn.pdf",
+    "shortName": "InstrCursosCecEpn",
+    "title": "Certificación como Instructor de Diseño Instruccional",
+    "role": "Docente / Facilitador",
+    "issuer": "Escuela Politécnica Nacional - Centro de Educación Continua",
+    "year": 2019,
+    "yearShort": "19",
+    "month": "10",
+    "date": "2019-10-17",
+    "hours": 96,
+    "modality": "Híbrida",
+    "credentialId": null,
+    "verificationUrl": null,
+    "cluster": "tecnopedagogia",
+    "skills": [
+      "Diseño Instruccional",
+      "Educación a Distancia",
+      "Modalidad Virtual"
+    ],
+    "driveUrl": "https://drive.google.com/file/d/1m3HPgjP9HQZ8PdNQkK2iJJrwTd_YovWA/view",
+    "addedAt": "2026-10-15T22:20:15.045Z"
+  },
+  {
     "id": "cert-15-10-facilitadorfdw",
     "docType": "CursImp",
     "fileName": "15-10-CursImp-FacilitadorFdW.pdf",
