@@ -1,5 +1,30 @@
 [
   {
+    "id": "cert-20-06-herramientascolab",
+    "docType": "CursImp",
+    "fileName": "20-06-CursImp-HerramientasColab.pdf",
+    "shortName": "HerramientasColab",
+    "title": "Módulo Herramientas Colaborativas en la Maestría de Tecnología e Innovación Educativa",
+    "role": "Docente / Facilitador",
+    "issuer": "Universidad Técnica del Norte",
+    "year": 2020,
+    "yearShort": "20",
+    "month": "06",
+    "date": "2020-06-01",
+    "hours": 35,
+    "modality": "Presencial",
+    "credentialId": null,
+    "verificationUrl": null,
+    "cluster": "tecnopedagogia",
+    "skills": [
+      "Herramientas Colaborativas",
+      "Tecnología Educativa",
+      "Pedagogía Digital"
+    ],
+    "driveUrl": "https://drive.google.com/file/d/1hHmw8ZNzYRhD_Hlh8FSz6_rVYSNvd3Pj/view",
+    "addedAt": "2026-10-15T22:19:21.192Z"
+  },
+  {
     "id": "cert-20-12-certepn2020",
     "docType": "CursImp",
     "fileName": "20-12-CursImp-CertEPN2020.pdf",
@@ -554,32 +579,6 @@
     ],
     "driveUrl": "https://drive.google.com/file/d/1KQQ3Un_44VAkO3cpJWz8ZQSQeSo6X1s-/view",
     "addedAt": "2026-10-11T04:22:04.785Z"
-  },
-  {
-    "id": "cert-20-06-herramientascolab",
-    "docType": "CursImp",
-    "fileName": "20-06-CursImp-HerramientasColab.pdf",
-    "shortName": "HerramientasColab",
-    "title": "Certificado de Docencia en el Módulo Herramientas Colaborativas - Maestría en Tecnología e Innovación Educativa",
-    "role": "Docente / Facilitador",
-    "issuer": "Universidad Técnica del Norte - Instituto de Posgrado",
-    "year": 2020,
-    "yearShort": "20",
-    "month": "06",
-    "date": "2020-06-01",
-    "hours": 35,
-    "modality": "Presencial",
-    "credentialId": null,
-    "verificationUrl": null,
-    "cluster": "tecnopedagogia",
-    "skills": [
-      "Herramientas Colaborativas",
-      "Tecnología Educativa",
-      "Innovación Pedagógica",
-      "Educación Superior"
-    ],
-    "driveUrl": "https://drive.google.com/file/d/17QX4cNF-iV8Hxhf8fhHFDMyfW_xeAhWl/view",
-    "addedAt": "2026-10-11T04:21:54.844Z"
   },
   {
     "id": "cert-19-10-competenciasonline",
