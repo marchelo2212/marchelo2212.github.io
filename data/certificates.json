@@ -1,5 +1,31 @@
 [
   {
+    "id": "cert-21-12-directormintel21",
+    "docType": "CertTra",
+    "fileName": "21-12-CertTra-DirectorMintel21.pdf",
+    "shortName": "DirectorMintel21",
+    "title": "Director de Fomento de Tecnologías Emergentes en la Subsecretaría de Fomento de la Sociedad de la Información y Economía Digital",
+    "role": "Coordinador",
+    "issuer": "Ministerio de Telecomunicaciones y de la Sociedad de la Información (MINTEL)",
+    "year": 2021,
+    "yearShort": "21",
+    "month": "12",
+    "date": "2021-12-09",
+    "hours": null,
+    "modality": "Presencial",
+    "credentialId": "174-DTH-2021",
+    "verificationUrl": null,
+    "cluster": "politicas_direccion",
+    "skills": [
+      "Dirección Estratégica",
+      "Políticas Públicas",
+      "Tecnologías Emergentes",
+      "Sociedad de la Información"
+    ],
+    "driveUrl": "https://drive.google.com/file/d/1hoGzyHqcN6uF6Fu-vhFonzpsWgFdm060/view",
+    "addedAt": "2026-10-15T22:18:10.062Z"
+  },
+  {
     "id": "cert-21-09-nombramientomintel",
     "docType": "CertTra",
     "fileName": "21-09-CertTra-NombramientoMintel.pdf",
