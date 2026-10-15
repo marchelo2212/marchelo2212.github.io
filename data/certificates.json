@@ -1,5 +1,30 @@
 [
   {
+    "id": "cert-20-12-certepn2020",
+    "docType": "CursImp",
+    "fileName": "20-12-CursImp-CertEPN2020.pdf",
+    "shortName": "CertEPN2020",
+    "title": "Certificado de Reconocimiento como Instructor",
+    "role": "Docente / Facilitador",
+    "issuer": "Escuela Politécnica Nacional - Centro de Educación Continua EPN",
+    "year": 2020,
+    "yearShort": "20",
+    "month": "12",
+    "date": "2020-12-17",
+    "hours": null,
+    "modality": "Virtual",
+    "credentialId": null,
+    "verificationUrl": null,
+    "cluster": "tecnopedagogia",
+    "skills": [
+      "Docencia",
+      "Educación Continua",
+      "Transferencia de Conocimiento"
+    ],
+    "driveUrl": "https://drive.google.com/file/d/1mvgLEMedjCxXUcMK4Ls4HhNHvyqCSqau/view",
+    "addedAt": "2026-10-15T22:19:10.743Z"
+  },
+  {
     "id": "cert-21-02-uoccertdocente",
     "docType": "CertTra",
     "fileName": "21-02-CertTra-UOCCertDocente.pdf",
