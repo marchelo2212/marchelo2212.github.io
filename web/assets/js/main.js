@@ -752,7 +752,9 @@ function renderCertifications(filterType = currentCertFilter, searchQuery = curr
     Inves: allCerts.filter(c => c.docType === 'Inves').length,
     Cert: allCerts.filter(c => c.docType === 'Cert').length,
     CurEst: allCerts.filter(c => c.docType === 'CurEst').length,
-    CursImp: allCerts.filter(c => c.docType === 'CursImp').length
+    CursImp: allCerts.filter(c => c.docType === 'CursImp').length,
+    CertTra: allCerts.filter(c => c.docType === 'CertTra').length,
+    Contra: allCerts.filter(c => c.docType === 'Contra').length
   };
   const certLabels = {
     all: "Todos",
@@ -760,7 +762,9 @@ function renderCertifications(filterType = currentCertFilter, searchQuery = curr
     Inves: "Investigación",
     Cert: "Certificaciones",
     CurEst: "Cursos Estudiados",
-    CursImp: "Cursos Impartidos"
+    CursImp: "Cursos Impartidos",
+    CertTra: "Laboral",
+    Contra: "Contratos"
   };
   document.querySelectorAll('.cert-filter-btn').forEach(btn => {
     const type = btn.getAttribute('data-type');
@@ -797,7 +801,9 @@ function renderCertifications(filterType = currentCertFilter, searchQuery = curr
     Inves: { label: "Investigación", color: "text-purple-400 bg-purple-500/10 border-purple-500/20", icon: "fa-solid fa-microscope" },
     Cert: { label: "Certificación", color: "text-sky-400 bg-sky-500/10 border-sky-500/20", icon: "fa-solid fa-certificate" },
     CurEst: { label: "Curso Estudiado", color: "text-blue-400 bg-blue-500/10 border-blue-500/20", icon: "fa-solid fa-graduation-cap" },
-    CursImp: { label: "Curso Impartido", color: "text-emerald-400 bg-emerald-500/10 border-emerald-500/20", icon: "fa-solid fa-chalkboard-user" }
+    CursImp: { label: "Curso Impartido", color: "text-emerald-400 bg-emerald-500/10 border-emerald-500/20", icon: "fa-solid fa-chalkboard-user" },
+    CertTra: { label: "Laboral", color: "text-orange-400 bg-orange-500/10 border-orange-500/20", icon: "fa-solid fa-briefcase" },
+    Contra: { label: "Contrato", color: "text-teal-400 bg-teal-500/10 border-teal-500/20", icon: "fa-solid fa-file-contract" }
   };
 
   if (filtered.length === 0) {
