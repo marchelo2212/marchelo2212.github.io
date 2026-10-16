@@ -228,6 +228,12 @@ def parse_work_experience(section_text: str):
         desc_match = re.search(r'\\footnotesize\{([^}]+)\}', block)
         desc = clean_latex(desc_match.group(1)) if desc_match else ""
         
+        # Enlaces probatorios (Google Drive u otros)
+        links = []
+        for href_url, href_text in re.findall(r'\\href\{([^}]+)\}\{([^}]+)\}', block):
+            clean_label = clean_latex(href_text).replace("[", "").replace("]", "").replace("~", " ").replace("nearrow", "").replace("\\", "").replace("$", "").strip()
+            links.append({"url": href_url, "label": clean_label})
+        
         if org or role:
             items.append({
                 "period": date_str or "Trayectoria",
@@ -235,7 +241,8 @@ def parse_work_experience(section_text: str):
                 "unit": unit,
                 "role": role,
                 "description": desc,
-                "type": "professional"
+                "type": "professional",
+                "links": links
             })
     return items
 
@@ -270,6 +277,12 @@ def parse_teaching_experience(section_text: str):
         desc_match = re.search(r'\\footnotesize\{([^}]+)\}', block)
         desc = clean_latex(desc_match.group(1)) if desc_match else ""
         
+        # Enlaces probatorios (Google Drive u otros)
+        links = []
+        for href_url, href_text in re.findall(r'\\href\{([^}]+)\}\{([^}]+)\}', block):
+            clean_label = clean_latex(href_text).replace("[", "").replace("]", "").replace("~", " ").replace("nearrow", "").replace("\\", "").replace("$", "").strip()
+            links.append({"url": href_url, "label": clean_label})
+        
         if univ:
             items.append({
                 "period": date_str,
@@ -277,7 +290,8 @@ def parse_teaching_experience(section_text: str):
                 "role": role,
                 "subjects": subjects,
                 "description": desc,
-                "type": "teaching"
+                "type": "teaching",
+                "links": links
             })
     return items
 

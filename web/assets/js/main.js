@@ -427,6 +427,17 @@ function renderTimeline(mode) {
         <p class="text-xs sm:text-[13px] text-slate-300 leading-relaxed mt-2 font-sans">
           ${item.description}
         </p>
+        ${item.links && item.links.length > 0 ? `
+          <div class="mt-3 flex flex-wrap gap-2 pt-2 border-t border-white/[0.04]">
+            ${item.links.map(l => `
+              <a href="${l.url}" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-md bg-white/[0.04] hover:bg-emerald-500/10 text-emerald-400 hover:text-emerald-300 border border-white/[0.08] hover:border-emerald-500/30 font-mono text-[11px] transition">
+                <i class="fa-brands fa-google-drive"></i>
+                <span>${l.label || 'Ver Respaldo'}</span>
+                <i class="fa-solid fa-arrow-up-right-from-square text-[9px] opacity-70"></i>
+              </a>
+            `).join('')}
+          </div>
+        ` : ''}
       </div>
     `).join('');
   } else {
@@ -451,6 +462,17 @@ function renderTimeline(mode) {
         <p class="text-xs sm:text-[13px] text-slate-300 leading-relaxed font-sans">
           ${item.description}
         </p>
+        ${item.links && item.links.length > 0 ? `
+          <div class="mt-3 flex flex-wrap gap-2 pt-2 border-t border-white/[0.04]">
+            ${item.links.map(l => `
+              <a href="${l.url}" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-md bg-white/[0.04] hover:bg-sky-500/10 text-sky-400 hover:text-sky-300 border border-white/[0.08] hover:border-sky-500/30 font-mono text-[11px] transition">
+                <i class="fa-brands fa-google-drive"></i>
+                <span>${l.label || 'Ver Respaldo'}</span>
+                <i class="fa-solid fa-arrow-up-right-from-square text-[9px] opacity-70"></i>
+              </a>
+            `).join('')}
+          </div>
+        ` : ''}
       </div>
     `).join('');
   }

@@ -4282,7 +4282,8 @@
       "unit": "Actual & Unisabana e-learning",
       "role": "Jefe de Producción Virtual",
       "description": "Dirigir el proceso de uso, integración y apropiación de las TIC y tecnologías emergentes en los programas de educación formal a nivel de grado, posgrado y educación contínua de la Universidad de La Sabana",
-      "type": "professional"
+      "type": "professional",
+      "links": []
     },
     {
       "period": "Sep 15",
@@ -4290,7 +4291,8 @@
       "unit": "",
       "role": "Director de Proyectos",
       "description": "Diseño instruccional de programas y proyectos, Transformación Digital en organizaciones, creación de Aulas Virtuales en LMS MOODLE, Gestión del cambio, Metodologías Ágiles (Design Thinking, SCRUM, PMBOK), modelos de innovación, metodologías activas, indicadores de resultados e impacto, sistema de garantía de interna de calidad, Modelos tecnopedagógicos, Gestión del Conocimiento, PDCA",
-      "type": "professional"
+      "type": "professional",
+      "links": []
     },
     {
       "period": "Sep 21",
@@ -4298,7 +4300,17 @@
       "unit": "",
       "role": "Director de Fomento De Tecnologías Emergentes",
       "description": "Desarrollar planes, programas, proyectos y acciones para el uso adecuado y progresivo de las Tecnologías Emergentes a nivel nacional, diseño de proyectos centrados en el ciudadano, uso de metodologías ágiles, trabajo con cooperación internacional, identificación de indicadores de resultados e impacto (KPI), Planificación estratégica y prospectiva",
-      "type": "professional"
+      "type": "professional",
+      "links": [
+        {
+          "url": "https://drive.google.com/file/d/1wt_pE_hbu4klsKlKyEgzZAQi-x6Ih-lr/view",
+          "label": "Ver Nombramiento"
+        },
+        {
+          "url": "https://drive.google.com/file/d/1hoGzyHqcN6uF6Fu-vhFonzpsWgFdm060/view",
+          "label": "Ver Certificado Laboral"
+        }
+      ]
     },
     {
       "period": "Abr 21",
@@ -4306,7 +4318,8 @@
       "unit": "",
       "role": "Coordinador Comunidades de Aprendizaje Digital",
       "description": "Diseño, ejecución y evaluación de proyectos, comunidades de aprendizaje y práctica, innovación educativa, investigación cualitativa y cuantitativa, reportes de logros, gestión de la información.",
-      "type": "professional"
+      "type": "professional",
+      "links": []
     },
     {
       "period": "Abr 13",
@@ -4314,7 +4327,13 @@
       "unit": "",
       "role": "Coordinador Educación, Innovación y TIC",
       "description": "Diseño tecnopedagógico, planificación proyectos educativos con TIC, Creación de Aula Virtual LMS MOODLE Atención a 4 países, capacitación para docentes, Administración y desarrollo de plataformas tecnológicas (LMS, CMS, CRM), Dashboard de KPI (resultado e impacto), Creación de OVAs, REAs, innovación educativa, Prospectiva, gerencia internacional, transferencia de conocimientos.",
-      "type": "professional"
+      "type": "professional",
+      "links": [
+        {
+          "url": "https://drive.google.com/file/d/1HTX0ZlXqEz_tSE5xKb5wv2FOoLxAx3Vs/view",
+          "label": "Ver Certificado Laboral"
+        }
+      ]
     },
     {
       "period": "Abr 09",
@@ -4322,7 +4341,13 @@
       "unit": "",
       "role": "Docente - Matemática",
       "description": "Implementar plan de estudios, coordinar área. Brindar seguimiento y evaluar resultados, insertar TIC en la educación, crear proyectos multidisciplinarios, usar metodologías innovadoras, redactar informes del área.",
-      "type": "professional"
+      "type": "professional",
+      "links": [
+        {
+          "url": "https://drive.google.com/file/d/1FW21N86b7b4VfdBS2o45MIx8y02tGtaf/view",
+          "label": "Ver Certificado Laboral"
+        }
+      ]
     }
   ],
   "teachingExperience": [
@@ -4332,7 +4357,8 @@
       "role": "Docente",
       "subjects": "Bases de datos",
       "description": "Aplicar aprendizaje experiencial, trabajo Colaborativo, Aprendizaje Basado en Proyectos, Seguimiento y retroalimentación a estudiantes, evaluación y mejoras",
-      "type": "teaching"
+      "type": "teaching",
+      "links": []
     },
     {
       "period": "Oct 22",
@@ -4340,7 +4366,17 @@
       "role": "Docente y Coordinador de Carrera",
       "subjects": "Computación y Sociedad, Fundamentos de Sistemas Operativos, Interacción Humano Máquina, Matemáticas Discretas",
       "description": "Docencia, Computación y Sociedad, IHM, Competencias Digitales, Trabajo Colaborativo, Aprendizaje basado en proyectos, Seguimiento y retroalimentación a estudiantes, evaluación y mejoras; Coordinación de la carrera, gestión de proyectos y programas formativos.",
-      "type": "teaching"
+      "type": "teaching",
+      "links": [
+        {
+          "url": "https://drive.google.com/file/d/1pH2CVK6IcgLw7byHL-6wJmP6vJzQGQrT/view",
+          "label": "Ver Certificado Docencia"
+        },
+        {
+          "url": "https://drive.google.com/file/d/1JBzh_DZBkm9w9rSteHdu9HsFzc2mvMBB/view",
+          "label": "Ver Coordinación de Carrera"
+        }
+      ]
     },
     {
       "period": "Ago 20",
@@ -4348,7 +4384,13 @@
       "role": "Profesor Colaborador",
       "subjects": "Competencias en Tecnologías de la Información y de la Comunicación (C-TIC)",
       "description": "Docencia, competencias Digitales, Trabajo Colaborativo, Aprendizaje basado en proyectos, Role-playing, Seguimiento y retroalimentación a estudiantes, evaluación de competencias, evaluación y mejoras.",
-      "type": "teaching"
+      "type": "teaching",
+      "links": [
+        {
+          "url": "https://drive.google.com/file/d/1Q7_9-MbFIdVOzWttyhhVDu599dSw_wWw/view",
+          "label": "Ver Certificado Profesor Colaborador"
+        }
+      ]
     },
     {
       "period": "Sep",
@@ -4356,7 +4398,8 @@
       "role": "Profesor invitado en posgrados",
       "subjects": "Diseño Curricular en Entornos Virtuales de Aprendizaje (EVA)",
       "description": "Profesor del módulo \"Diseño curricular en entornos virtuales\", Implementación del sílabo, desarrollo de talleres y seguimiento al proceso de aprendizaje de los maestrantes. preparar recursos didácticos, Impartir módulo empleando metodologías activas, Aprendizaje basado en proyectos, Banco de preguntas estructuradas, Recursos Web 2.0. evaluación y mejoras.",
-      "type": "teaching"
+      "type": "teaching",
+      "links": []
     },
     {
       "period": "Jun",
@@ -4364,7 +4407,17 @@
       "role": "Profesor invitado en posgrados",
       "subjects": "Fundamentos educativos y pedagógicos de las TIC",
       "description": "Docente autor, Diseño del módulo de Ciudadanía Digital, uso de Metodologías actividades, diseño de proyecto de aplicación, creación de Aula Virtual en LMS Moodle, Aprendizaje basado en proyectos, Retroalimentación, Seguimiento y retroalimentación, Recursos Web 2.0. LMS MOODLE y OVA, evaluación y mejoras.",
-      "type": "teaching"
+      "type": "teaching",
+      "links": [
+        {
+          "url": "https://drive.google.com/file/d/1gdndBNKRm0-5gBSbxmJKNyDnZ1eu5hNC/view",
+          "label": "Ver Diseño Aula Virtual"
+        },
+        {
+          "url": "https://drive.google.com/file/d/1iNV7g1Yd_-GFi23Q3X719SdSsyLltB3E/view",
+          "label": "Ver Docencia Virtual"
+        }
+      ]
     },
     {
       "period": "Mar 22",
@@ -4372,7 +4425,13 @@
       "role": "Profesor invitado en posgrados",
       "subjects": "1) Recursos Tecnológicos Para La Innovación, 2) Tecnologías aplicadas en la Educación y 3) Tecnologías Emergentes Y Recursos Didácticos Innovadores Aplicados Al Contexto Intercultural",
       "description": "Docencia, Creación de OVAs, Competencias Digitales, Creación de Aula Virtual en LMS MOODLE Metodologías, Aprendizaje basado en proyectos, Retroalimentación, Seguimiento y retroalimentación, Recursos Web 2.0. SCORM, Dublin Core, evaluación y mejoras.",
-      "type": "teaching"
+      "type": "teaching",
+      "links": [
+        {
+          "url": "https://drive.google.com/file/d/1NNr7xTJ9WWNp6md8bouirUIyOe_oClpv/view",
+          "label": "Ver Certificado Módulo Posgrado"
+        }
+      ]
     },
     {
       "period": "Mar 19",
@@ -4380,7 +4439,17 @@
       "role": "Profesor Invitado",
       "subjects": "Formador de Formadores, Inteligencia Artificial Aplicada a la Educación, Diseño Instruccional y EVA",
       "description": "Creación de cursos, Modelos tecnopedagógico, Contenidos y recursos educativos con TIC, Web 2.0, Diseño y Creación de Aulas Virtuales en LMS MOODLE. Competencias digitales, Innovación Educativa, evaluar planes de formación, mejora continua, redactar informes de cursos para coordinación.",
-      "type": "teaching"
+      "type": "teaching",
+      "links": [
+        {
+          "url": "https://drive.google.com/file/d/1m3HPgjP9HQZ8PdNQkK2iJJrwTd_YovWA/view",
+          "label": "Ver Certificado Instructor"
+        },
+        {
+          "url": "https://drive.google.com/file/d/1TXOKFGfZSCKGb1PUejVXea4p1pLpsJ8T/view",
+          "label": "Ver Reconocimiento Docente"
+        }
+      ]
     },
     {
       "period": "14 Feb",
@@ -4388,7 +4457,13 @@
       "role": "Profesor posgrados",
       "subjects": "",
       "description": "Trabajo colaborativo, Diseño y desarrollo de Recursos Digitales, creación del aula virtual en LMS MOODLE Diseño de proyectos, Innovación Educativa, diseñar LMS, recursos y actividades de aprendizaje, competencias digitales, enfoque tecnopedagógico.",
-      "type": "teaching"
+      "type": "teaching",
+      "links": [
+        {
+          "url": "https://drive.google.com/file/d/1hHmw8ZNzYRhD_Hlh8FSz6_rVYSNvd3Pj/view",
+          "label": "Ver Certificado Módulo Posgrado"
+        }
+      ]
     },
     {
       "period": "11 Abr",
@@ -4396,7 +4471,13 @@
       "role": "Profesor posgrados",
       "subjects": "",
       "description": "Metodologías activas, informática educativa, Proyectos educativos, LMS Moodle, Aprendizaje Basado en Proyectos, Competencias Digitales.",
-      "type": "teaching"
+      "type": "teaching",
+      "links": [
+        {
+          "url": "https://drive.google.com/file/d/1MY9p39j03K9pgdj2yk5CBj9OQURwOfea/view",
+          "label": "Ver Certificado Docencia Posgrado"
+        }
+      ]
     }
   ],
   "education": [
