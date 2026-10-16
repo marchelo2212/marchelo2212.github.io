@@ -831,7 +831,9 @@ function renderCertifications(filterType = currentCertFilter, searchQuery = curr
     CurEst: allCerts.filter(c => c.docType === 'CurEst').length,
     CursImp: allCerts.filter(c => c.docType === 'CursImp').length,
     CertTra: allCerts.filter(c => c.docType === 'CertTra').length,
-    Contra: allCerts.filter(c => c.docType === 'Contra').length
+    Contra: allCerts.filter(c => c.docType === 'Contra').length,
+    DirTesis: allCerts.filter(c => c.docType === 'DirTesis').length,
+    EvalTesis: allCerts.filter(c => c.docType === 'EvalTesis').length
   };
   const certLabels = {
     all: "Todos",
@@ -841,7 +843,9 @@ function renderCertifications(filterType = currentCertFilter, searchQuery = curr
     CurEst: "Cursos Estudiados",
     CursImp: "Cursos Impartidos",
     CertTra: "Laboral",
-    Contra: "Contratos"
+    Contra: "Contratos",
+    DirTesis: "Dir. Tesis",
+    EvalTesis: "Eval. Tesis"
   };
   document.querySelectorAll('.cert-filter-btn').forEach(btn => {
     const type = btn.getAttribute('data-type');
@@ -880,7 +884,9 @@ function renderCertifications(filterType = currentCertFilter, searchQuery = curr
     CurEst: { label: "Curso Estudiado", color: "text-blue-400 bg-blue-500/10 border-blue-500/20", icon: "fa-solid fa-graduation-cap" },
     CursImp: { label: "Curso Impartido", color: "text-emerald-400 bg-emerald-500/10 border-emerald-500/20", icon: "fa-solid fa-chalkboard-user" },
     CertTra: { label: "Laboral", color: "text-orange-400 bg-orange-500/10 border-orange-500/20", icon: "fa-solid fa-briefcase" },
-    Contra: { label: "Contrato", color: "text-teal-400 bg-teal-500/10 border-teal-500/20", icon: "fa-solid fa-file-contract" }
+    Contra: { label: "Contrato", color: "text-teal-400 bg-teal-500/10 border-teal-500/20", icon: "fa-solid fa-file-contract" },
+    DirTesis: { label: "Dir. Tesis", color: "text-purple-400 bg-purple-500/10 border-purple-500/20", icon: "fa-solid fa-user-graduate" },
+    EvalTesis: { label: "Eval. Tesis", color: "text-indigo-400 bg-indigo-500/10 border-indigo-500/20", icon: "fa-solid fa-scale-balanced" }
   };
 
   if (filtered.length === 0) {
