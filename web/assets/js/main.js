@@ -440,7 +440,7 @@ function renderTimeline(mode) {
         ` : ''}
       </div>
     `).join('');
-  } else {
+  } else if (mode === 'teaching') {
     const list = cvData.teachingExperience || [];
     container.innerHTML = list.map(item => `
       <div class="p-5 rounded-xl bg-surface-card border border-white/[0.08] hover:border-white/[0.14] transition">
