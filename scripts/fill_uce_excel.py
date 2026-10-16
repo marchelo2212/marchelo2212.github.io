@@ -9,7 +9,7 @@ import zipfile
 import xml.etree.ElementTree as ET
 import os
 
-EXCEL_FILE = "CV-UCE/MSotaminga-UCE.xlsx"
+EXCEL_FILE = "CV-UCE/MSotaminga-UCE.xlsx.bak"
 OUTPUT_FILE = "CV-UCE/MSotaminga-UCE.xlsx"
 
 # Mapeo de celdas a valores
@@ -591,9 +591,20 @@ def main():
         xml_sst = zin.read("xl/sharedStrings.xml")
         file_list = {item.filename: zin.read(item.filename) for item in zin.infolist()}
 
-    # 2. Parsear sharedStrings.xml
+    # 2. Registrar todos los espacios de nombres oficiales de OpenXML/Excel
+    namespaces = {
+        "": "http://schemas.openxmlformats.org/spreadsheetml/2006/main",
+        "r": "http://schemas.openxmlformats.org/officeDocument/2006/relationships",
+        "xdr": "http://schemas.openxmlformats.org/drawingml/2006/spreadsheetDrawing",
+        "x14": "http://schemas.microsoft.com/office/spreadsheetml/2009/9/main",
+        "mc": "http://schemas.openxmlformats.org/markup-compatibility/2006",
+        "x14ac": "http://schemas.microsoft.com/office/spreadsheetml/2009/9/ac",
+        "xm": "http://schemas.microsoft.com/office/excel/2006/main",
+    }
+    for prefix, uri in namespaces.items():
+        ET.register_namespace(prefix, uri)
+
     ns_main = "http://schemas.openxmlformats.org/spreadsheetml/2006/main"
-    ET.register_namespace("", ns_main)
     sst_root = ET.fromstring(xml_sst)
     
     # Mapear strings existentes
