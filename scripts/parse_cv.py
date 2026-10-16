@@ -941,7 +941,7 @@ def main():
     certifications = parse_certifications(cert_text, CERTIFICATES_PATH)
     
     # 5. Proyectos
-    proj_text = extract_section_content(tex_content, "Proyectos Relevantes")
+    proj_text = extract_section_content(tex_content, "Proyectos de Investigación (I+D+i) y Cooperación Multilateral") or extract_section_content(tex_content, "Proyectos Relevantes")
     projects_raw = parse_projects(proj_text)
     
     # 6. Publicaciones desde bibliografia.bib

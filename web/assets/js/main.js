@@ -475,6 +475,61 @@ function renderTimeline(mode) {
         ` : ''}
       </div>
     `).join('');
+  } else if (mode === 'theses') {
+    const list = cvData.theses || [];
+    if (list.length === 0) {
+      container.innerHTML = `
+        <div class="p-8 rounded-xl bg-surface-card border border-white/[0.08] text-center">
+          <div class="w-12 h-12 mx-auto rounded-xl bg-purple-500/10 text-purple-400 flex items-center justify-center text-xl mb-3">
+            <i class="fa-solid fa-graduation-cap"></i>
+          </div>
+          <h3 class="font-serif text-lg font-bold text-white mb-1">Dirección, Tutoría & Evaluación de Tesis</h3>
+          <p class="text-xs sm:text-sm text-slate-400 max-w-xl mx-auto font-sans leading-relaxed">
+            Sección en proceso de catalogación detallada. Incluye dirección y tribunales evaluadores de tesis de maestría y proyectos de grado en Inteligencia Artificial, Tecnopedagogía y Sistemas de Información.
+          </p>
+        </div>
+      `;
+      return;
+    }
+    container.innerHTML = list.map(item => `
+      <div class="p-5 rounded-xl bg-surface-card border border-white/[0.08] hover:border-purple-500/30 transition">
+        <div class="flex flex-col sm:flex-row sm:items-baseline justify-between gap-1 mb-2">
+          <div>
+            <div class="flex items-center gap-2">
+              <span class="font-mono text-xs font-semibold text-purple-400 tracking-wider">${item.year || item.period}</span>
+              ${item.level ? `<span class="px-2 py-0.5 rounded text-[10px] font-mono bg-purple-500/10 text-purple-300 border border-purple-500/20">${item.level}</span>` : ''}
+            </div>
+            <h3 class="font-serif text-base sm:text-lg font-bold text-white mt-1">${item.title}</h3>
+            ${item.institution ? `<span class="text-xs text-slate-400 font-sans block mt-0.5">${item.institution} ${item.program ? `· ${item.program}` : ''}</span>` : ''}
+          </div>
+          <span class="inline-block px-3 py-1 rounded-full bg-purple-500/10 text-xs font-mono text-purple-300 border border-purple-500/20 self-start sm:self-auto mt-2 sm:mt-0">
+            ${item.role}
+          </span>
+        </div>
+        ${item.student ? `
+          <div class="mt-2 mb-2 p-2.5 rounded-lg bg-white/[0.02] border border-white/[0.05] text-xs">
+            <span class="font-mono font-semibold text-purple-300">Tesista(s):</span>
+            <span class="text-slate-200 ml-1">${item.student}</span>
+          </div>
+        ` : ''}
+        ${item.description ? `
+          <p class="text-xs sm:text-[13px] text-slate-300 leading-relaxed font-sans mt-2">
+            ${item.description}
+          </p>
+        ` : ''}
+        ${item.links && item.links.length > 0 ? `
+          <div class="mt-3 flex flex-wrap gap-2 pt-2 border-t border-white/[0.04]">
+            ${item.links.map(l => `
+              <a href="${l.url}" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-md bg-white/[0.04] hover:bg-purple-500/10 text-purple-400 hover:text-purple-300 border border-white/[0.08] hover:border-purple-500/30 font-mono text-[11px] transition">
+                <i class="fa-brands fa-google-drive"></i>
+                <span>${l.label || 'Ver Acta / Resolución'}</span>
+                <i class="fa-solid fa-arrow-up-right-from-square text-[9px] opacity-70"></i>
+              </a>
+            `).join('')}
+          </div>
+        ` : ''}
+      </div>
+    `).join('');
   }
 }
 
@@ -916,18 +971,35 @@ function setupEventListeners() {
   // Tabs de Timeline
   const leadBtn = document.getElementById('tab-leadership-btn');
   const teachBtn = document.getElementById('tab-teaching-btn');
+  const thesesBtn = document.getElementById('tab-theses-btn');
 
-  if (leadBtn && teachBtn) {
+  const resetTimelineTabs = () => {
+    if (leadBtn) leadBtn.className = 'px-3.5 py-2 rounded-lg text-slate-400 hover:text-white transition';
+    if (teachBtn) teachBtn.className = 'px-3.5 py-2 rounded-lg text-slate-400 hover:text-white transition';
+    if (thesesBtn) thesesBtn.className = 'px-3.5 py-2 rounded-lg text-slate-400 hover:text-white transition';
+  };
+
+  if (leadBtn) {
     leadBtn.addEventListener('click', () => {
-      leadBtn.className = 'px-4 py-2 rounded-lg bg-emerald-600/90 text-white font-medium transition';
-      teachBtn.className = 'px-4 py-2 rounded-lg text-slate-400 hover:text-white transition';
+      resetTimelineTabs();
+      leadBtn.className = 'px-3.5 py-2 rounded-lg bg-emerald-600/90 text-white font-medium transition shadow-sm';
       renderTimeline('leadership');
     });
+  }
 
+  if (teachBtn) {
     teachBtn.addEventListener('click', () => {
-      teachBtn.className = 'px-4 py-2 rounded-lg bg-sky-600/90 text-white font-medium transition';
-      leadBtn.className = 'px-4 py-2 rounded-lg text-slate-400 hover:text-white transition';
+      resetTimelineTabs();
+      teachBtn.className = 'px-3.5 py-2 rounded-lg bg-sky-600/90 text-white font-medium transition shadow-sm';
       renderTimeline('teaching');
+    });
+  }
+
+  if (thesesBtn) {
+    thesesBtn.addEventListener('click', () => {
+      resetTimelineTabs();
+      thesesBtn.className = 'px-3.5 py-2 rounded-lg bg-purple-600/90 text-white font-medium transition shadow-sm';
+      renderTimeline('theses');
     });
   }
 
