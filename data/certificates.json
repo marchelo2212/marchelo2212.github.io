@@ -1,5 +1,30 @@
 [
   {
+    "id": "cert-26-10-certtraindoamerica",
+    "docType": "CertTra",
+    "fileName": "26-10-CertTra-CertTraIndoamerica.pdf",
+    "shortName": "CertTraIndoamerica",
+    "title": "Certificado de Relación Laboral Personal Docente - Profesor Ocasional",
+    "role": "Docente Universitario",
+    "issuer": "Universidad Tecnológica Indoamérica",
+    "year": 2026,
+    "yearShort": "26",
+    "month": "10",
+    "date": "2026-10-21",
+    "hours": null,
+    "modality": "Presencial",
+    "credentialId": "CERT-UTI-2026-168",
+    "verificationUrl": null,
+    "cluster": "tecnopedagogia",
+    "skills": [
+      "Docencia Universitaria",
+      "Gestión Académica",
+      "Educación Superior"
+    ],
+    "driveUrl": "https://drive.google.com/file/d/1aAtXyD2jv6mgFD_IiErWuiU4lWRu6Cmj/view",
+    "addedAt": "2026-10-27T17:08:50.580Z"
+  },
+  {
     "id": "cert-18-05-coordinadorticfdw",
     "docType": "CertTra",
     "fileName": "18-05-CertTra-CoordinadorTICFdW.pdf",
