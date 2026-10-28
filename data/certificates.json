@@ -1,5 +1,31 @@
 [
   {
+    "id": "cert-26-10-certtrauti2026",
+    "docType": "CertTra",
+    "fileName": "26-10-CertTra-CertTraUTI2026.pdf",
+    "shortName": "CertTraUTI2026",
+    "title": "Certificado de Servicios Profesionales como Profesor No Titular - Categoría Ocasional",
+    "role": "Docente Universitario",
+    "issuer": "Universidad Tecnológica Indoamérica",
+    "year": 2026,
+    "yearShort": "26",
+    "month": "10",
+    "date": "2026-10-27",
+    "hours": null,
+    "modality": "Presencial",
+    "credentialId": null,
+    "verificationUrl": null,
+    "cluster": "tecnopedagogia",
+    "skills": [
+      "Docencia Universitaria",
+      "Coordinación Académica",
+      "Diseño Curricular",
+      "Entornos Virtuales de Aprendizaje"
+    ],
+    "driveUrl": "https://drive.google.com/file/d/1zJGW4U4lom6uPxwm5SftPvIMp8aPQc7N/view",
+    "addedAt": "2026-10-28T10:51:36.430Z"
+  },
+  {
     "id": "cert-26-10-certtraindoamerica",
     "docType": "CertTra",
     "fileName": "26-10-CertTra-CertTraIndoamerica.pdf",
