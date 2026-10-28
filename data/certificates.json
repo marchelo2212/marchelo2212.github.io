@@ -1,5 +1,30 @@
 [
   {
+    "id": "cert-26-06-validglobale",
+    "docType": "CurEst",
+    "fileName": "26-06-CurEst-ValidGlobALE.pdf",
+    "shortName": "ValidGlobALE",
+    "title": "Validación curricular y contextualización del Currículum GlobALE para América Latina",
+    "role": "Participante",
+    "issuer": "DVV International y Fundación Openlab Ecuador",
+    "year": 2026,
+    "yearShort": "26",
+    "month": "06",
+    "date": "2026-06-30",
+    "hours": null,
+    "modality": "Virtual",
+    "credentialId": null,
+    "verificationUrl": null,
+    "cluster": "tecnopedagogia",
+    "skills": [
+      "Diseño Curricular",
+      "Educación de Adultos",
+      "Contextualización Regional"
+    ],
+    "driveUrl": "https://drive.google.com/file/d/1jbLDgkfsNJQDQ9bsojFiqm6nT6pv0BZ0/view",
+    "addedAt": "2026-10-28T10:51:48.673Z"
+  },
+  {
     "id": "cert-26-10-certtrauti2026",
     "docType": "CertTra",
     "fileName": "26-10-CertTra-CertTraUTI2026.pdf",
